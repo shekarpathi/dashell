@@ -66,6 +66,7 @@ jobs:
         # hostname
         # uname
         # uname -a
+        git remote set-url origin https://x-access-token:${GH_TOKEN}@github.com/${{ github.repository }}.git
         echo "doing diff"
         git diff departures.json 
         echo "Next two lines adding"
@@ -74,7 +75,8 @@ jobs:
         echo "Next line commit"
         git commit -m "Changes from workflow"
         echo "Next line push"
-        git push https://x-access-token:${GH_TOKEN}@github.com/${{ github.repository }}.git
+        # git push https://x-access-token:${GH_TOKEN}@github.com/${{ github.repository }}.git
+        git push origin HEAD:${{ github.ref_name }}
         hostname
         uname
         uname -a
