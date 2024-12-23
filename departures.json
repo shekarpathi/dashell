@@ -3077,7 +3077,7 @@
     "airline": "Alaska Airlines",
     "gate": "B65",
     "departure_time": "2024-12-23 18:08:00",
-    "status": "OutGate",
+    "status": "InAir",
     "codeshared_flights": "CX7911, HA4965, QF3645, SQ1308, TN2384",
     "board_URL": "https://www.united.com/api/flight/status/309/2024-12-23?carrierCode=AS",
     "airline_code": "AS",
@@ -3156,18 +3156,6 @@
     "boarding_time": "BT 17:25\nST 17:25\nET 18:00"
   },
   {
-    "flight": "AF 51",
-    "airport": "CDG PARIS",
-    "airline": "Air France",
-    "gate": "A25",
-    "departure_time": "2024-12-23 18:30:00",
-    "status": "Scheduled",
-    "codeshared_flights": "DL8631, KL2372, VS6761",
-    "board_URL": "https://www.united.com/api/flight/status/51/2024-12-23?carrierCode=AF",
-    "airline_code": "AF",
-    "boarding_time": ""
-  },
-  {
     "flight": "UA 4339",
     "airport": "ROA ROANOKE",
     "airline": "United Airlines",
@@ -3180,18 +3168,6 @@
     "boarding_time": "BT 17:05\nST 18:10\nET 18:20"
   },
   {
-    "flight": "UA 6039",
-    "airport": "SAV SAVANNAH",
-    "airline": "United Airlines",
-    "gate": "A2B",
-    "departure_time": "2024-12-23 18:35:00",
-    "status": "Delayed",
-    "codeshared_flights": "AC4633, LH8870, SN8973",
-    "board_URL": "https://www.united.com/api/flight/status/6039/2024-12-23?carrierCode=UA",
-    "airline_code": "UA",
-    "boarding_time": "BT 17:30\nST 18:20\nET 18:30"
-  },
-  {
     "flight": "UA 4840",
     "airport": "CHO CHARLOTTESVILLE",
     "airline": "United Airlines",
@@ -3201,7 +3177,7 @@
     "codeshared_flights": "CM2781",
     "board_URL": "https://www.united.com/api/flight/status/4840/2024-12-23?carrierCode=UA",
     "airline_code": "UA",
-    "boarding_time": "BT 18:10\nST 18:20\nET 18:30"
+    "boarding_time": "BT 18:10\nST 18:35\nET 18:45"
   },
   {
     "flight": "UA 612",
@@ -3228,6 +3204,18 @@
     "boarding_time": ""
   },
   {
+    "flight": "UA 6039",
+    "airport": "SAV SAVANNAH",
+    "airline": "United Airlines",
+    "gate": "A2B",
+    "departure_time": "2024-12-23 18:45:00",
+    "status": "Delayed",
+    "codeshared_flights": "AC4633, LH8870, SN8973",
+    "board_URL": "https://www.united.com/api/flight/status/6039/2024-12-23?carrierCode=UA",
+    "airline_code": "UA",
+    "boarding_time": "BT 17:30\nST 18:30\nET 18:40"
+  },
+  {
     "flight": "UA 1011",
     "airport": "CPT CAPE TOWN",
     "airline": "United Airlines",
@@ -3250,6 +3238,18 @@
     "board_URL": "https://www.united.com/api/flight/status/918/2024-12-23?carrierCode=UA",
     "airline_code": "UA",
     "boarding_time": "BT 17:35\nST 18:00\nET 18:35"
+  },
+  {
+    "flight": "AF 51",
+    "airport": "CDG PARIS",
+    "airline": "Air France",
+    "gate": "A25",
+    "departure_time": "2024-12-23 18:50:00",
+    "status": "Delayed",
+    "codeshared_flights": "DL8631, KL2372, VS6761",
+    "board_URL": "https://www.united.com/api/flight/status/51/2024-12-23?carrierCode=AF",
+    "airline_code": "AF",
+    "boarding_time": ""
   },
   {
     "flight": "UA 4527",
@@ -3549,7 +3549,7 @@
     "codeshared_flights": "LH7476, NZ9589, OZ6289, SN8813, VA8377",
     "board_URL": "https://www.united.com/api/flight/status/2276/2024-12-23?carrierCode=UA",
     "airline_code": "UA",
-    "boarding_time": "BT 17:05\nST 20:25\nET 21:00"
+    "boarding_time": "BT 17:05\nST 20:46\nET 21:21"
   },
   {
     "flight": "TK 8",
