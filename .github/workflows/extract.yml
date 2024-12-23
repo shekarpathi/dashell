@@ -36,7 +36,8 @@ jobs:
       run: |
         ls -ltra
         chmod +x getDepartures.bash
-        ./getDepartures.bash
+        # ./getDepartures.bash
+        echo "Hello" > departures.json
 
     - name: setup python 3.8
       uses: actions/setup-python@v5
@@ -59,36 +60,12 @@ jobs:
       run: |
         git config --global user.name "Shekar"
         git config --global user.email "shekar@yahoo.com"
-        ls -ltra ./
-        git status
-        # git fetch origin
-        # git pull
-        # hostname
-        # uname
-        # uname -a
-        git remote set-url origin https://x-access-token:${GH_TOKEN}@github.com/${{ github.repository }}.git
-        echo "doing diff"
-        git diff departures.json 
-        echo "Next two lines adding"
-        git add departures.json 
-        git add iad_dep.json 
-        echo "Next line commit"
-        git commit -m "Changes from workflow"
-        echo "Next line push"
-        # git push https://x-access-token:${GH_TOKEN}@github.com/${{ github.repository }}.git
-        # git push origin HEAD:${{ github.ref_name }}
-        hostname
-        uname
-        uname -a
 
     - name: Add, commit and push changes
       uses: EndBug/add-and-commit@v9 # You can change this to use a specific version.
       with:
-        # The arguments for the `git add` command (see the paragraph below for more info)
-        # Default: '.'
-        # add: '.'
-        add: 'departures.json'
+        tag: "v1.0.0 --force"
+        tag_push: "--force"
+        add: "departures.json"
+        message: "Added json files"
         push: true
-        tag: 'v1.0.0 --force'
-        tag_push: '--force'
-        message: 'Added json files'
