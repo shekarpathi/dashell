@@ -1,7 +1,5 @@
 #!/bin/bash
 clear
-clear
-clear
 # Define constants
 user_agent="Mozilla/5.0 Gecko/20100101 Firefox/133.0"
 accept_language="en-US,en;q=0.5"
@@ -80,6 +78,9 @@ DEPARTURES_JSON=$(curl -s "$URL" | jq --arg today "$TODAY" --argjson now "$NOW" 
   ]
   | sort_by(.departure_time)
 ')
+
+echo "$DEPARTURES_JSON" > iad_dep.json
+ls -ltra iad_dep.json
 
 ls -ltra $DEPARTURES_FILE
 
