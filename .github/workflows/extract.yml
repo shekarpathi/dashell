@@ -36,8 +36,7 @@ jobs:
       run: |
         ls -ltra
         chmod +x getDepartures.bash
-        # ./getDepartures.bash
-        echo "Hello" > departures.json
+        ./getDepartures.bash
 
     - name: setup python 3.8
       uses: actions/setup-python@v5
@@ -64,8 +63,6 @@ jobs:
     - name: Add, commit and push changes
       uses: EndBug/add-and-commit@v9 # You can change this to use a specific version.
       with:
-        tag: "v1.0.0 --force"
-        tag_push: "--force"
         add: "departures.json"
-        message: "Added json files"
+        message: "Added departures.json files"
         push: true
