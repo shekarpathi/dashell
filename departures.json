@@ -1205,7 +1205,7 @@
     "airline": "United Airlines",
     "gate": "A3A",
     "departure_time": "2024-12-23 10:31:00",
-    "status": "OutGate",
+    "status": "InAir",
     "codeshared_flights": "",
     "board_URL": "https://www.united.com/api/flight/status/4262/2024-12-23?carrierCode=UA",
     "airline_code": "UA",
@@ -1217,7 +1217,7 @@
     "airline": "United Airlines",
     "gate": "A2E",
     "departure_time": "2024-12-23 10:41:00",
-    "status": "OutGate",
+    "status": "InAir",
     "codeshared_flights": "CM2297",
     "board_URL": "https://www.united.com/api/flight/status/4877/2024-12-23?carrierCode=UA",
     "airline_code": "UA",
@@ -1229,23 +1229,11 @@
     "airline": "Emirates",
     "gate": "A16",
     "departure_time": "2024-12-23 10:42:00",
-    "status": "OutGate",
+    "status": "InAir",
     "codeshared_flights": "",
     "board_URL": "https://www.united.com/api/flight/status/232/2024-12-23?carrierCode=EK",
     "airline_code": "EK",
     "boarding_time": ""
-  },
-  {
-    "flight": "UA 4961",
-    "airport": "GSP GREENVILLE-SPARTANBURG",
-    "airline": "United Airlines",
-    "gate": "A2F",
-    "departure_time": "2024-12-23 10:50:00",
-    "status": "Delayed",
-    "codeshared_flights": "AC4723",
-    "board_URL": "https://www.united.com/api/flight/status/4961/2024-12-23?carrierCode=UA",
-    "airline_code": "UA",
-    "boarding_time": "BT 07:50\nST 10:25\nET 10:35"
   },
   {
     "flight": "NH 101",
@@ -1258,6 +1246,18 @@
     "board_URL": "https://www.united.com/api/flight/status/101/2024-12-23?carrierCode=NH",
     "airline_code": "NH",
     "boarding_time": ""
+  },
+  {
+    "flight": "UA 4961",
+    "airport": "GSP GREENVILLE-SPARTANBURG",
+    "airline": "United Airlines",
+    "gate": "A2F",
+    "departure_time": "2024-12-23 11:10:00",
+    "status": "Delayed",
+    "codeshared_flights": "AC4723",
+    "board_URL": "https://www.united.com/api/flight/status/4961/2024-12-23?carrierCode=UA",
+    "airline_code": "UA",
+    "boarding_time": "BT 07:50\nST 10:45\nET 10:55"
   },
   {
     "flight": "KE 94",
@@ -1536,18 +1536,6 @@
     "boarding_time": "BT 12:15\nST 12:15\nET 12:25"
   },
   {
-    "flight": "UA 1581",
-    "airport": "ORD CHICAGO, ORD",
-    "airline": "United Airlines",
-    "gate": "C25",
-    "departure_time": "2024-12-23 12:45:00",
-    "status": "Scheduled",
-    "codeshared_flights": "AC3839, ET1350, NH7138, NZ2452",
-    "board_URL": "https://www.united.com/api/flight/status/1581/2024-12-23?carrierCode=UA",
-    "airline_code": "UA",
-    "boarding_time": "BT 12:10\nST 12:10\nET 12:30"
-  },
-  {
     "flight": "UA 3516",
     "airport": "CMH COLUMBUS",
     "airline": "United Airlines",
@@ -1793,7 +1781,7 @@
     "airline": "Southern Airways Express",
     "gate": "H17",
     "departure_time": "2024-12-23 12:55:00",
-    "status": "Scheduled",
+    "status": "Proposed",
     "codeshared_flights": "",
     "board_URL": "https://www.united.com/api/flight/status/127/2024-12-23?carrierCode=9X",
     "airline_code": "9X",
@@ -1932,6 +1920,18 @@
     "boarding_time": ""
   },
   {
+    "flight": "UA 1581",
+    "airport": "ORD CHICAGO, ORD",
+    "airline": "United Airlines",
+    "gate": "C25",
+    "departure_time": "2024-12-23 13:05:00",
+    "status": "Delayed",
+    "codeshared_flights": "AC3839, ET1350, NH7138, NZ2452",
+    "board_URL": "https://www.united.com/api/flight/status/1581/2024-12-23?carrierCode=UA",
+    "airline_code": "UA",
+    "boarding_time": "BT 12:10\nST 12:30\nET 12:50"
+  },
+  {
     "flight": "UA 6157",
     "airport": "MCI KANSAS CITY",
     "airline": "United Airlines",
@@ -2004,18 +2004,6 @@
     "boarding_time": ""
   },
   {
-    "flight": "AA 5543",
-    "airport": "CLT CHARLOTTE",
-    "airline": "American Airlines",
-    "gate": "B73",
-    "departure_time": "2024-12-23 13:53:00",
-    "status": "Scheduled",
-    "codeshared_flights": "",
-    "board_URL": "https://www.united.com/api/flight/status/5543/2024-12-23?carrierCode=AA",
-    "airline_code": "AA",
-    "boarding_time": ""
-  },
-  {
     "flight": "UA 4288",
     "airport": "CAE COLUMBIA",
     "airline": "United Airlines",
@@ -2037,6 +2025,18 @@
     "codeshared_flights": "6E4263, OM1134, PK5188, TG9177, WB1368",
     "board_URL": "https://www.united.com/api/flight/status/188/2024-12-23?carrierCode=TK",
     "airline_code": "TK",
+    "boarding_time": ""
+  },
+  {
+    "flight": "AA 5543",
+    "airport": "CLT CHARLOTTE",
+    "airline": "American Airlines",
+    "gate": "B73",
+    "departure_time": "2024-12-23 14:18:00",
+    "status": "Delayed",
+    "codeshared_flights": "",
+    "board_URL": "https://www.united.com/api/flight/status/5543/2024-12-23?carrierCode=AA",
+    "airline_code": "AA",
     "boarding_time": ""
   },
   {
@@ -2064,30 +2064,6 @@
     "boarding_time": "BT 12:24\nST 13:55\nET 14:05"
   },
   {
-    "flight": "WN 1476",
-    "airport": "DEN DENVER",
-    "airline": "Southwest Airlines",
-    "gate": "B64",
-    "departure_time": "2024-12-23 14:33:00",
-    "status": "Scheduled",
-    "codeshared_flights": "",
-    "board_URL": "https://www.united.com/api/flight/status/1476/2024-12-23?carrierCode=WN",
-    "airline_code": "WN",
-    "boarding_time": ""
-  },
-  {
-    "flight": "AC 8619",
-    "airport": "YYZ TORONTO, YYZ",
-    "airline": "Air Canada",
-    "gate": "Z10",
-    "departure_time": "2024-12-23 14:35:00",
-    "status": "Scheduled",
-    "codeshared_flights": "UA8693",
-    "board_URL": "https://www.united.com/api/flight/status/8619/2024-12-23?carrierCode=AC",
-    "airline_code": "AC",
-    "boarding_time": ""
-  },
-  {
     "flight": "UA 4234",
     "airport": "AVP WILKES-BARRE",
     "airline": "United Airlines",
@@ -2097,7 +2073,19 @@
     "codeshared_flights": "",
     "board_URL": "https://www.united.com/api/flight/status/4234/2024-12-23?carrierCode=UA",
     "airline_code": "UA",
-    "boarding_time": "BT 12:30\nST 14:13\nET 14:23"
+    "boarding_time": "BT 12:30\nST 14:54\nET 15:04"
+  },
+  {
+    "flight": "WN 1476",
+    "airport": "DEN DENVER",
+    "airline": "Southwest Airlines",
+    "gate": "B64",
+    "departure_time": "2024-12-23 14:39:00",
+    "status": "Scheduled",
+    "codeshared_flights": "",
+    "board_URL": "https://www.united.com/api/flight/status/1476/2024-12-23?carrierCode=WN",
+    "airline_code": "WN",
+    "boarding_time": ""
   },
   {
     "flight": "UA 1318",
@@ -2110,6 +2098,18 @@
     "board_URL": "https://www.united.com/api/flight/status/1318/2024-12-23?carrierCode=UA",
     "airline_code": "UA",
     "boarding_time": "BT 14:00\nST 14:00\nET 14:25"
+  },
+  {
+    "flight": "AC 8619",
+    "airport": "YYZ TORONTO, YYZ",
+    "airline": "Air Canada",
+    "gate": "Z10",
+    "departure_time": "2024-12-23 15:00:00",
+    "status": "Delayed",
+    "codeshared_flights": "UA8693",
+    "board_URL": "https://www.united.com/api/flight/status/8619/2024-12-23?carrierCode=AC",
+    "airline_code": "AC",
+    "boarding_time": ""
   },
   {
     "flight": "DL 3680",
