@@ -70,7 +70,7 @@ DEPARTURES_JSON=$(curl -s "$URL" | jq --arg today "$TODAY" --argjson now "$NOW" 
        | (.IATA + .flightnumber)
       ] | join(", ")
     )
-  | .boardURL = ("https://www.united.com/api/flight/status/" + .flightnumber + "/" + "2024-12-22" +  "?carrierCode=" + .IATA)
+  | .boardURL = ("https://www.united.com/api/flight/status/" + .flightnumber + "/" + "2024-12-23" +  "?carrierCode=" + .IATA)
   | .flight = (.IATA + " " + .flightnumber)
   | .airport = (.airportcode + " " + .city)
   | del(.IATA, .flightnumber, .airportcode, .city, .mod_gate, .id, .mwaaTime, .baggage, .publishedTime, .actualtime, 
@@ -81,6 +81,8 @@ DEPARTURES_JSON=$(curl -s "$URL" | jq --arg today "$TODAY" --argjson now "$NOW" 
 
 echo "$DEPARTURES_JSON" > iad_dep.json
 ls -ltra iad_dep.json
+
+echo "$DEPARTURES_JSON" | jq '[.[] | {flight: .flight, airport: .airport, airline: .airline, gate: .gate, departure_time: .departure_time, status: .status, codeshared_flights: .codeshared_flights, board_URL: .boardURL}]' > $DEPARTURES_FILE
 
 ls -ltra $DEPARTURES_FILE
 
@@ -93,8 +95,6 @@ else
   rm -f "$DEPARTURES_FILE"
   exit 1
 fi
-
-echo "$DEPARTURES_JSON" | jq '[.[] | {flight: .flight, airport: .airport, airline: .airline, gate: .gate, departure_time: .departure_time, status: .status, codeshared_flights: .codeshared_flights, board_URL: .boardURL}]' > $DEPARTURES_FILE
 
 #cat $DEPARTURES_FILE
 
