@@ -56,7 +56,6 @@ jobs:
     - name: Save output files to github repository
       env:
         GH_TOKEN: ${{ secrets.GH_TOKEN }}
-
       run: |
         git config --global user.name "Shekar"
         git config --global user.email "shekar@yahoo.com"
@@ -67,21 +66,11 @@ jobs:
         hostname
         uname
         uname -a
+        git diff departures.json 
         git add departures.json 
         git add iad_dep.json 
         git commit -m "Changes from workflow"
         git push https://x-access-token:${GH_TOKEN}@github.com/${{ github.repository }}.git
-
-    - name: Add, commit and push changes
-      uses: EndBug/add-and-commit@v9 # You can change this to use a specific version.
-      with:
-        # The arguments for the `git add` command (see the paragraph below for more info)
-        # Default: '.'
-        # remove: 'arrivals.json departures.json'
-        author_name: Shekar
-        author_email: admin@dulles.xyz
-        # add: 'arrivals.json departures.json'
-        # push: true
-        # tag: 'v1.0.1 --force'
-        # tag_push: '--force'
-        # message: 'removed and added arrivals.json and departures.json'
+        hostname
+        uname
+        uname -a
