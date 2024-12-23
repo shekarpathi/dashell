@@ -2056,8 +2056,8 @@
     "airport": "CAE COLUMBIA",
     "airline": "United Airlines",
     "gate": "A2E",
-    "departure_time": "2024-12-23 14:30:00",
-    "status": "Delayed",
+    "departure_time": "2024-12-23 14:31:00",
+    "status": "OutGate",
     "codeshared_flights": "",
     "board_URL": "https://www.united.com/api/flight/status/4288/2024-12-23?carrierCode=UA",
     "airline_code": "UA",
@@ -2068,8 +2068,8 @@
     "airport": "SFO SAN FRANCISCO",
     "airline": "United Airlines",
     "gate": "C27",
-    "departure_time": "2024-12-23 14:40:00",
-    "status": "Scheduled",
+    "departure_time": "2024-12-23 14:38:00",
+    "status": "OutGate",
     "codeshared_flights": "NZ9176, VA8390",
     "board_URL": "https://www.united.com/api/flight/status/1318/2024-12-23?carrierCode=UA",
     "airline_code": "UA",
@@ -2541,7 +2541,7 @@
     "codeshared_flights": "CM1302, SN8989",
     "board_URL": "https://www.united.com/api/flight/status/6079/2024-12-23?carrierCode=UA",
     "airline_code": "UA",
-    "boarding_time": "BT 16:55\nST 16:55\nET 17:05"
+    "boarding_time": "BT 16:55\nST 17:20\nET 17:30"
   },
   {
     "flight": "UA 4353",
@@ -2733,7 +2733,7 @@
     "codeshared_flights": "AC4713, LH9200, SN8979",
     "board_URL": "https://www.united.com/api/flight/status/4339/2024-12-23?carrierCode=UA",
     "airline_code": "UA",
-    "boarding_time": "BT 17:05\nST 17:05\nET 17:15"
+    "boarding_time": "BT 17:05\nST 17:35\nET 17:45"
   },
   {
     "flight": "UA 1858",
