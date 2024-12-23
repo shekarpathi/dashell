@@ -1212,28 +1212,28 @@
     "boarding_time": "BT 08:20\nST 10:00\nET 10:10"
   },
   {
-    "flight": "EK 232",
-    "airport": "DXB DUBAI",
-    "airline": "Emirates",
-    "gate": "A16",
-    "departure_time": "2024-12-23 10:40:00",
-    "status": "Scheduled",
-    "codeshared_flights": "",
-    "board_URL": "https://www.united.com/api/flight/status/232/2024-12-23?carrierCode=EK",
-    "airline_code": "EK",
-    "boarding_time": ""
-  },
-  {
     "flight": "UA 4877",
     "airport": "ROC ROCHESTER",
     "airline": "United Airlines",
     "gate": "A2E",
-    "departure_time": "2024-12-23 10:40:00",
-    "status": "Delayed",
+    "departure_time": "2024-12-23 10:41:00",
+    "status": "OutGate",
     "codeshared_flights": "CM2297",
     "board_URL": "https://www.united.com/api/flight/status/4877/2024-12-23?carrierCode=UA",
     "airline_code": "UA",
     "boarding_time": "BT 07:55\nST 10:15\nET 10:25"
+  },
+  {
+    "flight": "EK 232",
+    "airport": "DXB DUBAI",
+    "airline": "Emirates",
+    "gate": "A16",
+    "departure_time": "2024-12-23 10:42:00",
+    "status": "OutGate",
+    "codeshared_flights": "",
+    "board_URL": "https://www.united.com/api/flight/status/232/2024-12-23?carrierCode=EK",
+    "airline_code": "EK",
+    "boarding_time": ""
   },
   {
     "flight": "UA 4961",
@@ -1457,7 +1457,7 @@
     "airline": "Southern Airways Express",
     "gate": "H17",
     "departure_time": "2024-12-23 12:40:00",
-    "status": "Scheduled",
+    "status": "Proposed",
     "codeshared_flights": "",
     "board_URL": "https://www.united.com/api/flight/status/246/2024-12-23?carrierCode=9X",
     "airline_code": "9X",
@@ -2004,18 +2004,6 @@
     "boarding_time": ""
   },
   {
-    "flight": "UA 4288",
-    "airport": "CAE COLUMBIA",
-    "airline": "United Airlines",
-    "gate": "A2E",
-    "departure_time": "2024-12-23 13:47:00",
-    "status": "Delayed",
-    "codeshared_flights": "",
-    "board_URL": "https://www.united.com/api/flight/status/4288/2024-12-23?carrierCode=UA",
-    "airline_code": "UA",
-    "boarding_time": "BT 12:14\nST 13:35\nET 13:45"
-  },
-  {
     "flight": "AA 5543",
     "airport": "CLT CHARLOTTE",
     "airline": "American Airlines",
@@ -2026,6 +2014,18 @@
     "board_URL": "https://www.united.com/api/flight/status/5543/2024-12-23?carrierCode=AA",
     "airline_code": "AA",
     "boarding_time": ""
+  },
+  {
+    "flight": "UA 4288",
+    "airport": "CAE COLUMBIA",
+    "airline": "United Airlines",
+    "gate": "A2E",
+    "departure_time": "2024-12-23 14:00:00",
+    "status": "Delayed",
+    "codeshared_flights": "",
+    "board_URL": "https://www.united.com/api/flight/status/4288/2024-12-23?carrierCode=UA",
+    "airline_code": "UA",
+    "boarding_time": "BT 12:14\nST 13:35\nET 13:45"
   },
   {
     "flight": "TK 188",
