@@ -108,6 +108,7 @@ updated_json=$(jq -c '.[]' "$DEPARTURES_FILE" | while read -r item; do
   board_url=$(echo "$item" | jq -r '.board_URL')
   airline_code=$(echo "$item" | jq -r '.airline_code')
 
+  boarding_time=""
   if [[ "$airline_code" == "UA" ]]; then
     # Make an HTTPS request and capture the response code
     #response_code=$(curl -s -o /dev/null -w "%{http_code}" "$board_url")
