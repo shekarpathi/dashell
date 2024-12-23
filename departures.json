@@ -2009,7 +2009,7 @@
     "airline": "Porter Airlines",
     "gate": "A19",
     "departure_time": "2024-12-23 14:01:00",
-    "status": "OutGate",
+    "status": "InAir",
     "codeshared_flights": "TS7478",
     "board_URL": "https://www.united.com/api/flight/status/2724/2024-12-23?carrierCode=PD",
     "airline_code": "PD",
@@ -2032,8 +2032,8 @@
     "airport": "BOG BOGOTA",
     "airline": "Avianca",
     "gate": "B50",
-    "departure_time": "2024-12-23 14:20:00",
-    "status": "Proposed",
+    "departure_time": "2024-12-23 14:12:00",
+    "status": "OutGate",
     "codeshared_flights": "G35811, NH7820, UA6668",
     "board_URL": "https://www.united.com/api/flight/status/247/2024-12-23?carrierCode=AV",
     "airline_code": "AV",
@@ -2044,8 +2044,8 @@
     "airport": "YOW OTTAWA",
     "airline": "United Airlines",
     "gate": "C24",
-    "departure_time": "2024-12-23 14:20:00",
-    "status": "Delayed",
+    "departure_time": "2024-12-23 14:14:00",
+    "status": "OutGate",
     "codeshared_flights": "AC4691",
     "board_URL": "https://www.united.com/api/flight/status/4424/2024-12-23?carrierCode=UA",
     "airline_code": "UA",
@@ -2712,6 +2712,18 @@
     "boarding_time": "BT 17:05\nST 17:05\nET 17:15"
   },
   {
+    "flight": "AS 309",
+    "airport": "LAX LOS ANGELES",
+    "airline": "Alaska Airlines",
+    "gate": "B65",
+    "departure_time": "2024-12-23 17:30:00",
+    "status": "Scheduled",
+    "codeshared_flights": "CX7911, HA4965, QF3645, SQ1308, TN2384",
+    "board_URL": "https://www.united.com/api/flight/status/309/2024-12-23?carrierCode=AS",
+    "airline_code": "AS",
+    "boarding_time": ""
+  },
+  {
     "flight": "UA 3547",
     "airport": "RDU RALEIGH",
     "airline": "United Airlines",
@@ -2914,18 +2926,6 @@
     "board_URL": "https://www.united.com/api/flight/status/6262/2024-12-23?carrierCode=UA",
     "airline_code": "UA",
     "boarding_time": "BT 17:15\nST 17:15\nET 17:25"
-  },
-  {
-    "flight": "AS 309",
-    "airport": "LAX LOS ANGELES",
-    "airline": "Alaska Airlines",
-    "gate": "B65",
-    "departure_time": "2024-12-23 17:41:00",
-    "status": "Delayed",
-    "codeshared_flights": "CX7911, HA4965, QF3645, SQ1308, TN2384",
-    "board_URL": "https://www.united.com/api/flight/status/309/2024-12-23?carrierCode=AS",
-    "airline_code": "AS",
-    "boarding_time": ""
   },
   {
     "flight": "UA 2049",
@@ -3336,18 +3336,6 @@
     "boarding_time": "BT 18:00\nST 18:00\nET 18:35"
   },
   {
-    "flight": "G4 370",
-    "airport": "JAX JACKSONVILLE",
-    "airline": "Allegiant Air",
-    "gate": "B49",
-    "departure_time": "2024-12-23 18:50:00",
-    "status": "Scheduled",
-    "codeshared_flights": "",
-    "board_URL": "https://www.united.com/api/flight/status/370/2024-12-23?carrierCode=G4",
-    "airline_code": "G4",
-    "boarding_time": ""
-  },
-  {
     "flight": "UA 4527",
     "airport": "STL ST LOUIS",
     "airline": "United Airlines",
@@ -3406,6 +3394,18 @@
     "board_URL": "https://www.united.com/api/flight/status/2303/2024-12-23?carrierCode=UA",
     "airline_code": "UA",
     "boarding_time": "BT 18:10\nST 18:10\nET 18:45"
+  },
+  {
+    "flight": "G4 370",
+    "airport": "JAX JACKSONVILLE",
+    "airline": "Allegiant Air",
+    "gate": "B49",
+    "departure_time": "2024-12-23 19:10:00",
+    "status": "Delayed",
+    "codeshared_flights": "",
+    "board_URL": "https://www.united.com/api/flight/status/370/2024-12-23?carrierCode=G4",
+    "airline_code": "G4",
+    "boarding_time": ""
   },
   {
     "flight": "TP 230",
@@ -3473,7 +3473,7 @@
     "airline": "Qatar Airways",
     "gate": "B37",
     "departure_time": "2024-12-23 20:05:00",
-    "status": "Scheduled",
+    "status": "Proposed",
     "codeshared_flights": "AA8120, AS5822, B65555, MH9070, UL3167, WB1083, WY6046",
     "board_URL": "https://www.united.com/api/flight/status/708/2024-12-23?carrierCode=QR",
     "airline_code": "QR",
@@ -3509,7 +3509,7 @@
     "airline": "Royal Air Maroc",
     "gate": "A20",
     "departure_time": "2024-12-23 20:40:00",
-    "status": "Scheduled",
+    "status": "Proposed",
     "codeshared_flights": "AA7959",
     "board_URL": "https://www.united.com/api/flight/status/219/2024-12-23?carrierCode=AT",
     "airline_code": "AT",
@@ -3592,7 +3592,7 @@
     "airport": "LHR LONDON",
     "airline": "British Airways",
     "gate": "B44",
-    "departure_time": "2024-12-23 22:02:00",
+    "departure_time": "2024-12-23 22:03:00",
     "status": "Scheduled",
     "codeshared_flights": "AA7001, AY5532, EI8992, IB3631",
     "board_URL": "https://www.united.com/api/flight/status/292/2024-12-23?carrierCode=BA",
