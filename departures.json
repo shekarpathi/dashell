@@ -749,7 +749,7 @@
     "airline": "United Airlines",
     "gate": "A4E",
     "departure_time": "2024-12-23 08:37:00",
-    "status": "OutGate",
+    "status": "InAir",
     "codeshared_flights": "AC4741, AV2346, CM2237",
     "board_URL": "https://www.united.com/api/flight/status/4257/2024-12-23?carrierCode=UA",
     "airline_code": "UA",
@@ -977,7 +977,7 @@
     "airline": "United Airlines",
     "gate": "A1C",
     "departure_time": "2024-12-23 08:56:00",
-    "status": "OutGate",
+    "status": "InAir",
     "codeshared_flights": "",
     "board_URL": "https://www.united.com/api/flight/status/6217/2024-12-23?carrierCode=UA",
     "airline_code": "UA",
@@ -1140,30 +1140,6 @@
     "boarding_time": ""
   },
   {
-    "flight": "UA 4961",
-    "airport": "GSP GREENVILLE-SPARTANBURG",
-    "airline": "United Airlines",
-    "gate": "A2F",
-    "departure_time": "2024-12-23 09:40:00",
-    "status": "Delayed",
-    "codeshared_flights": "AC4723",
-    "board_URL": "https://www.united.com/api/flight/status/4961/2024-12-23?carrierCode=UA",
-    "airline_code": "UA",
-    "boarding_time": "BT 07:50\nST 09:35\nET 09:45"
-  },
-  {
-    "flight": "UA 4877",
-    "airport": "ROC ROCHESTER",
-    "airline": "United Airlines",
-    "gate": "A2E",
-    "departure_time": "2024-12-23 09:40:00",
-    "status": "Delayed",
-    "codeshared_flights": "CM2297",
-    "board_URL": "https://www.united.com/api/flight/status/4877/2024-12-23?carrierCode=UA",
-    "airline_code": "UA",
-    "boarding_time": "BT 07:55\nST 09:35\nET 09:45"
-  },
-  {
     "flight": "DL 1444",
     "airport": "ATL ATLANTA",
     "airline": "Delta Air Lines",
@@ -1188,6 +1164,18 @@
     "boarding_time": ""
   },
   {
+    "flight": "UA 4961",
+    "airport": "GSP GREENVILLE-SPARTANBURG",
+    "airline": "United Airlines",
+    "gate": "A2F",
+    "departure_time": "2024-12-23 10:00:00",
+    "status": "Delayed",
+    "codeshared_flights": "AC4723",
+    "board_URL": "https://www.united.com/api/flight/status/4961/2024-12-23?carrierCode=UA",
+    "airline_code": "UA",
+    "boarding_time": "BT 07:50\nST 09:35\nET 09:45"
+  },
+  {
     "flight": "UA 4262",
     "airport": "HSV HUNTSVILLE",
     "airline": "United Airlines",
@@ -1198,6 +1186,18 @@
     "board_URL": "https://www.united.com/api/flight/status/4262/2024-12-23?carrierCode=UA",
     "airline_code": "UA",
     "boarding_time": "BT 08:20\nST 09:35\nET 09:45"
+  },
+  {
+    "flight": "UA 4877",
+    "airport": "ROC ROCHESTER",
+    "airline": "United Airlines",
+    "gate": "A2E",
+    "departure_time": "2024-12-23 10:00:00",
+    "status": "Delayed",
+    "codeshared_flights": "CM2297",
+    "board_URL": "https://www.united.com/api/flight/status/4877/2024-12-23?carrierCode=UA",
+    "airline_code": "UA",
+    "boarding_time": "BT 07:55\nST 09:35\nET 09:45"
   },
   {
     "flight": "UA 1926",
@@ -1221,7 +1221,7 @@
     "codeshared_flights": "NZ9177, VA8386",
     "board_URL": "https://www.united.com/api/flight/status/1116/2024-12-23?carrierCode=UA",
     "airline_code": "UA",
-    "boarding_time": "BT 07:35\nST 09:30\nET 10:05"
+    "boarding_time": "BT 07:35\nST 09:15\nET 09:50"
   },
   {
     "flight": "EK 232",
@@ -1665,7 +1665,7 @@
     "codeshared_flights": "AC4691",
     "board_URL": "https://www.united.com/api/flight/status/4424/2024-12-23?carrierCode=UA",
     "airline_code": "UA",
-    "boarding_time": "BT 12:24\nST 12:24\nET 12:34"
+    "boarding_time": "BT 12:24\nST 13:55\nET 14:05"
   },
   {
     "flight": "UA 6142",
@@ -1896,18 +1896,6 @@
     "boarding_time": "BT 12:30\nST 12:30\nET 12:40"
   },
   {
-    "flight": "UA 4234",
-    "airport": "AVP WILKES-BARRE",
-    "airline": "United Airlines",
-    "gate": "A2F",
-    "departure_time": "2024-12-23 12:55:00",
-    "status": "Scheduled",
-    "codeshared_flights": "",
-    "board_URL": "https://www.united.com/api/flight/status/4234/2024-12-23?carrierCode=UA",
-    "airline_code": "UA",
-    "boarding_time": "BT 12:30\nST 13:23\nET 13:33"
-  },
-  {
     "flight": "UA 1940",
     "airport": "ATL ATLANTA",
     "airline": "United Airlines",
@@ -2038,6 +2026,18 @@
     "board_URL": "https://www.united.com/api/flight/status/2724/2024-12-23?carrierCode=PD",
     "airline_code": "PD",
     "boarding_time": ""
+  },
+  {
+    "flight": "UA 4234",
+    "airport": "AVP WILKES-BARRE",
+    "airline": "United Airlines",
+    "gate": "A2F",
+    "departure_time": "2024-12-23 13:48:00",
+    "status": "Delayed",
+    "codeshared_flights": "",
+    "board_URL": "https://www.united.com/api/flight/status/4234/2024-12-23?carrierCode=UA",
+    "airline_code": "UA",
+    "boarding_time": "BT 12:30\nST 13:23\nET 13:33"
   },
   {
     "flight": "AA 5543",
