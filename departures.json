@@ -2201,21 +2201,9 @@
     "airline": "Delta Air Lines",
     "gate": "B76",
     "departure_time": "2024-12-23 16:29:00",
-    "status": "OutGate",
+    "status": "InAir",
     "codeshared_flights": "AF2173, AZ2760, CI9095, KE7258, KL5937, LA8759, VS1897",
     "board_URL": "https://www.united.com/api/flight/status/5397/2024-12-23?carrierCode=DL",
-    "airline_code": "DL",
-    "boarding_time": ""
-  },
-  {
-    "flight": "DL 1695",
-    "airport": "ATL ATLANTA",
-    "airline": "Delta Air Lines",
-    "gate": "B74",
-    "departure_time": "2024-12-23 16:41:00",
-    "status": "Scheduled",
-    "codeshared_flights": "AF2303, KL5695, LA6505, VS4473",
-    "board_URL": "https://www.united.com/api/flight/status/1695/2024-12-23?carrierCode=DL",
     "airline_code": "DL",
     "boarding_time": ""
   },
@@ -2229,6 +2217,18 @@
     "codeshared_flights": "",
     "board_URL": "https://www.united.com/api/flight/status/4707/2024-12-23?carrierCode=F9",
     "airline_code": "F9",
+    "boarding_time": ""
+  },
+  {
+    "flight": "DL 1695",
+    "airport": "ATL ATLANTA",
+    "airline": "Delta Air Lines",
+    "gate": "B74",
+    "departure_time": "2024-12-23 16:45:00",
+    "status": "OutGate",
+    "codeshared_flights": "AF2303, KL5695, LA6505, VS4473",
+    "board_URL": "https://www.united.com/api/flight/status/1695/2024-12-23?carrierCode=DL",
+    "airline_code": "DL",
     "boarding_time": ""
   },
   {
@@ -2676,18 +2676,6 @@
     "boarding_time": "BT 17:05\nST 17:05\nET 17:15"
   },
   {
-    "flight": "AS 309",
-    "airport": "LAX LOS ANGELES",
-    "airline": "Alaska Airlines",
-    "gate": "B65",
-    "departure_time": "2024-12-23 17:30:00",
-    "status": "Scheduled",
-    "codeshared_flights": "CX7911, HA4965, QF3645, SQ1308, TN2384",
-    "board_URL": "https://www.united.com/api/flight/status/309/2024-12-23?carrierCode=AS",
-    "airline_code": "AS",
-    "boarding_time": ""
-  },
-  {
     "flight": "UA 3547",
     "airport": "RDU RALEIGH",
     "airline": "United Airlines",
@@ -2806,6 +2794,18 @@
     "board_URL": "https://www.united.com/api/flight/status/4884/2024-12-23?carrierCode=UA",
     "airline_code": "UA",
     "boarding_time": "BT 17:10\nST 17:10\nET 17:20"
+  },
+  {
+    "flight": "AS 309",
+    "airport": "LAX LOS ANGELES",
+    "airline": "Alaska Airlines",
+    "gate": "B65",
+    "departure_time": "2024-12-23 17:37:00",
+    "status": "Scheduled",
+    "codeshared_flights": "CX7911, HA4965, QF3645, SQ1308, TN2384",
+    "board_URL": "https://www.united.com/api/flight/status/309/2024-12-23?carrierCode=AS",
+    "airline_code": "AS",
+    "boarding_time": ""
   },
   {
     "flight": "UA 2398",
