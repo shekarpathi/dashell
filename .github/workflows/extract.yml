@@ -1,0 +1,79 @@
+# This is a basic workflow to help you get started with Actions
+name: Cron job running every 10 minutes to get Dulles arrivals and on push
+# Controls when the workflow will run
+on:
+  schedule:
+    - cron: "*/5 * * * *"
+  push:
+    paths:
+      - getDepartures.bash
+
+# A workflow run is made up of one or more jobs that can run sequentially or in parallel
+jobs:
+  # This workflow contains a single job called "cron"
+  cron:
+    # The type of runner that the job will run on
+    runs-on: ubuntu-latest
+
+    # Steps represent a sequence of tasks that will be executed as part of the job
+    steps:
+    - name: Set timezone
+      uses: szenius/set-timezone@v1.2
+      with:
+        timezoneLinux: "America/New_York"
+        timezoneMacos: "America/New_York"
+        timezoneWindows: "America/New_York"
+
+    - name: checkout dashell repository
+      uses: actions/checkout@v4 # checkout the repository content to github runner.
+      with:
+        repository: shekarpathi/dashell
+        persist-credentials: true # otherwise, the token used is the GITHUB_TOKEN, instead of your personal access token.
+        fetch-depth: 0 # otherwise, there would be errors pushing refs to the destination repository.
+        clean: true
+
+    - name: run getDepartures.bash
+      run: |
+              chmod +x getDepartures.bash
+        # ./getDepartures.bash
+
+    - name: setup python 3.8
+      uses: actions/setup-python@v5
+      with:
+        python-version: 3.8 #install the python needed
+
+    - name: install python pip packages
+      run: |
+        python -m pip install --upgrade pip
+        pip install requests
+        pip install pytz
+
+    - name: Configure git user name and list files
+      run: |
+        git config --global user.name "Shekar"
+        git config --global user.email "shekar@yahoo.com"
+        ls -ltra ./
+        git status
+        git fetch origin
+        git pull
+        hostname
+        uname
+        uname -a
+
+    - name: Run script to get data for IAD arrivals
+      run: |
+        # python getDullesArrivals.py
+
+    - name: Add, commit and push changes
+      uses: EndBug/add-and-commit@v9 # You can change this to use a specific version.
+      with:
+        # The arguments for the `git add` command (see the paragraph below for more info)
+        # Default: '.'
+        remove: 'arrivals.json departures.json'
+        author_name: Shekar
+        author_email: admin@dulles.xyz
+        add: 'arrivals.json departures.json'
+        push: true
+        tag: 'v1.0.1 --force'
+        tag_push: '--force'
+        message: 'removed and added arrivals.json and departures.json'
