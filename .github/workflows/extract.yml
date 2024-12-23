@@ -63,13 +63,17 @@ jobs:
         git status
         # git fetch origin
         # git pull
-        hostname
-        uname
-        uname -a
+        # hostname
+        # uname
+        # uname -a
+        echo "doing diff"
         git diff departures.json 
+        echo "Next two lines adding"
         git add departures.json 
         git add iad_dep.json 
+        echo "Next line commit"
         git commit -m "Changes from workflow"
+        echo "Next line push"
         git push https://x-access-token:${GH_TOKEN}@github.com/${{ github.repository }}.git
         hostname
         uname
