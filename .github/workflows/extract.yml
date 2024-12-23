@@ -69,10 +69,10 @@ jobs:
       with:
         # The arguments for the `git add` command (see the paragraph below for more info)
         # Default: '.'
-        remove: 'arrivals.json departures.json'
+        # remove: 'arrivals.json departures.json'
         author_name: Shekar
         author_email: admin@dulles.xyz
-        add: 'arrivals.json departures.json'
+        # add: 'arrivals.json departures.json'
         push: true
         tag: 'v1.0.1 --force'
         tag_push: '--force'
