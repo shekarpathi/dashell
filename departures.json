@@ -1949,7 +1949,7 @@
     "airline": "United Airlines",
     "gate": "D4",
     "departure_time": "2024-12-23 13:27:00",
-    "status": "OutGate",
+    "status": "InAir",
     "codeshared_flights": "",
     "board_URL": "https://www.united.com/api/flight/status/6142/2024-12-23?carrierCode=UA",
     "airline_code": "UA",
@@ -1966,18 +1966,6 @@
     "board_URL": "https://www.united.com/api/flight/status/651/2024-12-23?carrierCode=MX",
     "airline_code": "MX",
     "boarding_time": ""
-  },
-  {
-    "flight": "UA 1581",
-    "airport": "ORD CHICAGO, ORD",
-    "airline": "United Airlines",
-    "gate": "C25",
-    "departure_time": "2024-12-23 13:38:00",
-    "status": "Delayed",
-    "codeshared_flights": "AC3839, ET1350, NH7138, NZ2452",
-    "board_URL": "https://www.united.com/api/flight/status/1581/2024-12-23?carrierCode=UA",
-    "airline_code": "UA",
-    "boarding_time": "BT 12:10\nST 13:13\nET 13:33"
   },
   {
     "flight": "PD 2724",
@@ -2002,6 +1990,18 @@
     "board_URL": "https://www.united.com/api/flight/status/2029/2024-12-23?carrierCode=UA",
     "airline_code": "UA",
     "boarding_time": "BT 12:30\nST 13:06\nET 13:31"
+  },
+  {
+    "flight": "UA 1581",
+    "airport": "ORD CHICAGO, ORD",
+    "airline": "United Airlines",
+    "gate": "C25",
+    "departure_time": "2024-12-23 13:48:00",
+    "status": "Delayed",
+    "codeshared_flights": "AC3839, ET1350, NH7138, NZ2452",
+    "board_URL": "https://www.united.com/api/flight/status/1581/2024-12-23?carrierCode=UA",
+    "airline_code": "UA",
+    "boarding_time": "BT 12:10\nST 13:13\nET 13:33"
   },
   {
     "flight": "AA 5543",
@@ -2061,7 +2061,7 @@
     "codeshared_flights": "",
     "board_URL": "https://www.united.com/api/flight/status/4288/2024-12-23?carrierCode=UA",
     "airline_code": "UA",
-    "boarding_time": "BT 12:14\nST 14:00\nET 14:10"
+    "boarding_time": "BT 12:14\nST 13:55\nET 14:05"
   },
   {
     "flight": "UA 1318",
@@ -2153,7 +2153,7 @@
     "airline": "Aeromexico",
     "gate": "A14",
     "departure_time": "2024-12-23 15:38:00",
-    "status": "Scheduled",
+    "status": "Proposed",
     "codeshared_flights": "DL8975",
     "board_URL": "https://www.united.com/api/flight/status/456/2024-12-23?carrierCode=AM",
     "airline_code": "AM",
@@ -2916,6 +2916,18 @@
     "boarding_time": "BT 17:15\nST 17:15\nET 17:25"
   },
   {
+    "flight": "AS 309",
+    "airport": "LAX LOS ANGELES",
+    "airline": "Alaska Airlines",
+    "gate": "B65",
+    "departure_time": "2024-12-23 17:41:00",
+    "status": "Delayed",
+    "codeshared_flights": "CX7911, HA4965, QF3645, SQ1308, TN2384",
+    "board_URL": "https://www.united.com/api/flight/status/309/2024-12-23?carrierCode=AS",
+    "airline_code": "AS",
+    "boarding_time": ""
+  },
+  {
     "flight": "UA 2049",
     "airport": "RSW FORT MYERS",
     "airline": "United Airlines",
@@ -2926,18 +2938,6 @@
     "board_URL": "https://www.united.com/api/flight/status/2049/2024-12-23?carrierCode=UA",
     "airline_code": "UA",
     "boarding_time": "BT 17:02\nST 17:02\nET 17:27"
-  },
-  {
-    "flight": "AS 309",
-    "airport": "LAX LOS ANGELES",
-    "airline": "Alaska Airlines",
-    "gate": "B65",
-    "departure_time": "2024-12-23 17:42:00",
-    "status": "Delayed",
-    "codeshared_flights": "CX7911, HA4965, QF3645, SQ1308, TN2384",
-    "board_URL": "https://www.united.com/api/flight/status/309/2024-12-23?carrierCode=AS",
-    "airline_code": "AS",
-    "boarding_time": ""
   },
   {
     "flight": "UA 4926",
@@ -3456,18 +3456,6 @@
     "boarding_time": "BT 18:59\nST 18:59\nET 19:24"
   },
   {
-    "flight": "FI 644",
-    "airport": "KEF REYKJAVIK",
-    "airline": "Icelandair",
-    "gate": "B41",
-    "departure_time": "2024-12-23 19:40:00",
-    "status": "Scheduled",
-    "codeshared_flights": "B65644",
-    "board_URL": "https://www.united.com/api/flight/status/644/2024-12-23?carrierCode=FI",
-    "airline_code": "FI",
-    "boarding_time": ""
-  },
-  {
     "flight": "WN 3746",
     "airport": "DEN DENVER",
     "airline": "Southwest Airlines",
@@ -3501,6 +3489,18 @@
     "codeshared_flights": "AT5081, BA6742, QR2559",
     "board_URL": "https://www.united.com/api/flight/status/5447/2024-12-23?carrierCode=AA",
     "airline_code": "AA",
+    "boarding_time": ""
+  },
+  {
+    "flight": "FI 644",
+    "airport": "KEF REYKJAVIK",
+    "airline": "Icelandair",
+    "gate": "B41",
+    "departure_time": "2024-12-23 20:10:00",
+    "status": "Delayed",
+    "codeshared_flights": "B65644",
+    "board_URL": "https://www.united.com/api/flight/status/644/2024-12-23?carrierCode=FI",
+    "airline_code": "FI",
     "boarding_time": ""
   },
   {
