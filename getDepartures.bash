@@ -11,7 +11,7 @@ URL="https://www.flydulles.com/arrivals-and-departures/json"
 curl -s "$URL" | jq | wc -l
 curl -s "$URL" | jq [.departures[]] > departures_raw.json
 curl -s "$URL" | jq [.arrivals[]] > arrivals_raw.json
-
+exit 0
 # Output file
 #DEPARTURES_HTML="departures.html"
 
