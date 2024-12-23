@@ -1,6 +1,5 @@
 #!/bin/bash
 clear
-clear
 # Define constants
 user_agent="Mozilla/5.0 Gecko/20100101 Firefox/133.0"
 accept_language="en-US,en;q=0.5"
@@ -73,6 +72,7 @@ DEPARTURES_JSON=$(curl -s "$URL" | jq --arg today "$TODAY" --argjson now "$NOW" 
     )
   | .boardURL = ("https://www.united.com/api/flight/status/" + .flightnumber + "/" + "2024-12-23" +  "?carrierCode=" + .IATA)
   | .flight = (.IATA + " " + .flightnumber)
+  | .airline_code = (.IATA)
   | .airport = (.airportcode + " " + .city)
   | del(.IATA, .flightnumber, .airportcode, .city, .mod_gate, .id, .mwaaTime, .baggage, .publishedTime, .actualtime, 
         .aircraftInfo, .arr_terminal, .arr_gate, .departureInfo, .mod_status, .codeshare, .dep_airport_code, .dep_terminal, .international)
@@ -83,7 +83,7 @@ DEPARTURES_JSON=$(curl -s "$URL" | jq --arg today "$TODAY" --argjson now "$NOW" 
 echo "$DEPARTURES_JSON" > iad_dep.json
 ls -ltra iad_dep.json
 
-echo "$DEPARTURES_JSON" | jq '[.[] | {flight: .flight, airport: .airport, airline: .airline, gate: .gate, departure_time: .departure_time, status: .status, codeshared_flights: .codeshared_flights, board_URL: .boardURL}]' > $DEPARTURES_FILE
+echo "$DEPARTURES_JSON" | jq '[.[] | {flight: .flight, airport: .airport, airline: .airline, gate: .gate, departure_time: .departure_time, status: .status, codeshared_flights: .codeshared_flights, board_URL: .boardURL, airline_code: .airline_code}]' > $DEPARTURES_FILE
 
 ls -ltra $DEPARTURES_FILE
 
@@ -106,10 +106,15 @@ updated_json="[]"
 updated_json=$(jq -c '.[]' "$DEPARTURES_FILE" | while read -r item; do
   # Extract the board_URL
   board_url=$(echo "$item" | jq -r '.board_URL')
+  airline_code=$(echo "$item" | jq -r '.airline_code')
 
-  # Make an HTTPS request and capture the response code
-  #response_code=$(curl -s -o /dev/null -w "%{http_code}" "$board_url")
-  boarding_time=$(get_boardtime_string "$board_url")
+  if [[ "$airline_code" == "UA" ]]; then
+    # Make an HTTPS request and capture the response code
+    #response_code=$(curl -s -o /dev/null -w "%{http_code}" "$board_url")
+    boarding_time=$(get_boardtime_string "$board_url")
+  else
+    boarding_time=""
+  fi
 
   # Add the response_code field to the JSON object
   updated_item=$(echo "$item" | jq --arg rc "$boarding_time" '. + {boarding_time: $rc}')
@@ -119,3 +124,4 @@ updated_json=$(jq -c '.[]' "$DEPARTURES_FILE" | while read -r item; do
 done | jq -s '.')
 
 echo "$updated_json" > $DEPARTURES_FILE
+
