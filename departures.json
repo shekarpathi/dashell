@@ -2165,7 +2165,7 @@
     "airline": "Air Canada",
     "gate": "Z10",
     "departure_time": "2024-12-23 15:52:00",
-    "status": "OutGate",
+    "status": "InAir",
     "codeshared_flights": "UA8459",
     "board_URL": "https://www.united.com/api/flight/status/8726/2024-12-23?carrierCode=AC",
     "airline_code": "AC",
@@ -2188,8 +2188,8 @@
     "airport": "DEN DENVER",
     "airline": "United Airlines",
     "gate": "C23",
-    "departure_time": "2024-12-23 16:10:00",
-    "status": "Scheduled",
+    "departure_time": "2024-12-23 16:11:00",
+    "status": "OutGate",
     "codeshared_flights": "AV2041, CM2860, SN8893",
     "board_URL": "https://www.united.com/api/flight/status/284/2024-12-23?carrierCode=UA",
     "airline_code": "UA",
@@ -2580,18 +2580,6 @@
     "boarding_time": "BT 17:00\nST 17:00\nET 17:10"
   },
   {
-    "flight": "UA 6043",
-    "airport": "CHS CHARLESTON, CHS",
-    "airline": "United Airlines",
-    "gate": "D23",
-    "departure_time": "2024-12-23 17:25:00",
-    "status": "Scheduled",
-    "codeshared_flights": "AC3792, CM2155, LH8872, SN8890",
-    "board_URL": "https://www.united.com/api/flight/status/6043/2024-12-23?carrierCode=UA",
-    "airline_code": "UA",
-    "boarding_time": "BT 16:45\nST 17:10\nET 17:20"
-  },
-  {
     "flight": "UA 6120",
     "airport": "CMH COLUMBUS",
     "airline": "United Airlines",
@@ -2746,6 +2734,18 @@
     "board_URL": "https://www.united.com/api/flight/status/1360/2024-12-23?carrierCode=UA",
     "airline_code": "UA",
     "boarding_time": "BT 16:52\nST 16:52\nET 17:17"
+  },
+  {
+    "flight": "UA 6043",
+    "airport": "CHS CHARLESTON, CHS",
+    "airline": "United Airlines",
+    "gate": "D23",
+    "departure_time": "2024-12-23 17:35:00",
+    "status": "Delayed",
+    "codeshared_flights": "AC3792, CM2155, LH8872, SN8890",
+    "board_URL": "https://www.united.com/api/flight/status/6043/2024-12-23?carrierCode=UA",
+    "airline_code": "UA",
+    "boarding_time": "BT 16:45\nST 17:10\nET 17:20"
   },
   {
     "flight": "UA 2463",
@@ -3540,18 +3540,6 @@
     "boarding_time": ""
   },
   {
-    "flight": "G4 370",
-    "airport": "JAX JACKSONVILLE",
-    "airline": "Allegiant Air",
-    "gate": "B49",
-    "departure_time": "2024-12-23 21:05:00",
-    "status": "Delayed",
-    "codeshared_flights": "",
-    "board_URL": "https://www.united.com/api/flight/status/370/2024-12-23?carrierCode=G4",
-    "airline_code": "G4",
-    "boarding_time": ""
-  },
-  {
     "flight": "UA 2276",
     "airport": "LAX LOS ANGELES",
     "airline": "United Airlines",
@@ -3588,11 +3576,23 @@
     "boarding_time": ""
   },
   {
+    "flight": "G4 370",
+    "airport": "JAX JACKSONVILLE",
+    "airline": "Allegiant Air",
+    "gate": "B49",
+    "departure_time": "2024-12-23 21:45:00",
+    "status": "Delayed",
+    "codeshared_flights": "",
+    "board_URL": "https://www.united.com/api/flight/status/370/2024-12-23?carrierCode=G4",
+    "airline_code": "G4",
+    "boarding_time": ""
+  },
+  {
     "flight": "BA 292",
     "airport": "LHR LONDON",
     "airline": "British Airways",
     "gate": "B44",
-    "departure_time": "2024-12-23 22:02:00",
+    "departure_time": "2024-12-23 22:01:00",
     "status": "Scheduled",
     "codeshared_flights": "AA7001, AY5532, EI8992, IB3631",
     "board_URL": "https://www.united.com/api/flight/status/292/2024-12-23?carrierCode=BA",
