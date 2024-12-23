@@ -1193,7 +1193,7 @@
     "airline": "Air Canada",
     "gate": "Z10",
     "departure_time": "2024-12-23 10:22:00",
-    "status": "OutGate",
+    "status": "InAir",
     "codeshared_flights": "UA8063",
     "board_URL": "https://www.united.com/api/flight/status/8617/2024-12-23?carrierCode=AC",
     "airline_code": "AC",
