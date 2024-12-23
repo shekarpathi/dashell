@@ -34,8 +34,9 @@ jobs:
 
     - name: run getDepartures.bash
       run: |
-          chmod +x getDepartures.bash
-         ./getDepartures.bash
+        ls -ltra
+        chmod +x getDepartures.bash
+        ./getDepartures.bash
 
     - name: setup python 3.8
       uses: actions/setup-python@v5
