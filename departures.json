@@ -2141,7 +2141,7 @@
     "airline": "Copa Airlines",
     "gate": "A24",
     "departure_time": "2024-12-23 15:29:00",
-    "status": "OutGate",
+    "status": "InAir",
     "codeshared_flights": "UA7174",
     "board_URL": "https://www.united.com/api/flight/status/444/2024-12-23?carrierCode=CM",
     "airline_code": "CM",
