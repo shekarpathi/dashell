@@ -2153,22 +2153,10 @@
     "airline": "Aeromexico",
     "gate": "A14",
     "departure_time": "2024-12-23 15:37:00",
-    "status": "OutGate",
+    "status": "InAir",
     "codeshared_flights": "DL8975",
     "board_URL": "https://www.united.com/api/flight/status/456/2024-12-23?carrierCode=AM",
     "airline_code": "AM",
-    "boarding_time": ""
-  },
-  {
-    "flight": "AV 583",
-    "airport": "SAL SAN SALVADOR",
-    "airline": "Avianca",
-    "gate": "B50",
-    "departure_time": "2024-12-23 15:50:00",
-    "status": "Proposed",
-    "codeshared_flights": "NH7837",
-    "board_URL": "https://www.united.com/api/flight/status/583/2024-12-23?carrierCode=AV",
-    "airline_code": "AV",
     "boarding_time": ""
   },
   {
@@ -2176,11 +2164,23 @@
     "airport": "YUL MONTREAL",
     "airline": "Air Canada",
     "gate": "Z10",
-    "departure_time": "2024-12-23 15:55:00",
-    "status": "Proposed",
+    "departure_time": "2024-12-23 15:52:00",
+    "status": "OutGate",
     "codeshared_flights": "UA8459",
     "board_URL": "https://www.united.com/api/flight/status/8726/2024-12-23?carrierCode=AC",
     "airline_code": "AC",
+    "boarding_time": ""
+  },
+  {
+    "flight": "AV 583",
+    "airport": "SAL SAN SALVADOR",
+    "airline": "Avianca",
+    "gate": "B50",
+    "departure_time": "2024-12-23 15:52:00",
+    "status": "InAir",
+    "codeshared_flights": "NH7837",
+    "board_URL": "https://www.united.com/api/flight/status/583/2024-12-23?carrierCode=AV",
+    "airline_code": "AV",
     "boarding_time": ""
   },
   {
@@ -2188,12 +2188,12 @@
     "airport": "DEN DENVER",
     "airline": "United Airlines",
     "gate": "C23",
-    "departure_time": "2024-12-23 16:05:00",
+    "departure_time": "2024-12-23 16:10:00",
     "status": "Scheduled",
     "codeshared_flights": "AV2041, CM2860, SN8893",
     "board_URL": "https://www.united.com/api/flight/status/284/2024-12-23?carrierCode=UA",
     "airline_code": "UA",
-    "boarding_time": "BT 15:25\nST 15:25\nET 15:50"
+    "boarding_time": "BT 15:25\nST 15:30\nET 15:55"
   },
   {
     "flight": "DL 5397",
@@ -2290,18 +2290,6 @@
     "board_URL": "https://www.united.com/api/flight/status/6118/2024-12-23?carrierCode=UA",
     "airline_code": "UA",
     "boarding_time": "BT 16:45\nST 16:45\nET 16:55"
-  },
-  {
-    "flight": "UA 6043",
-    "airport": "CHS CHARLESTON, CHS",
-    "airline": "United Airlines",
-    "gate": "D23",
-    "departure_time": "2024-12-23 17:10:00",
-    "status": "Scheduled",
-    "codeshared_flights": "AC3792, CM2155, LH8872, SN8890",
-    "board_URL": "https://www.united.com/api/flight/status/6043/2024-12-23?carrierCode=UA",
-    "airline_code": "UA",
-    "boarding_time": "BT 16:45\nST 17:00\nET 17:10"
   },
   {
     "flight": "UA 6022",
@@ -2590,6 +2578,18 @@
     "board_URL": "https://www.united.com/api/flight/status/6164/2024-12-23?carrierCode=UA",
     "airline_code": "UA",
     "boarding_time": "BT 17:00\nST 17:00\nET 17:10"
+  },
+  {
+    "flight": "UA 6043",
+    "airport": "CHS CHARLESTON, CHS",
+    "airline": "United Airlines",
+    "gate": "D23",
+    "departure_time": "2024-12-23 17:25:00",
+    "status": "Scheduled",
+    "codeshared_flights": "AC3792, CM2155, LH8872, SN8890",
+    "board_URL": "https://www.united.com/api/flight/status/6043/2024-12-23?carrierCode=UA",
+    "airline_code": "UA",
+    "boarding_time": "BT 16:45\nST 17:10\nET 17:20"
   },
   {
     "flight": "UA 6120",
@@ -3592,7 +3592,7 @@
     "airport": "LHR LONDON",
     "airline": "British Airways",
     "gate": "B44",
-    "departure_time": "2024-12-23 22:04:00",
+    "departure_time": "2024-12-23 22:02:00",
     "status": "Scheduled",
     "codeshared_flights": "AA7001, AY5532, EI8992, IB3631",
     "board_URL": "https://www.united.com/api/flight/status/292/2024-12-23?carrierCode=BA",
@@ -3627,7 +3627,7 @@
     "flight": "UA 932",
     "airport": "FRA FRANKFURT",
     "airline": "United Airlines",
-    "gate": "C8",
+    "gate": "C5",
     "departure_time": "2024-12-23 22:05:00",
     "status": "Scheduled",
     "codeshared_flights": "AC3825, LH9253",
