@@ -4116,18 +4116,6 @@
     "boarding_time": ""
   },
   {
-    "flight": "UA 3540",
-    "airport": "PIT PITTSBURGH",
-    "airline": "United Airlines",
-    "gate": "D29",
-    "departure_time": "2024-12-24 00:05:00",
-    "status": "Delayed",
-    "codeshared_flights": "LH9174",
-    "board_URL": "https://www.united.com/api/flight/status/3540/2024-12-23?carrierCode=UA",
-    "airline_code": "UA",
-    "boarding_time": "BT 21:45\nST 23:57\nET 00:07"
-  },
-  {
     "flight": "TK 8",
     "airport": "IST ISTANBUL",
     "airline": "Turkish Airlines",
@@ -4150,5 +4138,17 @@
     "board_URL": "https://www.united.com/api/flight/status/3635/2024-12-23?carrierCode=UA",
     "airline_code": "UA",
     "boarding_time": "BT 21:40\nST 23:50\nET 00:00"
+  },
+  {
+    "flight": "UA 3540",
+    "airport": "PIT PITTSBURGH",
+    "airline": "United Airlines",
+    "gate": "D29",
+    "departure_time": "2024-12-24 00:22:00",
+    "status": "Delayed",
+    "codeshared_flights": "LH9174",
+    "board_URL": "https://www.united.com/api/flight/status/3540/2024-12-23?carrierCode=UA",
+    "airline_code": "UA",
+    "boarding_time": "BT 21:45\nST 23:57\nET 00:07"
   }
 ]
