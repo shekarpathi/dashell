@@ -4097,7 +4097,7 @@
     "airline": "United Airlines",
     "gate": "A5B",
     "departure_time": "2024-12-23 23:37:00",
-    "status": "OutGate",
+    "status": "InAir",
     "codeshared_flights": "",
     "board_URL": "https://www.united.com/api/flight/status/4265/2024-12-23?carrierCode=UA",
     "airline_code": "UA",
