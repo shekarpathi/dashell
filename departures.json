@@ -1980,18 +1980,6 @@
     "boarding_time": ""
   },
   {
-    "flight": "PD 2724",
-    "airport": "YTZ TORONTO, YTZ",
-    "airline": "Porter Airlines",
-    "gate": "A19",
-    "departure_time": "2024-12-24 14:00:00",
-    "status": "NoTakeoffInfo",
-    "codeshared_flights": "TS7478",
-    "board_URL": "https://www.united.com/api/flight/status/2724/2024-12-23?carrierCode=PD",
-    "airline_code": "PD",
-    "boarding_time": ""
-  },
-  {
     "flight": "UA 4831",
     "airport": "ROA ROANOKE",
     "airline": "United Airlines",
@@ -2009,7 +1997,7 @@
     "airline": "United Airlines",
     "gate": "C24",
     "departure_time": "2024-12-24 14:04:00",
-    "status": "OutGate",
+    "status": "InAir",
     "codeshared_flights": "AC4403, NH7582",
     "board_URL": "https://www.united.com/api/flight/status/4526/2024-12-23?carrierCode=UA",
     "airline_code": "UA",
@@ -2028,12 +2016,36 @@
     "boarding_time": "BT 12:15\nST 12:25\nET 12:35"
   },
   {
+    "flight": "PD 2724",
+    "airport": "YTZ TORONTO, YTZ",
+    "airline": "Porter Airlines",
+    "gate": "A19",
+    "departure_time": "2024-12-24 14:16:00",
+    "status": "InAir",
+    "codeshared_flights": "TS7478",
+    "board_URL": "https://www.united.com/api/flight/status/2724/2024-12-23?carrierCode=PD",
+    "airline_code": "PD",
+    "boarding_time": ""
+  },
+  {
+    "flight": "AV 247",
+    "airport": "BOG BOGOTA",
+    "airline": "Avianca",
+    "gate": "B50",
+    "departure_time": "2024-12-24 14:18:00",
+    "status": "OutGate",
+    "codeshared_flights": "G35811, NH7820, UA6668",
+    "board_URL": "https://www.united.com/api/flight/status/247/2024-12-23?carrierCode=AV",
+    "airline_code": "AV",
+    "boarding_time": ""
+  },
+  {
     "flight": "UA 3627",
     "airport": "PWM PORTLAND, PWM",
     "airline": "United Airlines",
     "gate": "D27",
-    "departure_time": "2024-12-24 14:15:00",
-    "status": "Delayed",
+    "departure_time": "2024-12-24 14:18:00",
+    "status": "OutGate",
     "codeshared_flights": "",
     "board_URL": "https://www.united.com/api/flight/status/3627/2024-12-23?carrierCode=UA",
     "airline_code": "UA",
@@ -2044,24 +2056,12 @@
     "airport": "TYS KNOXVILLE",
     "airline": "United Airlines",
     "gate": "A3C",
-    "departure_time": "2024-12-24 14:17:00",
-    "status": "Delayed",
+    "departure_time": "2024-12-24 14:25:00",
+    "status": "OutGate",
     "codeshared_flights": "AC4257",
     "board_URL": "https://www.united.com/api/flight/status/4822/2024-12-23?carrierCode=UA",
     "airline_code": "UA",
     "boarding_time": "BT 12:30\nST 12:30\nET 12:40"
-  },
-  {
-    "flight": "AV 247",
-    "airport": "BOG BOGOTA",
-    "airline": "Avianca",
-    "gate": "B50",
-    "departure_time": "2024-12-24 14:20:00",
-    "status": "Proposed",
-    "codeshared_flights": "G35811, NH7820, UA6668",
-    "board_URL": "https://www.united.com/api/flight/status/247/2024-12-23?carrierCode=AV",
-    "airline_code": "AV",
-    "boarding_time": ""
   },
   {
     "flight": "AA 5543",
