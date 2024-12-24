@@ -40,8 +40,8 @@
     "airport": "SAL SAN SALVADOR",
     "airline": "Avianca",
     "gate": "B48",
-    "departure_time": "2024-12-24 03:00:00",
-    "status": "Proposed",
+    "departure_time": "2024-12-24 03:21:00",
+    "status": "InAir",
     "codeshared_flights": "",
     "board_URL": "https://www.united.com/api/flight/status/591/2024-12-23?carrierCode=AV",
     "airline_code": "AV",
@@ -120,18 +120,6 @@
     "boarding_time": "BT 05:35\nST 05:35\nET 06:00"
   },
   {
-    "flight": "AA 2617",
-    "airport": "DFW DALLAS, DFW",
-    "airline": "American Airlines",
-    "gate": "B71",
-    "departure_time": "2024-12-24 06:21:00",
-    "status": "Scheduled",
-    "codeshared_flights": "AS4144, AT5093, QR2561",
-    "board_URL": "https://www.united.com/api/flight/status/2617/2024-12-23?carrierCode=AA",
-    "airline_code": "AA",
-    "boarding_time": ""
-  },
-  {
     "flight": "UA 1095",
     "airport": "SFO SAN FRANCISCO",
     "airline": "United Airlines",
@@ -154,6 +142,18 @@
     "board_URL": "https://www.united.com/api/flight/status/793/2024-12-23?carrierCode=UA",
     "airline_code": "UA",
     "boarding_time": "BT 05:50\nST 05:50\nET 06:15"
+  },
+  {
+    "flight": "AA 2617",
+    "airport": "DFW DALLAS, DFW",
+    "airline": "American Airlines",
+    "gate": "B71",
+    "departure_time": "2024-12-24 06:45:00",
+    "status": "Delayed",
+    "codeshared_flights": "AS4144, AT5093, QR2561",
+    "board_URL": "https://www.united.com/api/flight/status/2617/2024-12-23?carrierCode=AA",
+    "airline_code": "AA",
+    "boarding_time": ""
   },
   {
     "flight": "UA 2860",
