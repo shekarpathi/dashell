@@ -4073,23 +4073,11 @@
     "airline": "United Airlines",
     "gate": "C24",
     "departure_time": "2024-12-23 22:53:00",
-    "status": "OutGate",
+    "status": "InAir",
     "codeshared_flights": "AC3857, CM2803",
     "board_URL": "https://www.united.com/api/flight/status/3515/2024-12-23?carrierCode=UA",
     "airline_code": "UA",
     "boarding_time": "BT 21:45\nST 22:35\nET 22:45"
-  },
-  {
-    "flight": "UA 4265",
-    "airport": "CHO CHARLOTTESVILLE",
-    "airline": "United Airlines",
-    "gate": "A5B",
-    "departure_time": "2024-12-23 23:07:00",
-    "status": "OutGate",
-    "codeshared_flights": "",
-    "board_URL": "https://www.united.com/api/flight/status/4265/2024-12-23?carrierCode=UA",
-    "airline_code": "UA",
-    "boarding_time": "BT 21:55\nST 22:50\nET 23:00"
   },
   {
     "flight": "UA 861",
@@ -4102,6 +4090,18 @@
     "board_URL": "https://www.united.com/api/flight/status/861/2024-12-23?carrierCode=UA",
     "airline_code": "UA",
     "boarding_time": "BT 21:40\nST 22:22\nET 22:57"
+  },
+  {
+    "flight": "UA 4265",
+    "airport": "CHO CHARLOTTESVILLE",
+    "airline": "United Airlines",
+    "gate": "A5B",
+    "departure_time": "2024-12-23 23:37:00",
+    "status": "OutGate",
+    "codeshared_flights": "",
+    "board_URL": "https://www.united.com/api/flight/status/4265/2024-12-23?carrierCode=UA",
+    "airline_code": "UA",
+    "boarding_time": "BT 21:55\nST 22:50\nET 23:00"
   },
   {
     "flight": "AV 663",
