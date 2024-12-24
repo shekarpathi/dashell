@@ -1985,7 +1985,7 @@
     "airline": "Porter Airlines",
     "gate": "A19",
     "departure_time": "2024-12-24 14:00:00",
-    "status": "Scheduled",
+    "status": "NoTakeoffInfo",
     "codeshared_flights": "TS7478",
     "board_URL": "https://www.united.com/api/flight/status/2724/2024-12-23?carrierCode=PD",
     "airline_code": "PD",
@@ -1997,7 +1997,7 @@
     "airline": "United Airlines",
     "gate": "A6C",
     "departure_time": "2024-12-24 14:01:00",
-    "status": "OutGate",
+    "status": "InAir",
     "codeshared_flights": "AC4709, AV2098",
     "board_URL": "https://www.united.com/api/flight/status/4831/2024-12-23?carrierCode=UA",
     "airline_code": "UA",
@@ -2064,6 +2064,18 @@
     "boarding_time": ""
   },
   {
+    "flight": "AA 5543",
+    "airport": "CLT CHARLOTTE",
+    "airline": "American Airlines",
+    "gate": "B73",
+    "departure_time": "2024-12-24 14:35:00",
+    "status": "Delayed",
+    "codeshared_flights": "",
+    "board_URL": "https://www.united.com/api/flight/status/5543/2024-12-23?carrierCode=AA",
+    "airline_code": "AA",
+    "boarding_time": ""
+  },
+  {
     "flight": "MX 828",
     "airport": "OGS OGDENSBURG",
     "airline": "Breeze Airways",
@@ -2073,18 +2085,6 @@
     "codeshared_flights": "",
     "board_URL": "https://www.united.com/api/flight/status/828/2024-12-23?carrierCode=MX",
     "airline_code": "MX",
-    "boarding_time": ""
-  },
-  {
-    "flight": "AA 5543",
-    "airport": "CLT CHARLOTTE",
-    "airline": "American Airlines",
-    "gate": "B73",
-    "departure_time": "2024-12-24 14:40:00",
-    "status": "Delayed",
-    "codeshared_flights": "",
-    "board_URL": "https://www.united.com/api/flight/status/5543/2024-12-23?carrierCode=AA",
-    "airline_code": "AA",
     "boarding_time": ""
   },
   {
@@ -3389,7 +3389,7 @@
     "airline": "Qatar Airways",
     "gate": "B37",
     "departure_time": "2024-12-24 20:05:00",
-    "status": "Scheduled",
+    "status": "Proposed",
     "codeshared_flights": "AA8120, AS5822, B65555, MH9070, UL3167, WB1083, WY6046",
     "board_URL": "https://www.united.com/api/flight/status/708/2024-12-23?carrierCode=QR",
     "airline_code": "QR",
