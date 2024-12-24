@@ -1145,7 +1145,7 @@
     "airline": "United Airlines",
     "gate": "A4A",
     "departure_time": "2024-12-24 10:31:00",
-    "status": "OutGate",
+    "status": "InAir",
     "codeshared_flights": "",
     "board_URL": "https://www.united.com/api/flight/status/4262/2024-12-23?carrierCode=UA",
     "airline_code": "UA",
@@ -1216,11 +1216,23 @@
     "airport": "DFW DALLAS, DFW",
     "airline": "American Airlines",
     "gate": "B71",
-    "departure_time": "2024-12-24 11:20:00",
-    "status": "Delayed",
+    "departure_time": "2024-12-24 11:25:00",
+    "status": "OutGate",
     "codeshared_flights": "AS4144, AT5093, QR2561",
     "board_URL": "https://www.united.com/api/flight/status/2617/2024-12-23?carrierCode=AA",
     "airline_code": "AA",
+    "boarding_time": ""
+  },
+  {
+    "flight": "F9 2953",
+    "airport": "TPA TAMPA",
+    "airline": "Frontier Airlines",
+    "gate": "B79",
+    "departure_time": "2024-12-24 11:35:00",
+    "status": "OutGate",
+    "codeshared_flights": "",
+    "board_URL": "https://www.united.com/api/flight/status/2953/2024-12-23?carrierCode=F9",
+    "airline_code": "F9",
     "boarding_time": ""
   },
   {
@@ -1228,42 +1240,30 @@
     "airport": "MCO ORLANDO",
     "airline": "United Airlines",
     "gate": "D15",
-    "departure_time": "2024-12-24 11:20:00",
-    "status": "Delayed",
+    "departure_time": "2024-12-24 11:36:00",
+    "status": "OutGate",
     "codeshared_flights": "",
     "board_URL": "https://www.united.com/api/flight/status/1634/2024-12-23?carrierCode=UA",
     "airline_code": "UA",
     "boarding_time": "BT 08:20\nST 08:20\nET 08:45"
   },
   {
-    "flight": "F9 2953",
-    "airport": "TPA TAMPA",
-    "airline": "Frontier Airlines",
-    "gate": "B79",
-    "departure_time": "2024-12-24 11:34:00",
-    "status": "Scheduled",
-    "codeshared_flights": "",
-    "board_URL": "https://www.united.com/api/flight/status/2953/2024-12-23?carrierCode=F9",
-    "airline_code": "F9",
-    "boarding_time": ""
-  },
-  {
-    "flight": "UA 1926",
-    "airport": "DEN DENVER",
-    "airline": "United Airlines",
-    "gate": "D26",
+    "flight": "MS 982",
+    "airport": "CAI CAIRO",
+    "airline": "Egyptair",
+    "gate": "A32",
     "departure_time": "2024-12-24 11:45:00",
-    "status": "Delayed",
-    "codeshared_flights": "CM2859",
-    "board_URL": "https://www.united.com/api/flight/status/1926/2024-12-23?carrierCode=UA",
-    "airline_code": "UA",
-    "boarding_time": "BT 05:20\nST 05:20\nET 05:45"
+    "status": "Proposed",
+    "codeshared_flights": "",
+    "board_URL": "https://www.united.com/api/flight/status/982/2024-12-23?carrierCode=MS",
+    "airline_code": "MS",
+    "boarding_time": ""
   },
   {
     "flight": "KE 94",
     "airport": "ICN SEOUL",
     "airline": "Korean Air",
-    "gate": "A15",
+    "gate": "A32",
     "departure_time": "2024-12-24 11:50:00",
     "status": "Scheduled",
     "codeshared_flights": "DL7856",
@@ -1272,16 +1272,16 @@
     "boarding_time": ""
   },
   {
-    "flight": "MS 982",
-    "airport": "CAI CAIRO",
-    "airline": "Egyptair",
-    "gate": "A32",
-    "departure_time": "2024-12-24 12:00:00",
-    "status": "Proposed",
-    "codeshared_flights": "",
-    "board_URL": "https://www.united.com/api/flight/status/982/2024-12-23?carrierCode=MS",
-    "airline_code": "MS",
-    "boarding_time": ""
+    "flight": "UA 1926",
+    "airport": "DEN DENVER",
+    "airline": "United Airlines",
+    "gate": "D26",
+    "departure_time": "2024-12-24 12:05:00",
+    "status": "Delayed",
+    "codeshared_flights": "CM2859",
+    "board_URL": "https://www.united.com/api/flight/status/1926/2024-12-23?carrierCode=UA",
+    "airline_code": "UA",
+    "boarding_time": "BT 05:20\nST 05:20\nET 05:45"
   },
   {
     "flight": "DL 3877",
@@ -1596,18 +1596,6 @@
     "boarding_time": "BT 12:20\nST 12:25\nET 12:35"
   },
   {
-    "flight": "UA 6150",
-    "airport": "SYR SYRACUSE",
-    "airline": "United Airlines",
-    "gate": "Z7",
-    "departure_time": "2024-12-24 12:45:00",
-    "status": "Scheduled",
-    "codeshared_flights": "NH7628",
-    "board_URL": "https://www.united.com/api/flight/status/6150/2024-12-23?carrierCode=UA",
-    "airline_code": "UA",
-    "boarding_time": "BT 12:20\nST 12:20\nET 12:30"
-  },
-  {
     "flight": "UA 4424",
     "airport": "YOW OTTAWA",
     "airline": "United Airlines",
@@ -1846,6 +1834,18 @@
     "board_URL": "https://www.united.com/api/flight/status/3627/2024-12-23?carrierCode=UA",
     "airline_code": "UA",
     "boarding_time": "BT 12:30\nST 12:30\nET 12:40"
+  },
+  {
+    "flight": "UA 6150",
+    "airport": "SYR SYRACUSE",
+    "airline": "United Airlines",
+    "gate": "Z7",
+    "departure_time": "2024-12-24 12:56:00",
+    "status": "Scheduled",
+    "codeshared_flights": "NH7628",
+    "board_URL": "https://www.united.com/api/flight/status/6150/2024-12-23?carrierCode=UA",
+    "airline_code": "UA",
+    "boarding_time": "BT 12:20\nST 12:20\nET 12:30"
   },
   {
     "flight": "UA 1940",
@@ -2088,18 +2088,6 @@
     "boarding_time": ""
   },
   {
-    "flight": "AC 8619",
-    "airport": "YYZ TORONTO, YYZ",
-    "airline": "Air Canada",
-    "gate": "Z10",
-    "departure_time": "2024-12-24 14:35:00",
-    "status": "Scheduled",
-    "codeshared_flights": "UA8693",
-    "board_URL": "https://www.united.com/api/flight/status/8619/2024-12-23?carrierCode=AC",
-    "airline_code": "AC",
-    "boarding_time": ""
-  },
-  {
     "flight": "AA 5543",
     "airport": "CLT CHARLOTTE",
     "airline": "American Airlines",
@@ -2122,6 +2110,18 @@
     "board_URL": "https://www.united.com/api/flight/status/1318/2024-12-23?carrierCode=UA",
     "airline_code": "UA",
     "boarding_time": "BT 14:00\nST 14:00\nET 14:25"
+  },
+  {
+    "flight": "AC 8619",
+    "airport": "YYZ TORONTO, YYZ",
+    "airline": "Air Canada",
+    "gate": "Z10",
+    "departure_time": "2024-12-24 15:00:00",
+    "status": "Delayed",
+    "codeshared_flights": "UA8693",
+    "board_URL": "https://www.united.com/api/flight/status/8619/2024-12-23?carrierCode=AC",
+    "airline_code": "AC",
+    "boarding_time": ""
   },
   {
     "flight": "DL 3680",
