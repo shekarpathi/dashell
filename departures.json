@@ -2213,7 +2213,7 @@
     "airline": "Delta Air Lines",
     "gate": "B74",
     "departure_time": "2024-12-24 16:36:00",
-    "status": "OutGate",
+    "status": "InAir",
     "codeshared_flights": "AF2303, KE3581, KL5695, LA6505, VS4473",
     "board_URL": "https://www.united.com/api/flight/status/1695/2024-12-23?carrierCode=DL",
     "airline_code": "DL",
@@ -2493,18 +2493,6 @@
     "codeshared_flights": "AC4401, AV2095, CM2285, LH8982, OS7821, SN8984",
     "board_URL": "https://www.united.com/api/flight/status/6230/2024-12-23?carrierCode=UA",
     "airline_code": "UA",
-    "boarding_time": ""
-  },
-  {
-    "flight": "9X 337",
-    "airport": "IPT WILLIAMSPORT",
-    "airline": "Southern Airways Express",
-    "gate": "H17",
-    "departure_time": "2024-12-24 17:20:00",
-    "status": "Scheduled",
-    "codeshared_flights": "",
-    "board_URL": "https://www.united.com/api/flight/status/337/2024-12-23?carrierCode=9X",
-    "airline_code": "9X",
     "boarding_time": ""
   },
   {
@@ -3312,6 +3300,18 @@
     "boarding_time": "BT 18:10\nST 18:55\nET 19:05"
   },
   {
+    "flight": "9X 337",
+    "airport": "IPT WILLIAMSPORT",
+    "airline": "Southern Airways Express",
+    "gate": "H17",
+    "departure_time": "2024-12-24 18:45:00",
+    "status": "Delayed",
+    "codeshared_flights": "",
+    "board_URL": "https://www.united.com/api/flight/status/337/2024-12-23?carrierCode=9X",
+    "airline_code": "9X",
+    "boarding_time": ""
+  },
+  {
     "flight": "UA 4527",
     "airport": "STL ST LOUIS",
     "airline": "United Airlines",
@@ -3759,7 +3759,7 @@
     "flight": "UA 1393",
     "airport": "BTV BURLINGTON",
     "airline": "United Airlines",
-    "gate": "D19",
+    "gate": "C23",
     "departure_time": "2024-12-24 22:23:00",
     "status": "Scheduled",
     "codeshared_flights": "",
