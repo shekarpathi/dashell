@@ -204,18 +204,6 @@
     "boarding_time": ""
   },
   {
-    "flight": "UA 1372",
-    "airport": "IAH HOUSTON",
-    "airline": "United Airlines",
-    "gate": "D1",
-    "departure_time": "2024-12-24 07:29:00",
-    "status": "Delayed",
-    "codeshared_flights": "AV2130, NZ6644",
-    "board_URL": "https://www.united.com/api/flight/status/1372/2024-12-23?carrierCode=UA",
-    "airline_code": "UA",
-    "boarding_time": "BT 05:28\nST 05:28\nET 05:53"
-  },
-  {
     "flight": "DL 1084",
     "airport": "SEA SEATTLE, SEA",
     "airline": "Delta Air Lines",
@@ -226,6 +214,18 @@
     "board_URL": "https://www.united.com/api/flight/status/1084/2024-12-23?carrierCode=DL",
     "airline_code": "DL",
     "boarding_time": ""
+  },
+  {
+    "flight": "UA 1372",
+    "airport": "IAH HOUSTON",
+    "airline": "United Airlines",
+    "gate": "D1",
+    "departure_time": "2024-12-24 07:44:00",
+    "status": "Delayed",
+    "codeshared_flights": "AV2130, NZ6644",
+    "board_URL": "https://www.united.com/api/flight/status/1372/2024-12-23?carrierCode=UA",
+    "airline_code": "UA",
+    "boarding_time": "BT 05:28\nST 05:28\nET 05:53"
   },
   {
     "flight": "UA 379",
@@ -2331,7 +2331,7 @@
     "flight": "UA 4520",
     "airport": "CVG CINCINNATI",
     "airline": "United Airlines",
-    "gate": "D32",
+    "gate": "A4C",
     "departure_time": "2024-12-24 17:10:00",
     "status": "Scheduled",
     "codeshared_flights": "AC3767, AV2229, CM2582, LH7648, SN9049",
@@ -2439,7 +2439,7 @@
     "flight": "UA 108",
     "airport": "MUC MUNICH",
     "airline": "United Airlines",
-    "gate": "C3",
+    "gate": "C8",
     "departure_time": "2024-12-24 17:15:00",
     "status": "Scheduled",
     "codeshared_flights": "AC3838, LH9281",
