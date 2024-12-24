@@ -1193,7 +1193,7 @@
     "airline": "United Airlines",
     "gate": "D1",
     "departure_time": "2024-12-24 11:08:00",
-    "status": "OutGate",
+    "status": "InAir",
     "codeshared_flights": "",
     "board_URL": "https://www.united.com/api/flight/status/1257/2024-12-23?carrierCode=UA",
     "airline_code": "UA",
