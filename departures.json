@@ -2928,18 +2928,6 @@
     "boarding_time": "BT 17:30\nST 17:30\nET 17:40"
   },
   {
-    "flight": "LH 419",
-    "airport": "FRA FRANKFURT",
-    "airline": "Deutsche Lufthansa AG",
-    "gate": "B45",
-    "departure_time": "2024-12-24 17:50:00",
-    "status": "Proposed",
-    "codeshared_flights": "AC9450, AI8645, TG7717, UA8826",
-    "board_URL": "https://www.united.com/api/flight/status/419/2024-12-23?carrierCode=LH",
-    "airline_code": "LH",
-    "boarding_time": ""
-  },
-  {
     "flight": "UA 3427",
     "airport": "SBN SOUTH BEND",
     "airline": "United Airlines",
@@ -3221,7 +3209,7 @@
     "airline": "United Airlines",
     "gate": "A6A",
     "departure_time": "2024-12-24 18:20:00",
-    "status": "OutGate",
+    "status": "InAir",
     "codeshared_flights": "CM2781",
     "board_URL": "https://www.united.com/api/flight/status/4840/2024-12-23?carrierCode=UA",
     "airline_code": "UA",
@@ -3288,6 +3276,18 @@
     "boarding_time": "BT 17:25\nST 18:15\nET 18:50"
   },
   {
+    "flight": "UA 4527",
+    "airport": "STL ST LOUIS",
+    "airline": "United Airlines",
+    "gate": "C26",
+    "departure_time": "2024-12-24 18:45:00",
+    "status": "OutGate",
+    "codeshared_flights": "AV2342, CM2678, LH9286, SN9012",
+    "board_URL": "https://www.united.com/api/flight/status/4527/2024-12-23?carrierCode=UA",
+    "airline_code": "UA",
+    "boarding_time": "BT 18:25\nST 18:25\nET 18:35"
+  },
+  {
     "flight": "9X 337",
     "airport": "IPT WILLIAMSPORT",
     "airline": "Southern Airways Express",
@@ -3300,16 +3300,16 @@
     "boarding_time": ""
   },
   {
-    "flight": "UA 4527",
-    "airport": "STL ST LOUIS",
-    "airline": "United Airlines",
-    "gate": "C26",
+    "flight": "LH 419",
+    "airport": "FRA FRANKFURT",
+    "airline": "Deutsche Lufthansa AG",
+    "gate": "B45",
     "departure_time": "2024-12-24 18:50:00",
-    "status": "Scheduled",
-    "codeshared_flights": "AV2342, CM2678, LH9286, SN9012",
-    "board_URL": "https://www.united.com/api/flight/status/4527/2024-12-23?carrierCode=UA",
-    "airline_code": "UA",
-    "boarding_time": "BT 18:25\nST 18:25\nET 18:35"
+    "status": "Delayed",
+    "codeshared_flights": "AC9450, AI8645, TG7717, UA8826",
+    "board_URL": "https://www.united.com/api/flight/status/419/2024-12-23?carrierCode=LH",
+    "airline_code": "LH",
+    "boarding_time": ""
   },
   {
     "flight": "UA 612",
