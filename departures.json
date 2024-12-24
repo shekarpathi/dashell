@@ -3665,7 +3665,7 @@
     "airline": "United Airlines",
     "gate": "A4C",
     "departure_time": "2024-12-23 22:13:00",
-    "status": "OutGate",
+    "status": "InAir",
     "codeshared_flights": "LH8852",
     "board_URL": "https://www.united.com/api/flight/status/4384/2024-12-23?carrierCode=UA",
     "airline_code": "UA",
@@ -3881,7 +3881,7 @@
     "airline": "United Airlines",
     "gate": "D12",
     "departure_time": "2024-12-23 22:22:00",
-    "status": "OutGate",
+    "status": "InAir",
     "codeshared_flights": "LH7560",
     "board_URL": "https://www.united.com/api/flight/status/2667/2024-12-23?carrierCode=UA",
     "airline_code": "UA",
@@ -3953,7 +3953,7 @@
     "airline": "United Airlines",
     "gate": "A3C",
     "departure_time": "2024-12-23 22:29:00",
-    "status": "OutGate",
+    "status": "InAir",
     "codeshared_flights": "",
     "board_URL": "https://www.united.com/api/flight/status/4279/2024-12-23?carrierCode=UA",
     "airline_code": "UA",
@@ -3977,7 +3977,7 @@
     "airline": "United Airlines",
     "gate": "D6",
     "departure_time": "2024-12-23 22:30:00",
-    "status": "OutGate",
+    "status": "InAir",
     "codeshared_flights": "AC4751, LH7650",
     "board_URL": "https://www.united.com/api/flight/status/1437/2024-12-23?carrierCode=UA",
     "airline_code": "UA",
@@ -3989,7 +3989,7 @@
     "airline": "United Airlines",
     "gate": "D7",
     "departure_time": "2024-12-23 22:30:00",
-    "status": "OutGate",
+    "status": "InAir",
     "codeshared_flights": "AC3394, LH9176",
     "board_URL": "https://www.united.com/api/flight/status/2382/2024-12-23?carrierCode=UA",
     "airline_code": "UA",
@@ -4025,7 +4025,7 @@
     "airline": "United Airlines",
     "gate": "A6E",
     "departure_time": "2024-12-23 22:36:00",
-    "status": "OutGate",
+    "status": "InAir",
     "codeshared_flights": "AC3581, LH7514",
     "board_URL": "https://www.united.com/api/flight/status/6234/2024-12-23?carrierCode=UA",
     "airline_code": "UA",
@@ -4068,6 +4068,18 @@
     "boarding_time": "BT 08:07\nST 08:07\nET 08:32"
   },
   {
+    "flight": "UA 3515",
+    "airport": "YYZ TORONTO, YYZ",
+    "airline": "United Airlines",
+    "gate": "C24",
+    "departure_time": "2024-12-23 22:53:00",
+    "status": "OutGate",
+    "codeshared_flights": "AC3857, CM2803",
+    "board_URL": "https://www.united.com/api/flight/status/3515/2024-12-23?carrierCode=UA",
+    "airline_code": "UA",
+    "boarding_time": "BT 21:45\nST 22:35\nET 22:45"
+  },
+  {
     "flight": "UA 4265",
     "airport": "CHO CHARLOTTESVILLE",
     "airline": "United Airlines",
@@ -4077,19 +4089,7 @@
     "codeshared_flights": "",
     "board_URL": "https://www.united.com/api/flight/status/4265/2024-12-23?carrierCode=UA",
     "airline_code": "UA",
-    "boarding_time": "BT 21:55\nST 22:30\nET 22:40"
-  },
-  {
-    "flight": "UA 3515",
-    "airport": "YYZ TORONTO, YYZ",
-    "airline": "United Airlines",
-    "gate": "C24",
-    "departure_time": "2024-12-23 23:00:00",
-    "status": "Delayed",
-    "codeshared_flights": "AC3857, CM2803",
-    "board_URL": "https://www.united.com/api/flight/status/3515/2024-12-23?carrierCode=UA",
-    "airline_code": "UA",
-    "boarding_time": "BT 21:45\nST 22:35\nET 22:45"
+    "boarding_time": "BT 21:55\nST 22:35\nET 22:45"
   },
   {
     "flight": "UA 861",
@@ -4113,7 +4113,7 @@
     "codeshared_flights": "LH8676",
     "board_URL": "https://www.united.com/api/flight/status/3635/2024-12-23?carrierCode=UA",
     "airline_code": "UA",
-    "boarding_time": "BT 21:40\nST 23:15\nET 23:25"
+    "boarding_time": "BT 21:40\nST 23:50\nET 00:00"
   },
   {
     "flight": "AV 663",
