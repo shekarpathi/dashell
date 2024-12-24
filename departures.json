@@ -1181,7 +1181,7 @@
     "airline": "All Nippon Airways",
     "gate": "B41",
     "departure_time": "2024-12-24 11:02:00",
-    "status": "OutGate",
+    "status": "InAir",
     "codeshared_flights": "SQ5921, TG6085, UA7941",
     "board_URL": "https://www.united.com/api/flight/status/101/2024-12-23?carrierCode=NH",
     "airline_code": "NH",
@@ -1776,18 +1776,6 @@
     "boarding_time": "BT 12:30\nST 12:40\nET 12:50"
   },
   {
-    "flight": "9X 127",
-    "airport": "DUJ DUBOIS",
-    "airline": "Southern Airways Express",
-    "gate": "H17",
-    "departure_time": "2024-12-24 12:55:00",
-    "status": "Scheduled",
-    "codeshared_flights": "",
-    "board_URL": "https://www.united.com/api/flight/status/127/2024-12-23?carrierCode=9X",
-    "airline_code": "9X",
-    "boarding_time": ""
-  },
-  {
     "flight": "UA 4847",
     "airport": "GSO GREENSBORO",
     "airline": "United Airlines",
@@ -1860,18 +1848,6 @@
     "boarding_time": "BT 12:23\nST 12:23\nET 12:43"
   },
   {
-    "flight": "UA 4950",
-    "airport": "ORF NORFOLK",
-    "airline": "United Airlines",
-    "gate": "A5A",
-    "departure_time": "2024-12-24 12:58:00",
-    "status": "Scheduled",
-    "codeshared_flights": "AC4747",
-    "board_URL": "https://www.united.com/api/flight/status/4950/2024-12-23?carrierCode=UA",
-    "airline_code": "UA",
-    "boarding_time": "BT 12:33\nST 12:33\nET 12:43"
-  },
-  {
     "flight": "DL 1400",
     "airport": "ATL ATLANTA",
     "airline": "Delta Air Lines",
@@ -1932,6 +1908,18 @@
     "boarding_time": "BT 12:40\nST 12:40\nET 12:50"
   },
   {
+    "flight": "UA 4950",
+    "airport": "ORF NORFOLK",
+    "airline": "United Airlines",
+    "gate": "A5A",
+    "departure_time": "2024-12-24 13:05:00",
+    "status": "Scheduled",
+    "codeshared_flights": "AC4747",
+    "board_URL": "https://www.united.com/api/flight/status/4950/2024-12-23?carrierCode=UA",
+    "airline_code": "UA",
+    "boarding_time": "BT 12:33\nST 12:33\nET 12:43"
+  },
+  {
     "flight": "UA 4584",
     "airport": "PHL PHILADELPHIA",
     "airline": "United Airlines",
@@ -1942,18 +1930,6 @@
     "board_URL": "https://www.united.com/api/flight/status/4584/2024-12-23?carrierCode=UA",
     "airline_code": "UA",
     "boarding_time": "BT 12:40\nST 12:40\nET 12:50"
-  },
-  {
-    "flight": "UA 4526",
-    "airport": "RIC RICHMOND",
-    "airline": "United Airlines",
-    "gate": "C24",
-    "departure_time": "2024-12-24 13:05:00",
-    "status": "Delayed",
-    "codeshared_flights": "AC4403, NH7582",
-    "board_URL": "https://www.united.com/api/flight/status/4526/2024-12-23?carrierCode=UA",
-    "airline_code": "UA",
-    "boarding_time": "BT 12:21\nST 12:21\nET 12:31"
   },
   {
     "flight": "UA 4234",
@@ -2002,6 +1978,30 @@
     "board_URL": "https://www.united.com/api/flight/status/4831/2024-12-23?carrierCode=UA",
     "airline_code": "UA",
     "boarding_time": "BT 12:30\nST 12:30\nET 12:40"
+  },
+  {
+    "flight": "UA 4526",
+    "airport": "RIC RICHMOND",
+    "airline": "United Airlines",
+    "gate": "C24",
+    "departure_time": "2024-12-24 13:25:00",
+    "status": "Delayed",
+    "codeshared_flights": "AC4403, NH7582",
+    "board_URL": "https://www.united.com/api/flight/status/4526/2024-12-23?carrierCode=UA",
+    "airline_code": "UA",
+    "boarding_time": "BT 12:21\nST 12:21\nET 12:31"
+  },
+  {
+    "flight": "9X 127",
+    "airport": "DUJ DUBOIS",
+    "airline": "Southern Airways Express",
+    "gate": "H17",
+    "departure_time": "2024-12-24 13:30:00",
+    "status": "Delayed",
+    "codeshared_flights": "",
+    "board_URL": "https://www.united.com/api/flight/status/127/2024-12-23?carrierCode=9X",
+    "airline_code": "9X",
+    "boarding_time": ""
   },
   {
     "flight": "PD 2724",
@@ -2979,7 +2979,7 @@
     "flight": "UA 950",
     "airport": "BRU BRUSSELS",
     "airline": "United Airlines",
-    "gate": "D26",
+    "gate": "C4",
     "departure_time": "2024-12-24 17:50:00",
     "status": "Scheduled",
     "codeshared_flights": "AC3803, LH9383, LX3013, OS7776, SN8802",
@@ -3027,7 +3027,7 @@
     "flight": "UA 1757",
     "airport": "SFO SAN FRANCISCO",
     "airline": "United Airlines",
-    "gate": "C4",
+    "gate": "D26",
     "departure_time": "2024-12-24 17:50:00",
     "status": "Scheduled",
     "codeshared_flights": "LH7488, NZ9178, OS7883, OZ6316, SN8817, VA8387",
