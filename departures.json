@@ -1192,8 +1192,8 @@
     "airport": "ICN SEOUL",
     "airline": "Korean Air",
     "gate": "A31",
-    "departure_time": "2024-12-25 11:50:00",
-    "status": "Scheduled",
+    "departure_time": "2024-12-25 12:07:00",
+    "status": "OutGate",
     "codeshared_flights": "DL7856",
     "board_URL": "https://www.united.com/api/flight/status/94/2024-12-25?carrierCode=KE",
     "airline_code": "KE",
@@ -1221,7 +1221,7 @@
     "codeshared_flights": "AC4749, AV2081, CM1298",
     "board_URL": "https://www.united.com/api/flight/status/4944/2024-12-25?carrierCode=UA",
     "airline_code": "UA",
-    "boarding_time": "BT 08:15\nST 11:45\nET 11:55"
+    "boarding_time": "BT 08:15\nST 12:05\nET 12:15"
   },
   {
     "flight": "DL 3877",
@@ -2040,18 +2040,6 @@
     "boarding_time": ""
   },
   {
-    "flight": "UA 4360",
-    "airport": "DAY DAYTON",
-    "airline": "United Airlines",
-    "gate": "A6A",
-    "departure_time": "2024-12-25 14:39:00",
-    "status": "Delayed",
-    "codeshared_flights": "",
-    "board_URL": "https://www.united.com/api/flight/status/4360/2024-12-25?carrierCode=UA",
-    "airline_code": "UA",
-    "boarding_time": "BT 12:10\nST 14:14\nET 14:24"
-  },
-  {
     "flight": "UA 1318",
     "airport": "SFO SAN FRANCISCO",
     "airline": "United Airlines",
@@ -2062,6 +2050,18 @@
     "board_URL": "https://www.united.com/api/flight/status/1318/2024-12-25?carrierCode=UA",
     "airline_code": "UA",
     "boarding_time": "BT 14:00\nST 14:00\nET 14:25"
+  },
+  {
+    "flight": "UA 4360",
+    "airport": "DAY DAYTON",
+    "airline": "United Airlines",
+    "gate": "A6A",
+    "departure_time": "2024-12-25 14:59:00",
+    "status": "Delayed",
+    "codeshared_flights": "",
+    "board_URL": "https://www.united.com/api/flight/status/4360/2024-12-25?carrierCode=UA",
+    "airline_code": "UA",
+    "boarding_time": "BT 12:10\nST 14:34\nET 14:44"
   },
   {
     "flight": "DL 3680",
