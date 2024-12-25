@@ -1901,22 +1901,10 @@
     "airline": "American Airlines",
     "gate": "B73",
     "departure_time": "2024-12-25 13:45:00",
-    "status": "OutGate",
+    "status": "InAir",
     "codeshared_flights": "BA5179, QR9286",
     "board_URL": "https://www.united.com/api/flight/status/5543/2024-12-25?carrierCode=AA",
     "airline_code": "AA",
-    "boarding_time": ""
-  },
-  {
-    "flight": "PD 2724",
-    "airport": "YTZ TORONTO, YTZ",
-    "airline": "Porter Airlines",
-    "gate": "A19",
-    "departure_time": "2024-12-25 13:45:00",
-    "status": "Scheduled",
-    "codeshared_flights": "TS7478",
-    "board_URL": "https://www.united.com/api/flight/status/2724/2024-12-25?carrierCode=PD",
-    "airline_code": "PD",
     "boarding_time": ""
   },
   {
@@ -1924,12 +1912,24 @@
     "airport": "GSO GREENSBORO",
     "airline": "United Airlines",
     "gate": "A4E",
-    "departure_time": "2024-12-25 13:55:00",
-    "status": "Delayed",
+    "departure_time": "2024-12-25 13:59:00",
+    "status": "OutGate",
     "codeshared_flights": "AC4685, AV2063",
     "board_URL": "https://www.united.com/api/flight/status/4847/2024-12-25?carrierCode=UA",
     "airline_code": "UA",
-    "boarding_time": "BT 12:30\nST 13:30\nET 13:40"
+    "boarding_time": "BT 12:30\nST 13:40\nET 13:50"
+  },
+  {
+    "flight": "PD 2724",
+    "airport": "YTZ TORONTO, YTZ",
+    "airline": "Porter Airlines",
+    "gate": "A19",
+    "departure_time": "2024-12-25 13:59:00",
+    "status": "OutGate",
+    "codeshared_flights": "TS7478",
+    "board_URL": "https://www.united.com/api/flight/status/2724/2024-12-25?carrierCode=PD",
+    "airline_code": "PD",
+    "boarding_time": ""
   },
   {
     "flight": "TK 188",
@@ -1942,6 +1942,18 @@
     "board_URL": "https://www.united.com/api/flight/status/188/2024-12-25?carrierCode=TK",
     "airline_code": "TK",
     "boarding_time": ""
+  },
+  {
+    "flight": "UA 3495",
+    "airport": "BTV BURLINGTON",
+    "airline": "United Airlines",
+    "gate": "A6E",
+    "departure_time": "2024-12-25 14:03:00",
+    "status": "OutGate",
+    "codeshared_flights": "",
+    "board_URL": "https://www.united.com/api/flight/status/3495/2024-12-25?carrierCode=UA",
+    "airline_code": "UA",
+    "boarding_time": "BT 12:25\nST 14:20\nET 14:30"
   },
   {
     "flight": "DL 1400",
@@ -2002,18 +2014,6 @@
     "board_URL": "https://www.united.com/api/flight/status/1318/2024-12-25?carrierCode=UA",
     "airline_code": "UA",
     "boarding_time": "BT 14:00\nST 14:00\nET 14:25"
-  },
-  {
-    "flight": "UA 3495",
-    "airport": "BTV BURLINGTON",
-    "airline": "United Airlines",
-    "gate": "A6E",
-    "departure_time": "2024-12-25 14:45:00",
-    "status": "Delayed",
-    "codeshared_flights": "",
-    "board_URL": "https://www.united.com/api/flight/status/3495/2024-12-25?carrierCode=UA",
-    "airline_code": "UA",
-    "boarding_time": "BT 12:25\nST 14:20\nET 14:30"
   },
   {
     "flight": "9X 127",
@@ -2350,18 +2350,6 @@
     "board_URL": "https://www.united.com/api/flight/status/4585/2024-12-25?carrierCode=UA",
     "airline_code": "UA",
     "boarding_time": "BT 16:45\nST 16:45\nET 16:55"
-  },
-  {
-    "flight": "AA 1863",
-    "airport": "DFW DALLAS, DFW",
-    "airline": "American Airlines",
-    "gate": "B71",
-    "departure_time": "2024-12-25 17:15:00",
-    "status": "Scheduled",
-    "codeshared_flights": "AS4074, QF4606, QR9077",
-    "board_URL": "https://www.united.com/api/flight/status/1863/2024-12-25?carrierCode=AA",
-    "airline_code": "AA",
-    "boarding_time": ""
   },
   {
     "flight": "UA 4583",
@@ -2952,6 +2940,18 @@
     "boarding_time": "BT 17:10\nST 17:10\nET 17:35"
   },
   {
+    "flight": "AA 1863",
+    "airport": "DFW DALLAS, DFW",
+    "airline": "American Airlines",
+    "gate": "B71",
+    "departure_time": "2024-12-25 17:50:00",
+    "status": "Delayed",
+    "codeshared_flights": "AS4074, QF4606, QR9077",
+    "board_URL": "https://www.united.com/api/flight/status/1863/2024-12-25?carrierCode=AA",
+    "airline_code": "AA",
+    "boarding_time": ""
+  },
+  {
     "flight": "UA 4274",
     "airport": "DAY DAYTON",
     "airline": "United Airlines",
@@ -3531,7 +3531,7 @@
     "flight": "UA 4975",
     "airport": "AVP WILKES-BARRE",
     "airline": "United Airlines",
-    "gate": "A3A",
+    "gate": "A2F",
     "departure_time": "2024-12-25 22:10:00",
     "status": "Scheduled",
     "codeshared_flights": "",
@@ -3615,7 +3615,7 @@
     "flight": "UA 4849",
     "airport": "GSO GREENSBORO",
     "airline": "United Airlines",
-    "gate": "A2F",
+    "gate": "A3A",
     "departure_time": "2024-12-25 22:16:00",
     "status": "Scheduled",
     "codeshared_flights": "LH7926",
@@ -3627,7 +3627,7 @@
     "flight": "UA 4279",
     "airport": "SCE STATE COLLEGE",
     "airline": "United Airlines",
-    "gate": "A5B",
+    "gate": "A5A",
     "departure_time": "2024-12-25 22:16:00",
     "status": "Scheduled",
     "codeshared_flights": "",
