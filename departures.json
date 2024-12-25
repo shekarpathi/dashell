@@ -1,17 +1,5 @@
 [
   {
-    "flight": "CM 403",
-    "airport": "PTY PANAMA CITY",
-    "airline": "Copa Airlines",
-    "gate": "A15",
-    "departure_time": "2024-12-25 01:13:00",
-    "status": "Scheduled",
-    "codeshared_flights": "UA7065",
-    "board_URL": "https://www.united.com/api/flight/status/403/2024-12-23?carrierCode=CM",
-    "airline_code": "CM",
-    "boarding_time": ""
-  },
-  {
     "flight": "N3 4313",
     "airport": "SAL SAN SALVADOR",
     "airline": "Volaris El Salvador",
@@ -33,6 +21,18 @@
     "codeshared_flights": "",
     "board_URL": "https://www.united.com/api/flight/status/655/2024-12-23?carrierCode=AV",
     "airline_code": "AV",
+    "boarding_time": ""
+  },
+  {
+    "flight": "CM 403",
+    "airport": "PTY PANAMA CITY",
+    "airline": "Copa Airlines",
+    "gate": "A15",
+    "departure_time": "2024-12-25 01:31:00",
+    "status": "OutGate",
+    "codeshared_flights": "UA7065",
+    "board_URL": "https://www.united.com/api/flight/status/403/2024-12-23?carrierCode=CM",
+    "airline_code": "CM",
     "boarding_time": ""
   },
   {
@@ -1044,18 +1044,6 @@
     "boarding_time": "BT 08:35\nST 08:35\nET 08:45"
   },
   {
-    "flight": "UA 5098",
-    "airport": "MGW MORGANTOWN",
-    "airline": "United Airlines",
-    "gate": "A2E",
-    "departure_time": "2024-12-25 09:00:00",
-    "status": "Scheduled",
-    "codeshared_flights": "",
-    "board_URL": "https://www.united.com/api/flight/status/5098/2024-12-23?carrierCode=UA",
-    "airline_code": "UA",
-    "boarding_time": "BT 08:35\nST 08:35\nET 08:45"
-  },
-  {
     "flight": "UA 1634",
     "airport": "MCO ORLANDO",
     "airline": "United Airlines",
@@ -1186,6 +1174,18 @@
     "board_URL": "https://www.united.com/api/flight/status/1926/2024-12-23?carrierCode=UA",
     "airline_code": "UA",
     "boarding_time": "BT 05:20\nST 05:20\nET 05:45"
+  },
+  {
+    "flight": "UA 5098",
+    "airport": "MGW MORGANTOWN",
+    "airline": "United Airlines",
+    "gate": "A2E",
+    "departure_time": "2024-12-25 10:20:00",
+    "status": "Delayed",
+    "codeshared_flights": "",
+    "board_URL": "https://www.united.com/api/flight/status/5098/2024-12-23?carrierCode=UA",
+    "airline_code": "UA",
+    "boarding_time": "BT 08:35\nST 08:35\nET 08:45"
   },
   {
     "flight": "EK 232",
@@ -3627,7 +3627,7 @@
     "flight": "UA 4279",
     "airport": "SCE STATE COLLEGE",
     "airline": "United Airlines",
-    "gate": "A6A",
+    "gate": "A3A",
     "departure_time": "2024-12-25 22:16:00",
     "status": "Scheduled",
     "codeshared_flights": "",
