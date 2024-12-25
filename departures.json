@@ -1085,7 +1085,7 @@
     "airline": "Ethiopian Airlines",
     "gate": "B37",
     "departure_time": "2024-12-25 10:00:00",
-    "status": "Proposed",
+    "status": "InAir",
     "codeshared_flights": "KP1104, UA7201",
     "board_URL": "https://www.united.com/api/flight/status/501/2024-12-23?carrierCode=ET",
     "airline_code": "ET",
