@@ -1896,16 +1896,16 @@
     "boarding_time": "BT 12:25\nST 13:11\nET 13:21"
   },
   {
-    "flight": "UA 3495",
-    "airport": "BTV BURLINGTON",
-    "airline": "United Airlines",
-    "gate": "A6E",
+    "flight": "AA 5543",
+    "airport": "CLT CHARLOTTE",
+    "airline": "American Airlines",
+    "gate": "B73",
     "departure_time": "2024-12-25 13:45:00",
-    "status": "Delayed",
-    "codeshared_flights": "",
-    "board_URL": "https://www.united.com/api/flight/status/3495/2024-12-25?carrierCode=UA",
-    "airline_code": "UA",
-    "boarding_time": "BT 12:25\nST 14:20\nET 14:30"
+    "status": "OutGate",
+    "codeshared_flights": "BA5179, QR9286",
+    "board_URL": "https://www.united.com/api/flight/status/5543/2024-12-25?carrierCode=AA",
+    "airline_code": "AA",
+    "boarding_time": ""
   },
   {
     "flight": "PD 2724",
@@ -1917,18 +1917,6 @@
     "codeshared_flights": "TS7478",
     "board_URL": "https://www.united.com/api/flight/status/2724/2024-12-25?carrierCode=PD",
     "airline_code": "PD",
-    "boarding_time": ""
-  },
-  {
-    "flight": "AA 5543",
-    "airport": "CLT CHARLOTTE",
-    "airline": "American Airlines",
-    "gate": "B73",
-    "departure_time": "2024-12-25 13:55:00",
-    "status": "Scheduled",
-    "codeshared_flights": "BA5179, QR9286",
-    "board_URL": "https://www.united.com/api/flight/status/5543/2024-12-25?carrierCode=AA",
-    "airline_code": "AA",
     "boarding_time": ""
   },
   {
@@ -2014,6 +2002,18 @@
     "board_URL": "https://www.united.com/api/flight/status/1318/2024-12-25?carrierCode=UA",
     "airline_code": "UA",
     "boarding_time": "BT 14:00\nST 14:00\nET 14:25"
+  },
+  {
+    "flight": "UA 3495",
+    "airport": "BTV BURLINGTON",
+    "airline": "United Airlines",
+    "gate": "A6E",
+    "departure_time": "2024-12-25 14:45:00",
+    "status": "Delayed",
+    "codeshared_flights": "",
+    "board_URL": "https://www.united.com/api/flight/status/3495/2024-12-25?carrierCode=UA",
+    "airline_code": "UA",
+    "boarding_time": "BT 12:25\nST 14:20\nET 14:30"
   },
   {
     "flight": "9X 127",
