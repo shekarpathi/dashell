@@ -1913,7 +1913,7 @@
     "airline": "United Airlines",
     "gate": "A4E",
     "departure_time": "2024-12-25 13:59:00",
-    "status": "OutGate",
+    "status": "InAir",
     "codeshared_flights": "AC4685, AV2063",
     "board_URL": "https://www.united.com/api/flight/status/4847/2024-12-25?carrierCode=UA",
     "airline_code": "UA",
@@ -1949,23 +1949,11 @@
     "airline": "United Airlines",
     "gate": "A6E",
     "departure_time": "2024-12-25 14:03:00",
-    "status": "OutGate",
+    "status": "InAir",
     "codeshared_flights": "",
     "board_URL": "https://www.united.com/api/flight/status/3495/2024-12-25?carrierCode=UA",
     "airline_code": "UA",
     "boarding_time": "BT 12:25\nST 14:20\nET 14:30"
-  },
-  {
-    "flight": "DL 1400",
-    "airport": "ATL ATLANTA",
-    "airline": "Delta Air Lines",
-    "gate": "B74",
-    "departure_time": "2024-12-25 14:15:00",
-    "status": "Delayed",
-    "codeshared_flights": "AF2299, AM3932, KE3683, KL5935, LA6504, VS4471, WS8563",
-    "board_URL": "https://www.united.com/api/flight/status/1400/2024-12-25?carrierCode=DL",
-    "airline_code": "DL",
-    "boarding_time": ""
   },
   {
     "flight": "AV 247",
@@ -2014,6 +2002,18 @@
     "board_URL": "https://www.united.com/api/flight/status/1318/2024-12-25?carrierCode=UA",
     "airline_code": "UA",
     "boarding_time": "BT 14:00\nST 14:00\nET 14:25"
+  },
+  {
+    "flight": "DL 1400",
+    "airport": "ATL ATLANTA",
+    "airline": "Delta Air Lines",
+    "gate": "B74",
+    "departure_time": "2024-12-25 14:45:00",
+    "status": "Delayed",
+    "codeshared_flights": "AF2299, AM3932, KE3683, KL5935, LA6504, VS4471, WS8563",
+    "board_URL": "https://www.united.com/api/flight/status/1400/2024-12-25?carrierCode=DL",
+    "airline_code": "DL",
+    "boarding_time": ""
   },
   {
     "flight": "9X 127",
@@ -2141,7 +2141,7 @@
     "airline": "Air Canada",
     "gate": "Z10",
     "departure_time": "2024-12-25 15:55:00",
-    "status": "Scheduled",
+    "status": "Proposed",
     "codeshared_flights": "UA8459",
     "board_URL": "https://www.united.com/api/flight/status/8726/2024-12-25?carrierCode=AC",
     "airline_code": "AC",
