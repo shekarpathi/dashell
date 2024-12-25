@@ -160,12 +160,24 @@
     "airport": "CUN CANCUN",
     "airline": "United Airlines",
     "gate": "D11",
-    "departure_time": "2024-12-25 07:00:00",
-    "status": "Scheduled",
+    "departure_time": "2024-12-25 06:52:00",
+    "status": "OutGate",
     "codeshared_flights": "",
     "board_URL": "https://www.united.com/api/flight/status/2860/2024-12-23?carrierCode=UA",
     "airline_code": "UA",
     "boarding_time": "BT 06:20\nST 06:20\nET 06:45"
+  },
+  {
+    "flight": "AS 499",
+    "airport": "SEA SEATTLE, SEA",
+    "airline": "Alaska Airlines",
+    "gate": "B65",
+    "departure_time": "2024-12-25 06:52:00",
+    "status": "OutGate",
+    "codeshared_flights": "HA4890, JL5441, QR8811, TN2395",
+    "board_URL": "https://www.united.com/api/flight/status/499/2024-12-23?carrierCode=AS",
+    "airline_code": "AS",
+    "boarding_time": ""
   },
   {
     "flight": "DL 432",
@@ -177,18 +189,6 @@
     "codeshared_flights": "",
     "board_URL": "https://www.united.com/api/flight/status/432/2024-12-23?carrierCode=DL",
     "airline_code": "DL",
-    "boarding_time": ""
-  },
-  {
-    "flight": "AS 499",
-    "airport": "SEA SEATTLE, SEA",
-    "airline": "Alaska Airlines",
-    "gate": "B65",
-    "departure_time": "2024-12-25 07:00:00",
-    "status": "Scheduled",
-    "codeshared_flights": "HA4890, JL5441, QR8811, TN2395",
-    "board_URL": "https://www.united.com/api/flight/status/499/2024-12-23?carrierCode=AS",
-    "airline_code": "AS",
     "boarding_time": ""
   },
   {
