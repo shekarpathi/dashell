@@ -5,22 +5,10 @@
     "airline": "Volaris El Salvador",
     "gate": "B37",
     "departure_time": "2024-12-25 01:24:00",
-    "status": "Proposed",
+    "status": "InAir",
     "codeshared_flights": "",
     "board_URL": "https://www.united.com/api/flight/status/4313/2024-12-23?carrierCode=N3",
     "airline_code": "N3",
-    "boarding_time": ""
-  },
-  {
-    "flight": "AV 655",
-    "airport": "GUA GUATEMALA CITY",
-    "airline": "Avianca",
-    "gate": "B48",
-    "departure_time": "2024-12-25 01:30:00",
-    "status": "Scheduled",
-    "codeshared_flights": "",
-    "board_URL": "https://www.united.com/api/flight/status/655/2024-12-23?carrierCode=AV",
-    "airline_code": "AV",
     "boarding_time": ""
   },
   {
@@ -36,12 +24,24 @@
     "boarding_time": ""
   },
   {
+    "flight": "AV 655",
+    "airport": "GUA GUATEMALA CITY",
+    "airline": "Avianca",
+    "gate": "B48",
+    "departure_time": "2024-12-25 01:36:00",
+    "status": "OutGate",
+    "codeshared_flights": "",
+    "board_URL": "https://www.united.com/api/flight/status/655/2024-12-23?carrierCode=AV",
+    "airline_code": "AV",
+    "boarding_time": ""
+  },
+  {
     "flight": "AV 591",
     "airport": "SAL SAN SALVADOR",
     "airline": "Avianca",
     "gate": "B48",
     "departure_time": "2024-12-25 03:15:00",
-    "status": "Scheduled",
+    "status": "Proposed",
     "codeshared_flights": "",
     "board_URL": "https://www.united.com/api/flight/status/591/2024-12-23?carrierCode=AV",
     "airline_code": "AV",
