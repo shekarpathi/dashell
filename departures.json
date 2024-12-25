@@ -1133,7 +1133,7 @@
     "airline": "Air Canada",
     "gate": "Z10",
     "departure_time": "2024-12-25 10:19:00",
-    "status": "OutGate",
+    "status": "InAir",
     "codeshared_flights": "UA8063",
     "board_URL": "https://www.united.com/api/flight/status/8617/2024-12-23?carrierCode=AC",
     "airline_code": "AC",
@@ -1776,18 +1776,6 @@
     "boarding_time": ""
   },
   {
-    "flight": "UA 4847",
-    "airport": "GSO GREENSBORO",
-    "airline": "United Airlines",
-    "gate": "A4E",
-    "departure_time": "2024-12-25 12:55:00",
-    "status": "Scheduled",
-    "codeshared_flights": "AC4685, AV2063",
-    "board_URL": "https://www.united.com/api/flight/status/4847/2024-12-23?carrierCode=UA",
-    "airline_code": "UA",
-    "boarding_time": "BT 12:30\nST 12:30\nET 12:40"
-  },
-  {
     "flight": "UA 4372",
     "airport": "MDT HARRISBURG",
     "airline": "United Airlines",
@@ -1968,6 +1956,18 @@
     "boarding_time": "BT 12:37\nST 12:46\nET 13:11"
   },
   {
+    "flight": "UA 4847",
+    "airport": "GSO GREENSBORO",
+    "airline": "United Airlines",
+    "gate": "A4E",
+    "departure_time": "2024-12-25 13:18:00",
+    "status": "Delayed",
+    "codeshared_flights": "AC4685, AV2063",
+    "board_URL": "https://www.united.com/api/flight/status/4847/2024-12-23?carrierCode=UA",
+    "airline_code": "UA",
+    "boarding_time": "BT 12:30\nST 12:30\nET 12:40"
+  },
+  {
     "flight": "UA 4360",
     "airport": "DAY DAYTON",
     "airline": "United Airlines",
@@ -2009,7 +2009,7 @@
     "airline": "Turkish Airlines",
     "gate": "B37",
     "departure_time": "2024-12-25 14:00:00",
-    "status": "Scheduled",
+    "status": "Proposed",
     "codeshared_flights": "6E4263, OM1134, PK5188, TG9177, WB1368",
     "board_URL": "https://www.united.com/api/flight/status/188/2024-12-23?carrierCode=TK",
     "airline_code": "TK",
@@ -2835,7 +2835,7 @@
     "flight": "UA 2049",
     "airport": "RSW FORT MYERS",
     "airline": "United Airlines",
-    "gate": "C26",
+    "gate": "D8",
     "departure_time": "2024-12-25 17:42:00",
     "status": "Scheduled",
     "codeshared_flights": "",
@@ -3279,7 +3279,7 @@
     "flight": "UA 1938",
     "airport": "PHX PHOENIX",
     "airline": "United Airlines",
-    "gate": "D8",
+    "gate": "D30",
     "departure_time": "2024-12-25 19:30:00",
     "status": "Scheduled",
     "codeshared_flights": "AV2047, LH7678, SN8843",
