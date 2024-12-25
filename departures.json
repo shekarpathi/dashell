@@ -1937,7 +1937,7 @@
     "airline": "Turkish Airlines",
     "gate": "B37",
     "departure_time": "2024-12-25 14:00:00",
-    "status": "Proposed",
+    "status": "InAir",
     "codeshared_flights": "6E4263, OM1134, PK5188, TG9177, WB1368",
     "board_URL": "https://www.united.com/api/flight/status/188/2024-12-25?carrierCode=TK",
     "airline_code": "TK",
@@ -1956,27 +1956,27 @@
     "boarding_time": "BT 12:25\nST 14:20\nET 14:30"
   },
   {
-    "flight": "AV 247",
-    "airport": "BOG BOGOTA",
-    "airline": "Avianca",
-    "gate": "B50",
-    "departure_time": "2024-12-25 14:20:00",
-    "status": "Proposed",
-    "codeshared_flights": "G35811, NH7820, UA6668",
-    "board_URL": "https://www.united.com/api/flight/status/247/2024-12-25?carrierCode=AV",
-    "airline_code": "AV",
-    "boarding_time": ""
-  },
-  {
     "flight": "AC 8619",
     "airport": "YYZ TORONTO, YYZ",
     "airline": "Air Canada",
     "gate": "Z10",
     "departure_time": "2024-12-25 14:21:00",
-    "status": "OutGate",
+    "status": "InAir",
     "codeshared_flights": "UA8693",
     "board_URL": "https://www.united.com/api/flight/status/8619/2024-12-25?carrierCode=AC",
     "airline_code": "AC",
+    "boarding_time": ""
+  },
+  {
+    "flight": "AV 247",
+    "airport": "BOG BOGOTA",
+    "airline": "Avianca",
+    "gate": "B50",
+    "departure_time": "2024-12-25 14:32:00",
+    "status": "OutGate",
+    "codeshared_flights": "G35811, NH7820, UA6668",
+    "board_URL": "https://www.united.com/api/flight/status/247/2024-12-25?carrierCode=AV",
+    "airline_code": "AV",
     "boarding_time": ""
   },
   {
