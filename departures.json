@@ -2009,7 +2009,7 @@
     "airline": "Delta Air Lines",
     "gate": "B74",
     "departure_time": "2024-12-25 14:54:00",
-    "status": "OutGate",
+    "status": "InAir",
     "codeshared_flights": "AF2299, AM3932, KE3683, KL5935, LA6504, VS4471, WS8563",
     "board_URL": "https://www.united.com/api/flight/status/1400/2024-12-25?carrierCode=DL",
     "airline_code": "DL",
@@ -2033,7 +2033,7 @@
     "airline": "Delta Air Lines",
     "gate": "B72",
     "departure_time": "2024-12-25 15:03:00",
-    "status": "OutGate",
+    "status": "InAir",
     "codeshared_flights": "KE3884, VS3142, WS7164",
     "board_URL": "https://www.united.com/api/flight/status/3680/2024-12-25?carrierCode=DL",
     "airline_code": "DL",
@@ -2044,8 +2044,8 @@
     "airport": "ATL ATLANTA",
     "airline": "Frontier Airlines",
     "gate": "B79",
-    "departure_time": "2024-12-25 15:25:00",
-    "status": "Scheduled",
+    "departure_time": "2024-12-25 15:17:00",
+    "status": "OutGate",
     "codeshared_flights": "",
     "board_URL": "https://www.united.com/api/flight/status/4707/2024-12-25?carrierCode=F9",
     "airline_code": "F9",
@@ -2121,7 +2121,7 @@
     "codeshared_flights": "",
     "board_URL": "https://www.united.com/api/flight/status/4360/2024-12-25?carrierCode=UA",
     "airline_code": "UA",
-    "boarding_time": "BT 12:10\nST 15:27\nET 15:37"
+    "boarding_time": "BT 12:10\nST 16:02\nET 16:12"
   },
   {
     "flight": "AC 8726",
@@ -2625,7 +2625,7 @@
     "codeshared_flights": "LH8922, LH8936",
     "board_URL": "https://www.united.com/api/flight/status/1858/2024-12-25?carrierCode=UA",
     "airline_code": "UA",
-    "boarding_time": "BT 16:55\nST 16:55\nET 17:15"
+    "boarding_time": "BT 16:50\nST 16:50\nET 17:15"
   },
   {
     "flight": "UA 52",
@@ -3233,7 +3233,7 @@
     "airline": "Virgin Atlantic",
     "gate": "A31",
     "departure_time": "2024-12-25 18:45:00",
-    "status": "Scheduled",
+    "status": "Proposed",
     "codeshared_flights": "AF9652, DL5982, KL4805",
     "board_URL": "https://www.united.com/api/flight/status/22/2024-12-25?carrierCode=VS",
     "airline_code": "VS",
