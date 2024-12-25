@@ -1188,18 +1188,6 @@
     "boarding_time": ""
   },
   {
-    "flight": "UA 1366",
-    "airport": "DEN DENVER",
-    "airline": "United Airlines",
-    "gate": "C3",
-    "departure_time": "2024-12-25 11:45:00",
-    "status": "Delayed",
-    "codeshared_flights": "CM2857",
-    "board_URL": "https://www.united.com/api/flight/status/1366/2024-12-25?carrierCode=UA",
-    "airline_code": "UA",
-    "boarding_time": "BT 07:35\nST 12:40\nET 13:15"
-  },
-  {
     "flight": "KE 94",
     "airport": "ICN SEOUL",
     "airline": "Korean Air",
@@ -1563,7 +1551,7 @@
     "flight": "UA 4843",
     "airport": "ROC ROCHESTER",
     "airline": "United Airlines",
-    "gate": "A6A",
+    "gate": "A4E",
     "departure_time": "2024-12-25 12:45:00",
     "status": "Scheduled",
     "codeshared_flights": "",
@@ -1965,7 +1953,19 @@
     "codeshared_flights": "AC4685, AV2063",
     "board_URL": "https://www.united.com/api/flight/status/4847/2024-12-25?carrierCode=UA",
     "airline_code": "UA",
-    "boarding_time": "BT 12:30\nST 12:53\nET 13:03"
+    "boarding_time": "BT 12:30\nST 13:13\nET 13:23"
+  },
+  {
+    "flight": "UA 1366",
+    "airport": "DEN DENVER",
+    "airline": "United Airlines",
+    "gate": "C3",
+    "departure_time": "2024-12-25 13:30:00",
+    "status": "Delayed",
+    "codeshared_flights": "CM2857",
+    "board_URL": "https://www.united.com/api/flight/status/1366/2024-12-25?carrierCode=UA",
+    "airline_code": "UA",
+    "boarding_time": "BT 07:35\nST 12:40\nET 13:15"
   },
   {
     "flight": "PD 2724",
@@ -2212,7 +2212,7 @@
     "airport": "SAN SAN DIEGO",
     "airline": "Alaska Airlines",
     "gate": "B67",
-    "departure_time": "2024-12-25 17:06:00",
+    "departure_time": "2024-12-25 17:07:00",
     "status": "Scheduled",
     "codeshared_flights": "AA7509, HA4966, QR2165",
     "board_URL": "https://www.united.com/api/flight/status/507/2024-12-25?carrierCode=AS",
@@ -3183,7 +3183,7 @@
     "flight": "UA 918",
     "airport": "LHR LONDON",
     "airline": "United Airlines",
-    "gate": "C3",
+    "gate": "C1",
     "departure_time": "2024-12-25 18:25:00",
     "status": "Scheduled",
     "codeshared_flights": "AC5346, CM2293, LH9259, LX3061, OS7806",
