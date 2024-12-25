@@ -5,7 +5,6 @@ user_agent="Mozilla/5.0 Gecko/20100101 Firefox/133.0"
 accept_language="en-US,en;q=0.5"
 accept_encoding="gzip, deflate, br"
 token_url="https://www.united.com/api/auth/anonymous-token"
-COUNTER=0
 
 # URL to fetch the JSON data
 URL="https://www.flydulles.com/arrivals-and-departures/json"
@@ -74,7 +73,7 @@ get_boardtime_strin_() {
       "Boarding Start Time": ((.Characteristic[] | select(.Code == "LocalEstimatedBoardStartDateTime") | .Value) | split("T")[1] | split(":")[:2] | join(":")),
       "Boarding End Time": ((.Characteristic[] | select(.Code == "LocalEstimatedBoardEndDateTime") | .Value) | split("T")[1] | split(":")[:2] | join(":"))
     }|
-    "BT \( .BoardTime )\nST \( .["Boarding Start Time"] )\nET \( .["Boarding End Time"] )"
+    "ST \( .["Boarding Start Time"] )\nET \( .["Boarding End Time"] )"
     '
 }
 
@@ -120,7 +119,7 @@ else
   exit 1
 fi
 
-cat $DEPARTURES_FILE
+#cat $DEPARTURES_FILE
 
 # Create an empty array for the updated JSON
 updated_json="[]"
