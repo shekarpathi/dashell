@@ -1217,7 +1217,7 @@
     "airline": "United Airlines",
     "gate": "D8",
     "departure_time": "2024-12-25 12:26:00",
-    "status": "OutGate",
+    "status": "InAir",
     "codeshared_flights": "CM2833, ET1352, NH7116",
     "board_URL": "https://www.united.com/api/flight/status/2277/2024-12-25?carrierCode=UA",
     "airline_code": "UA",
@@ -1229,7 +1229,7 @@
     "airline": "United Airlines",
     "gate": "D3",
     "departure_time": "2024-12-25 12:27:00",
-    "status": "OutGate",
+    "status": "InAir",
     "codeshared_flights": "NH7029",
     "board_URL": "https://www.united.com/api/flight/status/803/2024-12-25?carrierCode=UA",
     "airline_code": "UA",
@@ -1384,12 +1384,48 @@
     "airport": "YYZ TORONTO, YYZ",
     "airline": "United Airlines",
     "gate": "C18",
-    "departure_time": "2024-12-25 12:38:00",
-    "status": "Scheduled",
+    "departure_time": "2024-12-25 12:37:00",
+    "status": "OutGate",
     "codeshared_flights": "AC3932, CM2802, NH7020",
     "board_URL": "https://www.united.com/api/flight/status/3490/2024-12-25?carrierCode=UA",
     "airline_code": "UA",
     "boarding_time": "BT 12:13\nST 12:13\nET 12:23"
+  },
+  {
+    "flight": "UA 2175",
+    "airport": "FLL FORT LAUDERDALE",
+    "airline": "United Airlines",
+    "gate": "D6",
+    "departure_time": "2024-12-25 12:39:00",
+    "status": "OutGate",
+    "codeshared_flights": "AD7015",
+    "board_URL": "https://www.united.com/api/flight/status/2175/2024-12-25?carrierCode=UA",
+    "airline_code": "UA",
+    "boarding_time": "BT 12:05\nST 12:05\nET 12:30"
+  },
+  {
+    "flight": "UA 3462",
+    "airport": "IND INDIANAPOLIS",
+    "airline": "United Airlines",
+    "gate": "A2A",
+    "departure_time": "2024-12-25 12:39:00",
+    "status": "OutGate",
+    "codeshared_flights": "ET1374",
+    "board_URL": "https://www.united.com/api/flight/status/3462/2024-12-25?carrierCode=UA",
+    "airline_code": "UA",
+    "boarding_time": "BT 12:20\nST 12:20\nET 12:30"
+  },
+  {
+    "flight": "UA 4187",
+    "airport": "EWR NEWARK",
+    "airline": "United Airlines",
+    "gate": "C26",
+    "departure_time": "2024-12-25 12:39:00",
+    "status": "OutGate",
+    "codeshared_flights": "TP8505",
+    "board_URL": "https://www.united.com/api/flight/status/4187/2024-12-25?carrierCode=UA",
+    "airline_code": "UA",
+    "boarding_time": "BT 12:15\nST 12:15\nET 12:25"
   },
   {
     "flight": "9X 393",
@@ -1416,40 +1452,52 @@
     "boarding_time": ""
   },
   {
-    "flight": "UA 4187",
-    "airport": "EWR NEWARK",
-    "airline": "United Airlines",
-    "gate": "C26",
-    "departure_time": "2024-12-25 12:40:00",
-    "status": "Scheduled",
-    "codeshared_flights": "TP8505",
-    "board_URL": "https://www.united.com/api/flight/status/4187/2024-12-25?carrierCode=UA",
-    "airline_code": "UA",
-    "boarding_time": "BT 12:15\nST 12:15\nET 12:25"
-  },
-  {
     "flight": "UA 3541",
     "airport": "PIT PITTSBURGH",
     "airline": "United Airlines",
     "gate": "D25",
     "departure_time": "2024-12-25 12:40:00",
-    "status": "Scheduled",
+    "status": "OutGate",
     "codeshared_flights": "AV2087, ET1388, NH7142",
     "board_URL": "https://www.united.com/api/flight/status/3541/2024-12-25?carrierCode=UA",
     "airline_code": "UA",
     "boarding_time": "BT 12:15\nST 12:15\nET 12:25"
   },
   {
+    "flight": "UA 4526",
+    "airport": "RIC RICHMOND",
+    "airline": "United Airlines",
+    "gate": "C28",
+    "departure_time": "2024-12-25 12:40:00",
+    "status": "OutGate",
+    "codeshared_flights": "AC4403, NH7582",
+    "board_URL": "https://www.united.com/api/flight/status/4526/2024-12-25?carrierCode=UA",
+    "airline_code": "UA",
+    "boarding_time": "BT 12:21\nST 12:21\nET 12:31"
+  },
+  {
     "flight": "UA 1581",
     "airport": "ORD CHICAGO, ORD",
     "airline": "United Airlines",
     "gate": "C25",
-    "departure_time": "2024-12-25 12:45:00",
-    "status": "Scheduled",
+    "departure_time": "2024-12-25 12:41:00",
+    "status": "OutGate",
     "codeshared_flights": "AC3839, ET1350, NH7138, NZ2452",
     "board_URL": "https://www.united.com/api/flight/status/1581/2024-12-25?carrierCode=UA",
     "airline_code": "UA",
     "boarding_time": "BT 12:10\nST 12:10\nET 12:30"
+  },
+  {
+    "flight": "UA 6150",
+    "airport": "SYR SYRACUSE",
+    "airline": "United Airlines",
+    "gate": "A1B",
+    "departure_time": "2024-12-25 12:41:00",
+    "status": "OutGate",
+    "codeshared_flights": "NH7628",
+    "board_URL": "https://www.united.com/api/flight/status/6150/2024-12-25?carrierCode=UA",
+    "airline_code": "UA",
+    "boarding_time": "BT 12:20\nST 12:20\nET 12:30"
   },
   {
     "flight": "UA 3516",
@@ -1464,18 +1512,6 @@
     "boarding_time": "BT 12:20\nST 12:20\nET 12:30"
   },
   {
-    "flight": "UA 2175",
-    "airport": "FLL FORT LAUDERDALE",
-    "airline": "United Airlines",
-    "gate": "D6",
-    "departure_time": "2024-12-25 12:45:00",
-    "status": "Scheduled",
-    "codeshared_flights": "AD7015",
-    "board_URL": "https://www.united.com/api/flight/status/2175/2024-12-25?carrierCode=UA",
-    "airline_code": "UA",
-    "boarding_time": "BT 12:05\nST 12:05\nET 12:30"
-  },
-  {
     "flight": "UA 6224",
     "airport": "BDL HARTFORD",
     "airline": "United Airlines",
@@ -1484,18 +1520,6 @@
     "status": "Scheduled",
     "codeshared_flights": "AC3352",
     "board_URL": "https://www.united.com/api/flight/status/6224/2024-12-25?carrierCode=UA",
-    "airline_code": "UA",
-    "boarding_time": "BT 12:20\nST 12:20\nET 12:30"
-  },
-  {
-    "flight": "UA 3462",
-    "airport": "IND INDIANAPOLIS",
-    "airline": "United Airlines",
-    "gate": "A2A",
-    "departure_time": "2024-12-25 12:45:00",
-    "status": "Scheduled",
-    "codeshared_flights": "ET1374",
-    "board_URL": "https://www.united.com/api/flight/status/3462/2024-12-25?carrierCode=UA",
     "airline_code": "UA",
     "boarding_time": "BT 12:20\nST 12:20\nET 12:30"
   },
@@ -1521,7 +1545,7 @@
     "codeshared_flights": "",
     "board_URL": "https://www.united.com/api/flight/status/4843/2024-12-25?carrierCode=UA",
     "airline_code": "UA",
-    "boarding_time": "BT 12:20\nST 12:20\nET 12:30"
+    "boarding_time": "BT 12:20\nST 12:30\nET 12:40"
   },
   {
     "flight": "UA 346",
@@ -1533,31 +1557,7 @@
     "codeshared_flights": "",
     "board_URL": "https://www.united.com/api/flight/status/346/2024-12-25?carrierCode=UA",
     "airline_code": "UA",
-    "boarding_time": "BT 08:06\nST 12:05\nET 12:30"
-  },
-  {
-    "flight": "UA 6150",
-    "airport": "SYR SYRACUSE",
-    "airline": "United Airlines",
-    "gate": "A1B",
-    "departure_time": "2024-12-25 12:45:00",
-    "status": "Scheduled",
-    "codeshared_flights": "NH7628",
-    "board_URL": "https://www.united.com/api/flight/status/6150/2024-12-25?carrierCode=UA",
-    "airline_code": "UA",
-    "boarding_time": "BT 12:20\nST 12:20\nET 12:30"
-  },
-  {
-    "flight": "UA 4526",
-    "airport": "RIC RICHMOND",
-    "airline": "United Airlines",
-    "gate": "C28",
-    "departure_time": "2024-12-25 12:46:00",
-    "status": "Scheduled",
-    "codeshared_flights": "AC4403, NH7582",
-    "board_URL": "https://www.united.com/api/flight/status/4526/2024-12-25?carrierCode=UA",
-    "airline_code": "UA",
-    "boarding_time": "BT 12:21\nST 12:21\nET 12:31"
+    "boarding_time": "BT 08:06\nST 12:21\nET 12:46"
   },
   {
     "flight": "UA 1817",
