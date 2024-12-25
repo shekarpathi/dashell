@@ -209,7 +209,7 @@
     "airline": "Southwest Airlines",
     "gate": "B66",
     "departure_time": "2024-12-25 07:19:00",
-    "status": "OutGate",
+    "status": "InAir",
     "codeshared_flights": "",
     "board_URL": "https://www.united.com/api/flight/status/513/2024-12-23?carrierCode=WN",
     "airline_code": "WN",
@@ -221,7 +221,7 @@
     "airline": "Delta Air Lines",
     "gate": "B74",
     "departure_time": "2024-12-25 07:27:00",
-    "status": "OutGate",
+    "status": "InAir",
     "codeshared_flights": "MU8778",
     "board_URL": "https://www.united.com/api/flight/status/1084/2024-12-23?carrierCode=DL",
     "airline_code": "DL",
@@ -310,18 +310,6 @@
     "board_URL": "https://www.united.com/api/flight/status/6105/2024-12-23?carrierCode=UA",
     "airline_code": "UA",
     "boarding_time": "BT 07:50\nST 07:50\nET 08:00"
-  },
-  {
-    "flight": "UA 345",
-    "airport": "HNL HONOLULU",
-    "airline": "United Airlines",
-    "gate": "C6",
-    "departure_time": "2024-12-25 08:15:00",
-    "status": "Scheduled",
-    "codeshared_flights": "CA7374, NZ9727",
-    "board_URL": "https://www.united.com/api/flight/status/345/2024-12-23?carrierCode=UA",
-    "airline_code": "UA",
-    "boarding_time": "BT 07:25\nST 07:25\nET 08:00"
   },
   {
     "flight": "UA 667",
@@ -1126,6 +1114,18 @@
     "board_URL": "https://www.united.com/api/flight/status/5203/2024-12-23?carrierCode=AA",
     "airline_code": "AA",
     "boarding_time": ""
+  },
+  {
+    "flight": "UA 345",
+    "airport": "HNL HONOLULU",
+    "airline": "United Airlines",
+    "gate": "C6",
+    "departure_time": "2024-12-25 09:30:00",
+    "status": "Delayed",
+    "codeshared_flights": "CA7374, NZ9727",
+    "board_URL": "https://www.united.com/api/flight/status/345/2024-12-23?carrierCode=UA",
+    "airline_code": "UA",
+    "boarding_time": "BT 07:25\nST 07:25\nET 08:00"
   },
   {
     "flight": "ET 501",
