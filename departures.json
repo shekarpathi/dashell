@@ -3833,7 +3833,7 @@
     "airline": "United Airlines",
     "gate": "C4",
     "departure_time": "2024-12-24 22:45:00",
-    "status": "OutGate",
+    "status": "InAir",
     "codeshared_flights": "NH7254",
     "board_URL": "https://www.united.com/api/flight/status/861/2024-12-23?carrierCode=UA",
     "airline_code": "UA",
