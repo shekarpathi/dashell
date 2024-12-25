@@ -2085,7 +2085,7 @@
     "codeshared_flights": "CA7374, NZ9727",
     "board_URL": "https://www.united.com/api/flight/status/345/2024-12-25?carrierCode=UA",
     "airline_code": "UA",
-    "boarding_time": "BT 07:25\nST 14:55\nET 15:30"
+    "boarding_time": "BT 07:25\nST 15:15\nET 15:50"
   },
   {
     "flight": "WN 3656",
