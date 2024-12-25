@@ -1169,7 +1169,7 @@
     "airline": "United Airlines",
     "gate": "A2E",
     "departure_time": "2024-12-25 11:28:00",
-    "status": "OutGate",
+    "status": "InAir",
     "codeshared_flights": "",
     "board_URL": "https://www.united.com/api/flight/status/5098/2024-12-25?carrierCode=UA",
     "airline_code": "UA",
@@ -1181,7 +1181,7 @@
     "airline": "Emirates",
     "gate": "A16",
     "departure_time": "2024-12-25 11:33:00",
-    "status": "OutGate",
+    "status": "InAir",
     "codeshared_flights": "",
     "board_URL": "https://www.united.com/api/flight/status/232/2024-12-25?carrierCode=EK",
     "airline_code": "EK",
@@ -1414,18 +1414,6 @@
     "board_URL": "https://www.united.com/api/flight/status/1689/2024-12-25?carrierCode=UA",
     "airline_code": "UA",
     "boarding_time": "BT 12:00\nST 12:00\nET 12:25"
-  },
-  {
-    "flight": "UA 2156",
-    "airport": "BNA NASHVILLE",
-    "airline": "United Airlines",
-    "gate": "D16",
-    "departure_time": "2024-12-25 12:40:00",
-    "status": "Scheduled",
-    "codeshared_flights": "",
-    "board_URL": "https://www.united.com/api/flight/status/2156/2024-12-25?carrierCode=UA",
-    "airline_code": "UA",
-    "boarding_time": "BT 12:05\nST 12:05\nET 12:25"
   },
   {
     "flight": "UA 4187",
@@ -1944,18 +1932,6 @@
     "boarding_time": "BT 12:37\nST 12:37\nET 13:02"
   },
   {
-    "flight": "UA 4847",
-    "airport": "GSO GREENSBORO",
-    "airline": "United Airlines",
-    "gate": "A4E",
-    "departure_time": "2024-12-25 13:18:00",
-    "status": "Delayed",
-    "codeshared_flights": "AC4685, AV2063",
-    "board_URL": "https://www.united.com/api/flight/status/4847/2024-12-25?carrierCode=UA",
-    "airline_code": "UA",
-    "boarding_time": "BT 12:30\nST 13:13\nET 13:23"
-  },
-  {
     "flight": "UA 1366",
     "airport": "DEN DENVER",
     "airline": "United Airlines",
@@ -1966,6 +1942,18 @@
     "board_URL": "https://www.united.com/api/flight/status/1366/2024-12-25?carrierCode=UA",
     "airline_code": "UA",
     "boarding_time": "BT 07:35\nST 12:40\nET 13:15"
+  },
+  {
+    "flight": "UA 4847",
+    "airport": "GSO GREENSBORO",
+    "airline": "United Airlines",
+    "gate": "A4E",
+    "departure_time": "2024-12-25 13:38:00",
+    "status": "Delayed",
+    "codeshared_flights": "AC4685, AV2063",
+    "board_URL": "https://www.united.com/api/flight/status/4847/2024-12-25?carrierCode=UA",
+    "airline_code": "UA",
+    "boarding_time": "BT 12:30\nST 13:13\nET 13:23"
   },
   {
     "flight": "PD 2724",
@@ -2002,6 +1990,18 @@
     "board_URL": "https://www.united.com/api/flight/status/188/2024-12-25?carrierCode=TK",
     "airline_code": "TK",
     "boarding_time": ""
+  },
+  {
+    "flight": "UA 2156",
+    "airport": "BNA NASHVILLE",
+    "airline": "United Airlines",
+    "gate": "D16",
+    "departure_time": "2024-12-25 14:00:00",
+    "status": "Delayed",
+    "codeshared_flights": "",
+    "board_URL": "https://www.united.com/api/flight/status/2156/2024-12-25?carrierCode=UA",
+    "airline_code": "UA",
+    "boarding_time": "BT 12:05\nST 13:25\nET 13:45"
   },
   {
     "flight": "AV 247",
