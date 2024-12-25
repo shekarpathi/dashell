@@ -1128,18 +1128,6 @@
     "boarding_time": "BT 05:20\nST 05:20\nET 05:45"
   },
   {
-    "flight": "UA 4944",
-    "airport": "ORF NORFOLK",
-    "airline": "United Airlines",
-    "gate": "A6B",
-    "departure_time": "2024-12-25 10:05:00",
-    "status": "Delayed",
-    "codeshared_flights": "AC4749, AV2081, CM1298",
-    "board_URL": "https://www.united.com/api/flight/status/4944/2024-12-23?carrierCode=UA",
-    "airline_code": "UA",
-    "boarding_time": "BT 08:15\nST 08:15\nET 08:25"
-  },
-  {
     "flight": "UA 5098",
     "airport": "MGW MORGANTOWN",
     "airline": "United Airlines",
@@ -1162,18 +1150,6 @@
     "board_URL": "https://www.united.com/api/flight/status/1366/2024-12-23?carrierCode=UA",
     "airline_code": "UA",
     "boarding_time": "BT 07:35\nST 07:35\nET 08:10"
-  },
-  {
-    "flight": "EK 232",
-    "airport": "DXB DUBAI",
-    "airline": "Emirates",
-    "gate": "A16",
-    "departure_time": "2024-12-25 10:30:00",
-    "status": "Scheduled",
-    "codeshared_flights": "",
-    "board_URL": "https://www.united.com/api/flight/status/232/2024-12-23?carrierCode=EK",
-    "airline_code": "EK",
-    "boarding_time": ""
   },
   {
     "flight": "QR 710",
@@ -1210,6 +1186,30 @@
     "board_URL": "https://www.united.com/api/flight/status/345/2024-12-23?carrierCode=UA",
     "airline_code": "UA",
     "boarding_time": "BT 07:25\nST 07:25\nET 08:00"
+  },
+  {
+    "flight": "UA 4944",
+    "airport": "ORF NORFOLK",
+    "airline": "United Airlines",
+    "gate": "A6B",
+    "departure_time": "2024-12-25 10:45:00",
+    "status": "Delayed",
+    "codeshared_flights": "AC4749, AV2081, CM1298",
+    "board_URL": "https://www.united.com/api/flight/status/4944/2024-12-23?carrierCode=UA",
+    "airline_code": "UA",
+    "boarding_time": "BT 08:15\nST 08:15\nET 08:25"
+  },
+  {
+    "flight": "EK 232",
+    "airport": "DXB DUBAI",
+    "airline": "Emirates",
+    "gate": "A16",
+    "departure_time": "2024-12-25 10:55:00",
+    "status": "Delayed",
+    "codeshared_flights": "",
+    "board_URL": "https://www.united.com/api/flight/status/232/2024-12-23?carrierCode=EK",
+    "airline_code": "EK",
+    "boarding_time": ""
   },
   {
     "flight": "UA 346",
