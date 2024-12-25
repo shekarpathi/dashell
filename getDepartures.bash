@@ -1,5 +1,6 @@
 #!/bin/bash
 clear
+date
 # Define constants
 user_agent="Mozilla/5.0 Gecko/20100101 Firefox/133.0"
 accept_language="en-US,en;q=0.5"
@@ -16,12 +17,11 @@ curl -s "$URL" | jq [.arrivals[]] > arrivals_raw.json
 #DEPARTURES_HTML="departures.html"
 
 # Output file
+DEPARTURES_STAGE_FILE="departures_stage.json"
 DEPARTURES_FILE="departures.json"
 
 # Get today's date in the expected format (e.g., "2024-12-18")
 TODAY=$(date '+%Y-%m-%d')
-rm JJ*.json
-rm PP*.json
 
 # Current timestamp in seconds since epoch
 NOW=$(date '+%s')
@@ -105,27 +105,27 @@ DEPARTURES_JSON=$(curl -s "$URL" | jq --arg today "$TODAY" --argjson now "$NOW" 
 echo "$DEPARTURES_JSON" > iad_dep.json
 ls -ltra iad_dep.json
 
-echo "$DEPARTURES_JSON" | jq '[.[] | {flight: .flight, airport: .airport, airline: .airline, gate: .gate, departure_time: .departure_time, status: .status, codeshared_flights: .codeshared_flights, board_URL: .boardURL, airline_code: .airline_code}]' > $DEPARTURES_FILE
+echo "$DEPARTURES_JSON" | jq '[.[] | {flight: .flight, airport: .airport, airline: .airline, gate: .gate, departure_time: .departure_time, status: .status, codeshared_flights: .codeshared_flights, board_URL: .boardURL, airline_code: .airline_code}]' > $DEPARTURES_STAGE_FILE
 
-ls -ltra $DEPARTURES_FILE
+ls -ltra $DEPARTURES_STAGE_FILE
 
 # Check if the operation was successful and if the file has content
-if [ -s "$DEPARTURES_FILE" ]; then
-  echo "Departures with today's publishedTime, computed correct_time, and no 'id' field have been written to $DEPARTURES_FILE"
+if [ -s "$DEPARTURES_SATGE_FILE" ]; then
+  echo "Departures with today's publishedTime, computed correct_time, and no 'id' field have been written to $DEPARTURES_STAGE_FILE"
 else
   echo "No departures found with publishedTime matching today's date ($TODAY)."
   # Optionally remove the empty file
-  rm -f "$DEPARTURES_FILE"
+  rm -f "$DEPARTURES_STAGE_FILE"
   exit 1
 fi
 
-#cat $DEPARTURES_FILE
+#cat $DEPARTURES_STAGE_FILE
 
 # Create an empty array for the updated JSON
 updated_json="[]"
 
 # Iterate through each item in the JSON
-updated_json=$(jq -c '.[]' "$DEPARTURES_FILE" | while read -r item; do
+updated_json=$(jq -c '.[]' "$DEPARTURES_STAGE_FILE" | while read -r item; do
   # Extract the board_URL
   board_url=$(echo "$item" | jq -r '.board_URL')
   airline_code=$(echo "$item" | jq -r '.airline_code')
@@ -145,4 +145,6 @@ updated_json=$(jq -c '.[]' "$DEPARTURES_FILE" | while read -r item; do
   echo "$updated_item"
 done | jq -s '.')
 
-echo "$updated_json" > $DEPARTURES_FILE
+echo "$updated_json" > $DEPARTURES_STAGE_FILE
+mv "$DEPARTURES_STAGE_FILE" "$DEPARTURES_FILE"
+date
