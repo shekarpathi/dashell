@@ -2141,7 +2141,7 @@
     "airline": "Delta Air Lines",
     "gate": "B74",
     "departure_time": "2024-12-25 16:32:00",
-    "status": "OutGate",
+    "status": "InAir",
     "codeshared_flights": "AF2303, KE3581, KL5695, LA6505, VS4473",
     "board_URL": "https://www.united.com/api/flight/status/1695/2024-12-25?carrierCode=DL",
     "airline_code": "DL",
@@ -2152,12 +2152,12 @@
     "airport": "DAY DAYTON",
     "airline": "United Airlines",
     "gate": "A4B",
-    "departure_time": "2024-12-25 16:41:00",
+    "departure_time": "2024-12-25 16:49:00",
     "status": "Delayed",
     "codeshared_flights": "",
     "board_URL": "https://www.united.com/api/flight/status/4360/2024-12-25?carrierCode=UA",
     "airline_code": "UA",
-    "boarding_time": "BT 12:10\nST 16:16\nET 16:26"
+    "boarding_time": "BT 12:10\nST 16:24\nET 16:34"
   },
   {
     "flight": "UA 345",
