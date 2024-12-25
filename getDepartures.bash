@@ -5,6 +5,7 @@ user_agent="Mozilla/5.0 Gecko/20100101 Firefox/133.0"
 accept_language="en-US,en;q=0.5"
 accept_encoding="gzip, deflate, br"
 token_url="https://www.united.com/api/auth/anonymous-token"
+COUNTER=0
 
 # URL to fetch the JSON data
 URL="https://www.flydulles.com/arrivals-and-departures/json"
@@ -20,6 +21,8 @@ DEPARTURES_FILE="departures.json"
 
 # Get today's date in the expected format (e.g., "2024-12-18")
 TODAY=$(date '+%Y-%m-%d')
+rm JJ*.json
+rm PP*.json
 
 # Current timestamp in seconds since epoch
 NOW=$(date '+%s')
@@ -41,6 +44,26 @@ get_flight_status() {
 }
 
 get_boardtime_string() {
+  # Step 2: Attempt to fetch flight status
+  flight_response=$(get_flight_status "$hash" "$1")
+#  current_time=$(date +"%H%M%S")
+#  echo "$flight_response" | jq > JJ"$current_time".json
+#  echo "$flight_response" > foo.pjson
+  echo "$flight_response" | jq -r '
+  .data.flightLegs[]
+  | .OperationalFlightSegments[]
+  | select(.DepartureAirport.IATACode == "IAD")
+  | {
+      BoardTime: (.BoardTime | split(":")[:2] | join(":")),
+      "Boarding Start Time": ((.Characteristic[] | select(.Code == "LocalEstimatedBoardStartDateTime") | .Value) | split("T")[1] | split(":")[:2] | join(":")),
+      "Boarding End Time": ((.Characteristic[] | select(.Code == "LocalEstimatedBoardEndDateTime") | .Value) | split("T")[1] | split(":")[:2] | join(":"))
+    } |
+    "BT \( .BoardTime )\nST \( .["Boarding Start Time"] )\nET \( .["Boarding End Time"] )"
+    '
+#    cat PP"$current_time".json
+}
+
+get_boardtime_strin_() {
   # Step 2: Attempt to fetch flight status
   flight_response=$(get_flight_status "$hash" "$1")
 
@@ -70,7 +93,7 @@ DEPARTURES_JSON=$(curl -s "$URL" | jq --arg today "$TODAY" --argjson now "$NOW" 
        | (.IATA + .flightnumber)
       ] | join(", ")
     )
-  | .boardURL = ("https://www.united.com/api/flight/status/" + .flightnumber + "/" + "2024-12-23" +  "?carrierCode=" + .IATA)
+  | .boardURL = ("https://www.united.com/api/flight/status/" + .flightnumber + "/" + "2024-12-25" +  "?carrierCode=" + .IATA)
   | .flight = (.IATA + " " + .flightnumber)
   | .airline_code = (.IATA)
   | .airport = (.airportcode + " " + .city)
@@ -97,7 +120,7 @@ else
   exit 1
 fi
 
-#cat $DEPARTURES_FILE
+cat $DEPARTURES_FILE
 
 # Create an empty array for the updated JSON
 updated_json="[]"
@@ -108,7 +131,6 @@ updated_json=$(jq -c '.[]' "$DEPARTURES_FILE" | while read -r item; do
   board_url=$(echo "$item" | jq -r '.board_URL')
   airline_code=$(echo "$item" | jq -r '.airline_code')
 
-  boarding_time=""
   if [[ "$airline_code" == "UA" ]]; then
     # Make an HTTPS request and capture the response code
     #response_code=$(curl -s -o /dev/null -w "%{http_code}" "$board_url")
@@ -125,4 +147,3 @@ updated_json=$(jq -c '.[]' "$DEPARTURES_FILE" | while read -r item; do
 done | jq -s '.')
 
 echo "$updated_json" > $DEPARTURES_FILE
-
