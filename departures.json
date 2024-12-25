@@ -1757,7 +1757,7 @@
     "airline": "United Airlines",
     "gate": "A1D",
     "departure_time": "2024-12-25 12:57:00",
-    "status": "InAir",
+    "status": "Landed",
     "codeshared_flights": "",
     "board_URL": "https://www.united.com/api/flight/status/4815/2024-12-25?carrierCode=UA",
     "airline_code": "UA",
@@ -1889,35 +1889,11 @@
     "airline": "United Airlines",
     "gate": "D23",
     "departure_time": "2024-12-25 13:25:00",
-    "status": "OutGate",
+    "status": "InAir",
     "codeshared_flights": "",
     "board_URL": "https://www.united.com/api/flight/status/3685/2024-12-25?carrierCode=UA",
     "airline_code": "UA",
     "boarding_time": "BT 12:25\nST 13:11\nET 13:21"
-  },
-  {
-    "flight": "UA 4847",
-    "airport": "GSO GREENSBORO",
-    "airline": "United Airlines",
-    "gate": "A4E",
-    "departure_time": "2024-12-25 13:38:00",
-    "status": "Delayed",
-    "codeshared_flights": "AC4685, AV2063",
-    "board_URL": "https://www.united.com/api/flight/status/4847/2024-12-25?carrierCode=UA",
-    "airline_code": "UA",
-    "boarding_time": "BT 12:30\nST 13:30\nET 13:40"
-  },
-  {
-    "flight": "DL 1400",
-    "airport": "ATL ATLANTA",
-    "airline": "Delta Air Lines",
-    "gate": "B74",
-    "departure_time": "2024-12-25 13:43:00",
-    "status": "Delayed",
-    "codeshared_flights": "AF2299, AM3932, KE3683, KL5935, LA6504, VS4471, WS8563",
-    "board_URL": "https://www.united.com/api/flight/status/1400/2024-12-25?carrierCode=DL",
-    "airline_code": "DL",
-    "boarding_time": ""
   },
   {
     "flight": "UA 3495",
@@ -1929,7 +1905,7 @@
     "codeshared_flights": "",
     "board_URL": "https://www.united.com/api/flight/status/3495/2024-12-25?carrierCode=UA",
     "airline_code": "UA",
-    "boarding_time": "BT 12:25\nST 13:20\nET 13:30"
+    "boarding_time": "BT 12:25\nST 14:20\nET 14:30"
   },
   {
     "flight": "PD 2724",
@@ -1956,6 +1932,18 @@
     "boarding_time": ""
   },
   {
+    "flight": "UA 4847",
+    "airport": "GSO GREENSBORO",
+    "airline": "United Airlines",
+    "gate": "A4E",
+    "departure_time": "2024-12-25 13:55:00",
+    "status": "Delayed",
+    "codeshared_flights": "AC4685, AV2063",
+    "board_URL": "https://www.united.com/api/flight/status/4847/2024-12-25?carrierCode=UA",
+    "airline_code": "UA",
+    "boarding_time": "BT 12:30\nST 13:30\nET 13:40"
+  },
+  {
     "flight": "TK 188",
     "airport": "IST ISTANBUL",
     "airline": "Turkish Airlines",
@@ -1965,6 +1953,18 @@
     "codeshared_flights": "6E4263, OM1134, PK5188, TG9177, WB1368",
     "board_URL": "https://www.united.com/api/flight/status/188/2024-12-25?carrierCode=TK",
     "airline_code": "TK",
+    "boarding_time": ""
+  },
+  {
+    "flight": "DL 1400",
+    "airport": "ATL ATLANTA",
+    "airline": "Delta Air Lines",
+    "gate": "B74",
+    "departure_time": "2024-12-25 14:15:00",
+    "status": "Delayed",
+    "codeshared_flights": "AF2299, AM3932, KE3683, KL5935, LA6504, VS4471, WS8563",
+    "board_URL": "https://www.united.com/api/flight/status/1400/2024-12-25?carrierCode=DL",
+    "airline_code": "DL",
     "boarding_time": ""
   },
   {
