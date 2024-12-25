@@ -2164,7 +2164,7 @@
     "airport": "HNL HONOLULU",
     "airline": "United Airlines",
     "gate": "D30",
-    "departure_time": "2024-12-25 16:45:00",
+    "departure_time": "2024-12-25 16:55:00",
     "status": "Delayed",
     "codeshared_flights": "CA7374, NZ9727",
     "board_URL": "https://www.united.com/api/flight/status/345/2024-12-25?carrierCode=UA",
