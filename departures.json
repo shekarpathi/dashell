@@ -2057,7 +2057,7 @@
     "airline": "Copa Airlines",
     "gate": "A24",
     "departure_time": "2024-12-25 15:31:00",
-    "status": "OutGate",
+    "status": "InAir",
     "codeshared_flights": "UA7174",
     "board_URL": "https://www.united.com/api/flight/status/444/2024-12-25?carrierCode=CM",
     "airline_code": "CM",
@@ -2069,31 +2069,19 @@
     "airline": "Aeromexico",
     "gate": "A14",
     "departure_time": "2024-12-25 15:33:00",
-    "status": "OutGate",
+    "status": "InAir",
     "codeshared_flights": "DL8975",
     "board_URL": "https://www.united.com/api/flight/status/456/2024-12-25?carrierCode=AM",
     "airline_code": "AM",
     "boarding_time": ""
   },
   {
-    "flight": "UA 345",
-    "airport": "HNL HONOLULU",
-    "airline": "United Airlines",
-    "gate": "D30",
-    "departure_time": "2024-12-25 15:45:00",
-    "status": "Delayed",
-    "codeshared_flights": "CA7374, NZ9727",
-    "board_URL": "https://www.united.com/api/flight/status/345/2024-12-25?carrierCode=UA",
-    "airline_code": "UA",
-    "boarding_time": "BT 07:25\nST 15:15\nET 15:50"
-  },
-  {
     "flight": "WN 3656",
     "airport": "PHX PHOENIX",
     "airline": "Southwest Airlines",
     "gate": "B66",
-    "departure_time": "2024-12-25 15:45:00",
-    "status": "Proposed",
+    "departure_time": "2024-12-25 15:48:00",
+    "status": "OutGate",
     "codeshared_flights": "",
     "board_URL": "https://www.united.com/api/flight/status/3656/2024-12-25?carrierCode=WN",
     "airline_code": "WN",
@@ -2124,18 +2112,6 @@
     "boarding_time": ""
   },
   {
-    "flight": "UA 1366",
-    "airport": "DEN DENVER",
-    "airline": "United Airlines",
-    "gate": "D26",
-    "departure_time": "2024-12-25 16:00:00",
-    "status": "Delayed",
-    "codeshared_flights": "CM2857",
-    "board_URL": "https://www.united.com/api/flight/status/1366/2024-12-25?carrierCode=UA",
-    "airline_code": "UA",
-    "boarding_time": "BT 07:35\nST 16:10\nET 16:45"
-  },
-  {
     "flight": "UA 284",
     "airport": "DEN DENVER",
     "airline": "United Airlines",
@@ -2146,6 +2122,18 @@
     "board_URL": "https://www.united.com/api/flight/status/284/2024-12-25?carrierCode=UA",
     "airline_code": "UA",
     "boarding_time": "BT 15:25\nST 15:25\nET 15:50"
+  },
+  {
+    "flight": "UA 345",
+    "airport": "HNL HONOLULU",
+    "airline": "United Airlines",
+    "gate": "D30",
+    "departure_time": "2024-12-25 16:05:00",
+    "status": "Delayed",
+    "codeshared_flights": "CA7374, NZ9727",
+    "board_URL": "https://www.united.com/api/flight/status/345/2024-12-25?carrierCode=UA",
+    "airline_code": "UA",
+    "boarding_time": "BT 07:25\nST 15:15\nET 15:50"
   },
   {
     "flight": "DL 5397",
@@ -2182,6 +2170,18 @@
     "board_URL": "https://www.united.com/api/flight/status/1695/2024-12-25?carrierCode=DL",
     "airline_code": "DL",
     "boarding_time": ""
+  },
+  {
+    "flight": "UA 1366",
+    "airport": "DEN DENVER",
+    "airline": "United Airlines",
+    "gate": "D26",
+    "departure_time": "2024-12-25 17:00:00",
+    "status": "Delayed",
+    "codeshared_flights": "CM2857",
+    "board_URL": "https://www.united.com/api/flight/status/1366/2024-12-25?carrierCode=UA",
+    "airline_code": "UA",
+    "boarding_time": "BT 07:35\nST 16:10\nET 16:45"
   },
   {
     "flight": "UA 2156",
@@ -2727,7 +2727,7 @@
     "flight": "UA 4884",
     "airport": "SCE STATE COLLEGE",
     "airline": "United Airlines",
-    "gate": "A2F",
+    "gate": "A2E",
     "departure_time": "2024-12-25 17:35:00",
     "status": "Scheduled",
     "codeshared_flights": "",
@@ -2955,7 +2955,7 @@
     "flight": "UA 4274",
     "airport": "DAY DAYTON",
     "airline": "United Airlines",
-    "gate": "A2E",
+    "gate": "A2F",
     "departure_time": "2024-12-25 17:50:00",
     "status": "Scheduled",
     "codeshared_flights": "AV2057, CM2774, LH7796, SN8923",
@@ -3225,7 +3225,7 @@
     "codeshared_flights": "CM2781",
     "board_URL": "https://www.united.com/api/flight/status/4840/2024-12-25?carrierCode=UA",
     "airline_code": "UA",
-    "boarding_time": "BT 18:10\nST 18:10\nET 18:20"
+    "boarding_time": "BT 18:10\nST 19:45\nET 19:55"
   },
   {
     "flight": "VS 22",
@@ -3663,7 +3663,7 @@
     "flight": "UA 1738",
     "airport": "ORD CHICAGO, ORD",
     "airline": "United Airlines",
-    "gate": "D26",
+    "gate": "D30",
     "departure_time": "2024-12-25 22:20:00",
     "status": "Scheduled",
     "codeshared_flights": "AC4420, NZ2456",
