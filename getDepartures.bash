@@ -110,7 +110,7 @@ echo "$DEPARTURES_JSON" | jq '[.[] | {flight: .flight, airport: .airport, airlin
 ls -ltra $DEPARTURES_STAGE_FILE
 
 # Check if the operation was successful and if the file has content
-if [ -s "$DEPARTURES_SATGE_FILE" ]; then
+if [ -s "$DEPARTURES_STAGE_FILE" ]; then
   echo "Departures with today's publishedTime, computed correct_time, and no 'id' field have been written to $DEPARTURES_STAGE_FILE"
 else
   echo "No departures found with publishedTime matching today's date ($TODAY)."
