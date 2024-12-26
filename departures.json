@@ -2237,7 +2237,7 @@
     "airline": "United Airlines",
     "gate": "C18",
     "departure_time": "2024-12-26 16:18:00",
-    "status": "OutGate",
+    "status": "InAir",
     "codeshared_flights": "AV2087, ET1388, NH7142",
     "board_URL": "https://www.united.com/api/flight/status/3541/2024-12-26?carrierCode=UA",
     "airline_code": "UA",
@@ -3605,7 +3605,7 @@
     "airline": "Etihad Airways",
     "gate": "A16",
     "departure_time": "2024-12-26 21:30:00",
-    "status": "Scheduled",
+    "status": "Proposed",
     "codeshared_flights": "GF5130, UL2630",
     "board_URL": "https://www.united.com/api/flight/status/6/2024-12-26?carrierCode=EY",
     "airline_code": "EY",
@@ -4116,6 +4116,18 @@
     "boarding_time": "BT 21:40\nST 21:40\nET 22:15"
   },
   {
+    "flight": "WN 3746",
+    "airport": "DEN DENVER",
+    "airline": "Southwest Airlines",
+    "gate": "B66",
+    "departure_time": "2024-12-26 22:31:00",
+    "status": "Delayed",
+    "codeshared_flights": "",
+    "board_URL": "https://www.united.com/api/flight/status/3746/2024-12-26?carrierCode=WN",
+    "airline_code": "WN",
+    "boarding_time": ""
+  },
+  {
     "flight": "UA 4232",
     "airport": "ROA ROANOKE",
     "airline": "United Airlines",
@@ -4209,18 +4221,6 @@
     "codeshared_flights": "",
     "board_URL": "https://www.united.com/api/flight/status/663/2024-12-26?carrierCode=AV",
     "airline_code": "AV",
-    "boarding_time": ""
-  },
-  {
-    "flight": "WN 3746",
-    "airport": "DEN DENVER",
-    "airline": "Southwest Airlines",
-    "gate": "B66",
-    "departure_time": "2024-12-27 00:15:00",
-    "status": "Delayed",
-    "codeshared_flights": "",
-    "board_URL": "https://www.united.com/api/flight/status/3746/2024-12-26?carrierCode=WN",
-    "airline_code": "WN",
     "boarding_time": ""
   }
 ]
