@@ -1001,7 +1001,7 @@
     "airline": "United Airlines",
     "gate": "C3",
     "departure_time": "2024-12-26 08:55:00",
-    "status": "OutGate",
+    "status": "InAir",
     "codeshared_flights": "CM2857",
     "board_URL": "https://www.united.com/api/flight/status/1366/2024-12-26?carrierCode=UA",
     "airline_code": "UA",
@@ -1121,7 +1121,7 @@
     "airline": "American Airlines",
     "gate": "B73",
     "departure_time": "2024-12-26 09:19:00",
-    "status": "OutGate",
+    "status": "InAir",
     "codeshared_flights": "",
     "board_URL": "https://www.united.com/api/flight/status/5203/2024-12-26?carrierCode=AA",
     "airline_code": "AA",
@@ -1145,7 +1145,7 @@
     "airline": "United Airlines",
     "gate": "A5A",
     "departure_time": "2024-12-26 09:30:00",
-    "status": "OutGate",
+    "status": "InAir",
     "codeshared_flights": "CM2297",
     "board_URL": "https://www.united.com/api/flight/status/4877/2024-12-26?carrierCode=UA",
     "airline_code": "UA",
@@ -1197,7 +1197,7 @@
     "codeshared_flights": "CM2859, ET1364",
     "board_URL": "https://www.united.com/api/flight/status/1926/2024-12-26?carrierCode=UA",
     "airline_code": "UA",
-    "boarding_time": "BT 09:15\nST 09:15\nET 09:50"
+    "boarding_time": "BT 09:15\nST 09:35\nET 10:10"
   },
   {
     "flight": "UA 6217",
