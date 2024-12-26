@@ -1288,8 +1288,8 @@
     "airport": "SRQ SARASOTA",
     "airline": "Allegiant Air",
     "gate": "B50",
-    "departure_time": "2024-12-26 12:06:00",
-    "status": "Delayed",
+    "departure_time": "2024-12-26 12:17:00",
+    "status": "InAir",
     "codeshared_flights": "",
     "board_URL": "https://www.united.com/api/flight/status/1378/2024-12-26?carrierCode=G4",
     "airline_code": "G4",
@@ -1300,12 +1300,36 @@
     "airport": "ALB ALBANY",
     "airline": "United Airlines",
     "gate": "A4E",
-    "departure_time": "2024-12-26 12:35:00",
-    "status": "Scheduled",
+    "departure_time": "2024-12-26 12:24:00",
+    "status": "OutGate",
     "codeshared_flights": "",
     "board_URL": "https://www.united.com/api/flight/status/4317/2024-12-26?carrierCode=UA",
     "airline_code": "UA",
     "boarding_time": "BT 12:10\nST 12:10\nET 12:20"
+  },
+  {
+    "flight": "UA 4360",
+    "airport": "DAY DAYTON",
+    "airline": "United Airlines",
+    "gate": "A5B",
+    "departure_time": "2024-12-26 12:27:00",
+    "status": "OutGate",
+    "codeshared_flights": "",
+    "board_URL": "https://www.united.com/api/flight/status/4360/2024-12-26?carrierCode=UA",
+    "airline_code": "UA",
+    "boarding_time": "BT 12:10\nST 12:10\nET 12:20"
+  },
+  {
+    "flight": "UA 1519",
+    "airport": "MBJ MONTEGO BAY",
+    "airline": "United Airlines",
+    "gate": "D16",
+    "departure_time": "2024-12-26 12:28:00",
+    "status": "OutGate",
+    "codeshared_flights": "",
+    "board_URL": "https://www.united.com/api/flight/status/1519/2024-12-26?carrierCode=UA",
+    "airline_code": "UA",
+    "boarding_time": "BT 11:55\nST 11:55\nET 12:20"
   },
   {
     "flight": "UA 6023",
@@ -1316,18 +1340,6 @@
     "status": "Scheduled",
     "codeshared_flights": "AC3560, NH7152",
     "board_URL": "https://www.united.com/api/flight/status/6023/2024-12-26?carrierCode=UA",
-    "airline_code": "UA",
-    "boarding_time": "BT 12:10\nST 12:10\nET 12:20"
-  },
-  {
-    "flight": "UA 4360",
-    "airport": "DAY DAYTON",
-    "airline": "United Airlines",
-    "gate": "A5B",
-    "departure_time": "2024-12-26 12:35:00",
-    "status": "Scheduled",
-    "codeshared_flights": "",
-    "board_URL": "https://www.united.com/api/flight/status/4360/2024-12-26?carrierCode=UA",
     "airline_code": "UA",
     "boarding_time": "BT 12:10\nST 12:10\nET 12:20"
   },
@@ -1354,18 +1366,6 @@
     "board_URL": "https://www.united.com/api/flight/status/6224/2024-12-26?carrierCode=UA",
     "airline_code": "UA",
     "boarding_time": "BT 12:10\nST 12:10\nET 12:20"
-  },
-  {
-    "flight": "UA 1519",
-    "airport": "MBJ MONTEGO BAY",
-    "airline": "United Airlines",
-    "gate": "D16",
-    "departure_time": "2024-12-26 12:35:00",
-    "status": "Scheduled",
-    "codeshared_flights": "",
-    "board_URL": "https://www.united.com/api/flight/status/1519/2024-12-26?carrierCode=UA",
-    "airline_code": "UA",
-    "boarding_time": "BT 11:55\nST 11:55\nET 12:20"
   },
   {
     "flight": "UA 6084",
@@ -1512,18 +1512,6 @@
     "boarding_time": "BT 12:00\nST 12:00\nET 12:25"
   },
   {
-    "flight": "UA 2156",
-    "airport": "BNA NASHVILLE",
-    "airline": "United Airlines",
-    "gate": "D4",
-    "departure_time": "2024-12-26 12:40:00",
-    "status": "Scheduled",
-    "codeshared_flights": "",
-    "board_URL": "https://www.united.com/api/flight/status/2156/2024-12-26?carrierCode=UA",
-    "airline_code": "UA",
-    "boarding_time": "BT 12:05\nST 12:05\nET 12:25"
-  },
-  {
     "flight": "UA 4187",
     "airport": "EWR NEWARK",
     "airline": "United Airlines",
@@ -1629,7 +1617,7 @@
     "codeshared_flights": "",
     "board_URL": "https://www.united.com/api/flight/status/4843/2024-12-26?carrierCode=UA",
     "airline_code": "UA",
-    "boarding_time": "BT 12:20\nST 12:20\nET 12:30"
+    "boarding_time": "BT 12:20\nST 12:28\nET 12:38"
   },
   {
     "flight": "UA 6150",
@@ -1738,18 +1726,6 @@
     "board_URL": "https://www.united.com/api/flight/status/1344/2024-12-26?carrierCode=UA",
     "airline_code": "UA",
     "boarding_time": "BT 12:10\nST 12:10\nET 12:35"
-  },
-  {
-    "flight": "UA 5043",
-    "airport": "JST JOHNSTOWN",
-    "airline": "United Airlines",
-    "gate": "A6C",
-    "departure_time": "2024-12-26 12:50:00",
-    "status": "Scheduled",
-    "codeshared_flights": "",
-    "board_URL": "https://www.united.com/api/flight/status/5043/2024-12-26?carrierCode=UA",
-    "airline_code": "UA",
-    "boarding_time": "BT 12:25\nST 12:25\nET 12:35"
   },
   {
     "flight": "UA 6016",
@@ -1872,6 +1848,18 @@
     "boarding_time": "BT 12:30\nST 12:30\nET 12:40"
   },
   {
+    "flight": "UA 2156",
+    "airport": "BNA NASHVILLE",
+    "airline": "United Airlines",
+    "gate": "D4",
+    "departure_time": "2024-12-26 12:55:00",
+    "status": "Scheduled",
+    "codeshared_flights": "",
+    "board_URL": "https://www.united.com/api/flight/status/2156/2024-12-26?carrierCode=UA",
+    "airline_code": "UA",
+    "boarding_time": "BT 12:05\nST 12:20\nET 12:40"
+  },
+  {
     "flight": "UA 3627",
     "airport": "PWM PORTLAND, PWM",
     "airline": "United Airlines",
@@ -1880,18 +1868,6 @@
     "status": "Scheduled",
     "codeshared_flights": "",
     "board_URL": "https://www.united.com/api/flight/status/3627/2024-12-26?carrierCode=UA",
-    "airline_code": "UA",
-    "boarding_time": "BT 12:30\nST 12:30\nET 12:40"
-  },
-  {
-    "flight": "UA 4831",
-    "airport": "ROA ROANOKE",
-    "airline": "United Airlines",
-    "gate": "A4A",
-    "departure_time": "2024-12-26 12:55:00",
-    "status": "Scheduled",
-    "codeshared_flights": "AC4709, AV2098",
-    "board_URL": "https://www.united.com/api/flight/status/4831/2024-12-26?carrierCode=UA",
     "airline_code": "UA",
     "boarding_time": "BT 12:30\nST 12:30\nET 12:40"
   },
@@ -2004,6 +1980,30 @@
     "boarding_time": ""
   },
   {
+    "flight": "UA 5043",
+    "airport": "JST JOHNSTOWN",
+    "airline": "United Airlines",
+    "gate": "A6C",
+    "departure_time": "2024-12-26 13:15:00",
+    "status": "Delayed",
+    "codeshared_flights": "",
+    "board_URL": "https://www.united.com/api/flight/status/5043/2024-12-26?carrierCode=UA",
+    "airline_code": "UA",
+    "boarding_time": "BT 12:25\nST 12:50\nET 13:00"
+  },
+  {
+    "flight": "UA 4831",
+    "airport": "ROA ROANOKE",
+    "airline": "United Airlines",
+    "gate": "A4A",
+    "departure_time": "2024-12-26 13:15:00",
+    "status": "Delayed",
+    "codeshared_flights": "AC4709, AV2098",
+    "board_URL": "https://www.united.com/api/flight/status/4831/2024-12-26?carrierCode=UA",
+    "airline_code": "UA",
+    "boarding_time": "BT 12:30\nST 12:50\nET 13:00"
+  },
+  {
     "flight": "UA 2055",
     "airport": "PUJ PUNTA CANA",
     "airline": "United Airlines",
@@ -2076,18 +2076,6 @@
     "boarding_time": ""
   },
   {
-    "flight": "DL 3877",
-    "airport": "DTW DETROIT, DTW",
-    "airline": "Delta Air Lines",
-    "gate": "B76",
-    "departure_time": "2024-12-26 14:20:00",
-    "status": "Delayed",
-    "codeshared_flights": "AF2246, KE3479, KL6705, VS4419, WS7779",
-    "board_URL": "https://www.united.com/api/flight/status/3877/2024-12-26?carrierCode=DL",
-    "airline_code": "DL",
-    "boarding_time": ""
-  },
-  {
     "flight": "WN 1476",
     "airport": "DEN DENVER",
     "airline": "Southwest Airlines",
@@ -2121,6 +2109,18 @@
     "codeshared_flights": "UA8693",
     "board_URL": "https://www.united.com/api/flight/status/8619/2024-12-26?carrierCode=AC",
     "airline_code": "AC",
+    "boarding_time": ""
+  },
+  {
+    "flight": "DL 3877",
+    "airport": "DTW DETROIT, DTW",
+    "airline": "Delta Air Lines",
+    "gate": "B76",
+    "departure_time": "2024-12-26 14:37:00",
+    "status": "Delayed",
+    "codeshared_flights": "AF2246, KE3479, KL6705, VS4419, WS7779",
+    "board_URL": "https://www.united.com/api/flight/status/3877/2024-12-26?carrierCode=DL",
+    "airline_code": "DL",
     "boarding_time": ""
   },
   {
@@ -2232,18 +2232,6 @@
     "boarding_time": ""
   },
   {
-    "flight": "UA 3541",
-    "airport": "PIT PITTSBURGH",
-    "airline": "United Airlines",
-    "gate": "D23",
-    "departure_time": "2024-12-26 16:30:00",
-    "status": "Delayed",
-    "codeshared_flights": "AV2087, ET1388, NH7142",
-    "board_URL": "https://www.united.com/api/flight/status/3541/2024-12-26?carrierCode=UA",
-    "airline_code": "UA",
-    "boarding_time": "BT 12:15\nST 16:05\nET 16:15"
-  },
-  {
     "flight": "DL 1695",
     "airport": "ATL ATLANTA",
     "airline": "Delta Air Lines",
@@ -2254,6 +2242,18 @@
     "board_URL": "https://www.united.com/api/flight/status/1695/2024-12-26?carrierCode=DL",
     "airline_code": "DL",
     "boarding_time": ""
+  },
+  {
+    "flight": "UA 3541",
+    "airport": "PIT PITTSBURGH",
+    "airline": "United Airlines",
+    "gate": "C26",
+    "departure_time": "2024-12-26 17:00:00",
+    "status": "Delayed",
+    "codeshared_flights": "AV2087, ET1388, NH7142",
+    "board_URL": "https://www.united.com/api/flight/status/3541/2024-12-26?carrierCode=UA",
+    "airline_code": "UA",
+    "boarding_time": "BT 12:15\nST 16:35\nET 16:45"
   },
   {
     "flight": "UA 1869",
@@ -3852,18 +3852,6 @@
     "boarding_time": "BT 21:50\nST 21:50\nET 22:00"
   },
   {
-    "flight": "WN 3746",
-    "airport": "DEN DENVER",
-    "airline": "Southwest Airlines",
-    "gate": "B66",
-    "departure_time": "2024-12-26 22:15:00",
-    "status": "Delayed",
-    "codeshared_flights": "",
-    "board_URL": "https://www.united.com/api/flight/status/3746/2024-12-26?carrierCode=WN",
-    "airline_code": "WN",
-    "boarding_time": ""
-  },
-  {
     "flight": "UA 3527",
     "airport": "DTW DETROIT, DTW",
     "airline": "United Airlines",
@@ -3915,7 +3903,7 @@
     "flight": "UA 4849",
     "airport": "GSO GREENSBORO",
     "airline": "United Airlines",
-    "gate": "A4C",
+    "gate": "A4B",
     "departure_time": "2024-12-26 22:16:00",
     "status": "Scheduled",
     "codeshared_flights": "LH7926",
@@ -4210,6 +4198,18 @@
     "board_URL": "https://www.united.com/api/flight/status/1370/2024-12-26?carrierCode=UA",
     "airline_code": "UA",
     "boarding_time": "BT 21:58\nST 21:58\nET 22:23"
+  },
+  {
+    "flight": "WN 3746",
+    "airport": "DEN DENVER",
+    "airline": "Southwest Airlines",
+    "gate": "B66",
+    "departure_time": "2024-12-26 23:15:00",
+    "status": "Delayed",
+    "codeshared_flights": "",
+    "board_URL": "https://www.united.com/api/flight/status/3746/2024-12-26?carrierCode=WN",
+    "airline_code": "WN",
+    "boarding_time": ""
   },
   {
     "flight": "AV 663",
