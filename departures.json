@@ -2385,7 +2385,7 @@
     "codeshared_flights": "CM2785",
     "board_URL": "https://www.united.com/api/flight/status/1620/2024-12-26?carrierCode=UA",
     "airline_code": "UA",
-    "boarding_time": "BT 16:30\nST 16:30\nET 16:55"
+    "boarding_time": "BT 16:30\nST 16:50\nET 17:15"
   },
   {
     "flight": "UA 3497",
@@ -3305,7 +3305,7 @@
     "airline": "Avianca",
     "gate": "B50",
     "departure_time": "2024-12-26 18:15:00",
-    "status": "Scheduled",
+    "status": "Proposed",
     "codeshared_flights": "",
     "board_URL": "https://www.united.com/api/flight/status/585/2024-12-26?carrierCode=AV",
     "airline_code": "AV",
