@@ -164,7 +164,11 @@ updated_json=$(jq -c '.[]' "$DEPARTURES_STAGE_FILE" | while read -r item; do
 done | jq -s '.')
 
 echo "$updated_json" > $DEPARTURES_STAGE_FILE
+
+ls -ltra "$DEPARTURES_STAGE_FILE" "$DEPARTURES_FILE"
+echo "renaming $DEPARTURES_STAGE_FILE to $DEPARTURES_FILE"
 mv "$DEPARTURES_STAGE_FILE" "$DEPARTURES_FILE"
+ls -ltra "$DEPARTURES_STAGE_FILE" "$DEPARTURES_FILE"
 date
 echo "=========================="
 echo "$1 Run Ended"
