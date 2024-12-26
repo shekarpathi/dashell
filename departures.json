@@ -219,7 +219,7 @@
     "flight": "DL 1354",
     "airport": "ATL ATLANTA",
     "airline": "Delta Air Lines",
-    "gate": "B72",
+    "gate": "B78",
     "departure_time": "2024-12-26 07:15:00",
     "status": "Scheduled",
     "codeshared_flights": "AM4093, KE6926, LA6288, VS4483",
@@ -735,7 +735,7 @@
     "flight": "UA 4370",
     "airport": "RIC RICHMOND",
     "airline": "United Airlines",
-    "gate": "A4A",
+    "gate": "A2E",
     "departure_time": "2024-12-26 08:35:00",
     "status": "Scheduled",
     "codeshared_flights": "CM2284",
@@ -855,7 +855,7 @@
     "flight": "UA 4257",
     "airport": "TYS KNOXVILLE",
     "airline": "United Airlines",
-    "gate": "A2E",
+    "gate": "A4A",
     "departure_time": "2024-12-26 08:45:00",
     "status": "Scheduled",
     "codeshared_flights": "AC4741, AV2346, CM2237",
@@ -2613,7 +2613,7 @@
     "codeshared_flights": "AC5543, AV2015, CM2632, NZ2454, OS7915",
     "board_URL": "https://www.united.com/api/flight/status/2497/2024-12-26?carrierCode=UA",
     "airline_code": "UA",
-    "boarding_time": "BT 16:47\nST 16:47\nET 17:07"
+    "boarding_time": "BT 16:42\nST 16:42\nET 17:07"
   },
   {
     "flight": "UA 6255",
@@ -3660,10 +3660,22 @@
     "boarding_time": ""
   },
   {
+    "flight": "BA 292",
+    "airport": "LHR LONDON",
+    "airline": "British Airways",
+    "gate": "B44",
+    "departure_time": "2024-12-26 21:55:00",
+    "status": "Scheduled",
+    "codeshared_flights": "AA7001, AY5532, EI8992, IB3631",
+    "board_URL": "https://www.united.com/api/flight/status/292/2024-12-26?carrierCode=BA",
+    "airline_code": "BA",
+    "boarding_time": ""
+  },
+  {
     "flight": "UA 4321",
     "airport": "ALB ALBANY",
     "airline": "United Airlines",
-    "gate": "A4F",
+    "gate": "A4C",
     "departure_time": "2024-12-26 22:05:00",
     "status": "Scheduled",
     "codeshared_flights": "LH8610",
@@ -4008,18 +4020,6 @@
     "boarding_time": "BT 21:57\nST 21:57\nET 22:07"
   },
   {
-    "flight": "BA 292",
-    "airport": "LHR LONDON",
-    "airline": "British Airways",
-    "gate": "B44",
-    "departure_time": "2024-12-26 22:22:00",
-    "status": "Delayed",
-    "codeshared_flights": "AA7001, AY5532, EI8992, IB3631",
-    "board_URL": "https://www.united.com/api/flight/status/292/2024-12-26?carrierCode=BA",
-    "airline_code": "BA",
-    "boarding_time": ""
-  },
-  {
     "flight": "UA 2667",
     "airport": "ROC ROCHESTER",
     "airline": "United Airlines",
@@ -4131,7 +4131,7 @@
     "flight": "UA 4232",
     "airport": "ROA ROANOKE",
     "airline": "United Airlines",
-    "gate": "A4B",
+    "gate": "A2F",
     "departure_time": "2024-12-26 22:31:00",
     "status": "Scheduled",
     "codeshared_flights": "AC4711, LH9274",
