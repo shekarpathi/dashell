@@ -3677,7 +3677,7 @@
     "airline": "United Airlines",
     "gate": "A5A",
     "departure_time": "2024-12-25 22:17:00",
-    "status": "InAir",
+    "status": "Landed",
     "codeshared_flights": "",
     "board_URL": "https://www.united.com/api/flight/status/4265/2024-12-25?carrierCode=UA",
     "airline_code": "UA",
@@ -3785,7 +3785,7 @@
     "airline": "United Airlines",
     "gate": "A5B",
     "departure_time": "2024-12-25 22:23:00",
-    "status": "OutGate",
+    "status": "InAir",
     "codeshared_flights": "AC4711, LH9274",
     "board_URL": "https://www.united.com/api/flight/status/4232/2024-12-25?carrierCode=UA",
     "airline_code": "UA",
@@ -3856,8 +3856,8 @@
     "airport": "ORF NORFOLK",
     "airline": "United Airlines",
     "gate": "D16",
-    "departure_time": "2024-12-25 22:52:00",
-    "status": "Delayed",
+    "departure_time": "2024-12-25 22:49:00",
+    "status": "OutGate",
     "codeshared_flights": "AC4751, LH7650",
     "board_URL": "https://www.united.com/api/flight/status/1437/2024-12-25?carrierCode=UA",
     "airline_code": "UA",
@@ -3873,7 +3873,7 @@
     "codeshared_flights": "AV2134",
     "board_URL": "https://www.united.com/api/flight/status/1997/2024-12-25?carrierCode=UA",
     "airline_code": "UA",
-    "boarding_time": "BT 21:53\nST 22:13\nET 22:38"
+    "boarding_time": "BT 21:53\nST 22:30\nET 22:55"
   },
   {
     "flight": "UA 6126",
