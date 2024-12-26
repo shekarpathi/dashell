@@ -148,4 +148,3 @@ done | jq -s '.')
 echo "$updated_json" > $DEPARTURES_STAGE_FILE
 mv "$DEPARTURES_STAGE_FILE" "$DEPARTURES_FILE"
 date
-
