@@ -45,9 +45,9 @@ get_flight_status() {
 get_boardtime_string() {
   # Step 2: Attempt to fetch flight status
   flight_response=$(get_flight_status "$hash" "$1")
-#  current_time=$(date +"%H%M%S")
-#  echo "$flight_response" | jq > JJ"$current_time".json
-#  echo "$flight_response" > foo.pjson
+  current_time=$(date +"%H%M%S")
+  echo "$flight_response" | jq > JJ"$current_time".json
+  echo "$flight_response" > foo.pjson
   echo "$flight_response" | jq -r '
   .data.flightLegs[]
   | .OperationalFlightSegments[]
@@ -92,7 +92,7 @@ DEPARTURES_JSON=$(curl -s "$URL" | jq --arg today "$TODAY" --argjson now "$NOW" 
        | (.IATA + .flightnumber)
       ] | join(", ")
     )
-  | .boardURL = ("https://www.united.com/api/flight/status/" + .flightnumber + "/" + "2024-12-25" +  "?carrierCode=" + .IATA)
+  | .boardURL = ("https://www.united.com/api/flight/status/" + .flightnumber + "/" + $today +  "?carrierCode=" + .IATA)
   | .flight = (.IATA + " " + .flightnumber)
   | .airline_code = (.IATA)
   | .airport = (.airportcode + " " + .city)
@@ -148,3 +148,4 @@ done | jq -s '.')
 echo "$updated_json" > $DEPARTURES_STAGE_FILE
 mv "$DEPARTURES_STAGE_FILE" "$DEPARTURES_FILE"
 date
+
