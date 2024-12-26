@@ -1,5 +1,8 @@
 #!/bin/bash
 clear
+echo "=========================="
+echo "$1 Run Started"
+echo "=========================="
 date
 # Define constants
 user_agent="Mozilla/5.0 Gecko/20100101 Firefox/133.0"
@@ -9,9 +12,11 @@ token_url="https://www.united.com/api/auth/anonymous-token"
 
 # URL to fetch the JSON data
 URL="https://www.flydulles.com/arrivals-and-departures/json"
-curl -s "$URL" | jq | wc -l
+export totalLinesInArrDepJson=$(curl -s "$URL" | jq | wc -l)
+echo "Total lines in Arrivals Departures json is :$totalLinesInArrDepJson)"
 curl -s "$URL" | jq [.departures[]] > departures_raw.json
 curl -s "$URL" | jq [.arrivals[]] > arrivals_raw.json
+ls -ltra *_raw.json
 
 # Output file
 #DEPARTURES_HTML="departures.html"
@@ -111,12 +116,15 @@ ls -ltra $DEPARTURES_STAGE_FILE
 
 # Check if the operation was successful and if the file has content
 if [ -s "$DEPARTURES_STAGE_FILE" ]; then
-  echo "Departures with today's publishedTime, computed correct_time, and no 'id' field have been written to $DEPARTURES_STAGE_FILE"
+  echo "Departures written to $DEPARTURES_STAGE_FILE"
+  ls -ltra $DEPARTURES_STAGE_FILE
+  echo "Now going to populate the boarding start and end times\n\n\n"
 else
   echo "No departures found with publishedTime matching today's date ($TODAY)."
   # Optionally remove the empty file
   rm -f "$DEPARTURES_STAGE_FILE"
-  exit 1
+  rm -f JJ*.json
+  exit 0
 fi
 
 #cat $DEPARTURES_STAGE_FILE
@@ -148,3 +156,6 @@ done | jq -s '.')
 echo "$updated_json" > $DEPARTURES_STAGE_FILE
 mv "$DEPARTURES_STAGE_FILE" "$DEPARTURES_FILE"
 date
+echo "=========================="
+echo "$1 Run Ended"
+echo "=========================="
