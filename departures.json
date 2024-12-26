@@ -3869,7 +3869,7 @@
     "airline": "United Airlines",
     "gate": "C25",
     "departure_time": "2024-12-25 23:18:00",
-    "status": "OutGate",
+    "status": "InAir",
     "codeshared_flights": "AV2134",
     "board_URL": "https://www.united.com/api/flight/status/1997/2024-12-25?carrierCode=UA",
     "airline_code": "UA",
@@ -3879,13 +3879,13 @@
     "flight": "UA 495",
     "airport": "DEN DENVER",
     "airline": "United Airlines",
-    "gate": "D6",
-    "departure_time": "2024-12-25 23:37:00",
+    "gate": "D12",
+    "departure_time": "2024-12-26 00:45:00",
     "status": "Delayed",
-    "codeshared_flights": "",
+    "codeshared_flights": "CM2861, LH7518",
     "board_URL": "https://www.united.com/api/flight/status/495/2024-12-25?carrierCode=UA",
     "airline_code": "UA",
-    "boarding_time": "BT 21:37\nST 23:57\nET 00:22"
+    "boarding_time": "BT 21:37\nST 00:05\nET 00:30"
   },
   {
     "flight": "TK 8",
