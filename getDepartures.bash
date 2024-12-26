@@ -1,9 +1,9 @@
 #!/bin/bash
 clear
 echo "=========================="
-echo "$1 Run Started"
-echo "=========================="
+echo "$1 Run Started $NOW"
 date
+echo "=========================="
 # Define constants
 user_agent="Mozilla/5.0 Gecko/20100101 Firefox/133.0"
 accept_language="en-US,en;q=0.5"
@@ -112,13 +112,11 @@ ls -ltra iad_dep.json
 
 echo "$DEPARTURES_JSON" | jq '[.[] | {flight: .flight, airport: .airport, airline: .airline, gate: .gate, departure_time: .departure_time, status: .status, codeshared_flights: .codeshared_flights, board_URL: .boardURL, airline_code: .airline_code}]' > $DEPARTURES_STAGE_FILE
 
-ls -ltra $DEPARTURES_STAGE_FILE
-
 # Check if the operation was successful and if the file has content
 if [ -s "$DEPARTURES_STAGE_FILE" ]; then
   echo "Departures written to $DEPARTURES_STAGE_FILE"
   ls -ltra $DEPARTURES_STAGE_FILE
-  echo "Now going to populate the boarding start and end times\n\n\n"
+  echo "Now going to populate the boarding start and end times"
 else
   echo "No departures found with publishedTime matching today's date ($TODAY)."
   # Optionally remove the empty file
@@ -158,4 +156,5 @@ mv "$DEPARTURES_STAGE_FILE" "$DEPARTURES_FILE"
 date
 echo "=========================="
 echo "$1 Run Ended"
+date
 echo "=========================="
