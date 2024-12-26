@@ -5,3 +5,4 @@ iad_arr.json
 .DS_Store
 JJ*.json
 departures_raw_filtered.json
+departures_stage.json
