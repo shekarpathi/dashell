@@ -1,4 +1,7 @@
 #!/bin/bash
+
+#  git pull --rebase origin main
+
 clear
 echo "=========================="
 echo "$1 Run Started $NOW"
@@ -90,7 +93,7 @@ response=$(curl -s -w "%{http_code}" "$URL" | jq)
 http_code=$(tail -n1 <<< "$response")  # get the last line
 if [[ $http_code -ge 300 ]]; then
     echo "Error: HTTP code $http_code. Exiting."
-    exit 0
+    exit 1
 fi
 content=$(sed '$ d' <<< "$response")   # get all but the last line which contains the status code
 #echo "$content"
