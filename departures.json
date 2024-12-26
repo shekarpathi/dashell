@@ -1229,7 +1229,7 @@
     "airline": "United Airlines",
     "gate": "A2A",
     "departure_time": "2024-12-26 10:43:00",
-    "status": "OutGate",
+    "status": "InAir",
     "codeshared_flights": "",
     "board_URL": "https://www.united.com/api/flight/status/6217/2024-12-26?carrierCode=UA",
     "airline_code": "UA",
