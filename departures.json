@@ -244,8 +244,8 @@
     "airport": "MCO ORLANDO",
     "airline": "United Airlines",
     "gate": "D1",
-    "departure_time": "2024-12-26 08:00:00",
-    "status": "Scheduled",
+    "departure_time": "2024-12-26 08:01:00",
+    "status": "OutGate",
     "codeshared_flights": "AD7915, AV2291, CM2793",
     "board_URL": "https://www.united.com/api/flight/status/379/2024-12-26?carrierCode=UA",
     "airline_code": "UA",
@@ -1008,6 +1008,18 @@
     "boarding_time": "BT 08:20\nST 08:20\nET 08:45"
   },
   {
+    "flight": "UA 1366",
+    "airport": "DEN DENVER",
+    "airline": "United Airlines",
+    "gate": "C3",
+    "departure_time": "2024-12-26 09:00:00",
+    "status": "Delayed",
+    "codeshared_flights": "CM2857",
+    "board_URL": "https://www.united.com/api/flight/status/1366/2024-12-26?carrierCode=UA",
+    "airline_code": "UA",
+    "boarding_time": "BT 07:35\nST 08:10\nET 08:45"
+  },
+  {
     "flight": "UA 4581",
     "airport": "DTW DETROIT, DTW",
     "airline": "United Airlines",
@@ -1150,18 +1162,6 @@
     "board_URL": "https://www.united.com/api/flight/status/4877/2024-12-26?carrierCode=UA",
     "airline_code": "UA",
     "boarding_time": "BT 07:55\nST 08:45\nET 08:55"
-  },
-  {
-    "flight": "UA 1366",
-    "airport": "DEN DENVER",
-    "airline": "United Airlines",
-    "gate": "C3",
-    "departure_time": "2024-12-26 09:15:00",
-    "status": "Delayed",
-    "codeshared_flights": "CM2857",
-    "board_URL": "https://www.united.com/api/flight/status/1366/2024-12-26?carrierCode=UA",
-    "airline_code": "UA",
-    "boarding_time": "BT 07:35\nST 08:10\nET 08:45"
   },
   {
     "flight": "AA 5203",
