@@ -1228,12 +1228,12 @@
     "airport": "EYW KEY WEST",
     "airline": "United Airlines",
     "gate": "A2A",
-    "departure_time": "2024-12-26 10:30:00",
+    "departure_time": "2024-12-26 10:45:00",
     "status": "Delayed",
     "codeshared_flights": "",
     "board_URL": "https://www.united.com/api/flight/status/6217/2024-12-26?carrierCode=UA",
     "airline_code": "UA",
-    "boarding_time": "BT 08:35\nST 10:05\nET 10:15"
+    "boarding_time": "BT 08:35\nST 10:20\nET 10:30"
   },
   {
     "flight": "PD 2718",
@@ -2997,7 +2997,7 @@
     "codeshared_flights": "LH7828, SN9014",
     "board_URL": "https://www.united.com/api/flight/status/4926/2024-12-26?carrierCode=UA",
     "airline_code": "UA",
-    "boarding_time": "BT 17:20\nST 17:20\nET 17:30"
+    "boarding_time": "BT 17:20\nST 18:10\nET 18:20"
   },
   {
     "flight": "UA 4364",
@@ -3315,7 +3315,7 @@
     "flight": "AV 585",
     "airport": "SAL SAN SALVADOR",
     "airline": "Avianca",
-    "gate": "B48",
+    "gate": "B50",
     "departure_time": "2024-12-26 18:15:00",
     "status": "Scheduled",
     "codeshared_flights": "",
