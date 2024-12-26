@@ -2164,23 +2164,11 @@
     "airport": "MEX MEXICO CITY",
     "airline": "Aeromexico",
     "gate": "A14",
-    "departure_time": "2024-12-26 15:38:00",
-    "status": "Scheduled",
+    "departure_time": "2024-12-26 15:34:00",
+    "status": "OutGate",
     "codeshared_flights": "DL8975",
     "board_URL": "https://www.united.com/api/flight/status/456/2024-12-26?carrierCode=AM",
     "airline_code": "AM",
-    "boarding_time": ""
-  },
-  {
-    "flight": "DL 3877",
-    "airport": "DTW DETROIT, DTW",
-    "airline": "Delta Air Lines",
-    "gate": "B76",
-    "departure_time": "2024-12-26 15:45:00",
-    "status": "Delayed",
-    "codeshared_flights": "AF2246, KE3479, KL6705, VS4419, WS7779",
-    "board_URL": "https://www.united.com/api/flight/status/3877/2024-12-26?carrierCode=DL",
-    "airline_code": "DL",
     "boarding_time": ""
   },
   {
@@ -2193,6 +2181,18 @@
     "codeshared_flights": "NH7837",
     "board_URL": "https://www.united.com/api/flight/status/583/2024-12-26?carrierCode=AV",
     "airline_code": "AV",
+    "boarding_time": ""
+  },
+  {
+    "flight": "DL 3877",
+    "airport": "DTW DETROIT, DTW",
+    "airline": "Delta Air Lines",
+    "gate": "B76",
+    "departure_time": "2024-12-26 15:55:00",
+    "status": "Delayed",
+    "codeshared_flights": "AF2246, KE3479, KL6705, VS4419, WS7779",
+    "board_URL": "https://www.united.com/api/flight/status/3877/2024-12-26?carrierCode=DL",
+    "airline_code": "DL",
     "boarding_time": ""
   },
   {
@@ -2748,18 +2748,6 @@
     "boarding_time": "BT 17:05\nST 17:05\nET 17:15"
   },
   {
-    "flight": "UA 4339",
-    "airport": "ROA ROANOKE",
-    "airline": "United Airlines",
-    "gate": "A5C",
-    "departure_time": "2024-12-26 17:30:00",
-    "status": "Scheduled",
-    "codeshared_flights": "AC4713, LH9200, SN8979",
-    "board_URL": "https://www.united.com/api/flight/status/4339/2024-12-26?carrierCode=UA",
-    "airline_code": "UA",
-    "boarding_time": "BT 17:05\nST 17:05\nET 17:15"
-  },
-  {
     "flight": "UA 1858",
     "airport": "SLC SALT LAKE CITY",
     "airline": "United Airlines",
@@ -3010,6 +2998,18 @@
     "board_URL": "https://www.united.com/api/flight/status/2116/2024-12-26?carrierCode=UA",
     "airline_code": "UA",
     "boarding_time": "BT 17:10\nST 17:10\nET 17:30"
+  },
+  {
+    "flight": "UA 4339",
+    "airport": "ROA ROANOKE",
+    "airline": "United Airlines",
+    "gate": "A5C",
+    "departure_time": "2024-12-26 17:45:00",
+    "status": "Scheduled",
+    "codeshared_flights": "AC4713, LH9200, SN8979",
+    "board_URL": "https://www.united.com/api/flight/status/4339/2024-12-26?carrierCode=UA",
+    "airline_code": "UA",
+    "boarding_time": "BT 17:05\nST 17:20\nET 17:30"
   },
   {
     "flight": "UA 884",
@@ -3915,7 +3915,7 @@
     "flight": "UA 4279",
     "airport": "SCE STATE COLLEGE",
     "airline": "United Airlines",
-    "gate": "A5C",
+    "gate": "A6A",
     "departure_time": "2024-12-26 22:16:00",
     "status": "Scheduled",
     "codeshared_flights": "",
@@ -4179,7 +4179,7 @@
     "flight": "UA 2382",
     "airport": "RDU RALEIGH",
     "airline": "United Airlines",
-    "gate": "D5",
+    "gate": "D20",
     "departure_time": "2024-12-26 22:35:00",
     "status": "Scheduled",
     "codeshared_flights": "AC3394, LH9176",
@@ -4216,7 +4216,7 @@
     "airport": "DEN DENVER",
     "airline": "Southwest Airlines",
     "gate": "B66",
-    "departure_time": "2024-12-26 23:57:00",
+    "departure_time": "2024-12-26 23:59:00",
     "status": "Delayed",
     "codeshared_flights": "",
     "board_URL": "https://www.united.com/api/flight/status/3746/2024-12-26?carrierCode=WN",
