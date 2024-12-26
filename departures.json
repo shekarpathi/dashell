@@ -3268,24 +3268,12 @@
     "airport": "DOH DOHA",
     "airline": "Qatar Airways",
     "gate": "B37",
-    "departure_time": "2024-12-25 20:05:00",
-    "status": "Proposed",
+    "departure_time": "2024-12-25 19:58:00",
+    "status": "InAir",
     "codeshared_flights": "AA8120, AS5822, B65555, MH9070, UL3167, WB1083, WY6046",
     "board_URL": "https://www.united.com/api/flight/status/708/2024-12-25?carrierCode=QR",
     "airline_code": "QR",
     "boarding_time": ""
-  },
-  {
-    "flight": "UA 4840",
-    "airport": "CHO CHARLOTTESVILLE",
-    "airline": "United Airlines",
-    "gate": "A4A",
-    "departure_time": "2024-12-25 20:30:00",
-    "status": "Delayed",
-    "codeshared_flights": "CM2781",
-    "board_URL": "https://www.united.com/api/flight/status/4840/2024-12-25?carrierCode=UA",
-    "airline_code": "UA",
-    "boarding_time": "BT 18:10\nST 20:05\nET 20:15"
   },
   {
     "flight": "AT 219",
@@ -3293,7 +3281,7 @@
     "airline": "Royal Air Maroc",
     "gate": "A20",
     "departure_time": "2024-12-25 20:40:00",
-    "status": "Proposed",
+    "status": "InAir",
     "codeshared_flights": "AA7959",
     "board_URL": "https://www.united.com/api/flight/status/219/2024-12-25?carrierCode=AT",
     "airline_code": "AT",
@@ -3316,12 +3304,12 @@
     "airport": "LOS LAGOS",
     "airline": "United Airlines",
     "gate": "C8",
-    "departure_time": "2024-12-25 21:00:00",
+    "departure_time": "2024-12-25 21:20:00",
     "status": "Delayed",
     "codeshared_flights": "",
     "board_URL": "https://www.united.com/api/flight/status/612/2024-12-25?carrierCode=UA",
     "airline_code": "UA",
-    "boarding_time": "BT 17:40\nST 20:10\nET 20:45"
+    "boarding_time": "BT 17:40\nST 20:30\nET 21:05"
   },
   {
     "flight": "EY 6",
@@ -3334,6 +3322,18 @@
     "board_URL": "https://www.united.com/api/flight/status/6/2024-12-25?carrierCode=EY",
     "airline_code": "EY",
     "boarding_time": ""
+  },
+  {
+    "flight": "UA 4840",
+    "airport": "CHO CHARLOTTESVILLE",
+    "airline": "United Airlines",
+    "gate": "A4A",
+    "departure_time": "2024-12-25 21:30:00",
+    "status": "Delayed",
+    "codeshared_flights": "CM2781",
+    "board_URL": "https://www.united.com/api/flight/status/4840/2024-12-25?carrierCode=UA",
+    "airline_code": "UA",
+    "boarding_time": "BT 18:10\nST 21:05\nET 21:15"
   },
   {
     "flight": "UA 4274",
@@ -3369,6 +3369,18 @@
     "codeshared_flights": "",
     "board_URL": "https://www.united.com/api/flight/status/1031/2024-12-25?carrierCode=F9",
     "airline_code": "F9",
+    "boarding_time": ""
+  },
+  {
+    "flight": "UA 3030",
+    "airport": "DEN DENVER",
+    "airline": "United Airlines",
+    "gate": "D24",
+    "departure_time": "2024-12-25 22:00:00",
+    "status": "Proposed",
+    "codeshared_flights": "",
+    "board_URL": "https://www.united.com/api/flight/status/3030/2024-12-25?carrierCode=UA",
+    "airline_code": "UA",
     "boarding_time": ""
   },
   {
@@ -3765,7 +3777,7 @@
     "codeshared_flights": "LH7824",
     "board_URL": "https://www.united.com/api/flight/status/6126/2024-12-25?carrierCode=UA",
     "airline_code": "UA",
-    "boarding_time": "BT 22:00\nST 22:00\nET 22:10"
+    "boarding_time": "BT 22:00\nST 22:20\nET 22:30"
   },
   {
     "flight": "TP 234",
@@ -3792,18 +3804,6 @@
     "boarding_time": "BT 21:40\nST 21:40\nET 22:15"
   },
   {
-    "flight": "UA 861",
-    "airport": "GRU SAO PAULO",
-    "airline": "United Airlines",
-    "gate": "D5",
-    "departure_time": "2024-12-25 22:30:00",
-    "status": "Scheduled",
-    "codeshared_flights": "NH7254",
-    "board_URL": "https://www.united.com/api/flight/status/861/2024-12-25?carrierCode=UA",
-    "airline_code": "UA",
-    "boarding_time": "BT 21:40\nST 21:40\nET 22:15"
-  },
-  {
     "flight": "UA 4232",
     "airport": "ROA ROANOKE",
     "airline": "United Airlines",
@@ -3813,7 +3813,7 @@
     "codeshared_flights": "AC4711, LH9274",
     "board_URL": "https://www.united.com/api/flight/status/4232/2024-12-25?carrierCode=UA",
     "airline_code": "UA",
-    "boarding_time": "BT 22:06\nST 23:20\nET 23:30"
+    "boarding_time": "BT 22:06\nST 22:06\nET 22:16"
   },
   {
     "flight": "UA 1437",
@@ -3886,6 +3886,18 @@
     "board_URL": "https://www.united.com/api/flight/status/1370/2024-12-25?carrierCode=UA",
     "airline_code": "UA",
     "boarding_time": "BT 21:58\nST 21:58\nET 22:23"
+  },
+  {
+    "flight": "UA 861",
+    "airport": "GRU SAO PAULO",
+    "airline": "United Airlines",
+    "gate": "D5",
+    "departure_time": "2024-12-25 23:30:00",
+    "status": "Delayed",
+    "codeshared_flights": "NH7254",
+    "board_URL": "https://www.united.com/api/flight/status/861/2024-12-25?carrierCode=UA",
+    "airline_code": "UA",
+    "boarding_time": "BT 21:40\nST 22:40\nET 23:15"
   },
   {
     "flight": "TK 8",
