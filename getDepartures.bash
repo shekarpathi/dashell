@@ -12,6 +12,7 @@ token_url="https://www.united.com/api/auth/anonymous-token"
 
 # URL to fetch the JSON data
 URL="https://www.flydulles.com/arrivals-and-departures/json"
+# shellcheck disable=SC2155
 export totalLinesInArrDepJson=$(curl -s "$URL" | jq | wc -l)
 echo "Total lines in Arrivals Departures json is :$totalLinesInArrDepJson)"
 curl -s "$URL" | jq [.departures[]] > departures_raw.json
@@ -51,8 +52,7 @@ get_boardtime_string() {
   # Step 2: Attempt to fetch flight status
   flight_response=$(get_flight_status "$hash" "$1")
   current_time=$(date +"%H%M%S")
-  echo "$flight_response" | jq > JJ"$current_time".json
-  echo "$flight_response" > foo.pjson
+  echo "$flight_response" | jq > JJ_FlightResponse_"$current_time".json
   echo "$flight_response" | jq -r '
   .data.flightLegs[]
   | .OperationalFlightSegments[]
@@ -86,8 +86,17 @@ get_boardtime_strin_() {
 export hash=$(get_new_hash)
 echo "$hash"
 
+response=$(curl -s -w "%{http_code}" "$URL" | jq)
+http_code=$(tail -n1 <<< "$response")  # get the last line
+if [[ $http_code -ge 300 ]]; then
+    echo "Error: HTTP code $http_code. Exiting."
+    exit 0
+fi
+content=$(sed '$ d' <<< "$response")   # get all but the last line which contains the status code
+#echo "$content"
+
 # Fetch the JSON data, filter for today's publishedTime, compute correct_time, remove the "id" field, and write to the output file
-DEPARTURES_JSON=$(curl -s "$URL" | jq --arg today "$TODAY" --argjson now "$NOW" '
+DEPARTURES_JSON=$(echo "$content" | jq --arg today "$TODAY" --argjson now "$NOW" '
   [.departures[]
   | select((.publishedTime | startswith($today)) and .dep_airport_code == "IAD")
   | .departure_time = (if .actualtime then .actualtime else .publishedTime end)
@@ -107,8 +116,8 @@ DEPARTURES_JSON=$(curl -s "$URL" | jq --arg today "$TODAY" --argjson now "$NOW" 
   | sort_by(.departure_time)
 ')
 
-echo "$DEPARTURES_JSON" > iad_dep.json
-ls -ltra iad_dep.json
+echo "$DEPARTURES_JSON" > departures_raw_filtered.json
+ls -ltra departures_raw_filtered.json
 
 echo "$DEPARTURES_JSON" | jq '[.[] | {flight: .flight, airport: .airport, airline: .airline, gate: .gate, departure_time: .departure_time, status: .status, codeshared_flights: .codeshared_flights, board_URL: .boardURL, airline_code: .airline_code}]' > $DEPARTURES_STAGE_FILE
 
