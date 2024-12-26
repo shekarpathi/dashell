@@ -3569,7 +3569,7 @@
     "airline": "United Airlines",
     "gate": "D24",
     "departure_time": "2024-12-25 22:11:00",
-    "status": "OutGate",
+    "status": "InAir",
     "codeshared_flights": "",
     "board_URL": "https://www.united.com/api/flight/status/3030/2024-12-25?carrierCode=UA",
     "airline_code": "UA",
@@ -3756,18 +3756,6 @@
     "boarding_time": ""
   },
   {
-    "flight": "UA 495",
-    "airport": "DEN DENVER",
-    "airline": "United Airlines",
-    "gate": "D6",
-    "departure_time": "2024-12-25 22:22:00",
-    "status": "OutGate",
-    "codeshared_flights": "CM2861, LH7518",
-    "board_URL": "https://www.united.com/api/flight/status/495/2024-12-25?carrierCode=UA",
-    "airline_code": "UA",
-    "boarding_time": "BT 21:37\nST 22:57\nET 23:22"
-  },
-  {
     "flight": "UA 1738",
     "airport": "ORD CHICAGO, ORD",
     "airline": "United Airlines",
@@ -3869,7 +3857,7 @@
     "airline": "United Airlines",
     "gate": "A1B",
     "departure_time": "2024-12-25 23:12:00",
-    "status": "OutGate",
+    "status": "InAir",
     "codeshared_flights": "LH7824",
     "board_URL": "https://www.united.com/api/flight/status/6126/2024-12-25?carrierCode=UA",
     "airline_code": "UA",
@@ -3886,6 +3874,18 @@
     "board_URL": "https://www.united.com/api/flight/status/1997/2024-12-25?carrierCode=UA",
     "airline_code": "UA",
     "boarding_time": "BT 21:53\nST 22:50\nET 23:15"
+  },
+  {
+    "flight": "UA 495",
+    "airport": "DEN DENVER",
+    "airline": "United Airlines",
+    "gate": "D6",
+    "departure_time": "2024-12-25 23:37:00",
+    "status": "Delayed",
+    "codeshared_flights": "",
+    "board_URL": "https://www.united.com/api/flight/status/495/2024-12-25?carrierCode=UA",
+    "airline_code": "UA",
+    "boarding_time": "BT 21:37\nST 23:57\nET 00:22"
   },
   {
     "flight": "TK 8",
