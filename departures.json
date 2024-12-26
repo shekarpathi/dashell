@@ -3765,7 +3765,7 @@
     "codeshared_flights": "CM2861, LH7518",
     "board_URL": "https://www.united.com/api/flight/status/495/2024-12-25?carrierCode=UA",
     "airline_code": "UA",
-    "boarding_time": "BT 21:37\nST 21:37\nET 22:02"
+    "boarding_time": "BT 21:37\nST 22:57\nET 23:22"
   },
   {
     "flight": "UA 1738",
@@ -3833,7 +3833,7 @@
     "airline": "United Airlines",
     "gate": "A6E",
     "departure_time": "2024-12-25 22:33:00",
-    "status": "OutGate",
+    "status": "InAir",
     "codeshared_flights": "",
     "board_URL": "https://www.united.com/api/flight/status/6227/2024-12-25?carrierCode=UA",
     "airline_code": "UA",
@@ -3857,35 +3857,35 @@
     "airline": "United Airlines",
     "gate": "D16",
     "departure_time": "2024-12-25 22:49:00",
-    "status": "OutGate",
+    "status": "InAir",
     "codeshared_flights": "AC4751, LH7650",
     "board_URL": "https://www.united.com/api/flight/status/1437/2024-12-25?carrierCode=UA",
     "airline_code": "UA",
     "boarding_time": "BT 21:52\nST 22:12\nET 22:37"
   },
   {
-    "flight": "UA 1997",
-    "airport": "EWR NEWARK",
-    "airline": "United Airlines",
-    "gate": "C25",
-    "departure_time": "2024-12-25 22:53:00",
-    "status": "Delayed",
-    "codeshared_flights": "AV2134",
-    "board_URL": "https://www.united.com/api/flight/status/1997/2024-12-25?carrierCode=UA",
-    "airline_code": "UA",
-    "boarding_time": "BT 21:53\nST 22:30\nET 22:55"
-  },
-  {
     "flight": "UA 6126",
     "airport": "BUF BUFFALO",
     "airline": "United Airlines",
     "gate": "A1B",
-    "departure_time": "2024-12-25 23:00:00",
-    "status": "Delayed",
+    "departure_time": "2024-12-25 23:12:00",
+    "status": "OutGate",
     "codeshared_flights": "LH7824",
     "board_URL": "https://www.united.com/api/flight/status/6126/2024-12-25?carrierCode=UA",
     "airline_code": "UA",
-    "boarding_time": "BT 22:00\nST 22:35\nET 22:45"
+    "boarding_time": "BT 22:00\nST 22:55\nET 23:05"
+  },
+  {
+    "flight": "UA 1997",
+    "airport": "EWR NEWARK",
+    "airline": "United Airlines",
+    "gate": "C25",
+    "departure_time": "2024-12-25 23:18:00",
+    "status": "OutGate",
+    "codeshared_flights": "AV2134",
+    "board_URL": "https://www.united.com/api/flight/status/1997/2024-12-25?carrierCode=UA",
+    "airline_code": "UA",
+    "boarding_time": "BT 21:53\nST 22:50\nET 23:15"
   },
   {
     "flight": "TK 8",
