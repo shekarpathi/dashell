@@ -1817,7 +1817,7 @@
     "airline": "United Airlines",
     "gate": "A1D",
     "departure_time": "2024-12-27 13:06:00",
-    "status": "InAir",
+    "status": "Landed",
     "codeshared_flights": "AV2075",
     "board_URL": "https://www.united.com/api/flight/status/4372/2024-12-27?carrierCode=UA",
     "airline_code": "UA",
@@ -1853,7 +1853,7 @@
     "airline": "United Airlines",
     "gate": "A2B",
     "departure_time": "2024-12-27 13:18:00",
-    "status": "OutGate",
+    "status": "InAir",
     "codeshared_flights": "AC3604, NH7126",
     "board_URL": "https://www.united.com/api/flight/status/6207/2024-12-27?carrierCode=UA",
     "airline_code": "UA",
@@ -1877,7 +1877,7 @@
     "airline": "United Airlines",
     "gate": "A5D",
     "departure_time": "2024-12-27 13:24:00",
-    "status": "OutGate",
+    "status": "InAir",
     "codeshared_flights": "AC4685, AV2063",
     "board_URL": "https://www.united.com/api/flight/status/4847/2024-12-27?carrierCode=UA",
     "airline_code": "UA",
@@ -1944,18 +1944,6 @@
     "boarding_time": "BT 12:25\nST 13:15\nET 13:25"
   },
   {
-    "flight": "UA 3255",
-    "airport": "IAH HOUSTON",
-    "airline": "United Airlines",
-    "gate": "A2F",
-    "departure_time": "2024-12-27 13:43:00",
-    "status": "Proposed",
-    "codeshared_flights": "",
-    "board_URL": "https://www.united.com/api/flight/status/3255/2024-12-27?carrierCode=UA",
-    "airline_code": "UA",
-    "boarding_time": "BT 12:20\nST 13:35\nET 13:45"
-  },
-  {
     "flight": "PD 2724",
     "airport": "YTZ TORONTO, YTZ",
     "airline": "Porter Airlines",
@@ -1968,16 +1956,16 @@
     "boarding_time": ""
   },
   {
-    "flight": "UA 4843",
-    "airport": "ROC ROCHESTER",
+    "flight": "UA 3255",
+    "airport": "IAH HOUSTON",
     "airline": "United Airlines",
-    "gate": "A2E",
-    "departure_time": "2024-12-27 13:55:00",
+    "gate": "A2F",
+    "departure_time": "2024-12-27 14:00:00",
     "status": "Delayed",
     "codeshared_flights": "",
-    "board_URL": "https://www.united.com/api/flight/status/4843/2024-12-27?carrierCode=UA",
+    "board_URL": "https://www.united.com/api/flight/status/3255/2024-12-27?carrierCode=UA",
     "airline_code": "UA",
-    "boarding_time": "BT 12:20\nST 13:30\nET 13:40"
+    "boarding_time": "BT 12:20\nST 13:35\nET 13:45"
   },
   {
     "flight": "TK 188",
@@ -2004,6 +1992,18 @@
     "boarding_time": "BT 12:30\nST 13:40\nET 13:50"
   },
   {
+    "flight": "UA 4843",
+    "airport": "ROC ROCHESTER",
+    "airline": "United Airlines",
+    "gate": "A2E",
+    "departure_time": "2024-12-27 14:15:00",
+    "status": "Delayed",
+    "codeshared_flights": "",
+    "board_URL": "https://www.united.com/api/flight/status/4843/2024-12-27?carrierCode=UA",
+    "airline_code": "UA",
+    "boarding_time": "BT 12:20\nST 13:50\nET 14:00"
+  },
+  {
     "flight": "UA 2277",
     "airport": "TPA TAMPA",
     "airline": "United Airlines",
@@ -2013,7 +2013,19 @@
     "codeshared_flights": "CM2833, ET1352, NH7116",
     "board_URL": "https://www.united.com/api/flight/status/2277/2024-12-27?carrierCode=UA",
     "airline_code": "UA",
-    "boarding_time": "BT 11:55\nST 13:35\nET 14:00"
+    "boarding_time": "BT 11:55\nST 14:20\nET 14:45"
+  },
+  {
+    "flight": "AA 5543",
+    "airport": "CLT CHARLOTTE",
+    "airline": "American Airlines",
+    "gate": "B73",
+    "departure_time": "2024-12-27 14:17:00",
+    "status": "Delayed",
+    "codeshared_flights": "BA5179, QR9286",
+    "board_URL": "https://www.united.com/api/flight/status/5543/2024-12-27?carrierCode=AA",
+    "airline_code": "AA",
+    "boarding_time": ""
   },
   {
     "flight": "AV 247",
@@ -2025,18 +2037,6 @@
     "codeshared_flights": "G35811, NH7820, UA6668",
     "board_URL": "https://www.united.com/api/flight/status/247/2024-12-27?carrierCode=AV",
     "airline_code": "AV",
-    "boarding_time": ""
-  },
-  {
-    "flight": "AA 5543",
-    "airport": "CLT CHARLOTTE",
-    "airline": "American Airlines",
-    "gate": "B73",
-    "departure_time": "2024-12-27 14:20:00",
-    "status": "Delayed",
-    "codeshared_flights": "BA5179, QR9286",
-    "board_URL": "https://www.united.com/api/flight/status/5543/2024-12-27?carrierCode=AA",
-    "airline_code": "AA",
     "boarding_time": ""
   },
   {
