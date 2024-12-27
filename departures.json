@@ -24,18 +24,6 @@
     "boarding_time": ""
   },
   {
-    "flight": "AV 581",
-    "airport": "SAL SAN SALVADOR",
-    "airline": "Avianca",
-    "gate": "B48",
-    "departure_time": "2024-12-27 04:30:00",
-    "status": "Proposed",
-    "codeshared_flights": "",
-    "board_URL": "https://www.united.com/api/flight/status/581/2024-12-27?carrierCode=AV",
-    "airline_code": "AV",
-    "boarding_time": ""
-  },
-  {
     "flight": "AA 5463",
     "airport": "CLT CHARLOTTE",
     "airline": "American Airlines",
