@@ -2176,7 +2176,7 @@
     "airport": "DEN DENVER",
     "airline": "United Airlines",
     "gate": "C11",
-    "departure_time": "2024-12-27 16:22:00",
+    "departure_time": "2024-12-27 16:30:00",
     "status": "Delayed",
     "codeshared_flights": "AV2041, CM2860, SN8893",
     "board_URL": "https://www.united.com/api/flight/status/284/2024-12-27?carrierCode=UA",
@@ -2187,13 +2187,13 @@
     "flight": "UA 4831",
     "airport": "ROA ROANOKE",
     "airline": "United Airlines",
-    "gate": "A4A",
+    "gate": "A4C",
     "departure_time": "2024-12-27 16:34:00",
     "status": "Delayed",
     "codeshared_flights": "AC4709, AV2098",
     "board_URL": "https://www.united.com/api/flight/status/4831/2024-12-27?carrierCode=UA",
     "airline_code": "UA",
-    "boarding_time": "BT 12:30\nST 16:09\nET 16:19"
+    "boarding_time": "BT 12:30\nST 16:39\nET 16:49"
   },
   {
     "flight": "DL 1695",
@@ -2583,7 +2583,7 @@
     "flight": "UA 4823",
     "airport": "BUF BUFFALO",
     "airline": "United Airlines",
-    "gate": "A4A",
+    "gate": "A5D",
     "departure_time": "2024-12-27 17:25:00",
     "status": "Scheduled",
     "codeshared_flights": "CM2142, LH7566, SN8933",
@@ -2943,7 +2943,7 @@
     "flight": "UA 4274",
     "airport": "DAY DAYTON",
     "airline": "United Airlines",
-    "gate": "A4C",
+    "gate": "A4A",
     "departure_time": "2024-12-27 17:50:00",
     "status": "Scheduled",
     "codeshared_flights": "AV2057, CM2774, LH7796, OS7837, SN8923",
@@ -3204,18 +3204,6 @@
     "boarding_time": "BT 16:45\nST 17:55\nET 18:05"
   },
   {
-    "flight": "UA 2025",
-    "airport": "SJU SAN JUAN",
-    "airline": "United Airlines",
-    "gate": "D24",
-    "departure_time": "2024-12-27 18:20:00",
-    "status": "Delayed",
-    "codeshared_flights": "AC5468, SN9048",
-    "board_URL": "https://www.united.com/api/flight/status/2025/2024-12-27?carrierCode=UA",
-    "airline_code": "UA",
-    "boarding_time": "BT 16:55\nST 18:10\nET 18:35"
-  },
-  {
     "flight": "UA 4407",
     "airport": "MDT HARRISBURG",
     "airline": "United Airlines",
@@ -3293,7 +3281,7 @@
     "airline": "Virgin Atlantic",
     "gate": "A31",
     "departure_time": "2024-12-27 18:45:00",
-    "status": "Scheduled",
+    "status": "Proposed",
     "codeshared_flights": "AF9652, DL5982, KL4805",
     "board_URL": "https://www.united.com/api/flight/status/22/2024-12-27?carrierCode=VS",
     "airline_code": "VS",
@@ -3310,6 +3298,18 @@
     "board_URL": "https://www.united.com/api/flight/status/379/2024-12-27?carrierCode=G4",
     "airline_code": "G4",
     "boarding_time": ""
+  },
+  {
+    "flight": "UA 2025",
+    "airport": "SJU SAN JUAN",
+    "airline": "United Airlines",
+    "gate": "D24",
+    "departure_time": "2024-12-27 18:50:00",
+    "status": "Delayed",
+    "codeshared_flights": "AC5468, SN9048",
+    "board_URL": "https://www.united.com/api/flight/status/2025/2024-12-27?carrierCode=UA",
+    "airline_code": "UA",
+    "boarding_time": "BT 16:55\nST 18:10\nET 18:35"
   },
   {
     "flight": "UA 4527",
@@ -3360,18 +3360,6 @@
     "boarding_time": "BT 18:34\nST 18:34\nET 18:44"
   },
   {
-    "flight": "UA 4871",
-    "airport": "ROC ROCHESTER",
-    "airline": "United Airlines",
-    "gate": "A3C",
-    "departure_time": "2024-12-27 18:59:00",
-    "status": "Delayed",
-    "codeshared_flights": "AV2100, CM1305, LH7754, OS7819, SN8978",
-    "board_URL": "https://www.united.com/api/flight/status/4871/2024-12-27?carrierCode=UA",
-    "airline_code": "UA",
-    "boarding_time": "BT 17:00\nST 19:04\nET 19:14"
-  },
-  {
     "flight": "UA 2303",
     "airport": "LAX LOS ANGELES",
     "airline": "United Airlines",
@@ -3382,6 +3370,18 @@
     "board_URL": "https://www.united.com/api/flight/status/2303/2024-12-27?carrierCode=UA",
     "airline_code": "UA",
     "boarding_time": "BT 18:10\nST 18:10\nET 18:45"
+  },
+  {
+    "flight": "UA 4871",
+    "airport": "ROC ROCHESTER",
+    "airline": "United Airlines",
+    "gate": "A3C",
+    "departure_time": "2024-12-27 19:29:00",
+    "status": "Delayed",
+    "codeshared_flights": "AV2100, CM1305, LH7754, OS7819, SN8978",
+    "board_URL": "https://www.united.com/api/flight/status/4871/2024-12-27?carrierCode=UA",
+    "airline_code": "UA",
+    "boarding_time": "BT 17:00\nST 19:04\nET 19:14"
   },
   {
     "flight": "UA 1938",
@@ -3747,7 +3747,7 @@
     "flight": "UA 2480",
     "airport": "ATL ATLANTA",
     "airline": "United Airlines",
-    "gate": "D18",
+    "gate": "D20",
     "departure_time": "2024-12-27 22:15:00",
     "status": "Scheduled",
     "codeshared_flights": "",
