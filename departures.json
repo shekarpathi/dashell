@@ -4197,7 +4197,7 @@
     "codeshared_flights": "",
     "board_URL": "https://www.united.com/api/flight/status/408/2024-12-26?carrierCode=UA",
     "airline_code": "UA",
-    "boarding_time": "BT 21:43\nST 23:03\nET 23:28"
+    "boarding_time": "BT 21:43\nST 23:08\nET 23:33"
   },
   {
     "flight": "UA 1738",
