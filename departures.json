@@ -2033,7 +2033,7 @@
     "airline": "United Airlines",
     "gate": "D15",
     "departure_time": "2024-12-27 14:23:00",
-    "status": "OutGate",
+    "status": "InAir",
     "codeshared_flights": "AD7015",
     "board_URL": "https://www.united.com/api/flight/status/2175/2024-12-27?carrierCode=UA",
     "airline_code": "UA",
@@ -2080,8 +2080,8 @@
     "airport": "ROC ROCHESTER",
     "airline": "United Airlines",
     "gate": "A5D",
-    "departure_time": "2024-12-27 15:20:00",
-    "status": "Delayed",
+    "departure_time": "2024-12-27 15:11:00",
+    "status": "InAir",
     "codeshared_flights": "",
     "board_URL": "https://www.united.com/api/flight/status/4843/2024-12-27?carrierCode=UA",
     "airline_code": "UA",
@@ -2093,31 +2093,19 @@
     "airline": "United Airlines",
     "gate": "D16",
     "departure_time": "2024-12-27 15:20:00",
-    "status": "Delayed",
+    "status": "OutGate",
     "codeshared_flights": "CM2833, ET1352, NH7116",
     "board_URL": "https://www.united.com/api/flight/status/2277/2024-12-27?carrierCode=UA",
     "airline_code": "UA",
     "boarding_time": "BT 11:55\nST 14:40\nET 15:05"
   },
   {
-    "flight": "UA 4831",
-    "airport": "ROA ROANOKE",
-    "airline": "United Airlines",
-    "gate": "A4A",
-    "departure_time": "2024-12-27 15:24:00",
-    "status": "Delayed",
-    "codeshared_flights": "AC4709, AV2098",
-    "board_URL": "https://www.united.com/api/flight/status/4831/2024-12-27?carrierCode=UA",
-    "airline_code": "UA",
-    "boarding_time": "BT 12:30\nST 14:59\nET 15:09"
-  },
-  {
     "flight": "UA 1817",
     "airport": "PLS PROVIDENCIALES",
     "airline": "United Airlines",
     "gate": "C25",
-    "departure_time": "2024-12-27 15:30:00",
-    "status": "Delayed",
+    "departure_time": "2024-12-27 15:26:00",
+    "status": "OutGate",
     "codeshared_flights": "",
     "board_URL": "https://www.united.com/api/flight/status/1817/2024-12-27?carrierCode=UA",
     "airline_code": "UA",
@@ -2148,6 +2136,18 @@
     "boarding_time": ""
   },
   {
+    "flight": "UA 4831",
+    "airport": "ROA ROANOKE",
+    "airline": "United Airlines",
+    "gate": "A4A",
+    "departure_time": "2024-12-27 15:44:00",
+    "status": "Delayed",
+    "codeshared_flights": "AC4709, AV2098",
+    "board_URL": "https://www.united.com/api/flight/status/4831/2024-12-27?carrierCode=UA",
+    "airline_code": "UA",
+    "boarding_time": "BT 12:30\nST 15:19\nET 15:29"
+  },
+  {
     "flight": "AV 583",
     "airport": "SAL SAN SALVADOR",
     "airline": "Avianca",
@@ -2172,18 +2172,6 @@
     "boarding_time": ""
   },
   {
-    "flight": "UA 284",
-    "airport": "DEN DENVER",
-    "airline": "United Airlines",
-    "gate": "C11",
-    "departure_time": "2024-12-27 16:05:00",
-    "status": "Scheduled",
-    "codeshared_flights": "AV2041, CM2860, SN8893",
-    "board_URL": "https://www.united.com/api/flight/status/284/2024-12-27?carrierCode=UA",
-    "airline_code": "UA",
-    "boarding_time": "BT 15:25\nST 15:25\nET 15:50"
-  },
-  {
     "flight": "DL 5397",
     "airport": "JFK NEW YORK, JFK",
     "airline": "Delta Air Lines",
@@ -2194,6 +2182,18 @@
     "board_URL": "https://www.united.com/api/flight/status/5397/2024-12-27?carrierCode=DL",
     "airline_code": "DL",
     "boarding_time": ""
+  },
+  {
+    "flight": "UA 284",
+    "airport": "DEN DENVER",
+    "airline": "United Airlines",
+    "gate": "C11",
+    "departure_time": "2024-12-27 16:17:00",
+    "status": "Scheduled",
+    "codeshared_flights": "AV2041, CM2860, SN8893",
+    "board_URL": "https://www.united.com/api/flight/status/284/2024-12-27?carrierCode=UA",
+    "airline_code": "UA",
+    "boarding_time": "BT 15:25\nST 15:37\nET 16:02"
   },
   {
     "flight": "DL 1695",
@@ -3021,7 +3021,7 @@
     "codeshared_flights": "AC5468, SN9048",
     "board_URL": "https://www.united.com/api/flight/status/2025/2024-12-27?carrierCode=UA",
     "airline_code": "UA",
-    "boarding_time": "BT 16:55\nST 17:11\nET 17:36"
+    "boarding_time": "BT 16:55\nST 17:25\nET 17:50"
   },
   {
     "flight": "UA 6041",
