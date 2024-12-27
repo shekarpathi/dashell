@@ -1421,7 +1421,7 @@
     "airline": "Southern Airways Express",
     "gate": "H17",
     "departure_time": "2024-12-27 12:40:00",
-    "status": "Proposed",
+    "status": "InAir",
     "codeshared_flights": "",
     "board_URL": "https://www.united.com/api/flight/status/393/2024-12-27?carrierCode=9X",
     "airline_code": "9X",
@@ -1433,7 +1433,7 @@
     "airline": "Southern Airways Express",
     "gate": "H17",
     "departure_time": "2024-12-27 12:40:00",
-    "status": "Scheduled",
+    "status": "InAir",
     "codeshared_flights": "",
     "board_URL": "https://www.united.com/api/flight/status/246/2024-12-27?carrierCode=9X",
     "airline_code": "9X",
@@ -1793,7 +1793,7 @@
     "airline": "United Airlines",
     "gate": "A2G",
     "departure_time": "2024-12-27 13:05:00",
-    "status": "OutGate",
+    "status": "InAir",
     "codeshared_flights": "AV2072",
     "board_URL": "https://www.united.com/api/flight/status/6157/2024-12-27?carrierCode=UA",
     "airline_code": "UA",
@@ -1925,7 +1925,7 @@
     "airline": "United Airlines",
     "gate": "A4A",
     "departure_time": "2024-12-27 13:27:00",
-    "status": "OutGate",
+    "status": "InAir",
     "codeshared_flights": "",
     "board_URL": "https://www.united.com/api/flight/status/5098/2024-12-27?carrierCode=UA",
     "airline_code": "UA",
@@ -1937,7 +1937,7 @@
     "airline": "United Airlines",
     "gate": "A3B",
     "departure_time": "2024-12-27 13:41:00",
-    "status": "OutGate",
+    "status": "InAir",
     "codeshared_flights": "",
     "board_URL": "https://www.united.com/api/flight/status/6142/2024-12-27?carrierCode=UA",
     "airline_code": "UA",
@@ -1948,24 +1948,24 @@
     "airport": "YTZ TORONTO, YTZ",
     "airline": "Porter Airlines",
     "gate": "A19",
-    "departure_time": "2024-12-27 13:45:00",
-    "status": "Scheduled",
+    "departure_time": "2024-12-27 13:48:00",
+    "status": "InAir",
     "codeshared_flights": "TS7478",
     "board_URL": "https://www.united.com/api/flight/status/2724/2024-12-27?carrierCode=PD",
     "airline_code": "PD",
     "boarding_time": ""
   },
   {
-    "flight": "UA 3255",
-    "airport": "IAH HOUSTON",
+    "flight": "UA 4335",
+    "airport": "BUF BUFFALO",
     "airline": "United Airlines",
-    "gate": "A2F",
-    "departure_time": "2024-12-27 14:00:00",
-    "status": "Delayed",
+    "gate": "A3A",
+    "departure_time": "2024-12-27 13:57:00",
+    "status": "OutGate",
     "codeshared_flights": "",
-    "board_URL": "https://www.united.com/api/flight/status/3255/2024-12-27?carrierCode=UA",
+    "board_URL": "https://www.united.com/api/flight/status/4335/2024-12-27?carrierCode=UA",
     "airline_code": "UA",
-    "boarding_time": "BT 12:20\nST 13:35\nET 13:45"
+    "boarding_time": "BT 12:30\nST 13:40\nET 13:50"
   },
   {
     "flight": "TK 188",
@@ -1980,16 +1980,16 @@
     "boarding_time": ""
   },
   {
-    "flight": "UA 4335",
-    "airport": "BUF BUFFALO",
+    "flight": "UA 3255",
+    "airport": "IAH HOUSTON",
     "airline": "United Airlines",
-    "gate": "A3A",
-    "departure_time": "2024-12-27 14:05:00",
-    "status": "Delayed",
+    "gate": "A2F",
+    "departure_time": "2024-12-27 14:04:00",
+    "status": "OutGate",
     "codeshared_flights": "",
-    "board_URL": "https://www.united.com/api/flight/status/4335/2024-12-27?carrierCode=UA",
+    "board_URL": "https://www.united.com/api/flight/status/3255/2024-12-27?carrierCode=UA",
     "airline_code": "UA",
-    "boarding_time": "BT 12:30\nST 13:40\nET 13:50"
+    "boarding_time": "BT 12:20\nST 13:35\nET 13:45"
   },
   {
     "flight": "UA 4843",
@@ -2002,18 +2002,6 @@
     "board_URL": "https://www.united.com/api/flight/status/4843/2024-12-27?carrierCode=UA",
     "airline_code": "UA",
     "boarding_time": "BT 12:20\nST 13:50\nET 14:00"
-  },
-  {
-    "flight": "UA 2277",
-    "airport": "TPA TAMPA",
-    "airline": "United Airlines",
-    "gate": "D20",
-    "departure_time": "2024-12-27 14:15:00",
-    "status": "Delayed",
-    "codeshared_flights": "CM2833, ET1352, NH7116",
-    "board_URL": "https://www.united.com/api/flight/status/2277/2024-12-27?carrierCode=UA",
-    "airline_code": "UA",
-    "boarding_time": "BT 11:55\nST 14:20\nET 14:45"
   },
   {
     "flight": "AA 5543",
@@ -2049,7 +2037,7 @@
     "codeshared_flights": "AD7015",
     "board_URL": "https://www.united.com/api/flight/status/2175/2024-12-27?carrierCode=UA",
     "airline_code": "UA",
-    "boarding_time": "BT 12:05\nST 13:40\nET 14:05"
+    "boarding_time": "BT 12:05\nST 14:05\nET 14:30"
   },
   {
     "flight": "WN 1476",
@@ -2097,7 +2085,19 @@
     "codeshared_flights": "AC4709, AV2098",
     "board_URL": "https://www.united.com/api/flight/status/4831/2024-12-27?carrierCode=UA",
     "airline_code": "UA",
-    "boarding_time": "BT 12:30\nST 14:24\nET 14:34"
+    "boarding_time": "BT 12:30\nST 14:45\nET 14:55"
+  },
+  {
+    "flight": "UA 2277",
+    "airport": "TPA TAMPA",
+    "airline": "United Airlines",
+    "gate": "D16",
+    "departure_time": "2024-12-27 15:00:00",
+    "status": "Delayed",
+    "codeshared_flights": "CM2833, ET1352, NH7116",
+    "board_URL": "https://www.united.com/api/flight/status/2277/2024-12-27?carrierCode=UA",
+    "airline_code": "UA",
+    "boarding_time": "BT 11:55\nST 14:20\nET 14:45"
   },
   {
     "flight": "DL 3680",
@@ -2121,7 +2121,7 @@
     "codeshared_flights": "",
     "board_URL": "https://www.united.com/api/flight/status/1817/2024-12-27?carrierCode=UA",
     "airline_code": "UA",
-    "boarding_time": "BT 12:07\nST 14:33\nET 14:58"
+    "boarding_time": "BT 12:07\nST 14:50\nET 15:15"
   },
   {
     "flight": "CM 444",
@@ -3243,7 +3243,7 @@
     "flight": "UA 1831",
     "airport": "SAN SAN DIEGO",
     "airline": "United Airlines",
-    "gate": "D21",
+    "gate": "D15",
     "departure_time": "2024-12-27 18:15:00",
     "status": "Scheduled",
     "codeshared_flights": "OS7903, SN8847",
@@ -3279,7 +3279,7 @@
     "flight": "UA 612",
     "airport": "LOS LAGOS",
     "airline": "United Airlines",
-    "gate": "D15",
+    "gate": "D21",
     "departure_time": "2024-12-27 18:30:00",
     "status": "Scheduled",
     "codeshared_flights": "",
@@ -3471,7 +3471,7 @@
     "flight": "QR 708",
     "airport": "DOH DOHA",
     "airline": "Qatar Airways",
-    "gate": "B37",
+    "gate": "B32",
     "departure_time": "2024-12-27 20:05:00",
     "status": "Scheduled",
     "codeshared_flights": "AA8120, AS5822, B65555, MH9070, UL3167, WB1083, WY6046",
