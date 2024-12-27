@@ -1121,7 +1121,7 @@
     "airline": "United Airlines",
     "gate": "D12",
     "departure_time": "2024-12-27 09:39:00",
-    "status": "OutGate",
+    "status": "InAir",
     "codeshared_flights": "AC3610",
     "board_URL": "https://www.united.com/api/flight/status/678/2024-12-27?carrierCode=UA",
     "airline_code": "UA",
@@ -1704,18 +1704,6 @@
     "boarding_time": "BT 12:25\nST 12:25\nET 12:35"
   },
   {
-    "flight": "UA 4335",
-    "airport": "BUF BUFFALO",
-    "airline": "United Airlines",
-    "gate": "A3A",
-    "departure_time": "2024-12-27 12:55:00",
-    "status": "Scheduled",
-    "codeshared_flights": "",
-    "board_URL": "https://www.united.com/api/flight/status/4335/2024-12-27?carrierCode=UA",
-    "airline_code": "UA",
-    "boarding_time": "BT 12:30\nST 13:05\nET 13:15"
-  },
-  {
     "flight": "UA 4815",
     "airport": "CHO CHARLOTTESVILLE",
     "airline": "United Airlines",
@@ -1956,6 +1944,30 @@
     "boarding_time": "BT 12:37\nST 12:37\nET 13:02"
   },
   {
+    "flight": "UA 6142",
+    "airport": "AUS AUSTIN",
+    "airline": "United Airlines",
+    "gate": "A3B",
+    "departure_time": "2024-12-27 13:20:00",
+    "status": "Delayed",
+    "codeshared_flights": "",
+    "board_URL": "https://www.united.com/api/flight/status/6142/2024-12-27?carrierCode=UA",
+    "airline_code": "UA",
+    "boarding_time": "BT 12:25\nST 12:55\nET 13:05"
+  },
+  {
+    "flight": "UA 4335",
+    "airport": "BUF BUFFALO",
+    "airline": "United Airlines",
+    "gate": "A3A",
+    "departure_time": "2024-12-27 13:30:00",
+    "status": "Delayed",
+    "codeshared_flights": "",
+    "board_URL": "https://www.united.com/api/flight/status/4335/2024-12-27?carrierCode=UA",
+    "airline_code": "UA",
+    "boarding_time": "BT 12:30\nST 13:05\nET 13:15"
+  },
+  {
     "flight": "MX 651",
     "airport": "OGS OGDENSBURG",
     "airline": "Breeze Airways",
@@ -2016,18 +2028,6 @@
     "boarding_time": ""
   },
   {
-    "flight": "UA 6142",
-    "airport": "AUS AUSTIN",
-    "airline": "United Airlines",
-    "gate": "A3B",
-    "departure_time": "2024-12-27 14:18:00",
-    "status": "Delayed",
-    "codeshared_flights": "",
-    "board_URL": "https://www.united.com/api/flight/status/6142/2024-12-27?carrierCode=UA",
-    "airline_code": "UA",
-    "boarding_time": "BT 12:25\nST 13:53\nET 14:03"
-  },
-  {
     "flight": "AV 247",
     "airport": "BOG BOGOTA",
     "airline": "Avianca",
@@ -2038,18 +2038,6 @@
     "board_URL": "https://www.united.com/api/flight/status/247/2024-12-27?carrierCode=AV",
     "airline_code": "AV",
     "boarding_time": ""
-  },
-  {
-    "flight": "UA 4831",
-    "airport": "ROA ROANOKE",
-    "airline": "United Airlines",
-    "gate": "A4A",
-    "departure_time": "2024-12-27 14:24:00",
-    "status": "Delayed",
-    "codeshared_flights": "AC4709, AV2098",
-    "board_URL": "https://www.united.com/api/flight/status/4831/2024-12-27?carrierCode=UA",
-    "airline_code": "UA",
-    "boarding_time": "BT 12:30\nST 13:59\nET 14:09"
   },
   {
     "flight": "WN 1476",
@@ -2098,6 +2086,18 @@
     "board_URL": "https://www.united.com/api/flight/status/1318/2024-12-27?carrierCode=UA",
     "airline_code": "UA",
     "boarding_time": "BT 14:00\nST 14:00\nET 14:25"
+  },
+  {
+    "flight": "UA 4831",
+    "airport": "ROA ROANOKE",
+    "airline": "United Airlines",
+    "gate": "A4A",
+    "departure_time": "2024-12-27 14:49:00",
+    "status": "Delayed",
+    "codeshared_flights": "AC4709, AV2098",
+    "board_URL": "https://www.united.com/api/flight/status/4831/2024-12-27?carrierCode=UA",
+    "airline_code": "UA",
+    "boarding_time": "BT 12:30\nST 14:24\nET 14:34"
   },
   {
     "flight": "DL 3680",
@@ -2811,7 +2811,7 @@
     "flight": "UA 2025",
     "airport": "SJU SAN JUAN",
     "airline": "United Airlines",
-    "gate": "D12",
+    "gate": "D24",
     "departure_time": "2024-12-27 17:35:00",
     "status": "Scheduled",
     "codeshared_flights": "AC5468, SN9048",
@@ -3135,7 +3135,7 @@
     "flight": "UA 1140",
     "airport": "TPA TAMPA",
     "airline": "United Airlines",
-    "gate": "D24",
+    "gate": "D20",
     "departure_time": "2024-12-27 17:55:00",
     "status": "Scheduled",
     "codeshared_flights": "AV2031, CM2831, LH7684, OS7923, SN8855",
@@ -3423,7 +3423,7 @@
     "flight": "UA 674",
     "airport": "SFO SAN FRANCISCO",
     "airline": "United Airlines",
-    "gate": "C25",
+    "gate": "D12",
     "departure_time": "2024-12-27 19:39:00",
     "status": "Scheduled",
     "codeshared_flights": "NZ9180",
