@@ -2176,12 +2176,12 @@
     "airport": "DEN DENVER",
     "airline": "United Airlines",
     "gate": "C11",
-    "departure_time": "2024-12-27 16:17:00",
-    "status": "Scheduled",
+    "departure_time": "2024-12-27 16:22:00",
+    "status": "Delayed",
     "codeshared_flights": "AV2041, CM2860, SN8893",
     "board_URL": "https://www.united.com/api/flight/status/284/2024-12-27?carrierCode=UA",
     "airline_code": "UA",
-    "boarding_time": "BT 15:25\nST 15:42\nET 16:07"
+    "boarding_time": "BT 15:25\nST 15:50\nET 16:15"
   },
   {
     "flight": "UA 4831",
@@ -2200,7 +2200,7 @@
     "airport": "ATL ATLANTA",
     "airline": "Delta Air Lines",
     "gate": "B74",
-    "departure_time": "2024-12-27 16:51:00",
+    "departure_time": "2024-12-27 16:46:00",
     "status": "Scheduled",
     "codeshared_flights": "AF2303, KL5695, LA6505, VS4473",
     "board_URL": "https://www.united.com/api/flight/status/1695/2024-12-27?carrierCode=DL",
@@ -3213,7 +3213,7 @@
     "codeshared_flights": "AC5468, SN9048",
     "board_URL": "https://www.united.com/api/flight/status/2025/2024-12-27?carrierCode=UA",
     "airline_code": "UA",
-    "boarding_time": "BT 16:55\nST 17:40\nET 18:05"
+    "boarding_time": "BT 16:55\nST 18:10\nET 18:35"
   },
   {
     "flight": "UA 4407",
@@ -3369,7 +3369,7 @@
     "codeshared_flights": "AV2100, CM1305, LH7754, OS7819, SN8978",
     "board_URL": "https://www.united.com/api/flight/status/4871/2024-12-27?carrierCode=UA",
     "airline_code": "UA",
-    "boarding_time": "BT 17:00\nST 18:34\nET 18:44"
+    "boarding_time": "BT 17:00\nST 19:04\nET 19:14"
   },
   {
     "flight": "UA 2303",
