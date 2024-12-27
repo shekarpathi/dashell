@@ -1169,7 +1169,7 @@
     "airline": "United Airlines",
     "gate": "D1",
     "departure_time": "2024-12-27 10:04:00",
-    "status": "OutGate",
+    "status": "InAir",
     "codeshared_flights": "CM2859",
     "board_URL": "https://www.united.com/api/flight/status/1926/2024-12-27?carrierCode=UA",
     "airline_code": "UA",
