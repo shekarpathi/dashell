@@ -2069,7 +2069,7 @@
     "airline": "United Airlines",
     "gate": "D4",
     "departure_time": "2024-12-27 14:36:00",
-    "status": "OutGate",
+    "status": "InAir",
     "codeshared_flights": "NZ9176, VA8390",
     "board_URL": "https://www.united.com/api/flight/status/1318/2024-12-27?carrierCode=UA",
     "airline_code": "UA",
@@ -2085,7 +2085,7 @@
     "codeshared_flights": "CM2833, ET1352, NH7116",
     "board_URL": "https://www.united.com/api/flight/status/2277/2024-12-27?carrierCode=UA",
     "airline_code": "UA",
-    "boarding_time": "BT 11:55\nST 14:20\nET 14:45"
+    "boarding_time": "BT 11:55\nST 14:40\nET 15:05"
   },
   {
     "flight": "DL 3680",
@@ -2625,7 +2625,7 @@
     "codeshared_flights": "AV2100, CM1305, LH7754, OS7819, SN8978",
     "board_URL": "https://www.united.com/api/flight/status/4871/2024-12-27?carrierCode=UA",
     "airline_code": "UA",
-    "boarding_time": "BT 17:00\nST 17:00\nET 17:10"
+    "boarding_time": "BT 17:00\nST 17:49\nET 17:59"
   },
   {
     "flight": "UA 4249",
