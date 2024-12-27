@@ -3,6 +3,10 @@ arrivals_raw.json
 iad_dep.json
 iad_arr.json
 .DS_Store
-JJ*.json
+*AA*.json
+*BB*.json
+*CC*.json
+*DD*.json
 departures_raw_filtered.json
 departures_stage.json
+.idea/
