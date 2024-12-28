@@ -1913,7 +1913,7 @@
     "airline": "United Airlines",
     "gate": "A6B",
     "departure_time": "2024-12-28 14:11:00",
-    "status": "OutGate",
+    "status": "InAir",
     "codeshared_flights": "AC4747",
     "board_URL": "https://www.united.com/api/flight/status/4950/2024-12-28?carrierCode=UA",
     "airline_code": "UA",
@@ -1944,12 +1944,24 @@
     "boarding_time": ""
   },
   {
+    "flight": "AC 8619",
+    "airport": "YYZ TORONTO, YYZ",
+    "airline": "Air Canada",
+    "gate": "Z10",
+    "departure_time": "2024-12-28 14:24:00",
+    "status": "OutGate",
+    "codeshared_flights": "UA8693",
+    "board_URL": "https://www.united.com/api/flight/status/8619/2024-12-28?carrierCode=AC",
+    "airline_code": "AC",
+    "boarding_time": ""
+  },
+  {
     "flight": "UA 4358",
     "airport": "PHL PHILADELPHIA",
     "airline": "United Airlines",
     "gate": "A4E",
-    "departure_time": "2024-12-28 14:30:00",
-    "status": "Delayed",
+    "departure_time": "2024-12-28 14:25:00",
+    "status": "OutGate",
     "codeshared_flights": "AV2084, ET1390",
     "board_URL": "https://www.united.com/api/flight/status/4358/2024-12-28?carrierCode=UA",
     "airline_code": "UA",
@@ -1965,18 +1977,6 @@
     "codeshared_flights": "",
     "board_URL": "https://www.united.com/api/flight/status/828/2024-12-28?carrierCode=MX",
     "airline_code": "MX",
-    "boarding_time": ""
-  },
-  {
-    "flight": "AC 8619",
-    "airport": "YYZ TORONTO, YYZ",
-    "airline": "Air Canada",
-    "gate": "Z10",
-    "departure_time": "2024-12-28 14:35:00",
-    "status": "Proposed",
-    "codeshared_flights": "UA8693",
-    "board_URL": "https://www.united.com/api/flight/status/8619/2024-12-28?carrierCode=AC",
-    "airline_code": "AC",
     "boarding_time": ""
   },
   {
@@ -3132,18 +3132,6 @@
     "boarding_time": ""
   },
   {
-    "flight": "AA 1863",
-    "airport": "DFW DALLAS, DFW",
-    "airline": "American Airlines",
-    "gate": "B71",
-    "departure_time": "2024-12-28 18:21:00",
-    "status": "Delayed",
-    "codeshared_flights": "AS4074, QF4606, QR9077",
-    "board_URL": "https://www.united.com/api/flight/status/1863/2024-12-28?carrierCode=AA",
-    "airline_code": "AA",
-    "boarding_time": ""
-  },
-  {
     "flight": "UA 4407",
     "airport": "MDT HARRISBURG",
     "airline": "United Airlines",
@@ -3214,6 +3202,18 @@
     "board_URL": "https://www.united.com/api/flight/status/4840/2024-12-28?carrierCode=UA",
     "airline_code": "UA",
     "boarding_time": "BT 18:10\nST 18:10\nET 18:20"
+  },
+  {
+    "flight": "AA 1863",
+    "airport": "DFW DALLAS, DFW",
+    "airline": "American Airlines",
+    "gate": "B71",
+    "departure_time": "2024-12-28 18:39:00",
+    "status": "Delayed",
+    "codeshared_flights": "AS4074, QF4606, QR9077",
+    "board_URL": "https://www.united.com/api/flight/status/1863/2024-12-28?carrierCode=AA",
+    "airline_code": "AA",
+    "boarding_time": ""
   },
   {
     "flight": "UA 1011",
@@ -3840,18 +3840,6 @@
     "boarding_time": "BT 21:55\nST 21:55\nET 22:05"
   },
   {
-    "flight": "LH 415",
-    "airport": "MUC MUNICH",
-    "airline": "Deutsche Lufthansa AG",
-    "gate": "B45",
-    "departure_time": "2024-12-28 22:20:00",
-    "status": "Scheduled",
-    "codeshared_flights": "UA8784",
-    "board_URL": "https://www.united.com/api/flight/status/415/2024-12-28?carrierCode=LH",
-    "airline_code": "LH",
-    "boarding_time": ""
-  },
-  {
     "flight": "UA 1584",
     "airport": "SFO SAN FRANCISCO",
     "airline": "United Airlines",
@@ -4018,6 +4006,18 @@
     "board_URL": "https://www.united.com/api/flight/status/1370/2024-12-28?carrierCode=UA",
     "airline_code": "UA",
     "boarding_time": "BT 21:58\nST 21:58\nET 22:23"
+  },
+  {
+    "flight": "LH 415",
+    "airport": "MUC MUNICH",
+    "airline": "Deutsche Lufthansa AG",
+    "gate": "B45",
+    "departure_time": "2024-12-28 22:45:00",
+    "status": "Delayed",
+    "codeshared_flights": "UA8784",
+    "board_URL": "https://www.united.com/api/flight/status/415/2024-12-28?carrierCode=LH",
+    "airline_code": "LH",
+    "boarding_time": ""
   },
   {
     "flight": "AV 663",
