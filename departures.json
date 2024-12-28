@@ -64,8 +64,8 @@
     "airport": "ATL ATLANTA",
     "airline": "Delta Air Lines",
     "gate": "B78",
-    "departure_time": "2024-12-28 05:55:00",
-    "status": "Scheduled",
+    "departure_time": "2024-12-28 05:59:00",
+    "status": "OutGate",
     "codeshared_flights": "AM3744, KE3962, LA6332, VS4431, WS7593",
     "board_URL": "https://www.united.com/api/flight/status/2550/2024-12-28?carrierCode=DL",
     "airline_code": "DL",
@@ -84,6 +84,18 @@
     "boarding_time": ""
   },
   {
+    "flight": "UA 1372",
+    "airport": "IAH HOUSTON",
+    "airline": "United Airlines",
+    "gate": "D16",
+    "departure_time": "2024-12-28 06:02:00",
+    "status": "OutGate",
+    "codeshared_flights": "AV2130, NZ6644",
+    "board_URL": "https://www.united.com/api/flight/status/1372/2024-12-28?carrierCode=UA",
+    "airline_code": "UA",
+    "boarding_time": "BT 05:28\nST 05:28\nET 05:53"
+  },
+  {
     "flight": "DL 3996",
     "airport": "MSP MINNEAPOLIS",
     "airline": "Delta Air Lines",
@@ -94,18 +106,6 @@
     "board_URL": "https://www.united.com/api/flight/status/3996/2024-12-28?carrierCode=DL",
     "airline_code": "DL",
     "boarding_time": ""
-  },
-  {
-    "flight": "UA 1372",
-    "airport": "IAH HOUSTON",
-    "airline": "United Airlines",
-    "gate": "D16",
-    "departure_time": "2024-12-28 06:08:00",
-    "status": "Scheduled",
-    "codeshared_flights": "AV2130, NZ6644",
-    "board_URL": "https://www.united.com/api/flight/status/1372/2024-12-28?carrierCode=UA",
-    "airline_code": "UA",
-    "boarding_time": "BT 05:28\nST 05:28\nET 05:53"
   },
   {
     "flight": "UA 1469",
@@ -552,18 +552,6 @@
     "boarding_time": "BT 07:46\nST 07:46\nET 08:11"
   },
   {
-    "flight": "AS 499",
-    "airport": "SEA SEATTLE, SEA",
-    "airline": "Alaska Airlines",
-    "gate": "B67",
-    "departure_time": "2024-12-28 08:27:00",
-    "status": "Delayed",
-    "codeshared_flights": "HA4890, JL5441, QR8811, TN2395",
-    "board_URL": "https://www.united.com/api/flight/status/499/2024-12-28?carrierCode=AS",
-    "airline_code": "AS",
-    "boarding_time": ""
-  },
-  {
     "flight": "UA 785",
     "airport": "BZN BOZEMAN",
     "airline": "United Airlines",
@@ -730,6 +718,18 @@
     "board_URL": "https://www.united.com/api/flight/status/4944/2024-12-28?carrierCode=UA",
     "airline_code": "UA",
     "boarding_time": "BT 08:15\nST 08:15\nET 08:25"
+  },
+  {
+    "flight": "AS 499",
+    "airport": "SEA SEATTLE, SEA",
+    "airline": "Alaska Airlines",
+    "gate": "B67",
+    "departure_time": "2024-12-28 08:42:00",
+    "status": "Delayed",
+    "codeshared_flights": "HA4890, JL5441, QR8811, TN2395",
+    "board_URL": "https://www.united.com/api/flight/status/499/2024-12-28?carrierCode=AS",
+    "airline_code": "AS",
+    "boarding_time": ""
   },
   {
     "flight": "UA 4812",
@@ -1080,6 +1080,18 @@
     "boarding_time": "BT 08:20\nST 08:20\nET 08:45"
   },
   {
+    "flight": "UA 1524",
+    "airport": "IAH HOUSTON",
+    "airline": "United Airlines",
+    "gate": "D5",
+    "departure_time": "2024-12-28 09:15:00",
+    "status": "Delayed",
+    "codeshared_flights": "AV2298, NZ6640",
+    "board_URL": "https://www.united.com/api/flight/status/1524/2024-12-28?carrierCode=UA",
+    "airline_code": "UA",
+    "boarding_time": "BT 07:47\nST 08:25\nET 09:00"
+  },
+  {
     "flight": "AA 5203",
     "airport": "CLT CHARLOTTE",
     "airline": "American Airlines",
@@ -1114,18 +1126,6 @@
     "board_URL": "https://www.united.com/api/flight/status/1444/2024-12-28?carrierCode=DL",
     "airline_code": "DL",
     "boarding_time": ""
-  },
-  {
-    "flight": "UA 1524",
-    "airport": "IAH HOUSTON",
-    "airline": "United Airlines",
-    "gate": "D5",
-    "departure_time": "2024-12-28 09:45:00",
-    "status": "Delayed",
-    "codeshared_flights": "AV2298, NZ6640",
-    "board_URL": "https://www.united.com/api/flight/status/1524/2024-12-28?carrierCode=UA",
-    "airline_code": "UA",
-    "boarding_time": "BT 07:47\nST 08:25\nET 09:00"
   },
   {
     "flight": "ET 501",
@@ -2151,7 +2151,7 @@
     "flight": "WN 3656",
     "airport": "PHX PHOENIX",
     "airline": "Southwest Airlines",
-    "gate": "B64",
+    "gate": "B66",
     "departure_time": "2024-12-28 16:50:00",
     "status": "Scheduled",
     "codeshared_flights": "",
