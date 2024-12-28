@@ -89,7 +89,7 @@
     "airline": "Delta Air Lines",
     "gate": "B75",
     "departure_time": "2024-12-28 06:04:00",
-    "status": "OutGate",
+    "status": "InAir",
     "codeshared_flights": "AM3753, KE3884, VS4433, WS7653",
     "board_URL": "https://www.united.com/api/flight/status/3996/2024-12-28?carrierCode=DL",
     "airline_code": "DL",
@@ -108,28 +108,28 @@
     "boarding_time": ""
   },
   {
-    "flight": "UA 1469",
-    "airport": "LAX LOS ANGELES",
-    "airline": "United Airlines",
-    "gate": "D12",
-    "departure_time": "2024-12-28 06:15:00",
-    "status": "Scheduled",
-    "codeshared_flights": "CA7238, NZ9591, OZ6287, VA8542",
-    "board_URL": "https://www.united.com/api/flight/status/1469/2024-12-28?carrierCode=UA",
-    "airline_code": "UA",
-    "boarding_time": "BT 05:35\nST 05:39\nET 06:04"
-  },
-  {
     "flight": "AA 2617",
     "airport": "DFW DALLAS, DFW",
     "airline": "American Airlines",
     "gate": "B71",
-    "departure_time": "2024-12-28 06:21:00",
-    "status": "Scheduled",
+    "departure_time": "2024-12-28 06:17:00",
+    "status": "OutGate",
     "codeshared_flights": "AS4144, AT5093, QR2561",
     "board_URL": "https://www.united.com/api/flight/status/2617/2024-12-28?carrierCode=AA",
     "airline_code": "AA",
     "boarding_time": ""
+  },
+  {
+    "flight": "UA 1469",
+    "airport": "LAX LOS ANGELES",
+    "airline": "United Airlines",
+    "gate": "D12",
+    "departure_time": "2024-12-28 06:21:00",
+    "status": "OutGate",
+    "codeshared_flights": "CA7238, NZ9591, OZ6287, VA8542",
+    "board_URL": "https://www.united.com/api/flight/status/1469/2024-12-28?carrierCode=UA",
+    "airline_code": "UA",
+    "boarding_time": "BT 05:35\nST 05:39\nET 06:04"
   },
   {
     "flight": "UA 793",
@@ -573,7 +573,7 @@
     "codeshared_flights": "",
     "board_URL": "https://www.united.com/api/flight/status/1154/2024-12-28?carrierCode=UA",
     "airline_code": "UA",
-    "boarding_time": "BT 07:50\nST 07:50\nET 08:15"
+    "boarding_time": "BT 07:50\nST 08:37\nET 09:02"
   },
   {
     "flight": "UA 6121",
