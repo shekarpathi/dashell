@@ -41,7 +41,7 @@
     "airline": "Avianca",
     "gate": "B48",
     "departure_time": "2024-12-28 04:30:00",
-    "status": "Scheduled",
+    "status": "Proposed",
     "codeshared_flights": "",
     "board_URL": "https://www.united.com/api/flight/status/581/2024-12-28?carrierCode=AV",
     "airline_code": "AV",
