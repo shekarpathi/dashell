@@ -3504,28 +3504,16 @@
     "boarding_time": ""
   },
   {
-    "flight": "UA 4274",
-    "airport": "DAY DAYTON",
-    "airline": "United Airlines",
-    "gate": "A4B",
-    "departure_time": "2024-12-27 21:17:00",
-    "status": "Delayed",
-    "codeshared_flights": "AV2057, CM2774, LH7796, OS7837, SN8923",
-    "board_URL": "https://www.united.com/api/flight/status/4274/2024-12-27?carrierCode=UA",
-    "airline_code": "UA",
-    "boarding_time": "BT 17:25\nST 21:22\nET 21:32"
-  },
-  {
-    "flight": "UA 4871",
-    "airport": "ROC ROCHESTER",
-    "airline": "United Airlines",
-    "gate": "A3C",
-    "departure_time": "2024-12-27 21:18:00",
-    "status": "Delayed",
-    "codeshared_flights": "AV2100, CM1305, LH7754, OS7819, SN8978",
-    "board_URL": "https://www.united.com/api/flight/status/4871/2024-12-27?carrierCode=UA",
-    "airline_code": "UA",
-    "boarding_time": "BT 17:00\nST 21:10\nET 21:20"
+    "flight": "EY 6",
+    "airport": "AUH ABU DHABI",
+    "airline": "Etihad Airways",
+    "gate": "A16",
+    "departure_time": "2024-12-27 21:25:00",
+    "status": "InAir",
+    "codeshared_flights": "GF5130, UL2630",
+    "board_URL": "https://www.united.com/api/flight/status/6/2024-12-27?carrierCode=EY",
+    "airline_code": "EY",
+    "boarding_time": ""
   },
   {
     "flight": "TK 8",
@@ -3533,22 +3521,10 @@
     "airline": "Turkish Airlines",
     "gate": "B37",
     "departure_time": "2024-12-27 21:25:00",
-    "status": "Proposed",
+    "status": "InAir",
     "codeshared_flights": "6E4221, OM1132, PK5008, SQ6208, WB1367",
     "board_URL": "https://www.united.com/api/flight/status/8/2024-12-27?carrierCode=TK",
     "airline_code": "TK",
-    "boarding_time": ""
-  },
-  {
-    "flight": "EY 6",
-    "airport": "AUH ABU DHABI",
-    "airline": "Etihad Airways",
-    "gate": "A16",
-    "departure_time": "2024-12-27 21:30:00",
-    "status": "Scheduled",
-    "codeshared_flights": "GF5130, UL2630",
-    "board_URL": "https://www.united.com/api/flight/status/6/2024-12-27?carrierCode=EY",
-    "airline_code": "EY",
     "boarding_time": ""
   },
   {
@@ -3564,18 +3540,6 @@
     "boarding_time": ""
   },
   {
-    "flight": "UA 4305",
-    "airport": "HSV HUNTSVILLE",
-    "airline": "United Airlines",
-    "gate": "A6B",
-    "departure_time": "2024-12-27 21:40:00",
-    "status": "Delayed",
-    "codeshared_flights": "LH8588",
-    "board_URL": "https://www.united.com/api/flight/status/4305/2024-12-27?carrierCode=UA",
-    "airline_code": "UA",
-    "boarding_time": "BT 17:15\nST 21:15\nET 21:25"
-  },
-  {
     "flight": "F9 1081",
     "airport": "ATL ATLANTA",
     "airline": "Frontier Airlines",
@@ -3586,6 +3550,30 @@
     "board_URL": "https://www.united.com/api/flight/status/1081/2024-12-27?carrierCode=F9",
     "airline_code": "F9",
     "boarding_time": ""
+  },
+  {
+    "flight": "UA 4305",
+    "airport": "HSV HUNTSVILLE",
+    "airline": "United Airlines",
+    "gate": "A6B",
+    "departure_time": "2024-12-27 21:55:00",
+    "status": "Delayed",
+    "codeshared_flights": "LH8588",
+    "board_URL": "https://www.united.com/api/flight/status/4305/2024-12-27?carrierCode=UA",
+    "airline_code": "UA",
+    "boarding_time": "BT 17:15\nST 21:45\nET 21:55"
+  },
+  {
+    "flight": "UA 4871",
+    "airport": "ROC ROCHESTER",
+    "airline": "United Airlines",
+    "gate": "A3C",
+    "departure_time": "2024-12-27 22:00:00",
+    "status": "Delayed",
+    "codeshared_flights": "AV2100, CM1305, LH7754, OS7819, SN8978",
+    "board_URL": "https://www.united.com/api/flight/status/4871/2024-12-27?carrierCode=UA",
+    "airline_code": "UA",
+    "boarding_time": "BT 17:00\nST 21:35\nET 21:45"
   },
   {
     "flight": "UA 4321",
@@ -3648,18 +3636,6 @@
     "boarding_time": "BT 21:25\nST 21:25\nET 21:50"
   },
   {
-    "flight": "UA 4482",
-    "airport": "SAV SAVANNAH",
-    "airline": "United Airlines",
-    "gate": "C26",
-    "departure_time": "2024-12-27 22:05:00",
-    "status": "Scheduled",
-    "codeshared_flights": "",
-    "board_URL": "https://www.united.com/api/flight/status/4482/2024-12-27?carrierCode=UA",
-    "airline_code": "UA",
-    "boarding_time": "BT 21:40\nST 21:40\nET 21:50"
-  },
-  {
     "flight": "UA 6053",
     "airport": "CVG CINCINNATI",
     "airline": "United Airlines",
@@ -3670,18 +3646,6 @@
     "board_URL": "https://www.united.com/api/flight/status/6053/2024-12-27?carrierCode=UA",
     "airline_code": "UA",
     "boarding_time": "BT 21:45\nST 21:45\nET 21:55"
-  },
-  {
-    "flight": "UA 942",
-    "airport": "LIS LISBON",
-    "airline": "United Airlines",
-    "gate": "C19",
-    "departure_time": "2024-12-27 22:10:00",
-    "status": "Scheduled",
-    "codeshared_flights": "AC3837, LH8864",
-    "board_URL": "https://www.united.com/api/flight/status/942/2024-12-27?carrierCode=UA",
-    "airline_code": "UA",
-    "boarding_time": "BT 21:20\nST 21:20\nET 21:55"
   },
   {
     "flight": "UA 3540",
@@ -3900,6 +3864,18 @@
     "boarding_time": "BT 21:48\nST 21:48\nET 22:08"
   },
   {
+    "flight": "UA 942",
+    "airport": "LIS LISBON",
+    "airline": "United Airlines",
+    "gate": "C19",
+    "departure_time": "2024-12-27 22:23:00",
+    "status": "Scheduled",
+    "codeshared_flights": "AC3837, LH8864",
+    "board_URL": "https://www.united.com/api/flight/status/942/2024-12-27?carrierCode=UA",
+    "airline_code": "UA",
+    "boarding_time": "BT 21:20\nST 21:33\nET 22:08"
+  },
+  {
     "flight": "UA 408",
     "airport": "PWM PORTLAND, PWM",
     "airline": "United Airlines",
@@ -4116,16 +4092,16 @@
     "boarding_time": "BT 21:40\nST 22:23\nET 22:48"
   },
   {
-    "flight": "UA 4265",
-    "airport": "CHO CHARLOTTESVILLE",
+    "flight": "UA 4274",
+    "airport": "DAY DAYTON",
     "airline": "United Airlines",
-    "gate": "A6B",
-    "departure_time": "2024-12-27 23:55:00",
+    "gate": "A4B",
+    "departure_time": "2024-12-27 23:30:00",
     "status": "Delayed",
-    "codeshared_flights": "",
-    "board_URL": "https://www.united.com/api/flight/status/4265/2024-12-27?carrierCode=UA",
+    "codeshared_flights": "AV2057, CM2774, LH7796, OS7837, SN8923",
+    "board_URL": "https://www.united.com/api/flight/status/4274/2024-12-27?carrierCode=UA",
     "airline_code": "UA",
-    "boarding_time": "BT 21:55\nST 23:55\nET 00:05"
+    "boarding_time": "BT 17:25\nST 23:05\nET 23:15"
   },
   {
     "flight": "UA 1757",
@@ -4138,5 +4114,29 @@
     "board_URL": "https://www.united.com/api/flight/status/1757/2024-12-27?carrierCode=UA",
     "airline_code": "UA",
     "boarding_time": "BT 17:00\nST 23:10\nET 23:45"
+  },
+  {
+    "flight": "UA 4265",
+    "airport": "CHO CHARLOTTESVILLE",
+    "airline": "United Airlines",
+    "gate": "A6B",
+    "departure_time": "2024-12-28 00:20:00",
+    "status": "Delayed",
+    "codeshared_flights": "",
+    "board_URL": "https://www.united.com/api/flight/status/4265/2024-12-27?carrierCode=UA",
+    "airline_code": "UA",
+    "boarding_time": "BT 21:55\nST 23:55\nET 00:05"
+  },
+  {
+    "flight": "UA 4482",
+    "airport": "SAV SAVANNAH",
+    "airline": "United Airlines",
+    "gate": "C26",
+    "departure_time": "2024-12-28 09:00:00",
+    "status": "Delayed",
+    "codeshared_flights": "",
+    "board_URL": "https://www.united.com/api/flight/status/4482/2024-12-27?carrierCode=UA",
+    "airline_code": "UA",
+    "boarding_time": "BT 21:40\nST 08:35\nET 08:45"
   }
 ]
