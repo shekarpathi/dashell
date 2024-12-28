@@ -28,8 +28,8 @@
     "airport": "SAL SAN SALVADOR",
     "airline": "Avianca",
     "gate": "B48",
-    "departure_time": "2024-12-28 03:00:00",
-    "status": "Proposed",
+    "departure_time": "2024-12-28 02:45:00",
+    "status": "InAir",
     "codeshared_flights": "",
     "board_URL": "https://www.united.com/api/flight/status/591/2024-12-28?carrierCode=AV",
     "airline_code": "AV",
@@ -717,7 +717,7 @@
     "codeshared_flights": "AV2298, NZ6640",
     "board_URL": "https://www.united.com/api/flight/status/1524/2024-12-28?carrierCode=UA",
     "airline_code": "UA",
-    "boarding_time": "BT 07:47\nST 07:47\nET 08:22"
+    "boarding_time": "BT 07:47\nST 08:55\nET 09:30"
   },
   {
     "flight": "UA 346",
