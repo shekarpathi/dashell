@@ -1024,8 +1024,8 @@
     "airport": "ATL ATLANTA",
     "airline": "Delta Air Lines",
     "gate": "B76",
-    "departure_time": "2024-12-28 09:38:00",
-    "status": "Scheduled",
+    "departure_time": "2024-12-28 09:40:00",
+    "status": "OutGate",
     "codeshared_flights": "AM3743, LA6534, VS4417",
     "board_URL": "https://www.united.com/api/flight/status/1444/2024-12-28?carrierCode=DL",
     "airline_code": "DL",
@@ -1041,7 +1041,7 @@
     "codeshared_flights": "AV2298, NZ6640",
     "board_URL": "https://www.united.com/api/flight/status/1524/2024-12-28?carrierCode=UA",
     "airline_code": "UA",
-    "boarding_time": "BT 07:47\nST 08:51\nET 09:26"
+    "boarding_time": "BT 07:47\nST 09:06\nET 09:41"
   },
   {
     "flight": "AA 5203",
