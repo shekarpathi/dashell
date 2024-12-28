@@ -2032,8 +2032,8 @@
     "airport": "MEX MEXICO CITY",
     "airline": "Aeromexico",
     "gate": "A14",
-    "departure_time": "2024-12-28 15:38:00",
-    "status": "Scheduled",
+    "departure_time": "2024-12-28 15:33:00",
+    "status": "OutGate",
     "codeshared_flights": "DL8975",
     "board_URL": "https://www.united.com/api/flight/status/456/2024-12-28?carrierCode=AM",
     "airline_code": "AM",
@@ -2044,24 +2044,12 @@
     "airport": "DEN DENVER",
     "airline": "United Airlines",
     "gate": "C23",
-    "departure_time": "2024-12-28 15:40:00",
-    "status": "Delayed",
+    "departure_time": "2024-12-28 15:37:00",
+    "status": "OutGate",
     "codeshared_flights": "",
     "board_URL": "https://www.united.com/api/flight/status/3046/2024-12-28?carrierCode=UA",
     "airline_code": "UA",
     "boarding_time": "BT 14:25\nST 15:05\nET 15:25"
-  },
-  {
-    "flight": "UA 4424",
-    "airport": "YOW OTTAWA",
-    "airline": "United Airlines",
-    "gate": "C22",
-    "departure_time": "2024-12-28 15:40:00",
-    "status": "Delayed",
-    "codeshared_flights": "AC4691",
-    "board_URL": "https://www.united.com/api/flight/status/4424/2024-12-28?carrierCode=UA",
-    "airline_code": "UA",
-    "boarding_time": "BT 12:24\nST 15:15\nET 15:25"
   },
   {
     "flight": "UA 4847",
@@ -2076,16 +2064,16 @@
     "boarding_time": "BT 12:30\nST 15:20\nET 15:30"
   },
   {
-    "flight": "AV 583",
-    "airport": "SAL SAN SALVADOR",
-    "airline": "Avianca",
-    "gate": "B48",
-    "departure_time": "2024-12-28 15:50:00",
-    "status": "Proposed",
-    "codeshared_flights": "NH7837",
-    "board_URL": "https://www.united.com/api/flight/status/583/2024-12-28?carrierCode=AV",
-    "airline_code": "AV",
-    "boarding_time": ""
+    "flight": "UA 4424",
+    "airport": "YOW OTTAWA",
+    "airline": "United Airlines",
+    "gate": "C22",
+    "departure_time": "2024-12-28 15:46:00",
+    "status": "Delayed",
+    "codeshared_flights": "AC4691",
+    "board_URL": "https://www.united.com/api/flight/status/4424/2024-12-28?carrierCode=UA",
+    "airline_code": "UA",
+    "boarding_time": "BT 12:24\nST 15:21\nET 15:31"
   },
   {
     "flight": "UA 284",
@@ -2112,10 +2100,22 @@
     "boarding_time": ""
   },
   {
+    "flight": "AV 583",
+    "airport": "SAL SAN SALVADOR",
+    "airline": "Avianca",
+    "gate": "B48",
+    "departure_time": "2024-12-28 16:15:00",
+    "status": "Delayed",
+    "codeshared_flights": "NH7837",
+    "board_URL": "https://www.united.com/api/flight/status/583/2024-12-28?carrierCode=AV",
+    "airline_code": "AV",
+    "boarding_time": ""
+  },
+  {
     "flight": "UA 4812",
     "airport": "ALB ALBANY",
     "airline": "United Airlines",
-    "gate": "A5C",
+    "gate": "A1D",
     "departure_time": "2024-12-28 16:30:00",
     "status": "Delayed",
     "codeshared_flights": "",
@@ -2133,18 +2133,6 @@
     "codeshared_flights": "",
     "board_URL": "https://www.united.com/api/flight/status/818/2024-12-28?carrierCode=CA",
     "airline_code": "CA",
-    "boarding_time": ""
-  },
-  {
-    "flight": "DL 1695",
-    "airport": "ATL ATLANTA",
-    "airline": "Delta Air Lines",
-    "gate": "B74",
-    "departure_time": "2024-12-28 17:10:00",
-    "status": "Delayed",
-    "codeshared_flights": "AF2303, KL5695, LA6505, VS4473",
-    "board_URL": "https://www.united.com/api/flight/status/1695/2024-12-28?carrierCode=DL",
-    "airline_code": "DL",
     "boarding_time": ""
   },
   {
@@ -2400,6 +2388,18 @@
     "boarding_time": "BT 16:55\nST 16:55\nET 17:05"
   },
   {
+    "flight": "DL 1695",
+    "airport": "ATL ATLANTA",
+    "airline": "Delta Air Lines",
+    "gate": "B74",
+    "departure_time": "2024-12-28 17:25:00",
+    "status": "Delayed",
+    "codeshared_flights": "AF2303, KL5695, LA6505, VS4473",
+    "board_URL": "https://www.united.com/api/flight/status/1695/2024-12-28?carrierCode=DL",
+    "airline_code": "DL",
+    "boarding_time": ""
+  },
+  {
     "flight": "UA 6120",
     "airport": "CMH COLUMBUS",
     "airline": "United Airlines",
@@ -2517,7 +2517,7 @@
     "codeshared_flights": "AC4713, LH9200, SN8979",
     "board_URL": "https://www.united.com/api/flight/status/4339/2024-12-28?carrierCode=UA",
     "airline_code": "UA",
-    "boarding_time": "BT 17:05\nST 17:05\nET 17:15"
+    "boarding_time": "BT 17:05\nST 20:50\nET 21:00"
   },
   {
     "flight": "UA 1858",
@@ -3033,7 +3033,7 @@
     "codeshared_flights": "CM2142, LH7566, SN8933",
     "board_URL": "https://www.united.com/api/flight/status/4823/2024-12-28?carrierCode=UA",
     "airline_code": "UA",
-    "boarding_time": "BT 17:00\nST 17:40\nET 17:50"
+    "boarding_time": "BT 17:00\nST 18:36\nET 18:46"
   },
   {
     "flight": "UA 6088",
