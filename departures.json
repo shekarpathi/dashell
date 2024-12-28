@@ -204,18 +204,6 @@
     "boarding_time": ""
   },
   {
-    "flight": "AS 499",
-    "airport": "SEA SEATTLE, SEA",
-    "airline": "Alaska Airlines",
-    "gate": "B67",
-    "departure_time": "2024-12-28 07:42:00",
-    "status": "Scheduled",
-    "codeshared_flights": "HA4890, JL5441, QR8811, TN2395",
-    "board_URL": "https://www.united.com/api/flight/status/499/2024-12-28?carrierCode=AS",
-    "airline_code": "AS",
-    "boarding_time": ""
-  },
-  {
     "flight": "UA 379",
     "airport": "MCO ORLANDO",
     "airline": "United Airlines",
@@ -562,6 +550,18 @@
     "board_URL": "https://www.united.com/api/flight/status/1203/2024-12-28?carrierCode=UA",
     "airline_code": "UA",
     "boarding_time": "BT 07:46\nST 07:46\nET 08:11"
+  },
+  {
+    "flight": "AS 499",
+    "airport": "SEA SEATTLE, SEA",
+    "airline": "Alaska Airlines",
+    "gate": "B67",
+    "departure_time": "2024-12-28 08:27:00",
+    "status": "Delayed",
+    "codeshared_flights": "HA4890, JL5441, QR8811, TN2395",
+    "board_URL": "https://www.united.com/api/flight/status/499/2024-12-28?carrierCode=AS",
+    "airline_code": "AS",
+    "boarding_time": ""
   },
   {
     "flight": "UA 785",
@@ -1125,7 +1125,7 @@
     "codeshared_flights": "AV2298, NZ6640",
     "board_URL": "https://www.united.com/api/flight/status/1524/2024-12-28?carrierCode=UA",
     "airline_code": "UA",
-    "boarding_time": "BT 07:47\nST 08:55\nET 09:30"
+    "boarding_time": "BT 07:47\nST 08:25\nET 09:00"
   },
   {
     "flight": "ET 501",
@@ -3867,7 +3867,7 @@
     "flight": "UA 408",
     "airport": "PWM PORTLAND, PWM",
     "airline": "United Airlines",
-    "gate": "D4",
+    "gate": "D3",
     "departure_time": "2024-12-28 22:23:00",
     "status": "Scheduled",
     "codeshared_flights": "",
@@ -3891,7 +3891,7 @@
     "flight": "UA 2275",
     "airport": "IAH HOUSTON",
     "airline": "United Airlines",
-    "gate": "D3",
+    "gate": "D4",
     "departure_time": "2024-12-28 22:24:00",
     "status": "Scheduled",
     "codeshared_flights": "NZ6643",
