@@ -2076,18 +2076,6 @@
     "boarding_time": ""
   },
   {
-    "flight": "AV 583",
-    "airport": "SAL SAN SALVADOR",
-    "airline": "Avianca",
-    "gate": "B48",
-    "departure_time": "2024-12-28 16:15:00",
-    "status": "Delayed",
-    "codeshared_flights": "NH7837",
-    "board_URL": "https://www.united.com/api/flight/status/583/2024-12-28?carrierCode=AV",
-    "airline_code": "AV",
-    "boarding_time": ""
-  },
-  {
     "flight": "UA 284",
     "airport": "DEN DENVER",
     "airline": "United Airlines",
@@ -2124,6 +2112,18 @@
     "boarding_time": "BT 12:30\nST 16:15\nET 16:25"
   },
   {
+    "flight": "AV 583",
+    "airport": "SAL SAN SALVADOR",
+    "airline": "Avianca",
+    "gate": "B48",
+    "departure_time": "2024-12-28 16:50:00",
+    "status": "Delayed",
+    "codeshared_flights": "NH7837",
+    "board_URL": "https://www.united.com/api/flight/status/583/2024-12-28?carrierCode=AV",
+    "airline_code": "AV",
+    "boarding_time": ""
+  },
+  {
     "flight": "UA 6098",
     "airport": "ATL ATLANTA",
     "airline": "United Airlines",
@@ -2133,7 +2133,7 @@
     "codeshared_flights": "CM2119, SN8840",
     "board_URL": "https://www.united.com/api/flight/status/6098/2024-12-28?carrierCode=UA",
     "airline_code": "UA",
-    "boarding_time": "BT 16:45\nST 16:45\nET 16:55"
+    "boarding_time": "BT 16:45\nST 18:05\nET 18:15"
   },
   {
     "flight": "UA 3468",
@@ -2169,7 +2169,7 @@
     "codeshared_flights": "AC3792, CM2155, LH8872, OS7845, SN8890",
     "board_URL": "https://www.united.com/api/flight/status/4230/2024-12-28?carrierCode=UA",
     "airline_code": "UA",
-    "boarding_time": "BT 16:45\nST 16:45\nET 16:55"
+    "boarding_time": "BT 16:45\nST 17:05\nET 17:15"
   },
   {
     "flight": "UA 6022",
@@ -2409,19 +2409,7 @@
     "codeshared_flights": "AV2100, CM1305, LH7754, OS7819, SN8978",
     "board_URL": "https://www.united.com/api/flight/status/4871/2024-12-28?carrierCode=UA",
     "airline_code": "UA",
-    "boarding_time": "BT 17:00\nST 17:00\nET 17:10"
-  },
-  {
-    "flight": "UA 4249",
-    "airport": "AVP WILKES-BARRE",
-    "airline": "United Airlines",
-    "gate": "A5B",
-    "departure_time": "2024-12-28 17:25:00",
-    "status": "Scheduled",
-    "codeshared_flights": "",
-    "board_URL": "https://www.united.com/api/flight/status/4249/2024-12-28?carrierCode=UA",
-    "airline_code": "UA",
-    "boarding_time": "BT 17:00\nST 17:00\nET 17:10"
+    "boarding_time": "BT 17:00\nST 17:20\nET 17:30"
   },
   {
     "flight": "AA 5582",
@@ -2470,18 +2458,6 @@
     "board_URL": "https://www.united.com/api/flight/status/232/2024-12-28?carrierCode=TP",
     "airline_code": "TP",
     "boarding_time": ""
-  },
-  {
-    "flight": "UA 6077",
-    "airport": "RDU RALEIGH",
-    "airline": "United Airlines",
-    "gate": "A2A",
-    "departure_time": "2024-12-28 17:30:00",
-    "status": "Scheduled",
-    "codeshared_flights": "AC3392, AV2050, CA7392, CM2654, LH9304, OS7823, SN8983",
-    "board_URL": "https://www.united.com/api/flight/status/6077/2024-12-28?carrierCode=UA",
-    "airline_code": "UA",
-    "boarding_time": "BT 17:05\nST 19:05\nET 19:15"
   },
   {
     "flight": "UA 1858",
@@ -2566,18 +2542,6 @@
     "board_URL": "https://www.united.com/api/flight/status/2497/2024-12-28?carrierCode=UA",
     "airline_code": "UA",
     "boarding_time": "BT 17:00\nST 17:00\nET 17:20"
-  },
-  {
-    "flight": "UA 2463",
-    "airport": "DEN DENVER",
-    "airline": "United Airlines",
-    "gate": "D3",
-    "departure_time": "2024-12-28 17:35:00",
-    "status": "Scheduled",
-    "codeshared_flights": "CM2858, LH7462, SN8917",
-    "board_URL": "https://www.united.com/api/flight/status/2463/2024-12-28?carrierCode=UA",
-    "airline_code": "UA",
-    "boarding_time": "BT 16:45\nST 16:45\nET 17:20"
   },
   {
     "flight": "9X 129",
@@ -2710,6 +2674,18 @@
     "board_URL": "https://www.united.com/api/flight/status/6262/2024-12-28?carrierCode=UA",
     "airline_code": "UA",
     "boarding_time": "BT 17:15\nST 17:15\nET 17:25"
+  },
+  {
+    "flight": "UA 2463",
+    "airport": "DEN DENVER",
+    "airline": "United Airlines",
+    "gate": "D3",
+    "departure_time": "2024-12-28 17:41:00",
+    "status": "Scheduled",
+    "codeshared_flights": "CM2858, LH7462, SN8917",
+    "board_URL": "https://www.united.com/api/flight/status/2463/2024-12-28?carrierCode=UA",
+    "airline_code": "UA",
+    "boarding_time": "BT 16:45\nST 16:51\nET 17:26"
   },
   {
     "flight": "UA 2049",
@@ -2868,6 +2844,18 @@
     "boarding_time": "BT 17:00\nST 17:00\nET 17:35"
   },
   {
+    "flight": "UA 4249",
+    "airport": "AVP WILKES-BARRE",
+    "airline": "United Airlines",
+    "gate": "A5B",
+    "departure_time": "2024-12-28 17:50:00",
+    "status": "Delayed",
+    "codeshared_flights": "",
+    "board_URL": "https://www.united.com/api/flight/status/4249/2024-12-28?carrierCode=UA",
+    "airline_code": "UA",
+    "boarding_time": "BT 17:00\nST 17:25\nET 17:35"
+  },
+  {
     "flight": "UA 6041",
     "airport": "AUS AUSTIN",
     "airline": "United Airlines",
@@ -2913,7 +2901,7 @@
     "codeshared_flights": "",
     "board_URL": "https://www.united.com/api/flight/status/4295/2024-12-28?carrierCode=UA",
     "airline_code": "UA",
-    "boarding_time": "BT 17:30\nST 17:30\nET 17:40"
+    "boarding_time": "BT 17:30\nST 18:15\nET 18:25"
   },
   {
     "flight": "UA 6039",
@@ -3240,18 +3228,6 @@
     "boarding_time": "BT 18:20\nST 18:20\nET 18:45"
   },
   {
-    "flight": "UA 4823",
-    "airport": "BUF BUFFALO",
-    "airline": "United Airlines",
-    "gate": "A1D",
-    "departure_time": "2024-12-28 19:01:00",
-    "status": "Delayed",
-    "codeshared_flights": "CM2142, LH7566, SN8933",
-    "board_URL": "https://www.united.com/api/flight/status/4823/2024-12-28?carrierCode=UA",
-    "airline_code": "UA",
-    "boarding_time": "BT 17:00\nST 19:05\nET 19:15"
-  },
-  {
     "flight": "UA 1011",
     "airport": "CPT CAPE TOWN",
     "airline": "United Airlines",
@@ -3298,6 +3274,30 @@
     "board_URL": "https://www.united.com/api/flight/status/6079/2024-12-28?carrierCode=UA",
     "airline_code": "UA",
     "boarding_time": "BT 16:55\nST 19:04\nET 19:14"
+  },
+  {
+    "flight": "UA 4823",
+    "airport": "BUF BUFFALO",
+    "airline": "United Airlines",
+    "gate": "A1D",
+    "departure_time": "2024-12-28 19:30:00",
+    "status": "Delayed",
+    "codeshared_flights": "CM2142, LH7566, SN8933",
+    "board_URL": "https://www.united.com/api/flight/status/4823/2024-12-28?carrierCode=UA",
+    "airline_code": "UA",
+    "boarding_time": "BT 17:00\nST 19:05\nET 19:15"
+  },
+  {
+    "flight": "UA 6077",
+    "airport": "RDU RALEIGH",
+    "airline": "United Airlines",
+    "gate": "A2A",
+    "departure_time": "2024-12-28 19:30:00",
+    "status": "Delayed",
+    "codeshared_flights": "AC3392, AV2050, CA7392, CM2654, LH9304, OS7823, SN8983",
+    "board_URL": "https://www.united.com/api/flight/status/6077/2024-12-28?carrierCode=UA",
+    "airline_code": "UA",
+    "boarding_time": "BT 17:05\nST 19:05\nET 19:15"
   },
   {
     "flight": "UA 780",
