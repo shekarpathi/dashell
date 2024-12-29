@@ -2045,7 +2045,7 @@
     "airline": "Delta Air Lines",
     "gate": "B72",
     "departure_time": "2024-12-29 16:14:00",
-    "status": "OutGate",
+    "status": "InAir",
     "codeshared_flights": "AF2173, AZ2760, CI9095, KE7258, KL5937, LA8759, VS1897",
     "board_URL": "https://www.united.com/api/flight/status/5397/2024-12-29?carrierCode=DL",
     "airline_code": "DL",
@@ -2056,8 +2056,8 @@
     "airport": "TPA TAMPA",
     "airline": "Frontier Airlines",
     "gate": "B62",
-    "departure_time": "2024-12-29 16:24:00",
-    "status": "Delayed",
+    "departure_time": "2024-12-29 16:32:00",
+    "status": "OutGate",
     "codeshared_flights": "",
     "board_URL": "https://www.united.com/api/flight/status/2953/2024-12-29?carrierCode=F9",
     "airline_code": "F9",
@@ -2085,7 +2085,7 @@
     "codeshared_flights": "AC4427",
     "board_URL": "https://www.united.com/api/flight/status/6016/2024-12-29?carrierCode=UA",
     "airline_code": "UA",
-    "boarding_time": "BT 12:25\nST 16:31\nET 16:41"
+    "boarding_time": "BT 12:25\nST 16:50\nET 17:00"
   },
   {
     "flight": "MX 641",
@@ -2229,7 +2229,7 @@
     "codeshared_flights": "AD7042, CM2792, LH7480, OS7871, SN8837",
     "board_URL": "https://www.united.com/api/flight/status/2268/2024-12-29?carrierCode=UA",
     "airline_code": "UA",
-    "boarding_time": "BT 16:30\nST 16:30\nET 16:55"
+    "boarding_time": "BT 16:30\nST 16:45\nET 17:10"
   },
   {
     "flight": "UA 4418",
@@ -2484,18 +2484,6 @@
     "boarding_time": "BT 16:25\nST 16:49\nET 17:14"
   },
   {
-    "flight": "UA 4230",
-    "airport": "CHS CHARLESTON, CHS",
-    "airline": "United Airlines",
-    "gate": "A4F",
-    "departure_time": "2024-12-29 17:30:00",
-    "status": "Delayed",
-    "codeshared_flights": "AC3792, CM2155, LH8872, OS7845, SN8890",
-    "board_URL": "https://www.united.com/api/flight/status/4230/2024-12-29?carrierCode=UA",
-    "airline_code": "UA",
-    "boarding_time": "BT 16:45\nST 17:55\nET 18:05"
-  },
-  {
     "flight": "UA 4914",
     "airport": "TYS KNOXVILLE",
     "airline": "United Airlines",
@@ -2736,30 +2724,6 @@
     "boarding_time": "BT 17:00\nST 17:00\nET 17:25"
   },
   {
-    "flight": "UA 4353",
-    "airport": "RIC RICHMOND",
-    "airline": "United Airlines",
-    "gate": "A6B",
-    "departure_time": "2024-12-29 17:40:00",
-    "status": "Delayed",
-    "codeshared_flights": "AC4401, AV2095, CM2285, LH8982, OS7821, SN8984",
-    "board_URL": "https://www.united.com/api/flight/status/4353/2024-12-29?carrierCode=UA",
-    "airline_code": "UA",
-    "boarding_time": "BT 16:55\nST 17:30\nET 17:40"
-  },
-  {
-    "flight": "DL 1695",
-    "airport": "ATL ATLANTA",
-    "airline": "Delta Air Lines",
-    "gate": "B74",
-    "departure_time": "2024-12-29 17:41:00",
-    "status": "Delayed",
-    "codeshared_flights": "AF2303, KL5695, LA6505, VS4473",
-    "board_URL": "https://www.united.com/api/flight/status/1695/2024-12-29?carrierCode=DL",
-    "airline_code": "DL",
-    "boarding_time": ""
-  },
-  {
     "flight": "UA 2049",
     "airport": "RSW FORT MYERS",
     "airline": "United Airlines",
@@ -2952,6 +2916,18 @@
     "boarding_time": "BT 17:30\nST 17:30\nET 17:40"
   },
   {
+    "flight": "UA 4353",
+    "airport": "RIC RICHMOND",
+    "airline": "United Airlines",
+    "gate": "A6B",
+    "departure_time": "2024-12-29 17:55:00",
+    "status": "Delayed",
+    "codeshared_flights": "AC4401, AV2095, CM2285, LH8982, OS7821, SN8984",
+    "board_URL": "https://www.united.com/api/flight/status/4353/2024-12-29?carrierCode=UA",
+    "airline_code": "UA",
+    "boarding_time": "BT 16:55\nST 17:30\nET 17:40"
+  },
+  {
     "flight": "UA 2435",
     "airport": "SMF SACRAMENTO",
     "airline": "United Airlines",
@@ -2974,6 +2950,18 @@
     "board_URL": "https://www.united.com/api/flight/status/1140/2024-12-29?carrierCode=UA",
     "airline_code": "UA",
     "boarding_time": "BT 17:15\nST 17:15\nET 17:40"
+  },
+  {
+    "flight": "DL 1695",
+    "airport": "ATL ATLANTA",
+    "airline": "Delta Air Lines",
+    "gate": "B74",
+    "departure_time": "2024-12-29 17:56:00",
+    "status": "Delayed",
+    "codeshared_flights": "AF2303, KL5695, LA6505, VS4473",
+    "board_URL": "https://www.united.com/api/flight/status/1695/2024-12-29?carrierCode=DL",
+    "airline_code": "DL",
+    "boarding_time": ""
   },
   {
     "flight": "BA 216",
@@ -3093,7 +3081,7 @@
     "codeshared_flights": "TP8505",
     "board_URL": "https://www.united.com/api/flight/status/4187/2024-12-29?carrierCode=UA",
     "airline_code": "UA",
-    "boarding_time": "BT 12:15\nST 17:50\nET 18:00"
+    "boarding_time": "BT 12:15\nST 18:20\nET 18:30"
   },
   {
     "flight": "UA 6079",
@@ -3118,6 +3106,18 @@
     "board_URL": "https://www.united.com/api/flight/status/1831/2024-12-29?carrierCode=UA",
     "airline_code": "UA",
     "boarding_time": "BT 17:25\nST 17:25\nET 18:00"
+  },
+  {
+    "flight": "UA 4230",
+    "airport": "CHS CHARLESTON, CHS",
+    "airline": "United Airlines",
+    "gate": "A4F",
+    "departure_time": "2024-12-29 18:20:00",
+    "status": "Delayed",
+    "codeshared_flights": "AC3792, CM2155, LH8872, OS7845, SN8890",
+    "board_URL": "https://www.united.com/api/flight/status/4230/2024-12-29?carrierCode=UA",
+    "airline_code": "UA",
+    "boarding_time": "BT 16:45\nST 17:55\nET 18:05"
   },
   {
     "flight": "UA 2463",
