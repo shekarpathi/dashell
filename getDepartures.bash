@@ -7,6 +7,7 @@ echo "=========================="
 echo "$1 Run Started $NOW"
 date
 echo "=========================="
+rm JJ*.json
 # Define constants
 user_agent="Mozilla/5.0 Gecko/20100101 Firefox/133.0"
 accept_language="en-US,en;q=0.5"
@@ -36,7 +37,7 @@ TODAY=$(date '+%Y-%m-%d')
 NOW=$(date '+%s')
 
 # Function to get a new token hash
-get_new_hash() {
+get_united_bearer_token() {
   response=$(curl -s -X GET "$token_url" \
     -H "User-Agent: $user_agent" \
     -H "Accept-Language: $accept_language" \
@@ -45,15 +46,15 @@ get_new_hash() {
 }
 
 # Function to fetch flight response
-get_flight_status() {
+get_boardingTime_json() {
   curl -s -X GET "$2" \
     -H "User-Agent: $user_agent" \
     -H "X-Authorization-Api: $1"
 }
 
-get_boardtime_string() {
+parse_boardingTimeString_From_Json() {
   # Step 2: Attempt to fetch flight status
-  flight_response=$(get_flight_status "$hash" "$1")
+  flight_response=$(get_boardingTime_json "$hash" "$1")
   current_time=$(date +"%H%M%S")
   echo "$flight_response" | jq > JJ_FlightResponse_"$current_time".json
   echo "$flight_response" | jq -r '
@@ -70,33 +71,39 @@ get_boardtime_string() {
 #    cat PP"$current_time".json
 }
 
-get_boardtime_strin_() {
-  # Step 2: Attempt to fetch flight status
-  flight_response=$(get_flight_status "$hash" "$1")
-
-  echo "$flight_response" | jq -r '
-    .data.flightLegs[0].OperationalFlightSegments[0] |
-    {
-      BoardTime: (.BoardTime | split(":")[:2] | join(":")),
-      "Boarding Start Time": ((.Characteristic[] | select(.Code == "LocalEstimatedBoardStartDateTime") | .Value) | split("T")[1] | split(":")[:2] | join(":")),
-      "Boarding End Time": ((.Characteristic[] | select(.Code == "LocalEstimatedBoardEndDateTime") | .Value) | split("T")[1] | split(":")[:2] | join(":"))
-    }|
-    "ST \( .["Boarding Start Time"] )\nET \( .["Boarding End Time"] )"
-    '
-}
-
 # shellcheck disable=SC2155
-export hash=$(get_new_hash)
-echo "$hash"
+export hash=$(get_united_bearer_token)
+#echo "$hash"
 
-response=$(curl -s -w "%{http_code}" "$URL" | jq)
-http_code=$(tail -n1 <<< "$response")  # get the last line
-if [[ $http_code -ge 300 ]]; then
-    echo "Error: HTTP code $http_code. Exiting."
-    exit 1
-fi
-content=$(sed '$ d' <<< "$response")   # get all but the last line which contains the status code
+
+# Main logic
+retry_count=0
+# Maximum number of retries
+max_retries=5
+# Delay between retries in seconds
+delay=10
+
+while true; do
+
+  response=$(curl -s -w "%{http_code}" "$URL" | jq)
+  http_code=$(tail -n1 <<< "$response")  # get the last line
+#  echo $http_code
+  if [[ $http_code -lt 300 ]]; then
+      content=$(sed '$ d' <<< "$response")   # get all but the last line which contains the status code
+      break
+  else
+    echo "Error: HTTP code $http_code."
+    retry_count=$((retry_count + 1))
+    if [[ $retry_count -ge $max_retries ]]; then
+        echo "Error: HTTP code $http_code after $retry_count retries. Exiting."
+        exit 1
+    fi
+    echo "HTTP code $http_code. Retrying in $delay seconds..."
+    sleep $delay
+  fi
+done
 #echo "$content"
+#exit 0
 
 # Fetch the JSON data, filter for today's publishedTime, compute correct_time, remove the "id" field, and write to the output file
 DEPARTURES_JSON=$(echo "$content" | jq --arg today "$TODAY" --argjson now "$NOW" '
@@ -151,7 +158,7 @@ updated_json=$(jq -c '.[]' "$DEPARTURES_STAGE_FILE" | while read -r item; do
   if [[ "$airline_code" == "UA" ]]; then
     # Make an HTTPS request and capture the response code
     #response_code=$(curl -s -o /dev/null -w "%{http_code}" "$board_url")
-    boarding_time=$(get_boardtime_string "$board_url")
+    boarding_time=$(parse_boardingTimeString_From_Json "$board_url")
   else
     boarding_time=""
   fi
