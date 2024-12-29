@@ -1949,7 +1949,7 @@
     "airline": "American Airlines",
     "gate": "B73",
     "departure_time": "2024-12-29 15:00:00",
-    "status": "OutGate",
+    "status": "InAir",
     "codeshared_flights": "BA5179, QR9286",
     "board_URL": "https://www.united.com/api/flight/status/5543/2024-12-29?carrierCode=AA",
     "airline_code": "AA",
@@ -2004,40 +2004,40 @@
     "boarding_time": ""
   },
   {
-    "flight": "UA 4286",
-    "airport": "HSV HUNTSVILLE",
-    "airline": "United Airlines",
-    "gate": "A6A",
-    "departure_time": "2024-12-29 15:40:00",
-    "status": "Delayed",
-    "codeshared_flights": "",
-    "board_URL": "https://www.united.com/api/flight/status/4286/2024-12-29?carrierCode=UA",
-    "airline_code": "UA",
-    "boarding_time": "BT 12:30\nST 15:35\nET 15:45"
+    "flight": "AV 583",
+    "airport": "SAL SAN SALVADOR",
+    "airline": "Avianca",
+    "gate": "B50",
+    "departure_time": "2024-12-29 15:44:00",
+    "status": "OutGate",
+    "codeshared_flights": "NH7837",
+    "board_URL": "https://www.united.com/api/flight/status/583/2024-12-29?carrierCode=AV",
+    "airline_code": "AV",
+    "boarding_time": ""
   },
   {
     "flight": "UA 2156",
     "airport": "BNA NASHVILLE",
     "airline": "United Airlines",
     "gate": "D8",
-    "departure_time": "2024-12-29 15:48:00",
+    "departure_time": "2024-12-29 15:58:00",
     "status": "Delayed",
     "codeshared_flights": "AV2338",
     "board_URL": "https://www.united.com/api/flight/status/2156/2024-12-29?carrierCode=UA",
     "airline_code": "UA",
-    "boarding_time": "BT 12:05\nST 15:13\nET 15:33"
+    "boarding_time": "BT 12:05\nST 15:23\nET 15:43"
   },
   {
-    "flight": "AV 583",
-    "airport": "SAL SAN SALVADOR",
-    "airline": "Avianca",
-    "gate": "B50",
-    "departure_time": "2024-12-29 15:50:00",
-    "status": "Scheduled",
-    "codeshared_flights": "NH7837",
-    "board_URL": "https://www.united.com/api/flight/status/583/2024-12-29?carrierCode=AV",
-    "airline_code": "AV",
-    "boarding_time": ""
+    "flight": "UA 4286",
+    "airport": "HSV HUNTSVILLE",
+    "airline": "United Airlines",
+    "gate": "A6A",
+    "departure_time": "2024-12-29 16:00:00",
+    "status": "Delayed",
+    "codeshared_flights": "",
+    "board_URL": "https://www.united.com/api/flight/status/4286/2024-12-29?carrierCode=UA",
+    "airline_code": "UA",
+    "boarding_time": "BT 12:30\nST 15:35\nET 15:45"
   },
   {
     "flight": "MX 641",
@@ -2493,7 +2493,7 @@
     "codeshared_flights": "AC3934, AV2166, CM2804",
     "board_URL": "https://www.united.com/api/flight/status/3453/2024-12-29?carrierCode=UA",
     "airline_code": "UA",
-    "boarding_time": "BT 16:52\nST 17:00\nET 17:10"
+    "boarding_time": "BT 16:52\nST 17:05\nET 17:15"
   },
   {
     "flight": "UA 4249",
@@ -2973,7 +2973,7 @@
     "codeshared_flights": "CM2799, LH7572, SN8904",
     "board_URL": "https://www.united.com/api/flight/status/1379/2024-12-29?carrierCode=UA",
     "airline_code": "UA",
-    "boarding_time": "BT 17:15\nST 17:15\nET 17:40"
+    "boarding_time": "BT 17:15\nST 17:34\nET 17:59"
   },
   {
     "flight": "UA 2276",
@@ -3189,7 +3189,7 @@
     "codeshared_flights": "CM2190, LH7592, SN8898",
     "board_URL": "https://www.united.com/api/flight/status/4364/2024-12-29?carrierCode=UA",
     "airline_code": "UA",
-    "boarding_time": "BT 17:20\nST 18:05\nET 18:15"
+    "boarding_time": "BT 17:20\nST 17:20\nET 17:30"
   },
   {
     "flight": "UA 612",
@@ -3261,7 +3261,7 @@
     "codeshared_flights": "AC3542, AV2227, CM2201, LH7610, OS7841, SN9016",
     "board_URL": "https://www.united.com/api/flight/status/6120/2024-12-29?carrierCode=UA",
     "airline_code": "UA",
-    "boarding_time": "BT 17:00\nST 18:30\nET 18:40"
+    "boarding_time": "BT 17:00\nST 18:55\nET 19:05"
   },
   {
     "flight": "DL 2902",
