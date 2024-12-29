@@ -77,7 +77,7 @@
     "airline": "Southwest Airlines",
     "gate": "B66",
     "departure_time": "2024-12-29 05:20:00",
-    "status": "OutGate",
+    "status": "InAir",
     "codeshared_flights": "",
     "board_URL": "https://www.united.com/api/flight/status/1130/2024-12-29?carrierCode=WN",
     "airline_code": "WN",
@@ -88,7 +88,7 @@
     "airport": "ATL ATLANTA",
     "airline": "Delta Air Lines",
     "gate": "B78",
-    "departure_time": "2024-12-29 06:00:00",
+    "departure_time": "2024-12-29 05:55:00",
     "status": "Scheduled",
     "codeshared_flights": "AM3744, KE3962, LA6332, VS4431, WS7593",
     "board_URL": "https://www.united.com/api/flight/status/2550/2024-12-29?carrierCode=DL",
@@ -1293,7 +1293,7 @@
     "codeshared_flights": "",
     "board_URL": "https://www.united.com/api/flight/status/4285/2024-12-29?carrierCode=UA",
     "airline_code": "UA",
-    "boarding_time": "BT 08:20\nST 08:20\nET 08:30"
+    "boarding_time": "BT 08:20\nST 11:35\nET 11:45"
   },
   {
     "flight": "UA 4812",
