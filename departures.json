@@ -1893,7 +1893,7 @@
     "codeshared_flights": "AC4257",
     "board_URL": "https://www.united.com/api/flight/status/4822/2024-12-29?carrierCode=UA",
     "airline_code": "UA",
-    "boarding_time": "BT 12:30\nST 12:30\nET 12:40"
+    "boarding_time": "BT 12:30\nST 16:05\nET 16:15"
   },
   {
     "flight": "UA 3627",
