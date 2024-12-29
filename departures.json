@@ -1781,7 +1781,7 @@
     "airline": "Porter Airlines",
     "gate": "A19",
     "departure_time": "2024-12-29 13:48:00",
-    "status": "OutGate",
+    "status": "InAir",
     "codeshared_flights": "TS7478",
     "board_URL": "https://www.united.com/api/flight/status/2724/2024-12-29?carrierCode=PD",
     "airline_code": "PD",
@@ -1901,7 +1901,7 @@
     "airline": "United Airlines",
     "gate": "D16",
     "departure_time": "2024-12-29 14:08:00",
-    "status": "OutGate",
+    "status": "InAir",
     "codeshared_flights": "CM2833, ET1352, NH7116",
     "board_URL": "https://www.united.com/api/flight/status/2277/2024-12-29?carrierCode=UA",
     "airline_code": "UA",
@@ -1941,7 +1941,7 @@
     "codeshared_flights": "NZ9176, VA8390",
     "board_URL": "https://www.united.com/api/flight/status/1318/2024-12-29?carrierCode=UA",
     "airline_code": "UA",
-    "boarding_time": "BT 14:00\nST 14:00\nET 14:25"
+    "boarding_time": "BT 14:00\nST 14:20\nET 14:45"
   },
   {
     "flight": "UA 1194",
@@ -1989,7 +1989,7 @@
     "codeshared_flights": "AV2338",
     "board_URL": "https://www.united.com/api/flight/status/2156/2024-12-29?carrierCode=UA",
     "airline_code": "UA",
-    "boarding_time": "BT 12:05\nST 14:47\nET 15:07"
+    "boarding_time": "BT 12:05\nST 15:02\nET 15:22"
   },
   {
     "flight": "CM 444",
@@ -2097,7 +2097,7 @@
     "codeshared_flights": "TP8505",
     "board_URL": "https://www.united.com/api/flight/status/4187/2024-12-29?carrierCode=UA",
     "airline_code": "UA",
-    "boarding_time": "BT 12:15\nST 15:50\nET 16:00"
+    "boarding_time": "BT 12:15\nST 16:35\nET 16:45"
   },
   {
     "flight": "F9 2953",
@@ -2157,7 +2157,7 @@
     "codeshared_flights": "",
     "board_URL": "https://www.united.com/api/flight/status/6142/2024-12-29?carrierCode=UA",
     "airline_code": "UA",
-    "boarding_time": "BT 12:25\nST 16:20\nET 16:30"
+    "boarding_time": "BT 12:25\nST 16:40\nET 16:50"
   },
   {
     "flight": "DL 1695",
