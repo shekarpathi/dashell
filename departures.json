@@ -1925,7 +1925,7 @@
     "airline": "Air Canada",
     "gate": "Z10",
     "departure_time": "2024-12-29 14:31:00",
-    "status": "OutGate",
+    "status": "InAir",
     "codeshared_flights": "UA8693",
     "board_URL": "https://www.united.com/api/flight/status/8619/2024-12-29?carrierCode=AC",
     "airline_code": "AC",
@@ -2157,7 +2157,7 @@
     "codeshared_flights": "TP8505",
     "board_URL": "https://www.united.com/api/flight/status/4187/2024-12-29?carrierCode=UA",
     "airline_code": "UA",
-    "boarding_time": "BT 12:15\nST 16:35\nET 16:45"
+    "boarding_time": "BT 12:15\nST 16:55\nET 17:05"
   },
   {
     "flight": "UA 6142",
@@ -2229,7 +2229,7 @@
     "codeshared_flights": "AC3792, CM2155, LH8872, OS7845, SN8890",
     "board_URL": "https://www.united.com/api/flight/status/4230/2024-12-29?carrierCode=UA",
     "airline_code": "UA",
-    "boarding_time": "BT 16:45\nST 16:45\nET 16:55"
+    "boarding_time": "BT 16:45\nST 17:05\nET 17:15"
   },
   {
     "flight": "UA 6022",
