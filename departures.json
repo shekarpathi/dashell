@@ -3528,6 +3528,18 @@
     "boarding_time": "BT 21:45\nST 21:45\nET 21:55"
   },
   {
+    "flight": "UA 4321",
+    "airport": "ALB ALBANY",
+    "airline": "United Airlines",
+    "gate": "A4F",
+    "departure_time": "2024-12-28 22:05:00",
+    "status": "Cancelled",
+    "codeshared_flights": "LH8610",
+    "board_URL": "https://www.united.com/api/flight/status/4321/2024-12-28?carrierCode=UA",
+    "airline_code": "UA",
+    "boarding_time": "BT 21:40\nST 22:55\nET 23:05"
+  },
+  {
     "flight": "BA 292",
     "airport": "LHR LONDON",
     "airline": "British Airways",
@@ -3936,23 +3948,11 @@
     "boarding_time": "BT 21:37\nST 22:30\nET 22:55"
   },
   {
-    "flight": "UA 4321",
-    "airport": "ALB ALBANY",
-    "airline": "United Airlines",
-    "gate": "A4F",
-    "departure_time": "2024-12-28 23:20:00",
-    "status": "Delayed",
-    "codeshared_flights": "LH8610",
-    "board_URL": "https://www.united.com/api/flight/status/4321/2024-12-28?carrierCode=UA",
-    "airline_code": "UA",
-    "boarding_time": "BT 21:40\nST 22:55\nET 23:05"
-  },
-  {
     "flight": "UA 2275",
     "airport": "IAH HOUSTON",
     "airline": "United Airlines",
     "gate": "D7",
-    "departure_time": "2024-12-28 23:20:00",
+    "departure_time": "2024-12-28 23:40:00",
     "status": "Delayed",
     "codeshared_flights": "NZ6643",
     "board_URL": "https://www.united.com/api/flight/status/2275/2024-12-28?carrierCode=UA",
@@ -3964,7 +3964,7 @@
     "airport": "AVP WILKES-BARRE",
     "airline": "United Airlines",
     "gate": "A4C",
-    "departure_time": "2024-12-28 23:20:00",
+    "departure_time": "2024-12-28 23:40:00",
     "status": "Delayed",
     "codeshared_flights": "",
     "board_URL": "https://www.united.com/api/flight/status/4975/2024-12-28?carrierCode=UA",
