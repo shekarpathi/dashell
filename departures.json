@@ -112,11 +112,23 @@
     "airport": "MSP MINNEAPOLIS",
     "airline": "Delta Air Lines",
     "gate": "B75",
-    "departure_time": "2024-12-29 06:07:00",
-    "status": "Scheduled",
+    "departure_time": "2024-12-29 06:06:00",
+    "status": "OutGate",
     "codeshared_flights": "AM3753, KE3884, VS4433, WS7653",
     "board_URL": "https://www.united.com/api/flight/status/3996/2024-12-29?carrierCode=DL",
     "airline_code": "DL",
+    "boarding_time": ""
+  },
+  {
+    "flight": "AV 149",
+    "airport": "BOG BOGOTA",
+    "airline": "Avianca",
+    "gate": "B48",
+    "departure_time": "2024-12-29 06:08:00",
+    "status": "OutGate",
+    "codeshared_flights": "",
+    "board_URL": "https://www.united.com/api/flight/status/149/2024-12-29?carrierCode=AV",
+    "airline_code": "AV",
     "boarding_time": ""
   },
   {
@@ -124,24 +136,12 @@
     "airport": "IAH HOUSTON",
     "airline": "United Airlines",
     "gate": "D12",
-    "departure_time": "2024-12-29 06:08:00",
-    "status": "Scheduled",
+    "departure_time": "2024-12-29 06:09:00",
+    "status": "OutGate",
     "codeshared_flights": "AV2130, NZ6644",
     "board_URL": "https://www.united.com/api/flight/status/1372/2024-12-29?carrierCode=UA",
     "airline_code": "UA",
     "boarding_time": "BT 05:28\nST 05:28\nET 05:53"
-  },
-  {
-    "flight": "AV 149",
-    "airport": "BOG BOGOTA",
-    "airline": "Avianca",
-    "gate": "B48",
-    "departure_time": "2024-12-29 06:10:00",
-    "status": "Proposed",
-    "codeshared_flights": "",
-    "board_URL": "https://www.united.com/api/flight/status/149/2024-12-29?carrierCode=AV",
-    "airline_code": "AV",
-    "boarding_time": ""
   },
   {
     "flight": "UA 1469",
@@ -201,7 +201,7 @@
     "codeshared_flights": "",
     "board_URL": "https://www.united.com/api/flight/status/2860/2024-12-29?carrierCode=UA",
     "airline_code": "UA",
-    "boarding_time": "BT 06:20\nST 06:20\nET 06:45"
+    "boarding_time": "BT 06:20\nST 07:50\nET 08:15"
   },
   {
     "flight": "AS 499",
@@ -384,18 +384,6 @@
     "boarding_time": "BT 07:50\nST 07:50\nET 08:00"
   },
   {
-    "flight": "UA 1443",
-    "airport": "STT ST. THOMAS",
-    "airline": "United Airlines",
-    "gate": "C2",
-    "departure_time": "2024-12-29 08:15:00",
-    "status": "Scheduled",
-    "codeshared_flights": "",
-    "board_URL": "https://www.united.com/api/flight/status/1443/2024-12-29?carrierCode=UA",
-    "airline_code": "UA",
-    "boarding_time": "BT 07:35\nST 07:35\nET 08:00"
-  },
-  {
     "flight": "UA 3612",
     "airport": "YYZ TORONTO, YYZ",
     "airline": "United Airlines",
@@ -504,6 +492,18 @@
     "boarding_time": ""
   },
   {
+    "flight": "UA 1443",
+    "airport": "STT ST. THOMAS",
+    "airline": "United Airlines",
+    "gate": "C2",
+    "departure_time": "2024-12-29 08:24:00",
+    "status": "Scheduled",
+    "codeshared_flights": "",
+    "board_URL": "https://www.united.com/api/flight/status/1443/2024-12-29?carrierCode=UA",
+    "airline_code": "UA",
+    "boarding_time": "BT 07:35\nST 07:44\nET 08:09"
+  },
+  {
     "flight": "UA 641",
     "airport": "BOS BOSTON",
     "airline": "United Airlines",
@@ -519,7 +519,7 @@
     "flight": "UA 4289",
     "airport": "BUF BUFFALO",
     "airline": "United Airlines",
-    "gate": "A4B",
+    "gate": "A4C",
     "departure_time": "2024-12-29 08:25:00",
     "status": "Scheduled",
     "codeshared_flights": "AV2042, CM1239",
@@ -696,18 +696,6 @@
     "boarding_time": "BT 08:00\nST 08:00\nET 08:20"
   },
   {
-    "flight": "UA 4319",
-    "airport": "SCE STATE COLLEGE",
-    "airline": "United Airlines",
-    "gate": "A5A",
-    "departure_time": "2024-12-29 08:35:00",
-    "status": "Scheduled",
-    "codeshared_flights": "",
-    "board_URL": "https://www.united.com/api/flight/status/4319/2024-12-29?carrierCode=UA",
-    "airline_code": "UA",
-    "boarding_time": "BT 08:10\nST 08:10\nET 08:20"
-  },
-  {
     "flight": "UA 1524",
     "airport": "IAH HOUSTON",
     "airline": "United Airlines",
@@ -850,6 +838,18 @@
     "board_URL": "https://www.united.com/api/flight/status/683/2024-12-29?carrierCode=UA",
     "airline_code": "UA",
     "boarding_time": "BT 08:05\nST 08:05\nET 08:30"
+  },
+  {
+    "flight": "UA 4319",
+    "airport": "SCE STATE COLLEGE",
+    "airline": "United Airlines",
+    "gate": "A5A",
+    "departure_time": "2024-12-29 08:49:00",
+    "status": "Scheduled",
+    "codeshared_flights": "",
+    "board_URL": "https://www.united.com/api/flight/status/4319/2024-12-29?carrierCode=UA",
+    "airline_code": "UA",
+    "boarding_time": "BT 08:10\nST 08:24\nET 08:34"
   },
   {
     "flight": "UA 6136",
