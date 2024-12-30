@@ -163,7 +163,7 @@ updated_json=$(jq -c '.[]' "$DEPARTURES_STAGE_FILE" | while read -r item; do
   fi
 
   # Add the response_code field to the JSON object
-  updated_item=$(echo "$item" | jq --arg rc "$boarding_time" '. + {boarding_time: $rc}')
+  updated_item=$(echo "$item" | jq --arg rc "$boarding_time" '. + {boarding_time: $rc}  | del(.board_URL)')
 
   # Output the updated item
   echo "$updated_item"
