@@ -1127,40 +1127,40 @@
     "airline": "United Airlines",
     "gate": "A2F",
     "departure_time": "2024-12-30 11:39:00",
-    "status": "OutGate",
+    "status": "InAir",
     "codeshared_flights": "AC3992",
     "airline_code": "UA",
     "boarding_time": "BT 08:15\nST 11:28\nET 11:38"
-  },
-  {
-    "flight": "UA 4812",
-    "airport": "ALB ALBANY",
-    "airline": "United Airlines",
-    "gate": "A4E",
-    "departure_time": "2024-12-30 11:45:00",
-    "status": "Delayed",
-    "codeshared_flights": "",
-    "airline_code": "UA",
-    "boarding_time": "BT 08:20\nST 11:30\nET 11:40"
   },
   {
     "flight": "KE 94",
     "airport": "ICN SEOUL",
     "airline": "Korean Air",
     "gate": "A31",
-    "departure_time": "2024-12-30 11:50:00",
-    "status": "Scheduled",
+    "departure_time": "2024-12-30 11:58:00",
+    "status": "OutGate",
     "codeshared_flights": "DL7856",
     "airline_code": "KE",
     "boarding_time": ""
+  },
+  {
+    "flight": "UA 4812",
+    "airport": "ALB ALBANY",
+    "airline": "United Airlines",
+    "gate": "A4E",
+    "departure_time": "2024-12-30 12:00:00",
+    "status": "OutGate",
+    "codeshared_flights": "",
+    "airline_code": "UA",
+    "boarding_time": "BT 08:20\nST 11:30\nET 11:40"
   },
   {
     "flight": "UA 1016",
     "airport": "BTV BURLINGTON",
     "airline": "United Airlines",
     "gate": "D9",
-    "departure_time": "2024-12-30 12:00:00",
-    "status": "Delayed",
+    "departure_time": "2024-12-30 12:04:00",
+    "status": "OutGate",
     "codeshared_flights": "CM2772",
     "airline_code": "UA",
     "boarding_time": "BT 08:20\nST 11:20\nET 11:45"
@@ -1331,17 +1331,6 @@
     "boarding_time": "BT 12:05\nST 12:05\nET 12:25"
   },
   {
-    "flight": "UA 4187",
-    "airport": "EWR NEWARK",
-    "airline": "United Airlines",
-    "gate": "C20",
-    "departure_time": "2024-12-30 12:40:00",
-    "status": "Scheduled",
-    "codeshared_flights": "TP8505",
-    "airline_code": "UA",
-    "boarding_time": "BT 12:15\nST 12:15\nET 12:25"
-  },
-  {
     "flight": "UA 471",
     "airport": "MCO ORLANDO",
     "airline": "United Airlines",
@@ -1373,17 +1362,6 @@
     "codeshared_flights": "AC4611, NH7122",
     "airline_code": "UA",
     "boarding_time": "BT 12:15\nST 12:15\nET 12:25"
-  },
-  {
-    "flight": "UA 4317",
-    "airport": "ALB ALBANY",
-    "airline": "United Airlines",
-    "gate": "A6A",
-    "departure_time": "2024-12-30 12:45:00",
-    "status": "Scheduled",
-    "codeshared_flights": "",
-    "airline_code": "UA",
-    "boarding_time": "BT 12:10\nST 12:20\nET 12:30"
   },
   {
     "flight": "UA 1581",
@@ -1527,17 +1505,6 @@
     "codeshared_flights": "",
     "airline_code": "UA",
     "boarding_time": "BT 12:25\nST 12:25\nET 12:35"
-  },
-  {
-    "flight": "UA 1618",
-    "airport": "CUN CANCUN",
-    "airline": "United Airlines",
-    "gate": "D14",
-    "departure_time": "2024-12-30 12:50:00",
-    "status": "Scheduled",
-    "codeshared_flights": "",
-    "airline_code": "UA",
-    "boarding_time": "BT 12:10\nST 12:10\nET 12:35"
   },
   {
     "flight": "UA 6207",
@@ -1738,6 +1705,17 @@
     "boarding_time": ""
   },
   {
+    "flight": "UA 1618",
+    "airport": "CUN CANCUN",
+    "airline": "United Airlines",
+    "gate": "D21",
+    "departure_time": "2024-12-30 13:05:00",
+    "status": "Scheduled",
+    "codeshared_flights": "",
+    "airline_code": "UA",
+    "boarding_time": "BT 12:10\nST 12:25\nET 12:50"
+  },
+  {
     "flight": "UA 6157",
     "airport": "MCI KANSAS CITY",
     "airline": "United Airlines",
@@ -1815,17 +1793,6 @@
     "boarding_time": "BT 12:25\nST 13:15\nET 13:25"
   },
   {
-    "flight": "UA 4962",
-    "airport": "GSP GREENVILLE-SPARTANBURG",
-    "airline": "United Airlines",
-    "gate": "A4A",
-    "departure_time": "2024-12-30 13:40:00",
-    "status": "Delayed",
-    "codeshared_flights": "AC4729",
-    "airline_code": "UA",
-    "boarding_time": "BT 12:15\nST 13:15\nET 13:25"
-  },
-  {
     "flight": "UA 4831",
     "airport": "ROA ROANOKE",
     "airline": "United Airlines",
@@ -1857,6 +1824,28 @@
     "codeshared_flights": "",
     "airline_code": "AA",
     "boarding_time": ""
+  },
+  {
+    "flight": "UA 4317",
+    "airport": "ALB ALBANY",
+    "airline": "United Airlines",
+    "gate": "A6C",
+    "departure_time": "2024-12-30 13:55:00",
+    "status": "Delayed",
+    "codeshared_flights": "",
+    "airline_code": "UA",
+    "boarding_time": "BT 12:10\nST 13:30\nET 13:40"
+  },
+  {
+    "flight": "UA 4962",
+    "airport": "GSP GREENVILLE-SPARTANBURG",
+    "airline": "United Airlines",
+    "gate": "A4A",
+    "departure_time": "2024-12-30 14:00:00",
+    "status": "Delayed",
+    "codeshared_flights": "AC4729",
+    "airline_code": "UA",
+    "boarding_time": "BT 12:15\nST 13:35\nET 13:45"
   },
   {
     "flight": "TK 188",
@@ -2024,6 +2013,17 @@
     "boarding_time": ""
   },
   {
+    "flight": "UA 4187",
+    "airport": "EWR NEWARK",
+    "airline": "United Airlines",
+    "gate": "C20",
+    "departure_time": "2024-12-30 16:20:00",
+    "status": "Delayed",
+    "codeshared_flights": "TP8505",
+    "airline_code": "UA",
+    "boarding_time": "BT 12:15\nST 15:55\nET 16:05"
+  },
+  {
     "flight": "DL 1695",
     "airport": "ATL ATLANTA",
     "airline": "Delta Air Lines",
@@ -2049,7 +2049,7 @@
     "flight": "UA 1869",
     "airport": "SAT SAN ANTONIO",
     "airline": "United Airlines",
-    "gate": "D14",
+    "gate": "D12",
     "departure_time": "2024-12-30 17:05:00",
     "status": "Scheduled",
     "codeshared_flights": "AC3824, LH7848, SN8975",
