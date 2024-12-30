@@ -32,10 +32,16 @@ jobs:
         fetch-depth: 0 # otherwise, there would be errors pushing refs to the destination repository.
         clean: true
 
-    - name: run getDepartures.bash
+    - name: git rebase origin
       run: |
         ls -ltra
+        git pull --rebase origin main
+        git status
+
+    - name: run getDepartures.bash
+      run: |
         chmod +x getDepartures.bash
+        ls -ltra
         ./getDepartures.bash
 
     - name: setup python 3.8
