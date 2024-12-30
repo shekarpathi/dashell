@@ -1809,7 +1809,7 @@
     "airline": "United Airlines",
     "gate": "A6A",
     "departure_time": "2024-12-30 13:58:00",
-    "status": "OutGate",
+    "status": "InAir",
     "codeshared_flights": "AC4709, AV2098",
     "airline_code": "UA",
     "boarding_time": "BT 12:30\nST 13:29\nET 13:39"
@@ -1831,21 +1831,10 @@
     "airline": "United Airlines",
     "gate": "A1C",
     "departure_time": "2024-12-30 14:03:00",
-    "status": "OutGate",
+    "status": "InAir",
     "codeshared_flights": "",
     "airline_code": "UA",
     "boarding_time": "BT 12:25\nST 13:45\nET 13:55"
-  },
-  {
-    "flight": "UA 4962",
-    "airport": "GSP GREENVILLE-SPARTANBURG",
-    "airline": "United Airlines",
-    "gate": "A4A",
-    "departure_time": "2024-12-30 14:05:00",
-    "status": "Delayed",
-    "codeshared_flights": "AC4729",
-    "airline_code": "UA",
-    "boarding_time": "BT 12:15\nST 13:40\nET 13:50"
   },
   {
     "flight": "PD 2724",
@@ -1859,12 +1848,23 @@
     "boarding_time": ""
   },
   {
+    "flight": "UA 4962",
+    "airport": "GSP GREENVILLE-SPARTANBURG",
+    "airline": "United Airlines",
+    "gate": "A4A",
+    "departure_time": "2024-12-30 14:11:00",
+    "status": "OutGate",
+    "codeshared_flights": "AC4729",
+    "airline_code": "UA",
+    "boarding_time": "BT 12:15\nST 13:40\nET 13:50"
+  },
+  {
     "flight": "AV 247",
     "airport": "BOG BOGOTA",
     "airline": "Avianca",
     "gate": "B48",
-    "departure_time": "2024-12-30 14:20:00",
-    "status": "Proposed",
+    "departure_time": "2024-12-30 14:13:00",
+    "status": "OutGate",
     "codeshared_flights": "G35811, NH7820, UA6668",
     "airline_code": "AV",
     "boarding_time": ""
@@ -1874,8 +1874,8 @@
     "airport": "DEN DENVER",
     "airline": "Southwest Airlines",
     "gate": "B66",
-    "departure_time": "2024-12-30 14:25:00",
-    "status": "Proposed",
+    "departure_time": "2024-12-30 14:18:00",
+    "status": "OutGate",
     "codeshared_flights": "",
     "airline_code": "WN",
     "boarding_time": ""
@@ -1963,7 +1963,7 @@
     "airline": "Avianca",
     "gate": "B48",
     "departure_time": "2024-12-30 15:50:00",
-    "status": "Scheduled",
+    "status": "Delayed",
     "codeshared_flights": "NH7837",
     "airline_code": "AV",
     "boarding_time": ""
@@ -2139,7 +2139,7 @@
     "airline": "Aer Lingus",
     "gate": "B75",
     "departure_time": "2024-12-30 17:10:00",
-    "status": "Scheduled",
+    "status": "Proposed",
     "codeshared_flights": "AA8326, BA6140",
     "airline_code": "EI",
     "boarding_time": ""
@@ -2258,7 +2258,7 @@
     "flight": "UA 4866",
     "airport": "SYR SYRACUSE",
     "airline": "United Airlines",
-    "gate": "A5B",
+    "gate": "A5A",
     "departure_time": "2024-12-30 17:15:00",
     "status": "Scheduled",
     "codeshared_flights": "AV2106, LH8718, SN8959",
@@ -3028,7 +3028,7 @@
     "flight": "UA 4840",
     "airport": "CHO CHARLOTTESVILLE",
     "airline": "United Airlines",
-    "gate": "A5C",
+    "gate": "A5B",
     "departure_time": "2024-12-30 18:35:00",
     "status": "Scheduled",
     "codeshared_flights": "CM2781",
