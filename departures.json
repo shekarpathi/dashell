@@ -1793,6 +1793,17 @@
     "boarding_time": "BT 12:10\nST 13:21\nET 13:31"
   },
   {
+    "flight": "AA 5543",
+    "airport": "CLT CHARLOTTE",
+    "airline": "American Airlines",
+    "gate": "B73",
+    "departure_time": "2024-12-30 13:47:00",
+    "status": "OutGate",
+    "codeshared_flights": "",
+    "airline_code": "AA",
+    "boarding_time": ""
+  },
+  {
     "flight": "UA 6142",
     "airport": "AUS AUSTIN",
     "airline": "United Airlines",
@@ -1802,17 +1813,6 @@
     "codeshared_flights": "",
     "airline_code": "UA",
     "boarding_time": "BT 12:25\nST 13:25\nET 13:35"
-  },
-  {
-    "flight": "AA 5543",
-    "airport": "CLT CHARLOTTE",
-    "airline": "American Airlines",
-    "gate": "B73",
-    "departure_time": "2024-12-30 13:53:00",
-    "status": "Scheduled",
-    "codeshared_flights": "",
-    "airline_code": "AA",
-    "boarding_time": ""
   },
   {
     "flight": "UA 4831",
@@ -1834,7 +1834,7 @@
     "status": "Delayed",
     "codeshared_flights": "AC4729",
     "airline_code": "UA",
-    "boarding_time": "BT 12:15\nST 13:30\nET 13:40"
+    "boarding_time": "BT 12:15\nST 13:40\nET 13:50"
   },
   {
     "flight": "TK 188",
@@ -1862,7 +1862,7 @@
     "flight": "AV 247",
     "airport": "BOG BOGOTA",
     "airline": "Avianca",
-    "gate": "B50",
+    "gate": "B48",
     "departure_time": "2024-12-30 14:20:00",
     "status": "Proposed",
     "codeshared_flights": "G35811, NH7820, UA6668",
@@ -1955,7 +1955,7 @@
     "status": "Delayed",
     "codeshared_flights": "AV2075",
     "airline_code": "UA",
-    "boarding_time": "BT 12:30\nST 15:12\nET 15:22"
+    "boarding_time": "BT 12:30\nST 16:35\nET 16:45"
   },
   {
     "flight": "AM 456",
@@ -1972,7 +1972,7 @@
     "flight": "AV 583",
     "airport": "SAL SAN SALVADOR",
     "airline": "Avianca",
-    "gate": "B50",
+    "gate": "B48",
     "departure_time": "2024-12-30 15:50:00",
     "status": "Scheduled",
     "codeshared_flights": "NH7837",
