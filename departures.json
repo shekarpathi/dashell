@@ -1996,7 +1996,7 @@
     "airline": "United Airlines",
     "gate": "D1",
     "departure_time": "2024-12-30 16:02:00",
-    "status": "OutGate",
+    "status": "InAir",
     "codeshared_flights": "AV2041, CM2860, SN8893",
     "airline_code": "UA",
     "boarding_time": "BT 15:25\nST 15:25\nET 15:50"
@@ -2040,21 +2040,10 @@
     "airline": "Frontier Airlines",
     "gate": "B62",
     "departure_time": "2024-12-30 16:42:00",
-    "status": "Scheduled",
+    "status": "OutGate",
     "codeshared_flights": "",
     "airline_code": "F9",
     "boarding_time": ""
-  },
-  {
-    "flight": "UA 4372",
-    "airport": "MDT HARRISBURG",
-    "airline": "United Airlines",
-    "gate": "A5A",
-    "departure_time": "2024-12-30 17:00:00",
-    "status": "Delayed",
-    "codeshared_flights": "AV2075",
-    "airline_code": "UA",
-    "boarding_time": "BT 12:30\nST 16:50\nET 17:00"
   },
   {
     "flight": "UA 1869",
@@ -2231,6 +2220,17 @@
     "codeshared_flights": "AV2230, CM2595, NH7128, SN9058",
     "airline_code": "UA",
     "boarding_time": "BT 16:50\nST 16:50\nET 17:00"
+  },
+  {
+    "flight": "UA 4372",
+    "airport": "MDT HARRISBURG",
+    "airline": "United Airlines",
+    "gate": "A5A",
+    "departure_time": "2024-12-30 17:15:00",
+    "status": "Delayed",
+    "codeshared_flights": "AV2075",
+    "airline_code": "UA",
+    "boarding_time": "BT 12:30\nST 16:50\nET 17:00"
   },
   {
     "flight": "UA 6080",
@@ -2970,17 +2970,6 @@
     "boarding_time": ""
   },
   {
-    "flight": "AS 309",
-    "airport": "LAX LOS ANGELES",
-    "airline": "Alaska Airlines",
-    "gate": "B67",
-    "departure_time": "2024-12-30 18:32:00",
-    "status": "Delayed",
-    "codeshared_flights": "CX7911, HA4965, QF3645, SQ1308, TN2384",
-    "airline_code": "AS",
-    "boarding_time": ""
-  },
-  {
     "flight": "LH 419",
     "airport": "FRA FRANKFURT",
     "airline": "Deutsche Lufthansa AG",
@@ -2989,6 +2978,17 @@
     "status": "Delayed",
     "codeshared_flights": "AC9450, AI8645, TG7717, UA8826",
     "airline_code": "LH",
+    "boarding_time": ""
+  },
+  {
+    "flight": "AS 309",
+    "airport": "LAX LOS ANGELES",
+    "airline": "Alaska Airlines",
+    "gate": "B67",
+    "departure_time": "2024-12-30 18:40:00",
+    "status": "Delayed",
+    "codeshared_flights": "CX7911, HA4965, QF3645, SQ1308, TN2384",
+    "airline_code": "AS",
     "boarding_time": ""
   },
   {
