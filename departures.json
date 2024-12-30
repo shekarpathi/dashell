@@ -1501,7 +1501,7 @@
     "airline": "United Airlines",
     "gate": "C28",
     "departure_time": "2024-12-30 12:48:00",
-    "status": "InAir",
+    "status": "Landed",
     "codeshared_flights": "AV2087, ET1388, NH7142",
     "airline_code": "UA",
     "boarding_time": "BT 12:15\nST 12:45\nET 12:55"
@@ -1776,7 +1776,7 @@
     "airline": "Breeze Airways",
     "gate": "B63",
     "departure_time": "2024-12-30 13:20:00",
-    "status": "OutGate",
+    "status": "InAir",
     "codeshared_flights": "",
     "airline_code": "MX",
     "boarding_time": ""
@@ -1786,22 +1786,11 @@
     "airport": "ALB ALBANY",
     "airline": "United Airlines",
     "gate": "A6C",
-    "departure_time": "2024-12-30 13:40:00",
+    "departure_time": "2024-12-30 13:46:00",
     "status": "Delayed",
     "codeshared_flights": "",
     "airline_code": "UA",
     "boarding_time": "BT 12:10\nST 13:21\nET 13:31"
-  },
-  {
-    "flight": "UA 4831",
-    "airport": "ROA ROANOKE",
-    "airline": "United Airlines",
-    "gate": "A6A",
-    "departure_time": "2024-12-30 13:45:00",
-    "status": "Delayed",
-    "codeshared_flights": "AC4709, AV2098",
-    "airline_code": "UA",
-    "boarding_time": "BT 12:30\nST 13:29\nET 13:39"
   },
   {
     "flight": "UA 6142",
@@ -1824,6 +1813,17 @@
     "codeshared_flights": "",
     "airline_code": "AA",
     "boarding_time": ""
+  },
+  {
+    "flight": "UA 4831",
+    "airport": "ROA ROANOKE",
+    "airline": "United Airlines",
+    "gate": "A6A",
+    "departure_time": "2024-12-30 13:54:00",
+    "status": "Delayed",
+    "codeshared_flights": "AC4709, AV2098",
+    "airline_code": "UA",
+    "boarding_time": "BT 12:30\nST 13:29\nET 13:39"
   },
   {
     "flight": "UA 4962",
@@ -1892,6 +1892,17 @@
     "boarding_time": "BT 14:00\nST 14:00\nET 14:25"
   },
   {
+    "flight": "UA 4335",
+    "airport": "BUF BUFFALO",
+    "airline": "United Airlines",
+    "gate": "A4A",
+    "departure_time": "2024-12-30 14:45:00",
+    "status": "Delayed",
+    "codeshared_flights": "",
+    "airline_code": "UA",
+    "boarding_time": "BT 12:30\nST 14:20\nET 14:30"
+  },
+  {
     "flight": "DL 3680",
     "airport": "MSP MINNEAPOLIS",
     "airline": "Delta Air Lines",
@@ -1912,17 +1923,6 @@
     "codeshared_flights": "UA8693",
     "airline_code": "AC",
     "boarding_time": ""
-  },
-  {
-    "flight": "UA 4335",
-    "airport": "BUF BUFFALO",
-    "airline": "United Airlines",
-    "gate": "A4A",
-    "departure_time": "2024-12-30 15:15:00",
-    "status": "Delayed",
-    "codeshared_flights": "",
-    "airline_code": "UA",
-    "boarding_time": "BT 12:30\nST 14:20\nET 14:30"
   },
   {
     "flight": "F9 2953",
@@ -3094,7 +3094,7 @@
     "flight": "DL 2902",
     "airport": "ATL ATLANTA",
     "airline": "Delta Air Lines",
-    "gate": "B72",
+    "gate": "B74",
     "departure_time": "2024-12-30 18:57:00",
     "status": "Scheduled",
     "codeshared_flights": "AF2213, KE3581, KL5476, LA8437, VS4372",
@@ -3545,7 +3545,7 @@
     "flight": "UA 4849",
     "airport": "GSO GREENSBORO",
     "airline": "United Airlines",
-    "gate": "A3A",
+    "gate": "A4A",
     "departure_time": "2024-12-30 22:16:00",
     "status": "Scheduled",
     "codeshared_flights": "LH7926",
@@ -3732,7 +3732,7 @@
     "flight": "UA 4232",
     "airport": "ROA ROANOKE",
     "airline": "United Airlines",
-    "gate": "A4A",
+    "gate": "A3A",
     "departure_time": "2024-12-30 22:31:00",
     "status": "Scheduled",
     "codeshared_flights": "AC4711, LH9274",
