@@ -79,12 +79,11 @@ export hash=$(get_united_bearer_token)
 # Main logic
 retry_count=0
 # Maximum number of retries
-max_retries=5
+max_retries=7
 # Delay between retries in seconds
-delay=10
+delay=20
 
 while true; do
-
   response=$(curl -s -w "%{http_code}" "$URL" | jq)
   http_code=$(tail -n1 <<< "$response")  # get the last line
 #  echo $http_code
