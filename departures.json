@@ -1049,7 +1049,7 @@
     "airline": "United Airlines",
     "gate": "C20",
     "departure_time": "2024-12-30 08:55:00",
-    "status": "NoTakeoffInfo",
+    "status": "Unknown",
     "codeshared_flights": "AC4609",
     "board_URL": "https://www.united.com/api/flight/status/4419/2024-12-30?carrierCode=UA",
     "airline_code": "UA",
@@ -1272,6 +1272,18 @@
     "boarding_time": "BT 08:20\nST 11:20\nET 11:45"
   },
   {
+    "flight": "9X 246",
+    "airport": "LNS LANCASTER",
+    "airline": "Southern Airways Express",
+    "gate": "H17",
+    "departure_time": "2024-12-30 12:20:00",
+    "status": "Proposed",
+    "codeshared_flights": "",
+    "board_URL": "https://www.united.com/api/flight/status/246/2024-12-30?carrierCode=9X",
+    "airline_code": "9X",
+    "boarding_time": ""
+  },
+  {
     "flight": "DL 3877",
     "airport": "DTW DETROIT, DTW",
     "airline": "Delta Air Lines",
@@ -1311,7 +1323,7 @@
     "flight": "UA 4360",
     "airport": "DAY DAYTON",
     "airline": "United Airlines",
-    "gate": "A5C",
+    "gate": "A3C",
     "departure_time": "2024-12-30 12:35:00",
     "status": "Scheduled",
     "codeshared_flights": "",
@@ -1438,18 +1450,6 @@
     "board_URL": "https://www.united.com/api/flight/status/4505/2024-12-30?carrierCode=UA",
     "airline_code": "UA",
     "boarding_time": "BT 12:15\nST 12:15\nET 12:25"
-  },
-  {
-    "flight": "9X 246",
-    "airport": "LNS LANCASTER",
-    "airline": "Southern Airways Express",
-    "gate": "H17",
-    "departure_time": "2024-12-30 12:40:00",
-    "status": "Scheduled",
-    "codeshared_flights": "",
-    "board_URL": "https://www.united.com/api/flight/status/246/2024-12-30?carrierCode=9X",
-    "airline_code": "9X",
-    "boarding_time": ""
   },
   {
     "flight": "UA 1689",
