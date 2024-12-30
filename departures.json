@@ -2266,17 +2266,6 @@
     "boarding_time": "BT 16:25\nST 16:25\nET 17:00"
   },
   {
-    "flight": "UA 4866",
-    "airport": "SYR SYRACUSE",
-    "airline": "United Airlines",
-    "gate": "A5A",
-    "departure_time": "2024-12-30 17:15:00",
-    "status": "Scheduled",
-    "codeshared_flights": "AV2106, LH8718, SN8959",
-    "airline_code": "UA",
-    "boarding_time": "BT 16:50\nST 17:50\nET 18:00"
-  },
-  {
     "flight": "UA 3453",
     "airport": "YYZ TORONTO, YYZ",
     "airline": "United Airlines",
@@ -2423,7 +2412,7 @@
     "flight": "UA 4249",
     "airport": "AVP WILKES-BARRE",
     "airline": "United Airlines",
-    "gate": "A4F",
+    "gate": "A4B",
     "departure_time": "2024-12-30 17:25:00",
     "status": "Scheduled",
     "codeshared_flights": "",
@@ -2566,7 +2555,7 @@
     "flight": "UA 4865",
     "airport": "GSO GREENSBORO",
     "airline": "United Airlines",
-    "gate": "A4B",
+    "gate": "A4F",
     "departure_time": "2024-12-30 17:35:00",
     "status": "Scheduled",
     "codeshared_flights": "AC4689, LH7738, SN8966",
@@ -2599,7 +2588,7 @@
     "flight": "UA 4884",
     "airport": "SCE STATE COLLEGE",
     "airline": "United Airlines",
-    "gate": "A5C",
+    "gate": "A5A",
     "departure_time": "2024-12-30 17:35:00",
     "status": "Scheduled",
     "codeshared_flights": "",
@@ -2648,7 +2637,7 @@
     "status": "Scheduled",
     "codeshared_flights": "AC3895, LH7558, SN8936",
     "airline_code": "UA",
-    "boarding_time": "BT 17:00\nST 17:00\nET 17:25"
+    "boarding_time": "BT 17:00\nST 17:10\nET 17:35"
   },
   {
     "flight": "UA 1566",
@@ -2970,6 +2959,17 @@
     "boarding_time": "BT 17:25\nST 17:25\nET 18:00"
   },
   {
+    "flight": "UA 4866",
+    "airport": "SYR SYRACUSE",
+    "airline": "United Airlines",
+    "gate": "A5C",
+    "departure_time": "2024-12-30 18:15:00",
+    "status": "Delayed",
+    "codeshared_flights": "AV2106, LH8718, SN8959",
+    "airline_code": "UA",
+    "boarding_time": "BT 16:50\nST 17:50\nET 18:00"
+  },
+  {
     "flight": "UA 4407",
     "airport": "MDT HARRISBURG",
     "airline": "United Airlines",
@@ -3228,7 +3228,7 @@
     "airline": "Royal Air Maroc",
     "gate": "A20",
     "departure_time": "2024-12-30 20:40:00",
-    "status": "Scheduled",
+    "status": "Proposed",
     "codeshared_flights": "AA7959",
     "airline_code": "AT",
     "boarding_time": ""
