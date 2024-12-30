@@ -2013,23 +2013,12 @@
     "boarding_time": ""
   },
   {
-    "flight": "9X 395",
-    "airport": "BFD BRADFORD",
-    "airline": "Southern Airways Express",
-    "gate": "H17",
-    "departure_time": "2024-12-30 16:20:00",
-    "status": "Proposed",
-    "codeshared_flights": "",
-    "airline_code": "9X",
-    "boarding_time": ""
-  },
-  {
     "flight": "DL 1695",
     "airport": "ATL ATLANTA",
     "airline": "Delta Air Lines",
     "gate": "B74",
     "departure_time": "2024-12-30 16:33:00",
-    "status": "OutGate",
+    "status": "InAir",
     "codeshared_flights": "AF2303, KL5695, LA6505, VS4473",
     "airline_code": "DL",
     "boarding_time": ""
@@ -2275,6 +2264,17 @@
     "codeshared_flights": "AC3934, AV2166, CM2804",
     "airline_code": "UA",
     "boarding_time": "BT 16:52\nST 16:52\nET 17:02"
+  },
+  {
+    "flight": "9X 395",
+    "airport": "BFD BRADFORD",
+    "airline": "Southern Airways Express",
+    "gate": "H17",
+    "departure_time": "2024-12-30 17:20:00",
+    "status": "NoTakeoffInfo",
+    "codeshared_flights": "",
+    "airline_code": "9X",
+    "boarding_time": ""
   },
   {
     "flight": "UA 989",
