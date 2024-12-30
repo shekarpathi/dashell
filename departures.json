@@ -4008,52 +4008,40 @@
     "boarding_time": "BT 21:53\nST 23:02\nET 23:27"
   },
   {
-    "flight": "UA 4232",
-    "airport": "ROA ROANOKE",
-    "airline": "United Airlines",
-    "gate": "A3C",
-    "departure_time": "2024-12-29 23:30:00",
-    "status": "Delayed",
-    "codeshared_flights": "AC4711, LH9274",
-    "board_URL": "https://www.united.com/api/flight/status/4232/2024-12-29?carrierCode=UA",
-    "airline_code": "UA",
-    "boarding_time": "BT 22:05\nST 23:10\nET 23:20"
-  },
-  {
-    "flight": "UA 4926",
-    "airport": "ALB ALBANY",
-    "airline": "United Airlines",
-    "gate": "A6B",
-    "departure_time": "2024-12-29 23:35:00",
-    "status": "Delayed",
-    "codeshared_flights": "LH7828, SN9014",
-    "board_URL": "https://www.united.com/api/flight/status/4926/2024-12-29?carrierCode=UA",
-    "airline_code": "UA",
-    "boarding_time": "BT 17:20\nST 23:20\nET 23:30"
-  },
-  {
     "flight": "UA 495",
     "airport": "DEN DENVER",
     "airline": "United Airlines",
     "gate": "D16",
-    "departure_time": "2024-12-29 23:40:00",
-    "status": "Delayed",
+    "departure_time": "2024-12-29 23:36:00",
+    "status": "OutGate",
     "codeshared_flights": "CM2861, LH7518",
     "board_URL": "https://www.united.com/api/flight/status/495/2024-12-29?carrierCode=UA",
     "airline_code": "UA",
     "boarding_time": "BT 21:37\nST 23:00\nET 23:25"
   },
   {
-    "flight": "UA 689",
-    "airport": "MCO ORLANDO",
+    "flight": "UA 4926",
+    "airport": "ALB ALBANY",
     "airline": "United Airlines",
-    "gate": "C2",
-    "departure_time": "2024-12-29 23:48:00",
-    "status": "Delayed",
-    "codeshared_flights": "CM2794, LH7482, TK8612",
-    "board_URL": "https://www.united.com/api/flight/status/689/2024-12-29?carrierCode=UA",
+    "gate": "A6B",
+    "departure_time": "2024-12-29 23:38:00",
+    "status": "OutGate",
+    "codeshared_flights": "LH7828, SN9014",
+    "board_URL": "https://www.united.com/api/flight/status/4926/2024-12-29?carrierCode=UA",
     "airline_code": "UA",
-    "boarding_time": "BT 21:35\nST 23:08\nET 23:33"
+    "boarding_time": "BT 17:20\nST 23:20\nET 23:30"
+  },
+  {
+    "flight": "UA 4232",
+    "airport": "ROA ROANOKE",
+    "airline": "United Airlines",
+    "gate": "A3C",
+    "departure_time": "2024-12-29 23:45:00",
+    "status": "Delayed",
+    "codeshared_flights": "AC4711, LH9274",
+    "board_URL": "https://www.united.com/api/flight/status/4232/2024-12-29?carrierCode=UA",
+    "airline_code": "UA",
+    "boarding_time": "BT 22:05\nST 23:20\nET 23:30"
   },
   {
     "flight": "UA 4304",
@@ -4102,6 +4090,18 @@
     "board_URL": "https://www.united.com/api/flight/status/4265/2024-12-29?carrierCode=UA",
     "airline_code": "UA",
     "boarding_time": "BT 21:55\nST 00:35\nET 00:45"
+  },
+  {
+    "flight": "UA 689",
+    "airport": "MCO ORLANDO",
+    "airline": "United Airlines",
+    "gate": "C2",
+    "departure_time": "2024-12-30 00:20:00",
+    "status": "Delayed",
+    "codeshared_flights": "CM2794, LH7482, TK8612",
+    "board_URL": "https://www.united.com/api/flight/status/689/2024-12-29?carrierCode=UA",
+    "airline_code": "UA",
+    "boarding_time": "BT 21:35\nST 23:40\nET 00:05"
   },
   {
     "flight": "XP 482",
