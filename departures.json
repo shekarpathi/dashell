@@ -1952,7 +1952,7 @@
     "airline": "Aeromexico",
     "gate": "A14",
     "departure_time": "2024-12-30 15:28:00",
-    "status": "OutGate",
+    "status": "InAir",
     "codeshared_flights": "DL8975",
     "airline_code": "AM",
     "boarding_time": ""
@@ -1963,7 +1963,7 @@
     "airline": "United Airlines",
     "gate": "C26",
     "departure_time": "2024-12-30 15:32:00",
-    "status": "OutGate",
+    "status": "InAir",
     "codeshared_flights": "TP8505",
     "airline_code": "UA",
     "boarding_time": "BT 12:15\nST 15:15\nET 15:25"
@@ -1973,8 +1973,8 @@
     "airport": "SAL SAN SALVADOR",
     "airline": "Avianca",
     "gate": "B48",
-    "departure_time": "2024-12-30 15:50:00",
-    "status": "Proposed",
+    "departure_time": "2024-12-30 15:48:00",
+    "status": "OutGate",
     "codeshared_flights": "NH7837",
     "airline_code": "AV",
     "boarding_time": ""
@@ -1984,8 +1984,8 @@
     "airport": "YUL MONTREAL",
     "airline": "Air Canada",
     "gate": "Z10",
-    "departure_time": "2024-12-30 15:55:00",
-    "status": "Proposed",
+    "departure_time": "2024-12-30 15:53:00",
+    "status": "OutGate",
     "codeshared_flights": "UA8459",
     "airline_code": "AC",
     "boarding_time": ""
