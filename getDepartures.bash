@@ -1,7 +1,7 @@
 #!/bin/bash
 
 #  git pull --rebase origin main
-
+clear
 clear
 echo "=========================="
 echo "$1 Run Started $NOW"
