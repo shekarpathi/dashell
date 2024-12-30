@@ -1166,23 +1166,12 @@
     "boarding_time": "BT 08:20\nST 11:20\nET 11:45"
   },
   {
-    "flight": "9X 246",
-    "airport": "LNS LANCASTER",
-    "airline": "Southern Airways Express",
-    "gate": "H17",
-    "departure_time": "2024-12-30 12:20:00",
-    "status": "Proposed",
-    "codeshared_flights": "",
-    "airline_code": "9X",
-    "boarding_time": ""
-  },
-  {
     "flight": "DL 3877",
     "airport": "DTW DETROIT, DTW",
     "airline": "Delta Air Lines",
     "gate": "B72",
     "departure_time": "2024-12-30 12:21:00",
-    "status": "OutGate",
+    "status": "InAir",
     "codeshared_flights": "AF2246, KE3479, KL6705, VS4419, WS7779",
     "airline_code": "DL",
     "boarding_time": ""
@@ -1199,23 +1188,12 @@
     "boarding_time": "BT 12:10\nST 12:10\nET 12:20"
   },
   {
-    "flight": "9X 127",
-    "airport": "DUJ DUBOIS",
-    "airline": "Southern Airways Express",
-    "gate": "H17",
-    "departure_time": "2024-12-30 12:29:00",
-    "status": "Proposed",
-    "codeshared_flights": "",
-    "airline_code": "9X",
-    "boarding_time": ""
-  },
-  {
     "flight": "UA 2277",
     "airport": "TPA TAMPA",
     "airline": "United Airlines",
     "gate": "C2",
     "departure_time": "2024-12-30 12:29:00",
-    "status": "OutGate",
+    "status": "InAir",
     "codeshared_flights": "CM2833, ET1352, NH7116",
     "airline_code": "UA",
     "boarding_time": "BT 11:55\nST 11:55\nET 12:20"
@@ -1265,6 +1243,17 @@
     "boarding_time": "BT 11:55\nST 11:55\nET 12:20"
   },
   {
+    "flight": "UA 4288",
+    "airport": "CAE COLUMBIA",
+    "airline": "United Airlines",
+    "gate": "A4F",
+    "departure_time": "2024-12-30 12:33:00",
+    "status": "OutGate",
+    "codeshared_flights": "",
+    "airline_code": "UA",
+    "boarding_time": "BT 12:14\nST 12:14\nET 12:24"
+  },
+  {
     "flight": "UA 471",
     "airport": "MCO ORLANDO",
     "airline": "United Airlines",
@@ -1281,21 +1270,43 @@
     "airline": "United Airlines",
     "gate": "A1B",
     "departure_time": "2024-12-30 12:35:00",
-    "status": "Scheduled",
+    "status": "OutGate",
     "codeshared_flights": "AC3560, NH7152",
     "airline_code": "UA",
     "boarding_time": "BT 12:10\nST 12:10\nET 12:20"
   },
   {
-    "flight": "UA 6084",
-    "airport": "PVD PROVIDENCE",
+    "flight": "UA 3516",
+    "airport": "CMH COLUMBUS",
     "airline": "United Airlines",
-    "gate": "A6E",
-    "departure_time": "2024-12-30 12:35:00",
-    "status": "Scheduled",
-    "codeshared_flights": "AC4221, NH7622",
+    "gate": "Z7",
+    "departure_time": "2024-12-30 12:38:00",
+    "status": "OutGate",
+    "codeshared_flights": "AC3541, ET1382, NH7110",
     "airline_code": "UA",
-    "boarding_time": "BT 12:10\nST 12:10\nET 12:20"
+    "boarding_time": "BT 12:20\nST 12:20\nET 12:30"
+  },
+  {
+    "flight": "UA 2175",
+    "airport": "FLL FORT LAUDERDALE",
+    "airline": "United Airlines",
+    "gate": "D16",
+    "departure_time": "2024-12-30 12:38:00",
+    "status": "OutGate",
+    "codeshared_flights": "AD7015",
+    "airline_code": "UA",
+    "boarding_time": "BT 12:05\nST 12:05\nET 12:30"
+  },
+  {
+    "flight": "UA 2156",
+    "airport": "BNA NASHVILLE",
+    "airline": "United Airlines",
+    "gate": "D24",
+    "departure_time": "2024-12-30 12:38:00",
+    "status": "OutGate",
+    "codeshared_flights": "",
+    "airline_code": "UA",
+    "boarding_time": "BT 12:05\nST 12:05\nET 12:25"
   },
   {
     "flight": "UA 3490",
@@ -1303,21 +1314,54 @@
     "airline": "United Airlines",
     "gate": "Z6",
     "departure_time": "2024-12-30 12:38:00",
-    "status": "Scheduled",
+    "status": "OutGate",
     "codeshared_flights": "AC3932, CM2802, NH7020",
     "airline_code": "UA",
     "boarding_time": "BT 12:13\nST 12:13\nET 12:23"
   },
   {
-    "flight": "UA 4288",
-    "airport": "CAE COLUMBIA",
+    "flight": "UA 1689",
+    "airport": "LAX LOS ANGELES",
     "airline": "United Airlines",
-    "gate": "A4F",
+    "gate": "D7",
     "departure_time": "2024-12-30 12:39:00",
-    "status": "Scheduled",
+    "status": "OutGate",
+    "codeshared_flights": "CA7236, ET1366, NZ9586, VA8376",
+    "airline_code": "UA",
+    "boarding_time": "BT 12:00\nST 12:00\nET 12:25"
+  },
+  {
+    "flight": "UA 3532",
+    "airport": "LGA NEW YORK, LGA",
+    "airline": "United Airlines",
+    "gate": "C26",
+    "departure_time": "2024-12-30 12:39:00",
+    "status": "OutGate",
+    "codeshared_flights": "NH7554",
+    "airline_code": "UA",
+    "boarding_time": "BT 12:20\nST 12:20\nET 12:30"
+  },
+  {
+    "flight": "UA 4843",
+    "airport": "ROC ROCHESTER",
+    "airline": "United Airlines",
+    "gate": "A5A",
+    "departure_time": "2024-12-30 12:39:00",
+    "status": "OutGate",
     "codeshared_flights": "",
     "airline_code": "UA",
-    "boarding_time": "BT 12:14\nST 12:14\nET 12:24"
+    "boarding_time": "BT 12:20\nST 12:20\nET 12:30"
+  },
+  {
+    "flight": "UA 6070",
+    "airport": "SAV SAVANNAH",
+    "airline": "United Airlines",
+    "gate": "A2A",
+    "departure_time": "2024-12-30 12:39:00",
+    "status": "OutGate",
+    "codeshared_flights": "AC4611, NH7122",
+    "airline_code": "UA",
+    "boarding_time": "BT 12:15\nST 12:15\nET 12:25"
   },
   {
     "flight": "UA 3487",
@@ -1331,26 +1375,15 @@
     "boarding_time": "BT 12:15\nST 12:15\nET 12:25"
   },
   {
-    "flight": "UA 1689",
-    "airport": "LAX LOS ANGELES",
-    "airline": "United Airlines",
-    "gate": "D7",
+    "flight": "9X 246",
+    "airport": "LNS LANCASTER",
+    "airline": "Southern Airways Express",
+    "gate": "H17",
     "departure_time": "2024-12-30 12:40:00",
-    "status": "Scheduled",
-    "codeshared_flights": "CA7236, ET1366, NZ9586, VA8376",
-    "airline_code": "UA",
-    "boarding_time": "BT 12:00\nST 12:00\nET 12:25"
-  },
-  {
-    "flight": "UA 2156",
-    "airport": "BNA NASHVILLE",
-    "airline": "United Airlines",
-    "gate": "D24",
-    "departure_time": "2024-12-30 12:40:00",
-    "status": "Scheduled",
+    "status": "InAir",
     "codeshared_flights": "",
-    "airline_code": "UA",
-    "boarding_time": "BT 12:05\nST 12:05\nET 12:25"
+    "airline_code": "9X",
+    "boarding_time": ""
   },
   {
     "flight": "UA 3541",
@@ -1361,40 +1394,29 @@
     "status": "Scheduled",
     "codeshared_flights": "AV2087, ET1388, NH7142",
     "airline_code": "UA",
-    "boarding_time": "BT 12:15\nST 12:15\nET 12:25"
+    "boarding_time": "BT 12:15\nST 12:45\nET 12:55"
   },
   {
-    "flight": "UA 6070",
-    "airport": "SAV SAVANNAH",
+    "flight": "UA 3462",
+    "airport": "IND INDIANAPOLIS",
     "airline": "United Airlines",
-    "gate": "A2A",
-    "departure_time": "2024-12-30 12:40:00",
-    "status": "Scheduled",
-    "codeshared_flights": "AC4611, NH7122",
-    "airline_code": "UA",
-    "boarding_time": "BT 12:15\nST 12:15\nET 12:25"
-  },
-  {
-    "flight": "UA 3516",
-    "airport": "CMH COLUMBUS",
-    "airline": "United Airlines",
-    "gate": "Z7",
-    "departure_time": "2024-12-30 12:45:00",
-    "status": "Scheduled",
-    "codeshared_flights": "AC3541, ET1382, NH7110",
+    "gate": "D23",
+    "departure_time": "2024-12-30 12:42:00",
+    "status": "OutGate",
+    "codeshared_flights": "ET1374",
     "airline_code": "UA",
     "boarding_time": "BT 12:20\nST 12:20\nET 12:30"
   },
   {
-    "flight": "UA 2175",
-    "airport": "FLL FORT LAUDERDALE",
+    "flight": "UA 6084",
+    "airport": "PVD PROVIDENCE",
     "airline": "United Airlines",
-    "gate": "D16",
-    "departure_time": "2024-12-30 12:45:00",
-    "status": "Scheduled",
-    "codeshared_flights": "AD7015",
+    "gate": "A6E",
+    "departure_time": "2024-12-30 12:42:00",
+    "status": "OutGate",
+    "codeshared_flights": "AC4221, NH7622",
     "airline_code": "UA",
-    "boarding_time": "BT 12:05\nST 12:05\nET 12:30"
+    "boarding_time": "BT 12:10\nST 12:30\nET 12:40"
   },
   {
     "flight": "UA 6224",
@@ -1404,39 +1426,6 @@
     "departure_time": "2024-12-30 12:45:00",
     "status": "Scheduled",
     "codeshared_flights": "AC3352",
-    "airline_code": "UA",
-    "boarding_time": "BT 12:20\nST 12:20\nET 12:30"
-  },
-  {
-    "flight": "UA 3462",
-    "airport": "IND INDIANAPOLIS",
-    "airline": "United Airlines",
-    "gate": "D23",
-    "departure_time": "2024-12-30 12:45:00",
-    "status": "Scheduled",
-    "codeshared_flights": "ET1374",
-    "airline_code": "UA",
-    "boarding_time": "BT 12:20\nST 12:20\nET 12:30"
-  },
-  {
-    "flight": "UA 3532",
-    "airport": "LGA NEW YORK, LGA",
-    "airline": "United Airlines",
-    "gate": "C26",
-    "departure_time": "2024-12-30 12:45:00",
-    "status": "Scheduled",
-    "codeshared_flights": "NH7554",
-    "airline_code": "UA",
-    "boarding_time": "BT 12:20\nST 12:20\nET 12:30"
-  },
-  {
-    "flight": "UA 4843",
-    "airport": "ROC ROCHESTER",
-    "airline": "United Airlines",
-    "gate": "A5A",
-    "departure_time": "2024-12-30 12:45:00",
-    "status": "Scheduled",
-    "codeshared_flights": "",
     "airline_code": "UA",
     "boarding_time": "BT 12:20\nST 12:20\nET 12:30"
   },
@@ -1582,6 +1571,17 @@
     "codeshared_flights": "",
     "airline_code": "UA",
     "boarding_time": "BT 12:30\nST 12:30\nET 12:40"
+  },
+  {
+    "flight": "9X 127",
+    "airport": "DUJ DUBOIS",
+    "airline": "Southern Airways Express",
+    "gate": "H17",
+    "departure_time": "2024-12-30 12:55:00",
+    "status": "InAir",
+    "codeshared_flights": "",
+    "airline_code": "9X",
+    "boarding_time": ""
   },
   {
     "flight": "UA 4847",
@@ -2016,7 +2016,7 @@
     "flight": "UA 4187",
     "airport": "EWR NEWARK",
     "airline": "United Airlines",
-    "gate": "C20",
+    "gate": "C26",
     "departure_time": "2024-12-30 16:20:00",
     "status": "Delayed",
     "codeshared_flights": "TP8505",
@@ -2599,7 +2599,7 @@
     "flight": "UA 4884",
     "airport": "SCE STATE COLLEGE",
     "airline": "United Airlines",
-    "gate": "A5C",
+    "gate": "A5A",
     "departure_time": "2024-12-30 17:35:00",
     "status": "Scheduled",
     "codeshared_flights": "",
@@ -3028,7 +3028,7 @@
     "flight": "UA 4840",
     "airport": "CHO CHARLOTTESVILLE",
     "airline": "United Airlines",
-    "gate": "A5A",
+    "gate": "A5C",
     "departure_time": "2024-12-30 18:35:00",
     "status": "Scheduled",
     "codeshared_flights": "CM2781",
