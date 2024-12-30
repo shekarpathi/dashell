@@ -1929,8 +1929,8 @@
     "airport": "TPA TAMPA",
     "airline": "Frontier Airlines",
     "gate": "B62",
-    "departure_time": "2024-12-30 15:24:00",
-    "status": "Scheduled",
+    "departure_time": "2024-12-30 15:18:00",
+    "status": "InAir",
     "codeshared_flights": "",
     "airline_code": "F9",
     "boarding_time": ""
@@ -1962,8 +1962,8 @@
     "airport": "EWR NEWARK",
     "airline": "United Airlines",
     "gate": "C26",
-    "departure_time": "2024-12-30 15:40:00",
-    "status": "Delayed",
+    "departure_time": "2024-12-30 15:32:00",
+    "status": "OutGate",
     "codeshared_flights": "TP8505",
     "airline_code": "UA",
     "boarding_time": "BT 12:15\nST 15:15\nET 15:25"
@@ -3814,6 +3814,6 @@
     "status": "Delayed",
     "codeshared_flights": "AC4743, AV2348, CM1306, LH8966, SN8957",
     "airline_code": "UA",
-    "boarding_time": "BT 17:05\nST 23:37\nET 23:47"
+    "boarding_time": "BT 17:05\nST 21:10\nET 21:20"
   }
 ]
