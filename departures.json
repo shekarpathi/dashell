@@ -756,18 +756,6 @@
     "boarding_time": "BT 08:10\nST 08:10\nET 08:20"
   },
   {
-    "flight": "UA 1524",
-    "airport": "IAH HOUSTON",
-    "airline": "United Airlines",
-    "gate": "C7",
-    "departure_time": "2024-12-30 08:37:00",
-    "status": "Scheduled",
-    "codeshared_flights": "AV2298, NZ6640",
-    "board_URL": "https://www.united.com/api/flight/status/1524/2024-12-30?carrierCode=UA",
-    "airline_code": "UA",
-    "boarding_time": "BT 07:47\nST 07:47\nET 08:22"
-  },
-  {
     "flight": "UA 3561",
     "airport": "IND INDIANAPOLIS",
     "airline": "United Airlines",
@@ -831,7 +819,7 @@
     "flight": "UA 4262",
     "airport": "HSV HUNTSVILLE",
     "airline": "United Airlines",
-    "gate": "A4B",
+    "gate": "A2F",
     "departure_time": "2024-12-30 08:45:00",
     "status": "Scheduled",
     "codeshared_flights": "",
@@ -1006,6 +994,18 @@
     "board_URL": "https://www.united.com/api/flight/status/4419/2024-12-30?carrierCode=UA",
     "airline_code": "UA",
     "boarding_time": "BT 08:30\nST 08:30\nET 08:40"
+  },
+  {
+    "flight": "UA 1524",
+    "airport": "IAH HOUSTON",
+    "airline": "United Airlines",
+    "gate": "C7",
+    "departure_time": "2024-12-30 08:59:00",
+    "status": "Delayed",
+    "codeshared_flights": "AV2298, NZ6640",
+    "board_URL": "https://www.united.com/api/flight/status/1524/2024-12-30?carrierCode=UA",
+    "airline_code": "UA",
+    "boarding_time": "BT 07:47\nST 08:09\nET 08:44"
   },
   {
     "flight": "UA 1016",
