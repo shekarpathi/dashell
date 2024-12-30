@@ -1853,7 +1853,7 @@
     "airline": "Avianca",
     "gate": "B48",
     "departure_time": "2024-12-30 14:13:00",
-    "status": "OutGate",
+    "status": "InAir",
     "codeshared_flights": "G35811, NH7820, UA6668",
     "airline_code": "AV",
     "boarding_time": ""
@@ -1886,7 +1886,7 @@
     "airline": "United Airlines",
     "gate": "C19",
     "departure_time": "2024-12-30 14:37:00",
-    "status": "OutGate",
+    "status": "InAir",
     "codeshared_flights": "NZ9176, VA8390",
     "airline_code": "UA",
     "boarding_time": "BT 14:00\nST 14:00\nET 14:25"
@@ -2582,7 +2582,7 @@
     "status": "Scheduled",
     "codeshared_flights": "AC5468, SN9048",
     "airline_code": "UA",
-    "boarding_time": "BT 16:55\nST 16:55\nET 17:20"
+    "boarding_time": "BT 16:55\nST 17:00\nET 17:25"
   },
   {
     "flight": "UA 4884",
