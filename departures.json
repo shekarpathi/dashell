@@ -1138,7 +1138,7 @@
     "airline": "Korean Air",
     "gate": "A31",
     "departure_time": "2024-12-30 11:58:00",
-    "status": "OutGate",
+    "status": "InAir",
     "codeshared_flights": "DL7856",
     "airline_code": "KE",
     "boarding_time": ""
@@ -1149,7 +1149,7 @@
     "airline": "United Airlines",
     "gate": "A4E",
     "departure_time": "2024-12-30 12:00:00",
-    "status": "OutGate",
+    "status": "InAir",
     "codeshared_flights": "",
     "airline_code": "UA",
     "boarding_time": "BT 08:20\nST 11:30\nET 11:40"
@@ -1160,7 +1160,7 @@
     "airline": "United Airlines",
     "gate": "D9",
     "departure_time": "2024-12-30 12:04:00",
-    "status": "OutGate",
+    "status": "InAir",
     "codeshared_flights": "CM2772",
     "airline_code": "UA",
     "boarding_time": "BT 08:20\nST 11:20\nET 11:45"
@@ -1181,8 +1181,8 @@
     "airport": "DTW DETROIT, DTW",
     "airline": "Delta Air Lines",
     "gate": "B72",
-    "departure_time": "2024-12-30 12:30:00",
-    "status": "Scheduled",
+    "departure_time": "2024-12-30 12:21:00",
+    "status": "OutGate",
     "codeshared_flights": "AF2246, KE3479, KL6705, VS4419, WS7779",
     "airline_code": "DL",
     "boarding_time": ""
@@ -1364,17 +1364,6 @@
     "boarding_time": "BT 12:15\nST 12:15\nET 12:25"
   },
   {
-    "flight": "UA 1581",
-    "airport": "ORD CHICAGO, ORD",
-    "airline": "United Airlines",
-    "gate": "D20",
-    "departure_time": "2024-12-30 12:45:00",
-    "status": "Scheduled",
-    "codeshared_flights": "AC3839, ET1350, NH7138, NZ2452",
-    "airline_code": "UA",
-    "boarding_time": "BT 12:10\nST 12:10\nET 12:30"
-  },
-  {
     "flight": "UA 3516",
     "airport": "CMH COLUMBUS",
     "airline": "United Airlines",
@@ -1463,17 +1452,6 @@
     "boarding_time": "BT 12:21\nST 12:21\nET 12:31"
   },
   {
-    "flight": "UA 1817",
-    "airport": "PLS PROVIDENCIALES",
-    "airline": "United Airlines",
-    "gate": "D26",
-    "departure_time": "2024-12-30 12:47:00",
-    "status": "Scheduled",
-    "codeshared_flights": "",
-    "airline_code": "UA",
-    "boarding_time": "BT 12:07\nST 12:07\nET 12:32"
-  },
-  {
     "flight": "UA 4424",
     "airport": "YOW OTTAWA",
     "airline": "United Airlines",
@@ -1505,6 +1483,17 @@
     "codeshared_flights": "",
     "airline_code": "UA",
     "boarding_time": "BT 12:25\nST 12:25\nET 12:35"
+  },
+  {
+    "flight": "UA 1581",
+    "airport": "ORD CHICAGO, ORD",
+    "airline": "United Airlines",
+    "gate": "D20",
+    "departure_time": "2024-12-30 12:50:00",
+    "status": "Scheduled",
+    "codeshared_flights": "AC3839, ET1350, NH7138, NZ2452",
+    "airline_code": "UA",
+    "boarding_time": "BT 12:10\nST 12:15\nET 12:35"
   },
   {
     "flight": "UA 6207",
@@ -1560,6 +1549,17 @@
     "codeshared_flights": "AC3391, ET1384, NH7144",
     "airline_code": "UA",
     "boarding_time": "BT 12:25\nST 12:25\nET 12:35"
+  },
+  {
+    "flight": "UA 1817",
+    "airport": "PLS PROVIDENCIALES",
+    "airline": "United Airlines",
+    "gate": "D26",
+    "departure_time": "2024-12-30 12:52:00",
+    "status": "Scheduled",
+    "codeshared_flights": "",
+    "airline_code": "UA",
+    "boarding_time": "BT 12:07\nST 12:12\nET 12:37"
   },
   {
     "flight": "UA 4815",
@@ -1804,17 +1804,6 @@
     "boarding_time": "BT 12:30\nST 13:20\nET 13:30"
   },
   {
-    "flight": "PD 2724",
-    "airport": "YTZ TORONTO, YTZ",
-    "airline": "Porter Airlines",
-    "gate": "A19",
-    "departure_time": "2024-12-30 13:45:00",
-    "status": "Scheduled",
-    "codeshared_flights": "TS7478",
-    "airline_code": "PD",
-    "boarding_time": ""
-  },
-  {
     "flight": "AA 5543",
     "airport": "CLT CHARLOTTE",
     "airline": "American Airlines",
@@ -1834,7 +1823,7 @@
     "status": "Delayed",
     "codeshared_flights": "",
     "airline_code": "UA",
-    "boarding_time": "BT 12:10\nST 13:30\nET 13:40"
+    "boarding_time": "BT 12:10\nST 13:15\nET 13:25"
   },
   {
     "flight": "UA 4962",
@@ -1856,6 +1845,17 @@
     "status": "Proposed",
     "codeshared_flights": "6E4263, OM1134, PK5188, TG9177, WB1368",
     "airline_code": "TK",
+    "boarding_time": ""
+  },
+  {
+    "flight": "PD 2724",
+    "airport": "YTZ TORONTO, YTZ",
+    "airline": "Porter Airlines",
+    "gate": "A19",
+    "departure_time": "2024-12-30 14:00:00",
+    "status": "Scheduled",
+    "codeshared_flights": "TS7478",
+    "airline_code": "PD",
     "boarding_time": ""
   },
   {
