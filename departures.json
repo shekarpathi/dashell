@@ -2442,17 +2442,6 @@
     "boarding_time": "BT 17:10\nST 17:10\nET 17:20"
   },
   {
-    "flight": "UA 52",
-    "airport": "ZRH ZURICH",
-    "airline": "United Airlines",
-    "gate": "D15",
-    "departure_time": "2024-12-30 17:29:00",
-    "status": "OutGate",
-    "codeshared_flights": "AC3848, LH9311, LX3201, OS7802",
-    "airline_code": "UA",
-    "boarding_time": "BT 16:40\nST 18:19\nET 18:54"
-  },
-  {
     "flight": "UA 989",
     "airport": "FRA FRANKFURT",
     "airline": "United Airlines",
@@ -2887,7 +2876,7 @@
     "airline": "United Airlines",
     "gate": "C2",
     "departure_time": "2024-12-30 18:23:00",
-    "status": "OutGate",
+    "status": "InAir",
     "codeshared_flights": "",
     "airline_code": "UA",
     "boarding_time": "BT 17:00\nST 17:33\nET 18:08"
@@ -2898,7 +2887,7 @@
     "airline": "United Airlines",
     "gate": "Z5",
     "departure_time": "2024-12-30 18:32:00",
-    "status": "OutGate",
+    "status": "InAir",
     "codeshared_flights": "LH7520, SN8921",
     "airline_code": "UA",
     "boarding_time": "BT 17:30\nST 18:10\nET 18:20"
@@ -2970,6 +2959,17 @@
     "boarding_time": "BT 17:20\nST 18:35\nET 18:45"
   },
   {
+    "flight": "LH 419",
+    "airport": "FRA FRANKFURT",
+    "airline": "Deutsche Lufthansa AG",
+    "gate": "B45",
+    "departure_time": "2024-12-30 18:44:00",
+    "status": "OutGate",
+    "codeshared_flights": "AC9450, AI8645, TG7717, UA8826",
+    "airline_code": "LH",
+    "boarding_time": ""
+  },
+  {
     "flight": "UA 4866",
     "airport": "SYR SYRACUSE",
     "airline": "United Airlines",
@@ -2981,37 +2981,37 @@
     "boarding_time": "BT 16:50\nST 18:20\nET 18:30"
   },
   {
-    "flight": "UA 612",
-    "airport": "LOS LAGOS",
-    "airline": "United Airlines",
-    "gate": "C3",
-    "departure_time": "2024-12-30 18:45:00",
-    "status": "Scheduled",
-    "codeshared_flights": "",
-    "airline_code": "UA",
-    "boarding_time": "BT 17:40\nST 17:55\nET 18:30"
-  },
-  {
     "flight": "VS 22",
     "airport": "LHR LONDON",
     "airline": "Virgin Atlantic",
     "gate": "A31",
-    "departure_time": "2024-12-30 18:45:00",
-    "status": "Proposed",
+    "departure_time": "2024-12-30 18:46:00",
+    "status": "OutGate",
     "codeshared_flights": "AF9652, DL5982, KL4805",
     "airline_code": "VS",
     "boarding_time": ""
   },
   {
-    "flight": "UA 1011",
-    "airport": "CPT CAPE TOWN",
+    "flight": "UA 612",
+    "airport": "LOS LAGOS",
     "airline": "United Airlines",
-    "gate": "C8",
-    "departure_time": "2024-12-30 18:50:00",
-    "status": "Scheduled",
+    "gate": "C3",
+    "departure_time": "2024-12-30 18:47:00",
+    "status": "OutGate",
     "codeshared_flights": "",
     "airline_code": "UA",
-    "boarding_time": "BT 18:00\nST 18:00\nET 18:35"
+    "boarding_time": "BT 17:40\nST 17:55\nET 18:30"
+  },
+  {
+    "flight": "UA 3570",
+    "airport": "SDF LOUISVILLE",
+    "airline": "United Airlines",
+    "gate": "A2A",
+    "departure_time": "2024-12-30 18:47:00",
+    "status": "OutGate",
+    "codeshared_flights": "AC4405, CM2666, LH9258",
+    "airline_code": "UA",
+    "boarding_time": "BT 18:34\nST 18:34\nET 18:44"
   },
   {
     "flight": "G4 370",
@@ -3033,17 +3033,6 @@
     "status": "Scheduled",
     "codeshared_flights": "AF2213, KE3581, KL5476, LA8437, VS4372",
     "airline_code": "DL",
-    "boarding_time": ""
-  },
-  {
-    "flight": "LH 419",
-    "airport": "FRA FRANKFURT",
-    "airline": "Deutsche Lufthansa AG",
-    "gate": "B45",
-    "departure_time": "2024-12-30 18:55:00",
-    "status": "Delayed",
-    "codeshared_flights": "AC9450, AI8645, TG7717, UA8826",
-    "airline_code": "LH",
     "boarding_time": ""
   },
   {
@@ -3069,15 +3058,15 @@
     "boarding_time": ""
   },
   {
-    "flight": "UA 3570",
-    "airport": "SDF LOUISVILLE",
+    "flight": "UA 1011",
+    "airport": "CPT CAPE TOWN",
     "airline": "United Airlines",
-    "gate": "A2A",
-    "departure_time": "2024-12-30 18:59:00",
+    "gate": "C8",
+    "departure_time": "2024-12-30 19:00:00",
     "status": "Scheduled",
-    "codeshared_flights": "AC4405, CM2666, LH9258",
+    "codeshared_flights": "",
     "airline_code": "UA",
-    "boarding_time": "BT 18:34\nST 18:34\nET 18:44"
+    "boarding_time": "BT 18:00\nST 18:10\nET 18:45"
   },
   {
     "flight": "UA 2303",
@@ -3100,6 +3089,17 @@
     "codeshared_flights": "CM2781",
     "airline_code": "UA",
     "boarding_time": "BT 18:10\nST 18:40\nET 18:50"
+  },
+  {
+    "flight": "UA 52",
+    "airport": "ZRH ZURICH",
+    "airline": "United Airlines",
+    "gate": "D30",
+    "departure_time": "2024-12-30 19:09:00",
+    "status": "Delayed",
+    "codeshared_flights": "",
+    "airline_code": "UA",
+    "boarding_time": "BT 16:40\nST 18:19\nET 18:54"
   },
   {
     "flight": "TP 230",
