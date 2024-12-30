@@ -951,21 +951,10 @@
     "airline": "United Airlines",
     "gate": "C1",
     "departure_time": "2024-12-30 08:55:00",
-    "status": "OutGate",
+    "status": "InAir",
     "codeshared_flights": "CM2786",
     "airline_code": "UA",
     "boarding_time": "BT 08:20\nST 08:20\nET 08:45"
-  },
-  {
-    "flight": "UA 4419",
-    "airport": "SAV SAVANNAH",
-    "airline": "United Airlines",
-    "gate": "C20",
-    "departure_time": "2024-12-30 08:55:00",
-    "status": "Unknown",
-    "codeshared_flights": "AC4609",
-    "airline_code": "UA",
-    "boarding_time": "BT 08:30\nST 10:05\nET 10:15"
   },
   {
     "flight": "UA 1443",
@@ -1083,7 +1072,7 @@
     "airline": "Ethiopian Airlines",
     "gate": "B37",
     "departure_time": "2024-12-30 10:00:00",
-    "status": "Proposed",
+    "status": "InAir",
     "codeshared_flights": "KP1104, UA7201",
     "airline_code": "ET",
     "boarding_time": ""
@@ -1094,7 +1083,7 @@
     "airline": "United Airlines",
     "gate": "C20",
     "departure_time": "2024-12-30 10:33:00",
-    "status": "OutGate",
+    "status": "InAir",
     "codeshared_flights": "",
     "airline_code": "UA",
     "boarding_time": "BT 08:30\nST 10:05\nET 10:15"
@@ -1104,8 +1093,8 @@
     "airport": "DXB DUBAI",
     "airline": "Emirates",
     "gate": "A16",
-    "departure_time": "2024-12-30 10:40:00",
-    "status": "Scheduled",
+    "departure_time": "2024-12-30 10:41:00",
+    "status": "OutGate",
     "codeshared_flights": "",
     "airline_code": "EK",
     "boarding_time": ""
@@ -1867,7 +1856,7 @@
     "status": "Delayed",
     "codeshared_flights": "NH7628",
     "airline_code": "UA",
-    "boarding_time": "BT 12:20\nST 13:30\nET 13:40"
+    "boarding_time": "BT 12:20\nST 12:20\nET 12:30"
   },
   {
     "flight": "TK 188",
