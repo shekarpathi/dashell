@@ -996,18 +996,6 @@
     "boarding_time": "BT 08:30\nST 08:30\nET 08:40"
   },
   {
-    "flight": "UA 1524",
-    "airport": "IAH HOUSTON",
-    "airline": "United Airlines",
-    "gate": "C7",
-    "departure_time": "2024-12-30 08:59:00",
-    "status": "Delayed",
-    "codeshared_flights": "AV2298, NZ6640",
-    "board_URL": "https://www.united.com/api/flight/status/1524/2024-12-30?carrierCode=UA",
-    "airline_code": "UA",
-    "boarding_time": "BT 07:47\nST 08:09\nET 08:44"
-  },
-  {
     "flight": "UA 1016",
     "airport": "BTV BURLINGTON",
     "airline": "United Airlines",
@@ -1017,7 +1005,7 @@
     "codeshared_flights": "CM2772",
     "board_URL": "https://www.united.com/api/flight/status/1016/2024-12-30?carrierCode=UA",
     "airline_code": "UA",
-    "boarding_time": "BT 08:20\nST 08:20\nET 08:45"
+    "boarding_time": "BT 08:20\nST 10:20\nET 10:45"
   },
   {
     "flight": "UA 4581",
@@ -1174,6 +1162,18 @@
     "board_URL": "https://www.united.com/api/flight/status/5203/2024-12-30?carrierCode=AA",
     "airline_code": "AA",
     "boarding_time": ""
+  },
+  {
+    "flight": "UA 1524",
+    "airport": "IAH HOUSTON",
+    "airline": "United Airlines",
+    "gate": "C6",
+    "departure_time": "2024-12-30 09:25:00",
+    "status": "Delayed",
+    "codeshared_flights": "AV2298, NZ6640",
+    "board_URL": "https://www.united.com/api/flight/status/1524/2024-12-30?carrierCode=UA",
+    "airline_code": "UA",
+    "boarding_time": "BT 07:47\nST 08:35\nET 09:10"
   },
   {
     "flight": "ET 501",
@@ -2463,7 +2463,7 @@
     "flight": "UA 108",
     "airport": "MUC MUNICH",
     "airline": "United Airlines",
-    "gate": "C5",
+    "gate": "C7",
     "departure_time": "2024-12-30 17:15:00",
     "status": "Scheduled",
     "codeshared_flights": "AC3838, LH9281",
@@ -3243,7 +3243,7 @@
     "flight": "UA 946",
     "airport": "AMS AMSTERDAM",
     "airline": "United Airlines",
-    "gate": "C7",
+    "gate": "C1",
     "departure_time": "2024-12-30 18:15:00",
     "status": "Scheduled",
     "codeshared_flights": "AC3801, LH7618, LX3001, OS7752",
