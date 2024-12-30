@@ -1820,7 +1820,7 @@
     "airline": "Turkish Airlines",
     "gate": "B37",
     "departure_time": "2024-12-30 14:00:00",
-    "status": "Proposed",
+    "status": "InAir",
     "codeshared_flights": "6E4263, OM1134, PK5188, TG9177, WB1368",
     "airline_code": "TK",
     "boarding_time": ""
@@ -1835,17 +1835,6 @@
     "codeshared_flights": "",
     "airline_code": "UA",
     "boarding_time": "BT 12:25\nST 13:45\nET 13:55"
-  },
-  {
-    "flight": "PD 2724",
-    "airport": "YTZ TORONTO, YTZ",
-    "airline": "Porter Airlines",
-    "gate": "A19",
-    "departure_time": "2024-12-30 14:10:00",
-    "status": "Delayed",
-    "codeshared_flights": "TS7478",
-    "airline_code": "PD",
-    "boarding_time": ""
   },
   {
     "flight": "UA 4962",
@@ -1875,9 +1864,20 @@
     "airline": "Southwest Airlines",
     "gate": "B66",
     "departure_time": "2024-12-30 14:18:00",
-    "status": "OutGate",
+    "status": "InAir",
     "codeshared_flights": "",
     "airline_code": "WN",
+    "boarding_time": ""
+  },
+  {
+    "flight": "PD 2724",
+    "airport": "YTZ TORONTO, YTZ",
+    "airline": "Porter Airlines",
+    "gate": "A19",
+    "departure_time": "2024-12-30 14:18:00",
+    "status": "OutGate",
+    "codeshared_flights": "TS7478",
+    "airline_code": "PD",
     "boarding_time": ""
   },
   {
@@ -1896,11 +1896,11 @@
     "airport": "BUF BUFFALO",
     "airline": "United Airlines",
     "gate": "A4A",
-    "departure_time": "2024-12-30 14:45:00",
+    "departure_time": "2024-12-30 14:55:00",
     "status": "Delayed",
     "codeshared_flights": "",
     "airline_code": "UA",
-    "boarding_time": "BT 12:30\nST 14:20\nET 14:30"
+    "boarding_time": "BT 12:30\nST 14:30\nET 14:40"
   },
   {
     "flight": "DL 3680",
@@ -1958,6 +1958,17 @@
     "boarding_time": ""
   },
   {
+    "flight": "UA 4187",
+    "airport": "EWR NEWARK",
+    "airline": "United Airlines",
+    "gate": "C26",
+    "departure_time": "2024-12-30 15:40:00",
+    "status": "Delayed",
+    "codeshared_flights": "TP8505",
+    "airline_code": "UA",
+    "boarding_time": "BT 12:15\nST 15:15\nET 15:25"
+  },
+  {
     "flight": "AV 583",
     "airport": "SAL SAN SALVADOR",
     "airline": "Avianca",
@@ -1974,7 +1985,7 @@
     "airline": "Air Canada",
     "gate": "Z10",
     "departure_time": "2024-12-30 15:55:00",
-    "status": "Scheduled",
+    "status": "Proposed",
     "codeshared_flights": "UA8459",
     "airline_code": "AC",
     "boarding_time": ""
@@ -2002,15 +2013,15 @@
     "boarding_time": ""
   },
   {
-    "flight": "UA 4187",
-    "airport": "EWR NEWARK",
-    "airline": "United Airlines",
-    "gate": "C26",
+    "flight": "9X 395",
+    "airport": "BFD BRADFORD",
+    "airline": "Southern Airways Express",
+    "gate": "H17",
     "departure_time": "2024-12-30 16:20:00",
-    "status": "Delayed",
-    "codeshared_flights": "TP8505",
-    "airline_code": "UA",
-    "boarding_time": "BT 12:15\nST 15:55\nET 16:05"
+    "status": "Proposed",
+    "codeshared_flights": "",
+    "airline_code": "9X",
+    "boarding_time": ""
   },
   {
     "flight": "DL 1695",
@@ -2275,17 +2286,6 @@
     "codeshared_flights": "AC3934, AV2166, CM2804",
     "airline_code": "UA",
     "boarding_time": "BT 16:52\nST 16:52\nET 17:02"
-  },
-  {
-    "flight": "9X 395",
-    "airport": "BFD BRADFORD",
-    "airline": "Southern Airways Express",
-    "gate": "H17",
-    "departure_time": "2024-12-30 17:20:00",
-    "status": "Scheduled",
-    "codeshared_flights": "",
-    "airline_code": "9X",
-    "boarding_time": ""
   },
   {
     "flight": "UA 989",
@@ -3140,7 +3140,7 @@
     "airline": "TAP Air Portugal",
     "gate": "B48",
     "departure_time": "2024-12-30 19:15:00",
-    "status": "Scheduled",
+    "status": "Proposed",
     "codeshared_flights": "B66726",
     "airline_code": "TP",
     "boarding_time": ""
