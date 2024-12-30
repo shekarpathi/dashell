@@ -1974,7 +1974,7 @@
     "airline": "Avianca",
     "gate": "B48",
     "departure_time": "2024-12-30 15:48:00",
-    "status": "OutGate",
+    "status": "InAir",
     "codeshared_flights": "NH7837",
     "airline_code": "AV",
     "boarding_time": ""
@@ -1985,7 +1985,7 @@
     "airline": "Air Canada",
     "gate": "Z10",
     "departure_time": "2024-12-30 15:53:00",
-    "status": "OutGate",
+    "status": "InAir",
     "codeshared_flights": "UA8459",
     "airline_code": "AC",
     "boarding_time": ""
@@ -1995,8 +1995,8 @@
     "airport": "DEN DENVER",
     "airline": "United Airlines",
     "gate": "D1",
-    "departure_time": "2024-12-30 16:05:00",
-    "status": "Scheduled",
+    "departure_time": "2024-12-30 16:02:00",
+    "status": "OutGate",
     "codeshared_flights": "AV2041, CM2860, SN8893",
     "airline_code": "UA",
     "boarding_time": "BT 15:25\nST 15:25\nET 15:50"
@@ -2006,8 +2006,8 @@
     "airport": "JFK NEW YORK, JFK",
     "airline": "Delta Air Lines",
     "gate": "B72",
-    "departure_time": "2024-12-30 16:15:00",
-    "status": "Scheduled",
+    "departure_time": "2024-12-30 16:10:00",
+    "status": "OutGate",
     "codeshared_flights": "AF2173, AZ2760, CI9095, KE7258, KL5937, LA8759, VS1897",
     "airline_code": "DL",
     "boarding_time": ""
@@ -2997,7 +2997,7 @@
     "airline": "Virgin Atlantic",
     "gate": "A31",
     "departure_time": "2024-12-30 18:45:00",
-    "status": "Scheduled",
+    "status": "Proposed",
     "codeshared_flights": "AF9652, DL5982, KL4805",
     "airline_code": "VS",
     "boarding_time": ""
@@ -3245,17 +3245,6 @@
     "boarding_time": ""
   },
   {
-    "flight": "UA 739",
-    "airport": "SFO SAN FRANCISCO",
-    "airline": "United Airlines",
-    "gate": "C17",
-    "departure_time": "2024-12-30 20:49:00",
-    "status": "Scheduled",
-    "codeshared_flights": "ET1358, NZ9179, VA8391",
-    "airline_code": "UA",
-    "boarding_time": "BT 20:09\nST 20:09\nET 20:34"
-  },
-  {
     "flight": "G4 868",
     "airport": "PGD PUNTA GORDA",
     "airline": "Allegiant Air",
@@ -3314,7 +3303,7 @@
     "flight": "UA 4321",
     "airport": "ALB ALBANY",
     "airline": "United Airlines",
-    "gate": "A6A",
+    "gate": "A1D",
     "departure_time": "2024-12-30 22:05:00",
     "status": "Scheduled",
     "codeshared_flights": "LH8610",
@@ -3718,6 +3707,17 @@
     "boarding_time": ""
   },
   {
+    "flight": "UA 739",
+    "airport": "SFO SAN FRANCISCO",
+    "airline": "United Airlines",
+    "gate": "D18",
+    "departure_time": "2024-12-30 22:30:00",
+    "status": "Delayed",
+    "codeshared_flights": "ET1358, NZ9179, VA8391",
+    "airline_code": "UA",
+    "boarding_time": "BT 20:09\nST 21:50\nET 22:15"
+  },
+  {
     "flight": "UA 861",
     "airport": "GRU SAO PAULO",
     "airline": "United Airlines",
@@ -3732,7 +3732,7 @@
     "flight": "UA 4232",
     "airport": "ROA ROANOKE",
     "airline": "United Airlines",
-    "gate": "A5A",
+    "gate": "A5D",
     "departure_time": "2024-12-30 22:31:00",
     "status": "Scheduled",
     "codeshared_flights": "AC4711, LH9274",
