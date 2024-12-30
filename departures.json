@@ -4036,8 +4036,8 @@
     "airport": "ROA ROANOKE",
     "airline": "United Airlines",
     "gate": "A3C",
-    "departure_time": "2024-12-29 23:45:00",
-    "status": "Delayed",
+    "departure_time": "2024-12-29 23:41:00",
+    "status": "OutGate",
     "codeshared_flights": "AC4711, LH9274",
     "board_URL": "https://www.united.com/api/flight/status/4232/2024-12-29?carrierCode=UA",
     "airline_code": "UA",
@@ -4053,7 +4053,7 @@
     "codeshared_flights": "AC4739, LH9312",
     "board_URL": "https://www.united.com/api/flight/status/4304/2024-12-29?carrierCode=UA",
     "airline_code": "UA",
-    "boarding_time": "BT 21:49\nST 23:30\nET 23:40"
+    "boarding_time": "BT 21:49\nST 23:36\nET 23:46"
   },
   {
     "flight": "UA 780",
@@ -4080,18 +4080,6 @@
     "boarding_time": "BT 20:50\nST 23:21\nET 23:46"
   },
   {
-    "flight": "UA 4265",
-    "airport": "CHO CHARLOTTESVILLE",
-    "airline": "United Airlines",
-    "gate": "A2F",
-    "departure_time": "2024-12-30 00:10:00",
-    "status": "Delayed",
-    "codeshared_flights": "",
-    "board_URL": "https://www.united.com/api/flight/status/4265/2024-12-29?carrierCode=UA",
-    "airline_code": "UA",
-    "boarding_time": "BT 21:55\nST 00:35\nET 00:45"
-  },
-  {
     "flight": "UA 689",
     "airport": "MCO ORLANDO",
     "airline": "United Airlines",
@@ -4114,6 +4102,18 @@
     "board_URL": "https://www.united.com/api/flight/status/482/2024-12-29?carrierCode=XP",
     "airline_code": "XP",
     "boarding_time": ""
+  },
+  {
+    "flight": "UA 4265",
+    "airport": "CHO CHARLOTTESVILLE",
+    "airline": "United Airlines",
+    "gate": "A2F",
+    "departure_time": "2024-12-30 01:00:00",
+    "status": "Delayed",
+    "codeshared_flights": "",
+    "board_URL": "https://www.united.com/api/flight/status/4265/2024-12-29?carrierCode=UA",
+    "airline_code": "UA",
+    "boarding_time": "BT 21:55\nST 00:35\nET 00:45"
   },
   {
     "flight": "UA 6234",
