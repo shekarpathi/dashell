@@ -1941,7 +1941,7 @@
     "airline": "Copa Airlines",
     "gate": "A24",
     "departure_time": "2024-12-30 15:25:00",
-    "status": "OutGate",
+    "status": "InAir",
     "codeshared_flights": "UA7174",
     "airline_code": "CM",
     "boarding_time": ""
@@ -3289,6 +3289,17 @@
     "boarding_time": ""
   },
   {
+    "flight": "UA 4914",
+    "airport": "TYS KNOXVILLE",
+    "airline": "United Airlines",
+    "gate": "A2F",
+    "departure_time": "2024-12-30 21:35:00",
+    "status": "Delayed",
+    "codeshared_flights": "AC4743, AV2348, CM1306, LH8966, SN8957",
+    "airline_code": "UA",
+    "boarding_time": "BT 17:05\nST 21:10\nET 21:20"
+  },
+  {
     "flight": "BA 292",
     "airport": "LHR LONDON",
     "airline": "British Airways",
@@ -3804,16 +3815,5 @@
     "codeshared_flights": "",
     "airline_code": "AV",
     "boarding_time": ""
-  },
-  {
-    "flight": "UA 4914",
-    "airport": "TYS KNOXVILLE",
-    "airline": "United Airlines",
-    "gate": "A4A",
-    "departure_time": "2024-12-31 00:02:00",
-    "status": "Delayed",
-    "codeshared_flights": "AC4743, AV2348, CM1306, LH8966, SN8957",
-    "airline_code": "UA",
-    "boarding_time": "BT 17:05\nST 21:10\nET 21:20"
   }
 ]
