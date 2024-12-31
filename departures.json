@@ -59,8 +59,8 @@
     "airport": "CLT CHARLOTTE",
     "airline": "American Airlines",
     "gate": "B73",
-    "departure_time": "2024-12-31 05:00:00",
-    "status": "Scheduled",
+    "departure_time": "2024-12-31 04:56:00",
+    "status": "InAir",
     "codeshared_flights": "",
     "airline_code": "AA",
     "boarding_time": ""
@@ -203,7 +203,7 @@
     "airline": "Southwest Airlines",
     "gate": "B66",
     "departure_time": "2024-12-31 07:25:00",
-    "status": "Scheduled",
+    "status": "Proposed",
     "codeshared_flights": "",
     "airline_code": "WN",
     "boarding_time": ""
@@ -1972,7 +1972,7 @@
     "flight": "WN 3656",
     "airport": "PHX PHOENIX",
     "airline": "Southwest Airlines",
-    "gate": "B64",
+    "gate": "B66",
     "departure_time": "2024-12-31 15:45:00",
     "status": "Scheduled",
     "codeshared_flights": "",
