@@ -3294,7 +3294,7 @@
     "airline": "British Airways",
     "gate": "B44",
     "departure_time": "2024-12-30 21:55:00",
-    "status": "OutGate",
+    "status": "InAir",
     "codeshared_flights": "AA7001, AY5532, EI8992, IB3631",
     "airline_code": "BA",
     "boarding_time": ""
@@ -3327,7 +3327,7 @@
     "airline": "United Airlines",
     "gate": "D21",
     "departure_time": "2024-12-30 22:03:00",
-    "status": "OutGate",
+    "status": "InAir",
     "codeshared_flights": "AC3817, LH8957, LX3037",
     "airline_code": "UA",
     "boarding_time": "BT 21:15\nST 21:15\nET 21:50"
@@ -3426,7 +3426,7 @@
     "airline": "United Airlines",
     "gate": "C24",
     "departure_time": "2024-12-30 22:10:00",
-    "status": "InAir",
+    "status": "Landed",
     "codeshared_flights": "LH8852",
     "airline_code": "UA",
     "boarding_time": "BT 21:55\nST 21:55\nET 22:05"
@@ -3569,7 +3569,7 @@
     "airline": "United Airlines",
     "gate": "A2E",
     "departure_time": "2024-12-30 22:18:00",
-    "status": "OutGate",
+    "status": "InAir",
     "codeshared_flights": "",
     "airline_code": "UA",
     "boarding_time": "BT 21:45\nST 21:55\nET 22:05"
@@ -3591,7 +3591,7 @@
     "airline": "United Airlines",
     "gate": "D10",
     "departure_time": "2024-12-30 22:21:00",
-    "status": "OutGate",
+    "status": "InAir",
     "codeshared_flights": "CM2861, LH7518",
     "airline_code": "UA",
     "boarding_time": "BT 21:37\nST 21:45\nET 22:10"
@@ -3602,7 +3602,7 @@
     "airline": "United Airlines",
     "gate": "D27",
     "departure_time": "2024-12-30 22:21:00",
-    "status": "OutGate",
+    "status": "InAir",
     "codeshared_flights": "LH8676",
     "airline_code": "UA",
     "boarding_time": "BT 21:40\nST 21:55\nET 22:05"
@@ -3624,7 +3624,7 @@
     "airline": "United Airlines",
     "gate": "D3",
     "departure_time": "2024-12-30 22:21:00",
-    "status": "OutGate",
+    "status": "InAir",
     "codeshared_flights": "LH7560",
     "airline_code": "UA",
     "boarding_time": "BT 21:42\nST 21:42\nET 22:07"
@@ -3635,7 +3635,7 @@
     "airline": "United Airlines",
     "gate": "D12",
     "departure_time": "2024-12-30 22:22:00",
-    "status": "OutGate",
+    "status": "InAir",
     "codeshared_flights": "ET1356",
     "airline_code": "UA",
     "boarding_time": "BT 21:44\nST 21:44\nET 22:09"
@@ -3646,7 +3646,7 @@
     "airline": "United Airlines",
     "gate": "D9",
     "departure_time": "2024-12-30 22:22:00",
-    "status": "OutGate",
+    "status": "InAir",
     "codeshared_flights": "NZ6643",
     "airline_code": "UA",
     "boarding_time": "BT 21:44\nST 21:44\nET 22:09"
@@ -3788,8 +3788,8 @@
     "airport": "GRU SAO PAULO",
     "airline": "United Airlines",
     "gate": "D32",
-    "departure_time": "2024-12-30 23:00:00",
-    "status": "Delayed",
+    "departure_time": "2024-12-30 22:46:00",
+    "status": "OutGate",
     "codeshared_flights": "NH7254",
     "airline_code": "UA",
     "boarding_time": "BT 21:40\nST 22:10\nET 22:45"
