@@ -421,7 +421,7 @@
     "flight": "UA 3645",
     "airport": "YUL MONTREAL",
     "airline": "United Airlines",
-    "gate": "D27",
+    "gate": "D25",
     "departure_time": "2024-12-31 08:20:00",
     "status": "Scheduled",
     "codeshared_flights": "AC4942, AV2164, CM2811",
@@ -707,7 +707,7 @@
     "flight": "UA 3561",
     "airport": "IND INDIANAPOLIS",
     "airline": "United Airlines",
-    "gate": "A6E",
+    "gate": "D23",
     "departure_time": "2024-12-31 08:40:00",
     "status": "Scheduled",
     "codeshared_flights": "AV2069, CM1297",
@@ -850,7 +850,7 @@
     "flight": "UA 6136",
     "airport": "JAX JACKSONVILLE",
     "airline": "United Airlines",
-    "gate": "D23",
+    "gate": "A6E",
     "departure_time": "2024-12-31 08:50:00",
     "status": "Scheduled",
     "codeshared_flights": "AC3893",
@@ -869,17 +869,6 @@
     "boarding_time": "BT 08:00\nST 08:00\nET 08:35"
   },
   {
-    "flight": "UA 6011",
-    "airport": "BNA NASHVILLE",
-    "airline": "United Airlines",
-    "gate": "A1G",
-    "departure_time": "2024-12-31 08:50:00",
-    "status": "Scheduled",
-    "codeshared_flights": "AV2340, CM2570",
-    "airline_code": "UA",
-    "boarding_time": "BT 08:25\nST 11:11\nET 11:21"
-  },
-  {
     "flight": "UA 3548",
     "airport": "CVG CINCINNATI",
     "airline": "United Airlines",
@@ -894,7 +883,7 @@
     "flight": "UA 6243",
     "airport": "MSY NEW ORLEANS",
     "airline": "United Airlines",
-    "gate": "D25",
+    "gate": "D27",
     "departure_time": "2024-12-31 08:55:00",
     "status": "Scheduled",
     "codeshared_flights": "AC3864, CM2826",
@@ -1153,6 +1142,17 @@
     "codeshared_flights": "",
     "airline_code": "F9",
     "boarding_time": ""
+  },
+  {
+    "flight": "UA 6011",
+    "airport": "BNA NASHVILLE",
+    "airline": "United Airlines",
+    "gate": "A1A",
+    "departure_time": "2024-12-31 11:36:00",
+    "status": "Delayed",
+    "codeshared_flights": "AV2340, CM2570",
+    "airline_code": "UA",
+    "boarding_time": "BT 08:25\nST 11:11\nET 11:21"
   },
   {
     "flight": "KE 94",
