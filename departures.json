@@ -37,8 +37,8 @@
     "airport": "SAL SAN SALVADOR",
     "airline": "Avianca",
     "gate": "B48",
-    "departure_time": "2024-12-31 03:00:00",
-    "status": "Proposed",
+    "departure_time": "2024-12-31 03:01:00",
+    "status": "OutGate",
     "codeshared_flights": "",
     "airline_code": "AV",
     "boarding_time": ""
