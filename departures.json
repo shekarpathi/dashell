@@ -1126,8 +1126,8 @@
     "airport": "HND TOKYO, HND",
     "airline": "All Nippon Airways",
     "gate": "B41",
-    "departure_time": "2024-12-31 11:05:00",
-    "status": "Proposed",
+    "departure_time": "2024-12-31 11:02:00",
+    "status": "InAir",
     "codeshared_flights": "SQ5921, TG6085, UA7941",
     "airline_code": "NH",
     "boarding_time": ""
@@ -1137,8 +1137,8 @@
     "airport": "TPA TAMPA",
     "airline": "Frontier Airlines",
     "gate": "B62",
-    "departure_time": "2024-12-31 11:34:00",
-    "status": "Scheduled",
+    "departure_time": "2024-12-31 11:32:00",
+    "status": "OutGate",
     "codeshared_flights": "",
     "airline_code": "F9",
     "boarding_time": ""
@@ -1148,7 +1148,7 @@
     "airport": "BNA NASHVILLE",
     "airline": "United Airlines",
     "gate": "A3B",
-    "departure_time": "2024-12-31 11:36:00",
+    "departure_time": "2024-12-31 11:48:00",
     "status": "Delayed",
     "codeshared_flights": "AV2340, CM2570",
     "airline_code": "UA",
@@ -1185,6 +1185,17 @@
     "status": "Proposed",
     "codeshared_flights": "",
     "airline_code": "9X",
+    "boarding_time": ""
+  },
+  {
+    "flight": "G4 868",
+    "airport": "PGD PUNTA GORDA",
+    "airline": "Allegiant Air",
+    "gate": null,
+    "departure_time": "2024-12-31 12:00:00",
+    "status": "Proposed",
+    "codeshared_flights": "",
+    "airline_code": "G4",
     "boarding_time": ""
   },
   {
@@ -1834,7 +1845,7 @@
     "status": "Delayed",
     "codeshared_flights": "NH7628",
     "airline_code": "UA",
-    "boarding_time": "BT 12:20\nST 12:40\nET 12:50"
+    "boarding_time": "BT 12:20\nST 12:20\nET 12:30"
   },
   {
     "flight": "UA 2029",
@@ -2456,7 +2467,7 @@
     "flight": "TP 232",
     "airport": "LIS LISBON",
     "airline": "TAP Air Portugal",
-    "gate": "B48",
+    "gate": "B50",
     "departure_time": "2024-12-31 17:30:00",
     "status": "Scheduled",
     "codeshared_flights": "B66760",
