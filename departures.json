@@ -1919,10 +1919,21 @@
     "airline": "Avianca",
     "gate": "B48",
     "departure_time": "2024-12-31 14:15:00",
-    "status": "OutGate",
+    "status": "InAir",
     "codeshared_flights": "G35811, NH7820, UA6668",
     "airline_code": "AV",
     "boarding_time": ""
+  },
+  {
+    "flight": "UA 1318",
+    "airport": "SFO SAN FRANCISCO",
+    "airline": "United Airlines",
+    "gate": "D5",
+    "departure_time": "2024-12-31 14:32:00",
+    "status": "OutGate",
+    "codeshared_flights": "NZ9176, VA8390",
+    "airline_code": "UA",
+    "boarding_time": "BT 14:00\nST 14:00\nET 14:25"
   },
   {
     "flight": "MX 828",
@@ -1934,17 +1945,6 @@
     "codeshared_flights": "",
     "airline_code": "MX",
     "boarding_time": ""
-  },
-  {
-    "flight": "UA 1318",
-    "airport": "SFO SAN FRANCISCO",
-    "airline": "United Airlines",
-    "gate": "D5",
-    "departure_time": "2024-12-31 14:40:00",
-    "status": "Scheduled",
-    "codeshared_flights": "NZ9176, VA8390",
-    "airline_code": "UA",
-    "boarding_time": "BT 14:00\nST 14:00\nET 14:25"
   },
   {
     "flight": "AC 8619",
