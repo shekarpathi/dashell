@@ -1973,8 +1973,8 @@
     "airport": "PTY PANAMA CITY",
     "airline": "Copa Airlines",
     "gate": "A26",
-    "departure_time": "2024-12-31 15:31:00",
-    "status": "Scheduled",
+    "departure_time": "2024-12-31 15:26:00",
+    "status": "OutGate",
     "codeshared_flights": "UA7174",
     "airline_code": "CM",
     "boarding_time": ""
@@ -1984,8 +1984,8 @@
     "airport": "MEX MEXICO CITY",
     "airline": "Aeromexico",
     "gate": "A14",
-    "departure_time": "2024-12-31 15:38:00",
-    "status": "Scheduled",
+    "departure_time": "2024-12-31 15:28:00",
+    "status": "OutGate",
     "codeshared_flights": "DL8975",
     "airline_code": "AM",
     "boarding_time": ""
@@ -2370,7 +2370,7 @@
     "airline": "Southern Airways Express",
     "gate": "H17",
     "departure_time": "2024-12-31 17:20:00",
-    "status": "Scheduled",
+    "status": "Proposed",
     "codeshared_flights": "",
     "airline_code": "9X",
     "boarding_time": ""
@@ -2607,17 +2607,6 @@
     "boarding_time": "BT 16:57\nST 16:57\nET 17:22"
   },
   {
-    "flight": "AA 5582",
-    "airport": "CLT CHARLOTTE",
-    "airline": "American Airlines",
-    "gate": "B73",
-    "departure_time": "2024-12-31 17:39:00",
-    "status": "Scheduled",
-    "codeshared_flights": "BA6745",
-    "airline_code": "AA",
-    "boarding_time": ""
-  },
-  {
     "flight": "UA 3712",
     "airport": "CLE CLEVELAND",
     "airline": "United Airlines",
@@ -2750,6 +2739,17 @@
     "boarding_time": "BT 16:55\nST 16:55\nET 17:30"
   },
   {
+    "flight": "AA 5582",
+    "airport": "CLT CHARLOTTE",
+    "airline": "American Airlines",
+    "gate": "B73",
+    "departure_time": "2024-12-31 17:46:00",
+    "status": "Delayed",
+    "codeshared_flights": "BA6745",
+    "airline_code": "AA",
+    "boarding_time": ""
+  },
+  {
     "flight": "UA 1237",
     "airport": "PDX PORTLAND, PDX",
     "airline": "United Airlines",
@@ -2769,7 +2769,7 @@
     "status": "Scheduled",
     "codeshared_flights": "AC5468, SN9048",
     "airline_code": "UA",
-    "boarding_time": "BT 16:55\nST 17:06\nET 17:31"
+    "boarding_time": "BT 16:55\nST 18:06\nET 18:31"
   },
   {
     "flight": "UA 1523",
@@ -3457,7 +3457,7 @@
     "flight": "UA 495",
     "airport": "DEN DENVER",
     "airline": "United Airlines",
-    "gate": "D6",
+    "gate": "D26",
     "departure_time": "2024-12-31 22:17:00",
     "status": "Scheduled",
     "codeshared_flights": "CM2861",
@@ -3622,7 +3622,7 @@
     "flight": "UA 1370",
     "airport": "CLE CLEVELAND",
     "airline": "United Airlines",
-    "gate": "D4",
+    "gate": "D3",
     "departure_time": "2024-12-31 22:38:00",
     "status": "Scheduled",
     "codeshared_flights": "AC3605",
