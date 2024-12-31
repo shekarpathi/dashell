@@ -71,7 +71,7 @@
     "airline": "Delta Air Lines",
     "gate": "B70",
     "departure_time": "2024-12-31 05:55:00",
-    "status": "OutGate",
+    "status": "InAir",
     "codeshared_flights": "AM4098, KE3431, MU8721, VS4415, WS7117",
     "airline_code": "DL",
     "boarding_time": ""
@@ -92,8 +92,8 @@
     "airport": "IAH HOUSTON",
     "airline": "United Airlines",
     "gate": "D16",
-    "departure_time": "2024-12-31 06:08:00",
-    "status": "Scheduled",
+    "departure_time": "2024-12-31 06:04:00",
+    "status": "OutGate",
     "codeshared_flights": "AV2130, NZ6644",
     "airline_code": "UA",
     "boarding_time": "BT 05:28\nST 05:28\nET 05:53"
@@ -103,8 +103,8 @@
     "airport": "LAX LOS ANGELES",
     "airline": "United Airlines",
     "gate": "D12",
-    "departure_time": "2024-12-31 06:15:00",
-    "status": "Scheduled",
+    "departure_time": "2024-12-31 06:07:00",
+    "status": "OutGate",
     "codeshared_flights": "CA7238, NZ9591, OZ6287, VA8542",
     "airline_code": "UA",
     "boarding_time": "BT 05:35\nST 05:35\nET 06:00"
@@ -114,8 +114,8 @@
     "airport": "DFW DALLAS, DFW",
     "airline": "American Airlines",
     "gate": "B71",
-    "departure_time": "2024-12-31 06:21:00",
-    "status": "Scheduled",
+    "departure_time": "2024-12-31 06:14:00",
+    "status": "OutGate",
     "codeshared_flights": "AS4144, AT5093, QR2561",
     "airline_code": "AA",
     "boarding_time": ""
@@ -191,7 +191,7 @@
     "airport": "ATL ATLANTA",
     "airline": "Delta Air Lines",
     "gate": "B72",
-    "departure_time": "2024-12-31 07:19:00",
+    "departure_time": "2024-12-31 07:14:00",
     "status": "Scheduled",
     "codeshared_flights": "AM4093, KE6926, LA6288, VS4483",
     "airline_code": "DL",
@@ -239,6 +239,17 @@
     "status": "Scheduled",
     "codeshared_flights": "",
     "airline_code": "MX",
+    "boarding_time": ""
+  },
+  {
+    "flight": "9X 333",
+    "airport": "IPT WILLIAMSPORT",
+    "airline": "Southern Airways Express",
+    "gate": "H17",
+    "departure_time": "2024-12-31 08:00:00",
+    "status": "Proposed",
+    "codeshared_flights": "",
+    "airline_code": "9X",
     "boarding_time": ""
   },
   {
@@ -559,17 +570,6 @@
     "codeshared_flights": "",
     "airline_code": "UA",
     "boarding_time": "BT 08:00\nST 08:00\nET 08:10"
-  },
-  {
-    "flight": "9X 333",
-    "airport": "IPT WILLIAMSPORT",
-    "airline": "Southern Airways Express",
-    "gate": "H17",
-    "departure_time": "2024-12-31 08:25:00",
-    "status": "Scheduled",
-    "codeshared_flights": "",
-    "airline_code": "9X",
-    "boarding_time": ""
   },
   {
     "flight": "UA 1203",
@@ -894,7 +894,7 @@
     "flight": "UA 4419",
     "airport": "SAV SAVANNAH",
     "airline": "United Airlines",
-    "gate": "A6C",
+    "gate": "C20",
     "departure_time": "2024-12-31 08:55:00",
     "status": "Scheduled",
     "codeshared_flights": "AC4609",
@@ -927,7 +927,7 @@
     "flight": "UA 4581",
     "airport": "DTW DETROIT, DTW",
     "airline": "United Airlines",
-    "gate": "C20",
+    "gate": "A6C",
     "departure_time": "2024-12-31 09:00:00",
     "status": "Scheduled",
     "codeshared_flights": "AV2060, CM1281",
@@ -1081,7 +1081,7 @@
     "flight": "DL 1444",
     "airport": "ATL ATLANTA",
     "airline": "Delta Air Lines",
-    "gate": "B74",
+    "gate": "B78",
     "departure_time": "2024-12-31 10:00:00",
     "status": "Scheduled",
     "codeshared_flights": "AM3743, LA6534, VS4417, WS6847",
