@@ -1104,8 +1104,8 @@
     "airport": "DXB DUBAI",
     "airline": "Emirates",
     "gate": "A16",
-    "departure_time": "2024-12-31 10:45:00",
-    "status": "Scheduled",
+    "departure_time": "2024-12-31 10:55:00",
+    "status": "InAir",
     "codeshared_flights": "",
     "airline_code": "EK",
     "boarding_time": ""
@@ -1115,8 +1115,8 @@
     "airport": "YYZ TORONTO, YYZ",
     "airline": "Air Canada",
     "gate": "Z10",
-    "departure_time": "2024-12-31 11:00:00",
-    "status": "Delayed",
+    "departure_time": "2024-12-31 10:56:00",
+    "status": "InAir",
     "codeshared_flights": "UA8063",
     "airline_code": "AC",
     "boarding_time": ""
@@ -1152,7 +1152,7 @@
     "status": "Delayed",
     "codeshared_flights": "AV2340, CM2570",
     "airline_code": "UA",
-    "boarding_time": "BT 08:25\nST 11:11\nET 11:21"
+    "boarding_time": "BT 08:25\nST 11:23\nET 11:33"
   },
   {
     "flight": "KE 94",
@@ -1307,17 +1307,6 @@
     "codeshared_flights": "",
     "airline_code": "UA",
     "boarding_time": "BT 12:14\nST 12:14\nET 12:24"
-  },
-  {
-    "flight": "9X 393",
-    "airport": "BFD BRADFORD",
-    "airline": "Southern Airways Express",
-    "gate": "H17",
-    "departure_time": "2024-12-31 12:40:00",
-    "status": "Scheduled",
-    "codeshared_flights": "",
-    "airline_code": "9X",
-    "boarding_time": ""
   },
   {
     "flight": "UA 3487",
@@ -1540,6 +1529,17 @@
     "boarding_time": "BT 12:15\nST 12:15\nET 12:35"
   },
   {
+    "flight": "9X 393",
+    "airport": "BFD BRADFORD",
+    "airline": "Southern Airways Express",
+    "gate": "H17",
+    "departure_time": "2024-12-31 12:50:00",
+    "status": "Proposed",
+    "codeshared_flights": "",
+    "airline_code": "9X",
+    "boarding_time": ""
+  },
+  {
     "flight": "UA 3495",
     "airport": "BTV BURLINGTON",
     "airline": "United Airlines",
@@ -1666,7 +1666,7 @@
     "airline": "Southern Airways Express",
     "gate": "H17",
     "departure_time": "2024-12-31 12:55:00",
-    "status": "Scheduled",
+    "status": "Proposed",
     "codeshared_flights": "",
     "airline_code": "9X",
     "boarding_time": ""
@@ -2357,7 +2357,7 @@
     "flight": "UA 6255",
     "airport": "BNA NASHVILLE",
     "airline": "United Airlines",
-    "gate": "A1C",
+    "gate": "A2B",
     "departure_time": "2024-12-31 17:23:00",
     "status": "Scheduled",
     "codeshared_flights": "AV2338, CM2571, LH8956, SN8886",
