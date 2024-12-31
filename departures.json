@@ -1930,7 +1930,7 @@
     "airline": "United Airlines",
     "gate": "D5",
     "departure_time": "2024-12-31 14:32:00",
-    "status": "OutGate",
+    "status": "InAir",
     "codeshared_flights": "NZ9176, VA8390",
     "airline_code": "UA",
     "boarding_time": "BT 14:00\nST 14:00\nET 14:25"
@@ -1951,8 +1951,8 @@
     "airport": "YYZ TORONTO, YYZ",
     "airline": "Air Canada",
     "gate": "Z10",
-    "departure_time": "2024-12-31 14:45:00",
-    "status": "Scheduled",
+    "departure_time": "2024-12-31 14:50:00",
+    "status": "OutGate",
     "codeshared_flights": "UA8693",
     "airline_code": "AC",
     "boarding_time": ""
