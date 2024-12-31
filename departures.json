@@ -1083,7 +1083,7 @@
     "airline": "Ethiopian Airlines",
     "gate": "B37",
     "departure_time": "2024-12-31 10:00:00",
-    "status": "Proposed",
+    "status": "InAir",
     "codeshared_flights": "KP1104, UA7201",
     "airline_code": "ET",
     "boarding_time": ""
