@@ -459,7 +459,7 @@
     "status": "Scheduled",
     "codeshared_flights": "AC3796",
     "airline_code": "UA",
-    "boarding_time": "BT 07:45\nST 07:45\nET 08:05"
+    "boarding_time": "BT 07:40\nST 07:40\nET 08:05"
   },
   {
     "flight": "UA 4578",
@@ -877,7 +877,7 @@
     "status": "Scheduled",
     "codeshared_flights": "AV2340, CM2570",
     "airline_code": "UA",
-    "boarding_time": "BT 08:25\nST 08:25\nET 08:35"
+    "boarding_time": "BT 08:25\nST 11:11\nET 11:21"
   },
   {
     "flight": "UA 3548",
