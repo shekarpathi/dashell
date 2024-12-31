@@ -1936,25 +1936,25 @@
     "boarding_time": "BT 14:00\nST 14:00\nET 14:25"
   },
   {
-    "flight": "MX 828",
-    "airport": "OGS OGDENSBURG",
-    "airline": "Breeze Airways",
-    "gate": "B63",
-    "departure_time": "2024-12-31 14:35:00",
-    "status": "Scheduled",
-    "codeshared_flights": "",
-    "airline_code": "MX",
-    "boarding_time": ""
-  },
-  {
     "flight": "AC 8619",
     "airport": "YYZ TORONTO, YYZ",
     "airline": "Air Canada",
     "gate": "Z10",
     "departure_time": "2024-12-31 14:50:00",
-    "status": "OutGate",
+    "status": "InAir",
     "codeshared_flights": "UA8693",
     "airline_code": "AC",
+    "boarding_time": ""
+  },
+  {
+    "flight": "MX 828",
+    "airport": "OGS OGDENSBURG",
+    "airline": "Breeze Airways",
+    "gate": "B63",
+    "departure_time": "2024-12-31 14:54:00",
+    "status": "InAir",
+    "codeshared_flights": "",
+    "airline_code": "MX",
     "boarding_time": ""
   },
   {
@@ -1962,8 +1962,8 @@
     "airport": "MSP MINNEAPOLIS",
     "airline": "Delta Air Lines",
     "gate": "B76",
-    "departure_time": "2024-12-31 15:10:00",
-    "status": "Scheduled",
+    "departure_time": "2024-12-31 15:06:00",
+    "status": "OutGate",
     "codeshared_flights": "KE3884, VS3142, WS7164",
     "airline_code": "DL",
     "boarding_time": ""
@@ -2585,17 +2585,6 @@
     "boarding_time": "BT 16:45\nST 16:45\nET 17:20"
   },
   {
-    "flight": "UA 2025",
-    "airport": "SJU SAN JUAN",
-    "airline": "United Airlines",
-    "gate": "D12",
-    "departure_time": "2024-12-31 17:35:00",
-    "status": "Scheduled",
-    "codeshared_flights": "AC5468, SN9048",
-    "airline_code": "UA",
-    "boarding_time": "BT 16:55\nST 16:55\nET 17:20"
-  },
-  {
     "flight": "UA 4884",
     "airport": "SCE STATE COLLEGE",
     "airline": "United Airlines",
@@ -2770,6 +2759,17 @@
     "codeshared_flights": "SN8841",
     "airline_code": "UA",
     "boarding_time": "BT 17:06\nST 17:06\nET 17:31"
+  },
+  {
+    "flight": "UA 2025",
+    "airport": "SJU SAN JUAN",
+    "airline": "United Airlines",
+    "gate": "D12",
+    "departure_time": "2024-12-31 17:46:00",
+    "status": "Scheduled",
+    "codeshared_flights": "AC5468, SN9048",
+    "airline_code": "UA",
+    "boarding_time": "BT 16:55\nST 17:06\nET 17:31"
   },
   {
     "flight": "UA 1523",
@@ -3259,7 +3259,7 @@
     "flight": "UA 4321",
     "airport": "ALB ALBANY",
     "airline": "United Airlines",
-    "gate": "A3C",
+    "gate": "A6B",
     "departure_time": "2024-12-31 22:05:00",
     "status": "Scheduled",
     "codeshared_flights": "",
@@ -3358,7 +3358,7 @@
     "flight": "UA 6025",
     "airport": "SYR SYRACUSE",
     "airline": "United Airlines",
-    "gate": "A3B",
+    "gate": "C18",
     "departure_time": "2024-12-31 22:10:00",
     "status": "Scheduled",
     "codeshared_flights": "",
@@ -3490,7 +3490,7 @@
     "flight": "UA 1584",
     "airport": "SFO SAN FRANCISCO",
     "airline": "United Airlines",
-    "gate": "D20",
+    "gate": "C14",
     "departure_time": "2024-12-31 22:20:00",
     "status": "Scheduled",
     "codeshared_flights": "CA7241, NZ9181, VA8388",
@@ -3501,7 +3501,7 @@
     "flight": "UA 6234",
     "airport": "CLT CHARLOTTE",
     "airline": "United Airlines",
-    "gate": "A2A",
+    "gate": "A6E",
     "departure_time": "2024-12-31 22:22:00",
     "status": "Scheduled",
     "codeshared_flights": "AC3581",
@@ -3523,7 +3523,7 @@
     "flight": "UA 408",
     "airport": "PWM PORTLAND, PWM",
     "airline": "United Airlines",
-    "gate": "C25",
+    "gate": "D20",
     "departure_time": "2024-12-31 22:23:00",
     "status": "Scheduled",
     "codeshared_flights": "",
@@ -3567,7 +3567,7 @@
     "flight": "UA 861",
     "airport": "GRU SAO PAULO",
     "airline": "United Airlines",
-    "gate": "C14",
+    "gate": "C19",
     "departure_time": "2024-12-31 22:30:00",
     "status": "Scheduled",
     "codeshared_flights": "NH7254",
