@@ -1985,20 +1985,9 @@
     "airline": "Aeromexico",
     "gate": "A14",
     "departure_time": "2024-12-31 15:28:00",
-    "status": "OutGate",
+    "status": "InAir",
     "codeshared_flights": "DL8975",
     "airline_code": "AM",
-    "boarding_time": ""
-  },
-  {
-    "flight": "WN 3656",
-    "airport": "PHX PHOENIX",
-    "airline": "Southwest Airlines",
-    "gate": "B66",
-    "departure_time": "2024-12-31 15:45:00",
-    "status": "Proposed",
-    "codeshared_flights": "",
-    "airline_code": "WN",
     "boarding_time": ""
   },
   {
@@ -2006,10 +1995,21 @@
     "airport": "SAL SAN SALVADOR",
     "airline": "Avianca",
     "gate": "B48",
-    "departure_time": "2024-12-31 15:50:00",
-    "status": "Proposed",
+    "departure_time": "2024-12-31 15:41:00",
+    "status": "OutGate",
     "codeshared_flights": "NH7837",
     "airline_code": "AV",
+    "boarding_time": ""
+  },
+  {
+    "flight": "WN 3656",
+    "airport": "PHX PHOENIX",
+    "airline": "Southwest Airlines",
+    "gate": "B66",
+    "departure_time": "2024-12-31 15:51:00",
+    "status": "Scheduled",
+    "codeshared_flights": "",
+    "airline_code": "WN",
     "boarding_time": ""
   },
   {
