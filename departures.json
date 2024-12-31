@@ -1149,7 +1149,7 @@
     "airline": "Egyptair",
     "gate": "A32",
     "departure_time": "2024-12-31 12:00:00",
-    "status": "Proposed",
+    "status": "InAir",
     "codeshared_flights": "",
     "airline_code": "MS",
     "boarding_time": ""
@@ -1182,7 +1182,7 @@
     "airline": "Korean Air",
     "gate": "A31",
     "departure_time": "2024-12-31 12:01:00",
-    "status": "OutGate",
+    "status": "InAir",
     "codeshared_flights": "DL7856",
     "airline_code": "KE",
     "boarding_time": ""
@@ -1192,19 +1192,19 @@
     "airport": "BNA NASHVILLE",
     "airline": "United Airlines",
     "gate": "A3B",
-    "departure_time": "2024-12-31 12:08:00",
-    "status": "Delayed",
+    "departure_time": "2024-12-31 12:20:00",
+    "status": "OutGate",
     "codeshared_flights": "AV2340, CM2570",
     "airline_code": "UA",
-    "boarding_time": "BT 08:25\nST 11:43\nET 11:53"
+    "boarding_time": "BT 08:25\nST 11:58\nET 12:08"
   },
   {
     "flight": "DL 3877",
     "airport": "DTW DETROIT, DTW",
     "airline": "Delta Air Lines",
     "gate": "B72",
-    "departure_time": "2024-12-31 12:30:00",
-    "status": "Scheduled",
+    "departure_time": "2024-12-31 12:23:00",
+    "status": "OutGate",
     "codeshared_flights": "AF2246, KE3479, KL6705, VS4419",
     "airline_code": "DL",
     "boarding_time": ""
@@ -1239,17 +1239,6 @@
     "departure_time": "2024-12-31 12:35:00",
     "status": "Scheduled",
     "codeshared_flights": "CM2864, ET1364",
-    "airline_code": "UA",
-    "boarding_time": "BT 11:55\nST 11:55\nET 12:20"
-  },
-  {
-    "flight": "UA 1519",
-    "airport": "MBJ MONTEGO BAY",
-    "airline": "United Airlines",
-    "gate": "C17",
-    "departure_time": "2024-12-31 12:35:00",
-    "status": "Scheduled",
-    "codeshared_flights": "",
     "airline_code": "UA",
     "boarding_time": "BT 11:55\nST 11:55\nET 12:20"
   },
@@ -1848,6 +1837,17 @@
     "boarding_time": "BT 12:40\nST 12:40\nET 12:50"
   },
   {
+    "flight": "UA 1519",
+    "airport": "MBJ MONTEGO BAY",
+    "airline": "United Airlines",
+    "gate": "C17",
+    "departure_time": "2024-12-31 13:10:00",
+    "status": "Delayed",
+    "codeshared_flights": "",
+    "airline_code": "UA",
+    "boarding_time": "BT 11:55\nST 12:30\nET 12:55"
+  },
+  {
     "flight": "UA 2029",
     "airport": "SAN SAN DIEGO",
     "airline": "United Airlines",
@@ -2038,7 +2038,7 @@
     "flight": "CA 818",
     "airport": "PEK BEIJING",
     "airline": "Air China",
-    "gate": "A31",
+    "gate": "A32",
     "departure_time": "2024-12-31 16:35:00",
     "status": "Scheduled",
     "codeshared_flights": "",
