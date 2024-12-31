@@ -2068,26 +2068,26 @@
     "boarding_time": ""
   },
   {
-    "flight": "AS 507",
-    "airport": "SAN SAN DIEGO",
-    "airline": "Alaska Airlines",
-    "gate": "B65",
-    "departure_time": "2024-12-31 17:01:00",
-    "status": "OutGate",
-    "codeshared_flights": "AA7509, HA4966",
-    "airline_code": "AS",
-    "boarding_time": ""
-  },
-  {
     "flight": "UA 1620",
     "airport": "MIA MIAMI",
     "airline": "United Airlines",
     "gate": "D11",
     "departure_time": "2024-12-31 17:03:00",
-    "status": "OutGate",
+    "status": "InAir",
     "codeshared_flights": "CM2785",
     "airline_code": "UA",
     "boarding_time": "BT 16:30\nST 16:30\nET 16:55"
+  },
+  {
+    "flight": "AS 507",
+    "airport": "SAN SAN DIEGO",
+    "airline": "Alaska Airlines",
+    "gate": "B65",
+    "departure_time": "2024-12-31 17:03:00",
+    "status": "InAir",
+    "codeshared_flights": "AA7509, HA4966",
+    "airline_code": "AS",
+    "boarding_time": ""
   },
   {
     "flight": "UA 4520",
@@ -2095,7 +2095,7 @@
     "airline": "United Airlines",
     "gate": "C22",
     "departure_time": "2024-12-31 17:06:00",
-    "status": "OutGate",
+    "status": "InAir",
     "codeshared_flights": "AC3767, AV2229, CM2582, LH7648, SN9049",
     "airline_code": "UA",
     "boarding_time": "BT 16:45\nST 16:45\nET 16:55"
@@ -2117,7 +2117,7 @@
     "airline": "United Airlines",
     "gate": "C18",
     "departure_time": "2024-12-31 17:10:00",
-    "status": "OutGate",
+    "status": "InAir",
     "codeshared_flights": "CM1216",
     "airline_code": "UA",
     "boarding_time": "BT 16:45\nST 16:45\nET 16:55"
@@ -2139,7 +2139,7 @@
     "airline": "United Airlines",
     "gate": "D14",
     "departure_time": "2024-12-31 17:11:00",
-    "status": "OutGate",
+    "status": "InAir",
     "codeshared_flights": "CA7387, CM1085, LH7450, NH7104, OS7887, SN8833",
     "airline_code": "UA",
     "boarding_time": "BT 16:35\nST 16:35\nET 16:55"
@@ -2172,7 +2172,7 @@
     "airline": "United Airlines",
     "gate": "A5A",
     "departure_time": "2024-12-31 17:14:00",
-    "status": "OutGate",
+    "status": "InAir",
     "codeshared_flights": "AV2106, LH8718, OS7815, SN8959",
     "airline_code": "UA",
     "boarding_time": "BT 16:50\nST 16:50\nET 17:00"
@@ -2194,7 +2194,7 @@
     "airline": "United Airlines",
     "gate": "D23",
     "departure_time": "2024-12-31 17:15:00",
-    "status": "OutGate",
+    "status": "InAir",
     "codeshared_flights": "AV2234, CM2225, LH7652, OS7831, SN8900",
     "airline_code": "UA",
     "boarding_time": "BT 16:50\nST 16:50\nET 17:00"
@@ -2209,17 +2209,6 @@
     "codeshared_flights": "AC3542, AV2227, CA7270, CM2201, LH7610, OS7841, SN9016",
     "airline_code": "UA",
     "boarding_time": "BT 17:00\nST 17:00\nET 17:10"
-  },
-  {
-    "flight": "UA 3453",
-    "airport": "YYZ TORONTO, YYZ",
-    "airline": "United Airlines",
-    "gate": "C24",
-    "departure_time": "2024-12-31 17:17:00",
-    "status": "Scheduled",
-    "codeshared_flights": "AC3934, AV2166, CM2804",
-    "airline_code": "UA",
-    "boarding_time": "BT 16:52\nST 17:20\nET 17:30"
   },
   {
     "flight": "DL 4814",
@@ -2299,6 +2288,17 @@
     "boarding_time": "BT 17:05\nST 17:05\nET 17:15"
   },
   {
+    "flight": "TP 232",
+    "airport": "LIS LISBON",
+    "airline": "TAP Air Portugal",
+    "gate": "B50",
+    "departure_time": "2024-12-31 17:24:00",
+    "status": "OutGate",
+    "codeshared_flights": "B66760",
+    "airline_code": "TP",
+    "boarding_time": ""
+  },
+  {
     "flight": "KL 652",
     "airport": "AMS AMSTERDAM",
     "airline": "KLM-Royal Dutch Airlines",
@@ -2321,136 +2321,15 @@
     "boarding_time": "BT 16:35\nST 16:35\nET 17:10"
   },
   {
-    "flight": "UA 4249",
-    "airport": "AVP WILKES-BARRE",
-    "airline": "United Airlines",
-    "gate": "A1D",
-    "departure_time": "2024-12-31 17:25:00",
-    "status": "Scheduled",
-    "codeshared_flights": "",
-    "airline_code": "UA",
-    "boarding_time": "BT 17:00\nST 17:20\nET 17:30"
-  },
-  {
-    "flight": "UA 108",
-    "airport": "MUC MUNICH",
-    "airline": "United Airlines",
-    "gate": "C5",
-    "departure_time": "2024-12-31 17:26:00",
-    "status": "Scheduled",
-    "codeshared_flights": "AC3838, LH9281",
-    "airline_code": "UA",
-    "boarding_time": "BT 16:25\nST 16:49\nET 17:24"
-  },
-  {
-    "flight": "UA 989",
-    "airport": "FRA FRANKFURT",
-    "airline": "United Airlines",
-    "gate": "C2",
-    "departure_time": "2024-12-31 17:28:00",
-    "status": "Scheduled",
-    "codeshared_flights": "AC3823, LH9411",
-    "airline_code": "UA",
-    "boarding_time": "BT 16:30\nST 16:38\nET 17:13"
-  },
-  {
     "flight": "AA 5582",
     "airport": "CLT CHARLOTTE",
     "airline": "American Airlines",
     "gate": "B73",
-    "departure_time": "2024-12-31 17:29:00",
-    "status": "Scheduled",
+    "departure_time": "2024-12-31 17:27:00",
+    "status": "OutGate",
     "codeshared_flights": "BA6745",
     "airline_code": "AA",
     "boarding_time": ""
-  },
-  {
-    "flight": "UA 4963",
-    "airport": "GSP GREENVILLE-SPARTANBURG",
-    "airline": "United Airlines",
-    "gate": "A4A",
-    "departure_time": "2024-12-31 17:30:00",
-    "status": "Scheduled",
-    "codeshared_flights": "CM1282, LH9300, OS7833, SN8962",
-    "airline_code": "UA",
-    "boarding_time": "BT 16:55\nST 17:35\nET 17:45"
-  },
-  {
-    "flight": "UA 4914",
-    "airport": "TYS KNOXVILLE",
-    "airline": "United Airlines",
-    "gate": "A3A",
-    "departure_time": "2024-12-31 17:30:00",
-    "status": "Scheduled",
-    "codeshared_flights": "AC4743, AV2348, CM1306, ET1378, LH8966, SN8957",
-    "airline_code": "UA",
-    "boarding_time": "BT 17:05\nST 17:05\nET 17:15"
-  },
-  {
-    "flight": "TP 232",
-    "airport": "LIS LISBON",
-    "airline": "TAP Air Portugal",
-    "gate": "B50",
-    "departure_time": "2024-12-31 17:30:00",
-    "status": "Proposed",
-    "codeshared_flights": "B66760",
-    "airline_code": "TP",
-    "boarding_time": ""
-  },
-  {
-    "flight": "UA 4418",
-    "airport": "YOW OTTAWA",
-    "airline": "United Airlines",
-    "gate": "C28",
-    "departure_time": "2024-12-31 17:30:00",
-    "status": "Delayed",
-    "codeshared_flights": "AC4693, AV2160",
-    "airline_code": "UA",
-    "boarding_time": "BT 16:45\nST 17:05\nET 17:15"
-  },
-  {
-    "flight": "UA 1858",
-    "airport": "SLC SALT LAKE CITY",
-    "airline": "United Airlines",
-    "gate": "D20",
-    "departure_time": "2024-12-31 17:30:00",
-    "status": "Scheduled",
-    "codeshared_flights": "LH8922",
-    "airline_code": "UA",
-    "boarding_time": "BT 16:50\nST 16:50\nET 17:15"
-  },
-  {
-    "flight": "UA 52",
-    "airport": "ZRH ZURICH",
-    "airline": "United Airlines",
-    "gate": "C6",
-    "departure_time": "2024-12-31 17:30:00",
-    "status": "Scheduled",
-    "codeshared_flights": "AC3848, LH9311, LX3201, OS7802",
-    "airline_code": "UA",
-    "boarding_time": "BT 16:40\nST 16:40\nET 17:15"
-  },
-  {
-    "flight": "UA 1360",
-    "airport": "IAH HOUSTON",
-    "airline": "United Airlines",
-    "gate": "C17",
-    "departure_time": "2024-12-31 17:32:00",
-    "status": "Scheduled",
-    "codeshared_flights": "AV2296, CA7379, LX3356, NZ6642, SN8919",
-    "airline_code": "UA",
-    "boarding_time": "BT 16:52\nST 16:52\nET 17:17"
-  },
-  {
-    "flight": "UA 326",
-    "airport": "SEA SEATTLE, SEA",
-    "airline": "United Airlines",
-    "gate": "D16",
-    "departure_time": "2024-12-31 17:33:00",
-    "status": "Scheduled",
-    "codeshared_flights": "AV2028, CM2766, ET1368, LH7484, OS7907, SN8849",
-    "airline_code": "UA",
-    "boarding_time": "BT 16:53\nST 16:53\nET 17:18"
   },
   {
     "flight": "UA 2497",
@@ -2461,18 +2340,7 @@
     "status": "Scheduled",
     "codeshared_flights": "AC5543, AV2015, CA7239, CM2632, NZ2454, OS7915",
     "airline_code": "UA",
-    "boarding_time": "BT 16:47\nST 17:00\nET 17:20"
-  },
-  {
-    "flight": "UA 2463",
-    "airport": "DEN DENVER",
-    "airline": "United Airlines",
-    "gate": "D21",
-    "departure_time": "2024-12-31 17:35:00",
-    "status": "Scheduled",
-    "codeshared_flights": "CM2858, LH7462, SN8917",
-    "airline_code": "UA",
-    "boarding_time": "BT 16:45\nST 16:45\nET 17:20"
+    "boarding_time": "BT 16:47\nST 17:15\nET 17:35"
   },
   {
     "flight": "UA 4865",
@@ -2483,40 +2351,7 @@
     "status": "Scheduled",
     "codeshared_flights": "AC4689, LH7738, OS7835, SN8966",
     "airline_code": "UA",
-    "boarding_time": "BT 17:10\nST 17:10\nET 17:20"
-  },
-  {
-    "flight": "AS 309",
-    "airport": "LAX LOS ANGELES",
-    "airline": "Alaska Airlines",
-    "gate": "B67",
-    "departure_time": "2024-12-31 17:35:00",
-    "status": "Scheduled",
-    "codeshared_flights": "CX7911, HA4965, QF3645, SQ1308, TN2384",
-    "airline_code": "AS",
-    "boarding_time": ""
-  },
-  {
-    "flight": "UA 4585",
-    "airport": "PHL PHILADELPHIA",
-    "airline": "United Airlines",
-    "gate": "A6C",
-    "departure_time": "2024-12-31 17:35:00",
-    "status": "Delayed",
-    "codeshared_flights": "AV2240, CA7388, CM1299, SN8954",
-    "airline_code": "UA",
-    "boarding_time": "BT 16:45\nST 17:30\nET 17:40"
-  },
-  {
-    "flight": "UA 4884",
-    "airport": "SCE STATE COLLEGE",
-    "airline": "United Airlines",
-    "gate": "A6B",
-    "departure_time": "2024-12-31 17:35:00",
-    "status": "Scheduled",
-    "codeshared_flights": "",
-    "airline_code": "UA",
-    "boarding_time": "BT 17:10\nST 17:30\nET 17:40"
+    "boarding_time": "BT 17:10\nST 17:55\nET 18:05"
   },
   {
     "flight": "UA 2398",
@@ -2527,7 +2362,29 @@
     "status": "Scheduled",
     "codeshared_flights": "AV2232, ET1386, TP8507",
     "airline_code": "UA",
-    "boarding_time": "BT 16:57\nST 16:57\nET 17:22"
+    "boarding_time": "BT 16:57\nST 17:12\nET 17:37"
+  },
+  {
+    "flight": "UA 1858",
+    "airport": "SLC SALT LAKE CITY",
+    "airline": "United Airlines",
+    "gate": "D20",
+    "departure_time": "2024-12-31 17:38:00",
+    "status": "Scheduled",
+    "codeshared_flights": "LH8922",
+    "airline_code": "UA",
+    "boarding_time": "BT 16:50\nST 17:11\nET 17:36"
+  },
+  {
+    "flight": "UA 108",
+    "airport": "MUC MUNICH",
+    "airline": "United Airlines",
+    "gate": "C5",
+    "departure_time": "2024-12-31 17:39:00",
+    "status": "Delayed",
+    "codeshared_flights": "AC3838, LH9281",
+    "airline_code": "UA",
+    "boarding_time": "BT 16:25\nST 17:00\nET 17:35"
   },
   {
     "flight": "UA 3712",
@@ -2549,7 +2406,18 @@
     "status": "Delayed",
     "codeshared_flights": "AV2230, CM2595, NH7128, SN9058",
     "airline_code": "UA",
-    "boarding_time": "BT 16:50\nST 17:15\nET 17:25"
+    "boarding_time": "BT 16:50\nST 17:40\nET 17:50"
+  },
+  {
+    "flight": "UA 989",
+    "airport": "FRA FRANKFURT",
+    "airline": "United Airlines",
+    "gate": "C2",
+    "departure_time": "2024-12-31 17:40:00",
+    "status": "Delayed",
+    "codeshared_flights": "AC3823, LH9411",
+    "airline_code": "UA",
+    "boarding_time": "BT 16:30\nST 16:50\nET 17:25"
   },
   {
     "flight": "UA 4305",
@@ -2604,7 +2472,18 @@
     "status": "Scheduled",
     "codeshared_flights": "",
     "airline_code": "UA",
-    "boarding_time": "BT 17:15\nST 17:15\nET 17:25"
+    "boarding_time": "BT 17:15\nST 17:35\nET 17:45"
+  },
+  {
+    "flight": "UA 2463",
+    "airport": "DEN DENVER",
+    "airline": "United Airlines",
+    "gate": "D21",
+    "departure_time": "2024-12-31 17:44:00",
+    "status": "Scheduled",
+    "codeshared_flights": "CM2858, LH7462, SN8917",
+    "airline_code": "UA",
+    "boarding_time": "BT 16:45\nST 16:54\nET 17:29"
   },
   {
     "flight": "UA 4926",
@@ -2626,7 +2505,7 @@
     "status": "Scheduled",
     "codeshared_flights": "SN8831",
     "airline_code": "UA",
-    "boarding_time": "BT 17:10\nST 17:10\nET 17:30"
+    "boarding_time": "BT 17:10\nST 17:25\nET 17:45"
   },
   {
     "flight": "WN 1130",
@@ -2637,6 +2516,28 @@
     "status": "Scheduled",
     "codeshared_flights": "",
     "airline_code": "WN",
+    "boarding_time": ""
+  },
+  {
+    "flight": "UA 1360",
+    "airport": "IAH HOUSTON",
+    "airline": "United Airlines",
+    "gate": "C17",
+    "departure_time": "2024-12-31 17:45:00",
+    "status": "Scheduled",
+    "codeshared_flights": "AV2296, CA7379, LX3356, NZ6642, SN8919",
+    "airline_code": "UA",
+    "boarding_time": "BT 16:52\nST 17:20\nET 17:45"
+  },
+  {
+    "flight": "AS 309",
+    "airport": "LAX LOS ANGELES",
+    "airline": "Alaska Airlines",
+    "gate": "B67",
+    "departure_time": "2024-12-31 17:45:00",
+    "status": "Delayed",
+    "codeshared_flights": "CX7911, HA4965, QF3645, SQ1308, TN2384",
+    "airline_code": "AS",
     "boarding_time": ""
   },
   {
@@ -2682,6 +2583,50 @@
     "codeshared_flights": "AC3820, LH9367, LX3031, OS7920, SN8945",
     "airline_code": "UA",
     "boarding_time": "BT 16:55\nST 16:55\nET 17:30"
+  },
+  {
+    "flight": "UA 326",
+    "airport": "SEA SEATTLE, SEA",
+    "airline": "United Airlines",
+    "gate": "D16",
+    "departure_time": "2024-12-31 17:45:00",
+    "status": "Scheduled",
+    "codeshared_flights": "AV2028, CM2766, ET1368, LH7484, OS7907, SN8849",
+    "airline_code": "UA",
+    "boarding_time": "BT 16:53\nST 17:05\nET 17:30"
+  },
+  {
+    "flight": "UA 3453",
+    "airport": "YYZ TORONTO, YYZ",
+    "airline": "United Airlines",
+    "gate": "C24",
+    "departure_time": "2024-12-31 17:45:00",
+    "status": "Delayed",
+    "codeshared_flights": "AC3934, AV2166, CM2804",
+    "airline_code": "UA",
+    "boarding_time": "BT 16:52\nST 17:20\nET 17:30"
+  },
+  {
+    "flight": "UA 4249",
+    "airport": "AVP WILKES-BARRE",
+    "airline": "United Airlines",
+    "gate": "A1D",
+    "departure_time": "2024-12-31 17:45:00",
+    "status": "Delayed",
+    "codeshared_flights": "",
+    "airline_code": "UA",
+    "boarding_time": "BT 17:00\nST 17:20\nET 17:30"
+  },
+  {
+    "flight": "UA 52",
+    "airport": "ZRH ZURICH",
+    "airline": "United Airlines",
+    "gate": "C6",
+    "departure_time": "2024-12-31 17:45:00",
+    "status": "Scheduled",
+    "codeshared_flights": "AC3848, LH9311, LX3201, OS7802",
+    "airline_code": "UA",
+    "boarding_time": "BT 16:40\nST 16:55\nET 17:30"
   },
   {
     "flight": "UA 1237",
@@ -2816,6 +2761,28 @@
     "boarding_time": "BT 16:58\nST 17:30\nET 17:40"
   },
   {
+    "flight": "UA 4418",
+    "airport": "YOW OTTAWA",
+    "airline": "United Airlines",
+    "gate": "C28",
+    "departure_time": "2024-12-31 17:55:00",
+    "status": "Delayed",
+    "codeshared_flights": "AC4693, AV2160",
+    "airline_code": "UA",
+    "boarding_time": "BT 16:45\nST 17:30\nET 17:40"
+  },
+  {
+    "flight": "UA 4585",
+    "airport": "PHL PHILADELPHIA",
+    "airline": "United Airlines",
+    "gate": "A6C",
+    "departure_time": "2024-12-31 17:55:00",
+    "status": "Delayed",
+    "codeshared_flights": "AV2240, CA7388, CM1299, SN8954",
+    "airline_code": "UA",
+    "boarding_time": "BT 16:45\nST 17:30\nET 17:40"
+  },
+  {
     "flight": "UA 2435",
     "airport": "SMF SACRAMENTO",
     "airline": "United Airlines",
@@ -2838,6 +2805,17 @@
     "boarding_time": "BT 17:30\nST 17:30\nET 17:40"
   },
   {
+    "flight": "UA 4884",
+    "airport": "SCE STATE COLLEGE",
+    "airline": "United Airlines",
+    "gate": "A6B",
+    "departure_time": "2024-12-31 17:55:00",
+    "status": "Delayed",
+    "codeshared_flights": "",
+    "airline_code": "UA",
+    "boarding_time": "BT 17:10\nST 17:30\nET 17:40"
+  },
+  {
     "flight": "UA 1140",
     "airport": "TPA TAMPA",
     "airline": "United Airlines",
@@ -2849,6 +2827,17 @@
     "boarding_time": "BT 17:15\nST 17:15\nET 17:40"
   },
   {
+    "flight": "UA 4963",
+    "airport": "GSP GREENVILLE-SPARTANBURG",
+    "airline": "United Airlines",
+    "gate": "A4A",
+    "departure_time": "2024-12-31 18:00:00",
+    "status": "Delayed",
+    "codeshared_flights": "CM1282, LH9300, OS7833, SN8962",
+    "airline_code": "UA",
+    "boarding_time": "BT 16:55\nST 17:35\nET 17:45"
+  },
+  {
     "flight": "UA 1523",
     "airport": "GUA GUATEMALA CITY",
     "airline": "United Airlines",
@@ -2858,6 +2847,17 @@
     "codeshared_flights": "",
     "airline_code": "UA",
     "boarding_time": "BT 17:07\nST 17:20\nET 17:45"
+  },
+  {
+    "flight": "UA 4914",
+    "airport": "TYS KNOXVILLE",
+    "airline": "United Airlines",
+    "gate": "A3A",
+    "departure_time": "2024-12-31 18:00:00",
+    "status": "Delayed",
+    "codeshared_flights": "AC4743, AV2348, CM1306, ET1378, LH8966, SN8957",
+    "airline_code": "UA",
+    "boarding_time": "BT 17:05\nST 17:35\nET 17:45"
   },
   {
     "flight": "BA 216",
@@ -3146,17 +3146,6 @@
     "boarding_time": ""
   },
   {
-    "flight": "UA 780",
-    "airport": "LAS LAS VEGAS",
-    "airline": "United Airlines",
-    "gate": "D16",
-    "departure_time": "2024-12-31 19:57:00",
-    "status": "Delayed",
-    "codeshared_flights": "OS7863",
-    "airline_code": "UA",
-    "boarding_time": "BT 18:57\nST 20:02\nET 20:27"
-  },
-  {
     "flight": "QR 708",
     "airport": "DOH DOHA",
     "airline": "Qatar Airways",
@@ -3166,6 +3155,17 @@
     "codeshared_flights": "AA8120, AS5822, B65555, MH9070, UL3167, WB1083, WY6046",
     "airline_code": "QR",
     "boarding_time": ""
+  },
+  {
+    "flight": "UA 780",
+    "airport": "LAS LAS VEGAS",
+    "airline": "United Airlines",
+    "gate": "D16",
+    "departure_time": "2024-12-31 20:42:00",
+    "status": "Delayed",
+    "codeshared_flights": "OS7863",
+    "airline_code": "UA",
+    "boarding_time": "BT 18:57\nST 20:02\nET 20:27"
   },
   {
     "flight": "LX 73",
@@ -3249,7 +3249,7 @@
     "airport": "LHR LONDON",
     "airline": "British Airways",
     "gate": "B44",
-    "departure_time": "2024-12-31 21:56:00",
+    "departure_time": "2024-12-31 21:55:00",
     "status": "Scheduled",
     "codeshared_flights": "AA7001, AY5532, EI8992, IB3631",
     "airline_code": "BA",
@@ -3303,7 +3303,7 @@
     "flight": "UA 1413",
     "airport": "LAX LOS ANGELES",
     "airline": "United Airlines",
-    "gate": "D16",
+    "gate": "D4",
     "departure_time": "2024-12-31 22:05:00",
     "status": "Scheduled",
     "codeshared_flights": "NZ9593, VA8373",
@@ -3457,7 +3457,7 @@
     "flight": "UA 495",
     "airport": "DEN DENVER",
     "airline": "United Airlines",
-    "gate": "D24",
+    "gate": "D6",
     "departure_time": "2024-12-31 22:17:00",
     "status": "Scheduled",
     "codeshared_flights": "CM2861",
