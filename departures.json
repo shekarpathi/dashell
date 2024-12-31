@@ -49,7 +49,7 @@
     "airline": "Avianca",
     "gate": "B48",
     "departure_time": "2024-12-31 04:23:00",
-    "status": "OutGate",
+    "status": "InAir",
     "codeshared_flights": "",
     "airline_code": "AV",
     "boarding_time": ""
@@ -1796,7 +1796,7 @@
     "flight": "DL 1400",
     "airport": "ATL ATLANTA",
     "airline": "Delta Air Lines",
-    "gate": "B74",
+    "gate": "B78",
     "departure_time": "2024-12-31 12:59:00",
     "status": "Scheduled",
     "codeshared_flights": "AF2299, AM3932, KE3683, KL5935, LA6504, VS4471, WS8563",
