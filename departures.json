@@ -1996,7 +1996,7 @@
     "airline": "Avianca",
     "gate": "B48",
     "departure_time": "2024-12-31 15:41:00",
-    "status": "OutGate",
+    "status": "InAir",
     "codeshared_flights": "NH7837",
     "airline_code": "AV",
     "boarding_time": ""
@@ -3088,7 +3088,7 @@
     "status": "Delayed",
     "codeshared_flights": "AC5468, SN9048",
     "airline_code": "UA",
-    "boarding_time": "BT 16:55\nST 18:06\nET 18:31"
+    "boarding_time": "BT 16:55\nST 18:21\nET 18:46"
   },
   {
     "flight": "UA 4527",
@@ -3132,7 +3132,7 @@
     "status": "Scheduled",
     "codeshared_flights": "NZ9587, SN8943, VA8372",
     "airline_code": "UA",
-    "boarding_time": "BT 18:10\nST 18:10\nET 18:45"
+    "boarding_time": "BT 18:10\nST 18:34\nET 19:09"
   },
   {
     "flight": "UA 1938",
