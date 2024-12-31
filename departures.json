@@ -1534,7 +1534,7 @@
     "airline": "United Airlines",
     "gate": "D25",
     "departure_time": "2024-12-31 12:44:00",
-    "status": "OutGate",
+    "status": "InAir",
     "codeshared_flights": "AC3391, ET1384, NH7144",
     "airline_code": "UA",
     "boarding_time": "BT 12:25\nST 12:25\nET 12:35"
@@ -1842,7 +1842,7 @@
     "airline": "United Airlines",
     "gate": "C17",
     "departure_time": "2024-12-31 13:25:00",
-    "status": "OutGate",
+    "status": "InAir",
     "codeshared_flights": "",
     "airline_code": "UA",
     "boarding_time": "BT 11:55\nST 12:45\nET 13:10"
@@ -1863,11 +1863,22 @@
     "airport": "GCM GRAND CAYMAN",
     "airline": "United Airlines",
     "gate": "D7",
-    "departure_time": "2024-12-31 13:40:00",
-    "status": "Delayed",
+    "departure_time": "2024-12-31 13:38:00",
+    "status": "OutGate",
     "codeshared_flights": "",
     "airline_code": "UA",
     "boarding_time": "BT 12:10\nST 13:00\nET 13:25"
+  },
+  {
+    "flight": "AA 5543",
+    "airport": "CLT CHARLOTTE",
+    "airline": "American Airlines",
+    "gate": "B73",
+    "departure_time": "2024-12-31 13:41:00",
+    "status": "OutGate",
+    "codeshared_flights": "",
+    "airline_code": "AA",
+    "boarding_time": ""
   },
   {
     "flight": "PD 2724",
@@ -1885,22 +1896,11 @@
     "airport": "ALB ALBANY",
     "airline": "United Airlines",
     "gate": "A5A",
-    "departure_time": "2024-12-31 13:47:00",
+    "departure_time": "2024-12-31 13:52:00",
     "status": "Delayed",
     "codeshared_flights": "",
     "airline_code": "UA",
     "boarding_time": "BT 12:10\nST 13:27\nET 13:37"
-  },
-  {
-    "flight": "AA 5543",
-    "airport": "CLT CHARLOTTE",
-    "airline": "American Airlines",
-    "gate": "B73",
-    "departure_time": "2024-12-31 13:53:00",
-    "status": "Scheduled",
-    "codeshared_flights": "",
-    "airline_code": "AA",
-    "boarding_time": ""
   },
   {
     "flight": "TK 188",
@@ -2007,7 +2007,7 @@
     "airline": "Avianca",
     "gate": "B48",
     "departure_time": "2024-12-31 15:50:00",
-    "status": "Scheduled",
+    "status": "Proposed",
     "codeshared_flights": "NH7837",
     "airline_code": "AV",
     "boarding_time": ""
