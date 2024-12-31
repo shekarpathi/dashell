@@ -1155,17 +1155,6 @@
     "boarding_time": ""
   },
   {
-    "flight": "9X 246",
-    "airport": "LNS LANCASTER",
-    "airline": "Southern Airways Express",
-    "gate": "H17",
-    "departure_time": "2024-12-31 12:00:00",
-    "status": "Proposed",
-    "codeshared_flights": "",
-    "airline_code": "9X",
-    "boarding_time": ""
-  },
-  {
     "flight": "G4 868",
     "airport": "PGD PUNTA GORDA",
     "airline": "Allegiant Air",
@@ -1193,7 +1182,7 @@
     "airline": "United Airlines",
     "gate": "A3B",
     "departure_time": "2024-12-31 12:20:00",
-    "status": "OutGate",
+    "status": "InAir",
     "codeshared_flights": "AV2340, CM2570",
     "airline_code": "UA",
     "boarding_time": "BT 08:25\nST 11:58\nET 12:08"
@@ -1210,34 +1199,12 @@
     "boarding_time": ""
   },
   {
-    "flight": "UA 6023",
-    "airport": "CLT CHARLOTTE",
-    "airline": "United Airlines",
-    "gate": "A6E",
-    "departure_time": "2024-12-31 12:35:00",
-    "status": "Scheduled",
-    "codeshared_flights": "AC3560, NH7152",
-    "airline_code": "UA",
-    "boarding_time": "BT 12:10\nST 12:10\nET 12:20"
-  },
-  {
-    "flight": "UA 4360",
-    "airport": "DAY DAYTON",
-    "airline": "United Airlines",
-    "gate": "A6B",
-    "departure_time": "2024-12-31 12:35:00",
-    "status": "Scheduled",
-    "codeshared_flights": "",
-    "airline_code": "UA",
-    "boarding_time": "BT 12:10\nST 12:10\nET 12:20"
-  },
-  {
     "flight": "UA 1937",
     "airport": "DEN DENVER",
     "airline": "United Airlines",
     "gate": "D12",
-    "departure_time": "2024-12-31 12:35:00",
-    "status": "Scheduled",
+    "departure_time": "2024-12-31 12:30:00",
+    "status": "OutGate",
     "codeshared_flights": "CM2864, ET1364",
     "airline_code": "UA",
     "boarding_time": "BT 11:55\nST 11:55\nET 12:20"
@@ -1247,8 +1214,8 @@
     "airport": "PVD PROVIDENCE",
     "airline": "United Airlines",
     "gate": "A2B",
-    "departure_time": "2024-12-31 12:35:00",
-    "status": "Scheduled",
+    "departure_time": "2024-12-31 12:31:00",
+    "status": "OutGate",
     "codeshared_flights": "AC4221, NH7622",
     "airline_code": "UA",
     "boarding_time": "BT 12:10\nST 12:10\nET 12:20"
@@ -1258,33 +1225,77 @@
     "airport": "SFO SAN FRANCISCO",
     "airline": "United Airlines",
     "gate": "D18",
-    "departure_time": "2024-12-31 12:35:00",
-    "status": "Scheduled",
+    "departure_time": "2024-12-31 12:31:00",
+    "status": "OutGate",
     "codeshared_flights": "ET1358, NZ9175, VA8389",
     "airline_code": "UA",
     "boarding_time": "BT 11:55\nST 11:55\nET 12:20"
   },
   {
-    "flight": "UA 2277",
-    "airport": "TPA TAMPA",
+    "flight": "UA 4360",
+    "airport": "DAY DAYTON",
     "airline": "United Airlines",
-    "gate": "C4",
-    "departure_time": "2024-12-31 12:35:00",
-    "status": "Scheduled",
-    "codeshared_flights": "CM2833, ET1352, NH7116",
+    "gate": "A6B",
+    "departure_time": "2024-12-31 12:32:00",
+    "status": "OutGate",
+    "codeshared_flights": "",
     "airline_code": "UA",
-    "boarding_time": "BT 11:55\nST 11:55\nET 12:20"
+    "boarding_time": "BT 12:10\nST 12:10\nET 12:20"
+  },
+  {
+    "flight": "UA 3541",
+    "airport": "PIT PITTSBURGH",
+    "airline": "United Airlines",
+    "gate": "D2",
+    "departure_time": "2024-12-31 12:32:00",
+    "status": "OutGate",
+    "codeshared_flights": "AV2087, ET1388, NH7142",
+    "airline_code": "UA",
+    "boarding_time": "BT 12:15\nST 12:15\nET 12:25"
   },
   {
     "flight": "UA 803",
     "airport": "HND TOKYO, HND",
     "airline": "United Airlines",
     "gate": "D3",
-    "departure_time": "2024-12-31 12:35:00",
-    "status": "Scheduled",
+    "departure_time": "2024-12-31 12:32:00",
+    "status": "OutGate",
     "codeshared_flights": "NH7029",
     "airline_code": "UA",
     "boarding_time": "BT 11:45\nST 11:45\nET 12:20"
+  },
+  {
+    "flight": "UA 471",
+    "airport": "MCO ORLANDO",
+    "airline": "United Airlines",
+    "gate": "D20",
+    "departure_time": "2024-12-31 12:34:00",
+    "status": "OutGate",
+    "codeshared_flights": "AD7914, CM2795, ET1354, NH7114",
+    "airline_code": "UA",
+    "boarding_time": "BT 12:00\nST 12:00\nET 12:25"
+  },
+  {
+    "flight": "UA 2277",
+    "airport": "TPA TAMPA",
+    "airline": "United Airlines",
+    "gate": "C4",
+    "departure_time": "2024-12-31 12:34:00",
+    "status": "OutGate",
+    "codeshared_flights": "CM2833, ET1352, NH7116",
+    "airline_code": "UA",
+    "boarding_time": "BT 11:55\nST 11:55\nET 12:20"
+  },
+  {
+    "flight": "UA 6023",
+    "airport": "CLT CHARLOTTE",
+    "airline": "United Airlines",
+    "gate": "A6E",
+    "departure_time": "2024-12-31 12:35:00",
+    "status": "Scheduled",
+    "codeshared_flights": "AC3560, NH7152",
+    "airline_code": "UA",
+    "boarding_time": "BT 12:10\nST 12:18\nET 12:28"
   },
   {
     "flight": "UA 3490",
@@ -1309,17 +1320,6 @@
     "boarding_time": "BT 12:14\nST 12:14\nET 12:24"
   },
   {
-    "flight": "UA 3487",
-    "airport": "CHS CHARLESTON, CHS",
-    "airline": "United Airlines",
-    "gate": "C26",
-    "departure_time": "2024-12-31 12:40:00",
-    "status": "Scheduled",
-    "codeshared_flights": "AC3936, NH7377",
-    "airline_code": "UA",
-    "boarding_time": "BT 12:15\nST 12:15\nET 12:25"
-  },
-  {
     "flight": "UA 4505",
     "airport": "CVG CINCINNATI",
     "airline": "United Airlines",
@@ -1340,6 +1340,17 @@
     "codeshared_flights": "AC4729",
     "airline_code": "UA",
     "boarding_time": "BT 12:15\nST 12:15\nET 12:25"
+  },
+  {
+    "flight": "9X 246",
+    "airport": "LNS LANCASTER",
+    "airline": "Southern Airways Express",
+    "gate": "H17",
+    "departure_time": "2024-12-31 12:40:00",
+    "status": "NoTakeoffInfo",
+    "codeshared_flights": "",
+    "airline_code": "9X",
+    "boarding_time": ""
   },
   {
     "flight": "UA 1689",
@@ -1371,28 +1382,6 @@
     "departure_time": "2024-12-31 12:40:00",
     "status": "Scheduled",
     "codeshared_flights": "TP8505",
-    "airline_code": "UA",
-    "boarding_time": "BT 12:15\nST 12:15\nET 12:25"
-  },
-  {
-    "flight": "UA 471",
-    "airport": "MCO ORLANDO",
-    "airline": "United Airlines",
-    "gate": "D20",
-    "departure_time": "2024-12-31 12:40:00",
-    "status": "Scheduled",
-    "codeshared_flights": "AD7914, CM2795, ET1354, NH7114",
-    "airline_code": "UA",
-    "boarding_time": "BT 12:00\nST 12:00\nET 12:25"
-  },
-  {
-    "flight": "UA 3541",
-    "airport": "PIT PITTSBURGH",
-    "airline": "United Airlines",
-    "gate": "D2",
-    "departure_time": "2024-12-31 12:40:00",
-    "status": "Scheduled",
-    "codeshared_flights": "AV2087, ET1388, NH7142",
     "airline_code": "UA",
     "boarding_time": "BT 12:15\nST 12:15\nET 12:25"
   },
@@ -1460,7 +1449,7 @@
     "status": "Scheduled",
     "codeshared_flights": "ET1374",
     "airline_code": "UA",
-    "boarding_time": "BT 12:20\nST 12:20\nET 12:30"
+    "boarding_time": "BT 12:20\nST 12:35\nET 12:45"
   },
   {
     "flight": "UA 3532",
@@ -1505,6 +1494,17 @@
     "codeshared_flights": "AC4403, NH7582",
     "airline_code": "UA",
     "boarding_time": "BT 12:21\nST 12:21\nET 12:31"
+  },
+  {
+    "flight": "UA 3487",
+    "airport": "CHS CHARLESTON, CHS",
+    "airline": "United Airlines",
+    "gate": "C26",
+    "departure_time": "2024-12-31 12:47:00",
+    "status": "Scheduled",
+    "codeshared_flights": "AC3936, NH7377",
+    "airline_code": "UA",
+    "boarding_time": "BT 12:15\nST 12:22\nET 12:32"
   },
   {
     "flight": "UA 4424",
@@ -1914,6 +1914,17 @@
     "boarding_time": ""
   },
   {
+    "flight": "AV 247",
+    "airport": "BOG BOGOTA",
+    "airline": "Avianca",
+    "gate": "B48",
+    "departure_time": "2024-12-31 14:20:00",
+    "status": "Proposed",
+    "codeshared_flights": "G35811, NH7820, UA6668",
+    "airline_code": "AV",
+    "boarding_time": ""
+  },
+  {
     "flight": "MX 828",
     "airport": "OGS OGDENSBURG",
     "airline": "Breeze Airways",
@@ -1994,7 +2005,7 @@
     "flight": "AV 583",
     "airport": "SAL SAN SALVADOR",
     "airline": "Avianca",
-    "gate": "B50",
+    "gate": "B48",
     "departure_time": "2024-12-31 15:50:00",
     "status": "Scheduled",
     "codeshared_flights": "NH7837",
@@ -2214,7 +2225,7 @@
     "flight": "UA 4871",
     "airport": "ROC ROCHESTER",
     "airline": "United Airlines",
-    "gate": "A3A",
+    "gate": "A5B",
     "departure_time": "2024-12-31 17:10:00",
     "status": "Scheduled",
     "codeshared_flights": "AV2100, CM1305, LH7754, OS7819, SN8978",
@@ -2456,7 +2467,7 @@
     "flight": "UA 4914",
     "airport": "TYS KNOXVILLE",
     "airline": "United Airlines",
-    "gate": "A5B",
+    "gate": "A3A",
     "departure_time": "2024-12-31 17:30:00",
     "status": "Scheduled",
     "codeshared_flights": "AC4743, AV2348, CM1306, ET1378, LH8966, SN8957",
@@ -2469,7 +2480,7 @@
     "airline": "TAP Air Portugal",
     "gate": "B50",
     "departure_time": "2024-12-31 17:30:00",
-    "status": "Scheduled",
+    "status": "Proposed",
     "codeshared_flights": "B66760",
     "airline_code": "TP",
     "boarding_time": ""
