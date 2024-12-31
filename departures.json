@@ -3234,6 +3234,17 @@
     "boarding_time": ""
   },
   {
+    "flight": "TK 8",
+    "airport": "IST ISTANBUL",
+    "airline": "Turkish Airlines",
+    "gate": "B41",
+    "departure_time": "2024-12-30 21:25:00",
+    "status": "InAir",
+    "codeshared_flights": "6E4221, OM1132, PK5008, SQ6208, WB1367",
+    "airline_code": "TK",
+    "boarding_time": ""
+  },
+  {
     "flight": "G4 868",
     "airport": "PGD PUNTA GORDA",
     "airline": "Allegiant Air",
@@ -3696,17 +3707,6 @@
     "boarding_time": "BT 21:51\nST 22:02\nET 22:12"
   },
   {
-    "flight": "TK 8",
-    "airport": "IST ISTANBUL",
-    "airline": "Turkish Airlines",
-    "gate": "B41",
-    "departure_time": "2024-12-30 22:30:00",
-    "status": "Delayed",
-    "codeshared_flights": "6E4221, OM1132, PK5008, SQ6208, WB1367",
-    "airline_code": "TK",
-    "boarding_time": ""
-  },
-  {
     "flight": "9X 248",
     "airport": "LNS LANCASTER",
     "airline": "Southern Airways Express",
@@ -3800,7 +3800,7 @@
     "airline": "United Airlines",
     "gate": "D18",
     "departure_time": "2024-12-30 23:17:00",
-    "status": "OutGate",
+    "status": "InAir",
     "codeshared_flights": "ET1358, NZ9179, VA8391",
     "airline_code": "UA",
     "boarding_time": "BT 20:09\nST 22:26\nET 22:51"
