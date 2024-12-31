@@ -1881,23 +1881,12 @@
     "boarding_time": ""
   },
   {
-    "flight": "PD 2724",
-    "airport": "YTZ TORONTO, YTZ",
-    "airline": "Porter Airlines",
-    "gate": "A19",
-    "departure_time": "2024-12-31 13:45:00",
-    "status": "Scheduled",
-    "codeshared_flights": "TS7478",
-    "airline_code": "PD",
-    "boarding_time": ""
-  },
-  {
     "flight": "UA 4317",
     "airport": "ALB ALBANY",
     "airline": "United Airlines",
     "gate": "A5A",
     "departure_time": "2024-12-31 13:58:00",
-    "status": "OutGate",
+    "status": "InAir",
     "codeshared_flights": "",
     "airline_code": "UA",
     "boarding_time": "BT 12:10\nST 13:40\nET 13:50"
@@ -1914,12 +1903,23 @@
     "boarding_time": ""
   },
   {
+    "flight": "PD 2724",
+    "airport": "YTZ TORONTO, YTZ",
+    "airline": "Porter Airlines",
+    "gate": "A19",
+    "departure_time": "2024-12-31 14:06:00",
+    "status": "OutGate",
+    "codeshared_flights": "TS7478",
+    "airline_code": "PD",
+    "boarding_time": ""
+  },
+  {
     "flight": "AV 247",
     "airport": "BOG BOGOTA",
     "airline": "Avianca",
     "gate": "B48",
-    "departure_time": "2024-12-31 14:20:00",
-    "status": "Proposed",
+    "departure_time": "2024-12-31 14:15:00",
+    "status": "OutGate",
     "codeshared_flights": "G35811, NH7820, UA6668",
     "airline_code": "AV",
     "boarding_time": ""
@@ -2161,7 +2161,7 @@
     "airline": "Aer Lingus",
     "gate": "B75",
     "departure_time": "2024-12-31 17:10:00",
-    "status": "Scheduled",
+    "status": "Proposed",
     "codeshared_flights": "AA8326, BA6140",
     "airline_code": "EI",
     "boarding_time": ""
@@ -2453,17 +2453,6 @@
     "boarding_time": ""
   },
   {
-    "flight": "AA 5582",
-    "airport": "CLT CHARLOTTE",
-    "airline": "American Airlines",
-    "gate": "B73",
-    "departure_time": "2024-12-31 17:29:00",
-    "status": "Scheduled",
-    "codeshared_flights": "BA6745",
-    "airline_code": "AA",
-    "boarding_time": ""
-  },
-  {
     "flight": "UA 4914",
     "airport": "TYS KNOXVILLE",
     "airline": "United Airlines",
@@ -2627,6 +2616,17 @@
     "codeshared_flights": "AV2232, ET1386, TP8507",
     "airline_code": "UA",
     "boarding_time": "BT 16:57\nST 16:57\nET 17:22"
+  },
+  {
+    "flight": "AA 5582",
+    "airport": "CLT CHARLOTTE",
+    "airline": "American Airlines",
+    "gate": "B73",
+    "departure_time": "2024-12-31 17:39:00",
+    "status": "Scheduled",
+    "codeshared_flights": "BA6745",
+    "airline_code": "AA",
+    "boarding_time": ""
   },
   {
     "flight": "UA 3712",
@@ -3173,7 +3173,7 @@
     "airline": "Qatar Airways",
     "gate": "B49",
     "departure_time": "2024-12-31 20:05:00",
-    "status": "Scheduled",
+    "status": "Proposed",
     "codeshared_flights": "AA8120, AS5822, B65555, MH9070, UL3167, WB1083, WY6046",
     "airline_code": "QR",
     "boarding_time": ""
