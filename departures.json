@@ -2002,25 +2002,25 @@
     "boarding_time": ""
   },
   {
-    "flight": "WN 3656",
-    "airport": "PHX PHOENIX",
-    "airline": "Southwest Airlines",
-    "gate": "B66",
-    "departure_time": "2024-12-31 15:51:00",
-    "status": "Scheduled",
-    "codeshared_flights": "",
-    "airline_code": "WN",
-    "boarding_time": ""
-  },
-  {
     "flight": "AC 8726",
     "airport": "YUL MONTREAL",
     "airline": "Air Canada",
     "gate": "Z10",
-    "departure_time": "2024-12-31 15:55:00",
-    "status": "Proposed",
+    "departure_time": "2024-12-31 15:54:00",
+    "status": "InAir",
     "codeshared_flights": "UA8459",
     "airline_code": "AC",
+    "boarding_time": ""
+  },
+  {
+    "flight": "WN 3656",
+    "airport": "PHX PHOENIX",
+    "airline": "Southwest Airlines",
+    "gate": "B66",
+    "departure_time": "2024-12-31 15:58:00",
+    "status": "InAir",
+    "codeshared_flights": "",
+    "airline_code": "WN",
     "boarding_time": ""
   },
   {
@@ -2028,8 +2028,8 @@
     "airport": "DEN DENVER",
     "airline": "United Airlines",
     "gate": "D7",
-    "departure_time": "2024-12-31 16:05:00",
-    "status": "Scheduled",
+    "departure_time": "2024-12-31 16:04:00",
+    "status": "OutGate",
     "codeshared_flights": "AV2041, CM2860, SN8893",
     "airline_code": "UA",
     "boarding_time": "BT 15:25\nST 15:25\nET 15:50"
@@ -2039,8 +2039,8 @@
     "airport": "JFK NEW YORK, JFK",
     "airline": "Delta Air Lines",
     "gate": "B72",
-    "departure_time": "2024-12-31 16:15:00",
-    "status": "Scheduled",
+    "departure_time": "2024-12-31 16:11:00",
+    "status": "OutGate",
     "codeshared_flights": "AF2173, AZ2760, CI9095, KE7258, KL5937, LA8759, VS1897",
     "airline_code": "DL",
     "boarding_time": ""
@@ -2072,7 +2072,7 @@
     "airport": "ATL ATLANTA",
     "airline": "Delta Air Lines",
     "gate": "B74",
-    "departure_time": "2024-12-31 16:41:00",
+    "departure_time": "2024-12-31 16:36:00",
     "status": "Scheduled",
     "codeshared_flights": "AF2303, KE3581, KL5695, LA6505, VS4473",
     "airline_code": "DL",
@@ -2431,6 +2431,17 @@
     "boarding_time": ""
   },
   {
+    "flight": "AA 5582",
+    "airport": "CLT CHARLOTTE",
+    "airline": "American Airlines",
+    "gate": "B73",
+    "departure_time": "2024-12-31 17:29:00",
+    "status": "Scheduled",
+    "codeshared_flights": "BA6745",
+    "airline_code": "AA",
+    "boarding_time": ""
+  },
+  {
     "flight": "UA 4914",
     "airport": "TYS KNOXVILLE",
     "airline": "United Airlines",
@@ -2561,17 +2572,6 @@
     "codeshared_flights": "AC4689, LH7738, OS7835, SN8966",
     "airline_code": "UA",
     "boarding_time": "BT 17:10\nST 17:10\nET 17:20"
-  },
-  {
-    "flight": "UA 915",
-    "airport": "CDG PARIS",
-    "airline": "United Airlines",
-    "gate": "D3",
-    "departure_time": "2024-12-31 17:35:00",
-    "status": "Scheduled",
-    "codeshared_flights": "AC3810, LH7640, LX3019, OS7760, SN8925",
-    "airline_code": "UA",
-    "boarding_time": "BT 16:45\nST 16:45\nET 17:20"
   },
   {
     "flight": "UA 4884",
@@ -2728,17 +2728,6 @@
     "boarding_time": "BT 16:55\nST 16:55\nET 17:30"
   },
   {
-    "flight": "AA 5582",
-    "airport": "CLT CHARLOTTE",
-    "airline": "American Airlines",
-    "gate": "B73",
-    "departure_time": "2024-12-31 17:46:00",
-    "status": "Delayed",
-    "codeshared_flights": "BA6745",
-    "airline_code": "AA",
-    "boarding_time": ""
-  },
-  {
     "flight": "UA 1237",
     "airport": "PDX PORTLAND, PDX",
     "airline": "United Airlines",
@@ -2792,6 +2781,17 @@
     "codeshared_flights": "AV2057, CM2774, LH7796, OS7837, SN8923",
     "airline_code": "UA",
     "boarding_time": "BT 17:25\nST 17:25\nET 17:35"
+  },
+  {
+    "flight": "UA 915",
+    "airport": "CDG PARIS",
+    "airline": "United Airlines",
+    "gate": "D3",
+    "departure_time": "2024-12-31 17:50:00",
+    "status": "Scheduled",
+    "codeshared_flights": "AC3810, LH7640, LX3019, OS7760, SN8925",
+    "airline_code": "UA",
+    "boarding_time": "BT 16:45\nST 17:00\nET 17:35"
   },
   {
     "flight": "UA 4586",
@@ -3457,7 +3457,7 @@
     "flight": "UA 495",
     "airport": "DEN DENVER",
     "airline": "United Airlines",
-    "gate": "D26",
+    "gate": "D24",
     "departure_time": "2024-12-31 22:17:00",
     "status": "Scheduled",
     "codeshared_flights": "CM2861",
@@ -3512,7 +3512,7 @@
     "flight": "UA 1393",
     "airport": "BTV BURLINGTON",
     "airline": "United Airlines",
-    "gate": "D19",
+    "gate": "C23",
     "departure_time": "2024-12-31 22:23:00",
     "status": "Scheduled",
     "codeshared_flights": "",
@@ -3545,7 +3545,7 @@
     "flight": "UA 2275",
     "airport": "IAH HOUSTON",
     "airline": "United Airlines",
-    "gate": "C2",
+    "gate": "D26",
     "departure_time": "2024-12-31 22:24:00",
     "status": "Scheduled",
     "codeshared_flights": "NZ6643",
@@ -3578,7 +3578,7 @@
     "flight": "UA 1437",
     "airport": "ORF NORFOLK",
     "airline": "United Airlines",
-    "gate": "D21",
+    "gate": "C25",
     "departure_time": "2024-12-31 22:32:00",
     "status": "Scheduled",
     "codeshared_flights": "AC4751",
