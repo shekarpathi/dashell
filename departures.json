@@ -1963,7 +1963,7 @@
     "airline": "Delta Air Lines",
     "gate": "B76",
     "departure_time": "2024-12-31 15:06:00",
-    "status": "OutGate",
+    "status": "InAir",
     "codeshared_flights": "KE3884, VS3142, WS7164",
     "airline_code": "DL",
     "boarding_time": ""
@@ -2109,7 +2109,7 @@
     "status": "Scheduled",
     "codeshared_flights": "CM2119, SN8840",
     "airline_code": "UA",
-    "boarding_time": "BT 16:45\nST 16:45\nET 16:55"
+    "boarding_time": "BT 16:45\nST 18:05\nET 18:15"
   },
   {
     "flight": "UA 688",
@@ -2219,7 +2219,7 @@
     "status": "Scheduled",
     "codeshared_flights": "AC4693, AV2160",
     "airline_code": "UA",
-    "boarding_time": "BT 16:45\nST 16:45\nET 16:55"
+    "boarding_time": "BT 16:45\nST 17:05\nET 17:15"
   },
   {
     "flight": "UA 4585",
