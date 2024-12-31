@@ -1138,21 +1138,10 @@
     "airline": "Frontier Airlines",
     "gate": "B62",
     "departure_time": "2024-12-31 11:32:00",
-    "status": "OutGate",
+    "status": "InAir",
     "codeshared_flights": "",
     "airline_code": "F9",
     "boarding_time": ""
-  },
-  {
-    "flight": "UA 6011",
-    "airport": "BNA NASHVILLE",
-    "airline": "United Airlines",
-    "gate": "A3B",
-    "departure_time": "2024-12-31 11:48:00",
-    "status": "Delayed",
-    "codeshared_flights": "AV2340, CM2570",
-    "airline_code": "UA",
-    "boarding_time": "BT 08:25\nST 11:23\nET 11:33"
   },
   {
     "flight": "KE 94",
@@ -1197,6 +1186,17 @@
     "codeshared_flights": "",
     "airline_code": "G4",
     "boarding_time": ""
+  },
+  {
+    "flight": "UA 6011",
+    "airport": "BNA NASHVILLE",
+    "airline": "United Airlines",
+    "gate": "A3B",
+    "departure_time": "2024-12-31 12:08:00",
+    "status": "Delayed",
+    "codeshared_flights": "AV2340, CM2570",
+    "airline_code": "UA",
+    "boarding_time": "BT 08:25\nST 11:43\nET 11:53"
   },
   {
     "flight": "DL 3877",
