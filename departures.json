@@ -2057,6 +2057,17 @@
     "boarding_time": ""
   },
   {
+    "flight": "DL 1695",
+    "airport": "ATL ATLANTA",
+    "airline": "Delta Air Lines",
+    "gate": "B74",
+    "departure_time": "2024-12-31 16:29:00",
+    "status": "OutGate",
+    "codeshared_flights": "AF2303, KE3581, KL5695, LA6505, VS4473",
+    "airline_code": "DL",
+    "boarding_time": ""
+  },
+  {
     "flight": "CA 818",
     "airport": "PEK BEIJING",
     "airline": "Air China",
@@ -2065,17 +2076,6 @@
     "status": "Proposed",
     "codeshared_flights": "",
     "airline_code": "CA",
-    "boarding_time": ""
-  },
-  {
-    "flight": "DL 1695",
-    "airport": "ATL ATLANTA",
-    "airline": "Delta Air Lines",
-    "gate": "B74",
-    "departure_time": "2024-12-31 16:36:00",
-    "status": "Scheduled",
-    "codeshared_flights": "AF2303, KE3581, KL5695, LA6505, VS4473",
-    "airline_code": "DL",
     "boarding_time": ""
   },
   {
@@ -3019,7 +3019,7 @@
     "airline": "Virgin Atlantic",
     "gate": "A31",
     "departure_time": "2024-12-31 18:25:00",
-    "status": "Scheduled",
+    "status": "Proposed",
     "codeshared_flights": "AF9652, DL5982, KL4805",
     "airline_code": "VS",
     "boarding_time": ""
@@ -3184,7 +3184,7 @@
     "airline": "SWISS",
     "gate": "B49",
     "departure_time": "2024-12-31 20:45:00",
-    "status": "Scheduled",
+    "status": "Proposed",
     "codeshared_flights": "AC6795, UA9741",
     "airline_code": "LX",
     "boarding_time": ""
@@ -3249,7 +3249,7 @@
     "airport": "LHR LONDON",
     "airline": "British Airways",
     "gate": "B44",
-    "departure_time": "2024-12-31 21:55:00",
+    "departure_time": "2024-12-31 21:56:00",
     "status": "Scheduled",
     "codeshared_flights": "AA7001, AY5532, EI8992, IB3631",
     "airline_code": "BA",
