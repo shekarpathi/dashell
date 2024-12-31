@@ -1071,8 +1071,8 @@
     "airport": "ATL ATLANTA",
     "airline": "Delta Air Lines",
     "gate": "B78",
-    "departure_time": "2024-12-31 09:55:00",
-    "status": "Scheduled",
+    "departure_time": "2024-12-31 09:54:00",
+    "status": "InAir",
     "codeshared_flights": "AM3743, LA6534, VS4417, WS6847",
     "airline_code": "DL",
     "boarding_time": ""
@@ -1093,8 +1093,8 @@
     "airport": "DEN DENVER",
     "airline": "United Airlines",
     "gate": "C5",
-    "departure_time": "2024-12-31 10:05:00",
-    "status": "Scheduled",
+    "departure_time": "2024-12-31 10:08:00",
+    "status": "OutGate",
     "codeshared_flights": "CM2859",
     "airline_code": "UA",
     "boarding_time": "BT 09:15\nST 09:15\nET 09:50"
@@ -1196,7 +1196,7 @@
     "status": "Scheduled",
     "codeshared_flights": "",
     "airline_code": "UA",
-    "boarding_time": "BT 12:10\nST 12:10\nET 12:20"
+    "boarding_time": "BT 12:10\nST 13:09\nET 13:19"
   },
   {
     "flight": "UA 6023",
@@ -1499,7 +1499,7 @@
     "flight": "UA 4843",
     "airport": "ROC ROCHESTER",
     "airline": "United Airlines",
-    "gate": "A5B",
+    "gate": "A5C",
     "departure_time": "2024-12-31 12:45:00",
     "status": "Scheduled",
     "codeshared_flights": "",
@@ -1515,7 +1515,7 @@
     "status": "Scheduled",
     "codeshared_flights": "NH7628",
     "airline_code": "UA",
-    "boarding_time": "BT 12:20\nST 12:20\nET 12:30"
+    "boarding_time": "BT 12:20\nST 12:40\nET 12:50"
   },
   {
     "flight": "UA 4526",
@@ -1697,7 +1697,7 @@
     "flight": "UA 4847",
     "airport": "GSO GREENSBORO",
     "airline": "United Airlines",
-    "gate": "A5D",
+    "gate": "A5B",
     "departure_time": "2024-12-31 12:55:00",
     "status": "Scheduled",
     "codeshared_flights": "AC4685, AV2063",
@@ -1752,7 +1752,7 @@
     "flight": "UA 4831",
     "airport": "ROA ROANOKE",
     "airline": "United Airlines",
-    "gate": "A5C",
+    "gate": "A5D",
     "departure_time": "2024-12-31 12:55:00",
     "status": "Scheduled",
     "codeshared_flights": "AC4709, AV2098",
