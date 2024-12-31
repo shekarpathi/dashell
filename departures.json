@@ -1523,7 +1523,7 @@
     "airline": "United Airlines",
     "gate": "A4A",
     "departure_time": "2024-12-31 12:44:00",
-    "status": "InAir",
+    "status": "Landed",
     "codeshared_flights": "AV2075",
     "airline_code": "UA",
     "boarding_time": "BT 12:30\nST 12:30\nET 12:40"
@@ -1864,7 +1864,7 @@
     "airline": "United Airlines",
     "gate": "D7",
     "departure_time": "2024-12-31 13:38:00",
-    "status": "OutGate",
+    "status": "InAir",
     "codeshared_flights": "",
     "airline_code": "UA",
     "boarding_time": "BT 12:10\nST 13:00\nET 13:25"
@@ -2516,7 +2516,7 @@
     "status": "Scheduled",
     "codeshared_flights": "LH8922",
     "airline_code": "UA",
-    "boarding_time": "BT 16:55\nST 16:55\nET 17:15"
+    "boarding_time": "BT 16:50\nST 16:50\nET 17:15"
   },
   {
     "flight": "UA 52",
