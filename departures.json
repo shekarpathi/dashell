@@ -126,7 +126,7 @@
     "airline": "United Airlines",
     "gate": "D7",
     "departure_time": "2024-12-31 06:30:00",
-    "status": "OutGate",
+    "status": "InAir",
     "codeshared_flights": "NZ9184, VA8385",
     "airline_code": "UA",
     "boarding_time": "BT 05:51\nST 05:51\nET 06:16"
@@ -137,7 +137,7 @@
     "airline": "United Airlines",
     "gate": "D18",
     "departure_time": "2024-12-31 06:33:00",
-    "status": "OutGate",
+    "status": "InAir",
     "codeshared_flights": "CM2863",
     "airline_code": "UA",
     "boarding_time": "BT 05:55\nST 05:55\nET 06:20"
