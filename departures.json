@@ -1028,7 +1028,7 @@
     "airline": "American Airlines",
     "gate": "B73",
     "departure_time": "2024-12-31 09:13:00",
-    "status": "OutGate",
+    "status": "InAir",
     "codeshared_flights": "",
     "airline_code": "AA",
     "boarding_time": ""
@@ -1039,7 +1039,7 @@
     "airline": "United Airlines",
     "gate": "D29",
     "departure_time": "2024-12-31 09:21:00",
-    "status": "OutGate",
+    "status": "InAir",
     "codeshared_flights": "",
     "airline_code": "UA",
     "boarding_time": "BT 08:00\nST 09:10\nET 09:20"
@@ -1050,7 +1050,7 @@
     "airline": "United Airlines",
     "gate": "D19",
     "departure_time": "2024-12-31 09:26:00",
-    "status": "OutGate",
+    "status": "InAir",
     "codeshared_flights": "TP8499",
     "airline_code": "UA",
     "boarding_time": "BT 08:10\nST 08:53\nET 09:13"
@@ -1213,7 +1213,7 @@
     "flight": "UA 4360",
     "airport": "DAY DAYTON",
     "airline": "United Airlines",
-    "gate": "A4F",
+    "gate": "A6B",
     "departure_time": "2024-12-31 12:35:00",
     "status": "Scheduled",
     "codeshared_flights": "",
@@ -1345,7 +1345,7 @@
     "flight": "UA 4962",
     "airport": "GSP GREENVILLE-SPARTANBURG",
     "airline": "United Airlines",
-    "gate": "A6B",
+    "gate": "A4F",
     "departure_time": "2024-12-31 12:40:00",
     "status": "Scheduled",
     "codeshared_flights": "AC4729",
@@ -2728,17 +2728,6 @@
     "boarding_time": "BT 16:55\nST 16:55\nET 17:30"
   },
   {
-    "flight": "WN 1130",
-    "airport": "DEN DENVER",
-    "airline": "Southwest Airlines",
-    "gate": "B66",
-    "departure_time": "2024-12-31 17:46:00",
-    "status": "Scheduled",
-    "codeshared_flights": "",
-    "airline_code": "WN",
-    "boarding_time": ""
-  },
-  {
     "flight": "UA 1237",
     "airport": "PDX PORTLAND, PDX",
     "airline": "United Airlines",
@@ -2814,6 +2803,17 @@
     "codeshared_flights": "LH7488, NZ9178, OS7883, OZ6316, SN8817, VA8387",
     "airline_code": "UA",
     "boarding_time": "BT 17:00\nST 17:00\nET 17:35"
+  },
+  {
+    "flight": "WN 1130",
+    "airport": "DEN DENVER",
+    "airline": "Southwest Airlines",
+    "gate": "B66",
+    "departure_time": "2024-12-31 17:51:00",
+    "status": "Scheduled",
+    "codeshared_flights": "",
+    "airline_code": "WN",
+    "boarding_time": ""
   },
   {
     "flight": "UA 6041",
