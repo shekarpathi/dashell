@@ -104,7 +104,7 @@
     "airline": "United Airlines",
     "gate": "D12",
     "departure_time": "2024-12-31 06:07:00",
-    "status": "OutGate",
+    "status": "InAir",
     "codeshared_flights": "CA7238, NZ9591, OZ6287, VA8542",
     "airline_code": "UA",
     "boarding_time": "BT 05:35\nST 05:35\nET 06:00"
