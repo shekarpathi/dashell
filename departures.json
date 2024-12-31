@@ -3305,7 +3305,7 @@
     "airline": "United Airlines",
     "gate": "C28",
     "departure_time": "2024-12-30 21:56:00",
-    "status": "OutGate",
+    "status": "InAir",
     "codeshared_flights": "LH9174",
     "airline_code": "UA",
     "boarding_time": "BT 21:45\nST 21:45\nET 21:55"
@@ -3338,7 +3338,7 @@
     "airline": "United Airlines",
     "gate": "A2A",
     "departure_time": "2024-12-30 22:04:00",
-    "status": "OutGate",
+    "status": "InAir",
     "codeshared_flights": "LH7972",
     "airline_code": "UA",
     "boarding_time": "BT 21:45\nST 21:45\nET 21:55"
@@ -3371,7 +3371,7 @@
     "airline": "United Airlines",
     "gate": "C22",
     "departure_time": "2024-12-30 22:07:00",
-    "status": "OutGate",
+    "status": "InAir",
     "codeshared_flights": "LH9244",
     "airline_code": "UA",
     "boarding_time": "BT 21:40\nST 21:47\nET 21:57"
@@ -3459,7 +3459,7 @@
     "airline": "United Airlines",
     "gate": "D7",
     "departure_time": "2024-12-30 22:12:00",
-    "status": "OutGate",
+    "status": "InAir",
     "codeshared_flights": "LH7526, NZ9593, VA8373",
     "airline_code": "UA",
     "boarding_time": "BT 21:25\nST 21:33\nET 21:58"
@@ -3481,7 +3481,7 @@
     "airline": "United Airlines",
     "gate": "D4",
     "departure_time": "2024-12-30 22:13:00",
-    "status": "OutGate",
+    "status": "InAir",
     "codeshared_flights": "AC4420, NZ2456",
     "airline_code": "UA",
     "boarding_time": "BT 21:30\nST 21:30\nET 22:05"
@@ -3492,7 +3492,7 @@
     "airline": "United Airlines",
     "gate": "C20",
     "departure_time": "2024-12-30 22:13:00",
-    "status": "OutGate",
+    "status": "InAir",
     "codeshared_flights": "AC3544, LH8646",
     "airline_code": "UA",
     "boarding_time": "BT 21:50\nST 21:50\nET 22:00"
@@ -3514,7 +3514,7 @@
     "airline": "United Airlines",
     "gate": "A4C",
     "departure_time": "2024-12-30 22:13:00",
-    "status": "OutGate",
+    "status": "InAir",
     "codeshared_flights": "",
     "airline_code": "UA",
     "boarding_time": "BT 21:51\nST 21:51\nET 22:01"
@@ -3536,7 +3536,7 @@
     "airline": "Southern Airways Express",
     "gate": "H17",
     "departure_time": "2024-12-30 22:15:00",
-    "status": "InAir",
+    "status": "Landed",
     "codeshared_flights": "",
     "airline_code": "9X",
     "boarding_time": ""
@@ -3580,7 +3580,7 @@
     "airline": "United Airlines",
     "gate": "C18",
     "departure_time": "2024-12-30 22:19:00",
-    "status": "OutGate",
+    "status": "InAir",
     "codeshared_flights": "",
     "airline_code": "UA",
     "boarding_time": "BT 21:45\nST 21:59\nET 22:09"
@@ -3668,7 +3668,7 @@
     "airline": "United Airlines",
     "gate": "D2",
     "departure_time": "2024-12-30 22:24:00",
-    "status": "OutGate",
+    "status": "InAir",
     "codeshared_flights": "",
     "airline_code": "UA",
     "boarding_time": "BT 21:48\nST 21:48\nET 22:08"
@@ -3762,12 +3762,23 @@
     "boarding_time": "BT 21:53\nST 21:53\nET 22:18"
   },
   {
+    "flight": "UA 6126",
+    "airport": "BUF BUFFALO",
+    "airline": "United Airlines",
+    "gate": "D29",
+    "departure_time": "2024-12-30 22:40:00",
+    "status": "OutGate",
+    "codeshared_flights": "LH7824",
+    "airline_code": "UA",
+    "boarding_time": "BT 22:00\nST 22:15\nET 22:25"
+  },
+  {
     "flight": "UA 1584",
     "airport": "SFO SAN FRANCISCO",
     "airline": "United Airlines",
     "gate": "C14",
-    "departure_time": "2024-12-30 22:35:00",
-    "status": "Scheduled",
+    "departure_time": "2024-12-30 22:44:00",
+    "status": "OutGate",
     "codeshared_flights": "LH7530, NZ9181, VA8388",
     "airline_code": "UA",
     "boarding_time": "BT 21:40\nST 22:10\nET 22:35"
@@ -3777,22 +3788,11 @@
     "airport": "GRU SAO PAULO",
     "airline": "United Airlines",
     "gate": "D32",
-    "departure_time": "2024-12-30 22:38:00",
-    "status": "Scheduled",
+    "departure_time": "2024-12-30 23:00:00",
+    "status": "Delayed",
     "codeshared_flights": "NH7254",
     "airline_code": "UA",
     "boarding_time": "BT 21:40\nST 22:10\nET 22:45"
-  },
-  {
-    "flight": "UA 6126",
-    "airport": "BUF BUFFALO",
-    "airline": "United Airlines",
-    "gate": "D29",
-    "departure_time": "2024-12-30 22:40:00",
-    "status": "Scheduled",
-    "codeshared_flights": "LH7824",
-    "airline_code": "UA",
-    "boarding_time": "BT 22:00\nST 22:15\nET 22:25"
   },
   {
     "flight": "UA 739",
