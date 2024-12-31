@@ -1496,6 +1496,17 @@
     "boarding_time": "BT 12:20\nST 12:20\nET 12:30"
   },
   {
+    "flight": "UA 6150",
+    "airport": "SYR SYRACUSE",
+    "airline": "United Airlines",
+    "gate": "A1B",
+    "departure_time": "2024-12-31 12:45:00",
+    "status": "Scheduled",
+    "codeshared_flights": "NH7628",
+    "airline_code": "UA",
+    "boarding_time": "BT 12:20\nST 12:20\nET 12:30"
+  },
+  {
     "flight": "UA 4526",
     "airport": "RIC RICHMOND",
     "airline": "United Airlines",
@@ -1835,17 +1846,6 @@
     "codeshared_flights": "AV2084, NH7140",
     "airline_code": "UA",
     "boarding_time": "BT 12:40\nST 12:40\nET 12:50"
-  },
-  {
-    "flight": "UA 6150",
-    "airport": "SYR SYRACUSE",
-    "airline": "United Airlines",
-    "gate": "A1B",
-    "departure_time": "2024-12-31 13:05:00",
-    "status": "Delayed",
-    "codeshared_flights": "NH7628",
-    "airline_code": "UA",
-    "boarding_time": "BT 12:20\nST 12:20\nET 12:30"
   },
   {
     "flight": "UA 2029",
