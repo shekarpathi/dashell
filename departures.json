@@ -2717,6 +2717,17 @@
     "boarding_time": "BT 17:10\nST 17:10\nET 17:30"
   },
   {
+    "flight": "WN 1130",
+    "airport": "DEN DENVER",
+    "airline": "Southwest Airlines",
+    "gate": "B66",
+    "departure_time": "2024-12-31 17:45:00",
+    "status": "Scheduled",
+    "codeshared_flights": "",
+    "airline_code": "WN",
+    "boarding_time": ""
+  },
+  {
     "flight": "UA 884",
     "airport": "FCO ROME",
     "airline": "United Airlines",
@@ -2803,17 +2814,6 @@
     "codeshared_flights": "LH7488, NZ9178, OS7883, OZ6316, SN8817, VA8387",
     "airline_code": "UA",
     "boarding_time": "BT 17:00\nST 17:00\nET 17:35"
-  },
-  {
-    "flight": "WN 1130",
-    "airport": "DEN DENVER",
-    "airline": "Southwest Airlines",
-    "gate": "B66",
-    "departure_time": "2024-12-31 17:51:00",
-    "status": "Scheduled",
-    "codeshared_flights": "",
-    "airline_code": "WN",
-    "boarding_time": ""
   },
   {
     "flight": "UA 6041",
