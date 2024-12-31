@@ -1094,7 +1094,7 @@
     "airline": "United Airlines",
     "gate": "C5",
     "departure_time": "2024-12-31 10:08:00",
-    "status": "OutGate",
+    "status": "InAir",
     "codeshared_flights": "CM2859",
     "airline_code": "UA",
     "boarding_time": "BT 09:15\nST 09:15\nET 09:50"
@@ -1104,7 +1104,7 @@
     "airport": "DXB DUBAI",
     "airline": "Emirates",
     "gate": "A16",
-    "departure_time": "2024-12-31 10:30:00",
+    "departure_time": "2024-12-31 10:40:00",
     "status": "Scheduled",
     "codeshared_flights": "",
     "airline_code": "EK",
@@ -1177,6 +1177,17 @@
     "boarding_time": ""
   },
   {
+    "flight": "9X 246",
+    "airport": "LNS LANCASTER",
+    "airline": "Southern Airways Express",
+    "gate": "H17",
+    "departure_time": "2024-12-31 12:00:00",
+    "status": "Proposed",
+    "codeshared_flights": "",
+    "airline_code": "9X",
+    "boarding_time": ""
+  },
+  {
     "flight": "DL 3877",
     "airport": "DTW DETROIT, DTW",
     "airline": "Delta Air Lines",
@@ -1186,17 +1197,6 @@
     "codeshared_flights": "AF2246, KE3479, KL6705, VS4419",
     "airline_code": "DL",
     "boarding_time": ""
-  },
-  {
-    "flight": "UA 4317",
-    "airport": "ALB ALBANY",
-    "airline": "United Airlines",
-    "gate": "A5A",
-    "departure_time": "2024-12-31 12:35:00",
-    "status": "Scheduled",
-    "codeshared_flights": "",
-    "airline_code": "UA",
-    "boarding_time": "BT 12:10\nST 13:09\nET 13:19"
   },
   {
     "flight": "UA 6023",
@@ -1268,7 +1268,7 @@
     "flight": "UA 2277",
     "airport": "TPA TAMPA",
     "airline": "United Airlines",
-    "gate": "C2",
+    "gate": "C4",
     "departure_time": "2024-12-31 12:35:00",
     "status": "Scheduled",
     "codeshared_flights": "CM2833, ET1352, NH7116",
@@ -1351,17 +1351,6 @@
     "codeshared_flights": "AC4729",
     "airline_code": "UA",
     "boarding_time": "BT 12:15\nST 12:15\nET 12:25"
-  },
-  {
-    "flight": "9X 246",
-    "airport": "LNS LANCASTER",
-    "airline": "Southern Airways Express",
-    "gate": "H17",
-    "departure_time": "2024-12-31 12:40:00",
-    "status": "Scheduled",
-    "codeshared_flights": "",
-    "airline_code": "9X",
-    "boarding_time": ""
   },
   {
     "flight": "UA 1689",
@@ -1868,6 +1857,17 @@
     "codeshared_flights": "",
     "airline_code": "UA",
     "boarding_time": "BT 12:37\nST 12:37\nET 13:02"
+  },
+  {
+    "flight": "UA 4317",
+    "airport": "ALB ALBANY",
+    "airline": "United Airlines",
+    "gate": "A5A",
+    "departure_time": "2024-12-31 13:34:00",
+    "status": "Delayed",
+    "codeshared_flights": "",
+    "airline_code": "UA",
+    "boarding_time": "BT 12:10\nST 13:09\nET 13:19"
   },
   {
     "flight": "PD 2724",
