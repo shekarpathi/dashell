@@ -22,17 +22,6 @@
     "boarding_time": ""
   },
   {
-    "flight": "DL 3853",
-    "airport": "DTW DETROIT, DTW",
-    "airline": "Delta Air Lines",
-    "gate": "B70",
-    "departure_time": "2025-01-01 06:00:00",
-    "status": "Scheduled",
-    "codeshared_flights": "AM4098, KE3431, MU8721, VS4415, WS7117",
-    "airline_code": "DL",
-    "boarding_time": ""
-  },
-  {
     "flight": "UA 1372",
     "airport": "IAH HOUSTON",
     "airline": "United Airlines",
@@ -48,9 +37,20 @@
     "airport": "MSP MINNEAPOLIS",
     "airline": "Delta Air Lines",
     "gate": "B75",
-    "departure_time": "2025-01-01 06:07:00",
-    "status": "Scheduled",
+    "departure_time": "2025-01-01 06:04:00",
+    "status": "OutGate",
     "codeshared_flights": "AM3753, KE3181, VS4433, WS7653",
+    "airline_code": "DL",
+    "boarding_time": ""
+  },
+  {
+    "flight": "DL 3853",
+    "airport": "DTW DETROIT, DTW",
+    "airline": "Delta Air Lines",
+    "gate": "B70",
+    "departure_time": "2025-01-01 06:11:00",
+    "status": "OutGate",
+    "codeshared_flights": "AM4098, KE3431, MU8721, VS4415, WS7117",
     "airline_code": "DL",
     "boarding_time": ""
   },
@@ -63,7 +63,7 @@
     "status": "Scheduled",
     "codeshared_flights": "NZ9591, OZ6287, VA8542",
     "airline_code": "UA",
-    "boarding_time": "BT 05:35\nST 05:42\nET 06:07"
+    "boarding_time": "BT 05:35\nST 06:10\nET 06:35"
   },
   {
     "flight": "UA 793",
@@ -289,7 +289,7 @@
     "flight": "UA 6048",
     "airport": "CMH COLUMBUS",
     "airline": "United Airlines",
-    "gate": "C22",
+    "gate": "A3B",
     "departure_time": "2025-01-01 08:20:00",
     "status": "Scheduled",
     "codeshared_flights": "AC3543, AV2051, CM1270",
@@ -773,7 +773,7 @@
     "flight": "UA 6011",
     "airport": "BNA NASHVILLE",
     "airline": "United Airlines",
-    "gate": "A3B",
+    "gate": "C22",
     "departure_time": "2025-01-01 08:50:00",
     "status": "Scheduled",
     "codeshared_flights": "AV2340, CM2570",
