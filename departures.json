@@ -1038,7 +1038,7 @@
     "airport": "DFW DALLAS, DFW",
     "airline": "American Airlines",
     "gate": "B71",
-    "departure_time": "2025-01-01 12:00:00",
+    "departure_time": "2025-01-01 12:30:00",
     "status": "Delayed",
     "codeshared_flights": "AS4144, QR2561",
     "airline_code": "AA",
@@ -1226,7 +1226,7 @@
     "airline": "Southern Airways Express",
     "gate": "H17",
     "departure_time": "2025-01-01 12:40:00",
-    "status": "Scheduled",
+    "status": "Proposed",
     "codeshared_flights": "",
     "airline_code": "9X",
     "boarding_time": ""
@@ -1378,7 +1378,7 @@
     "flight": "UA 4843",
     "airport": "ROC ROCHESTER",
     "airline": "United Airlines",
-    "gate": "A5C",
+    "gate": "A5D",
     "departure_time": "2025-01-01 12:45:00",
     "status": "Scheduled",
     "codeshared_flights": "",
@@ -1598,7 +1598,7 @@
     "flight": "UA 4822",
     "airport": "TYS KNOXVILLE",
     "airline": "United Airlines",
-    "gate": "A5D",
+    "gate": "A5C",
     "departure_time": "2025-01-01 12:55:00",
     "status": "Scheduled",
     "codeshared_flights": "AC4257, ET1378",
@@ -1648,6 +1648,17 @@
     "codeshared_flights": "ET1370, NH7102",
     "airline_code": "UA",
     "boarding_time": "BT 12:23\nST 12:23\nET 12:43"
+  },
+  {
+    "flight": "UA 4950",
+    "airport": "ORF NORFOLK",
+    "airline": "United Airlines",
+    "gate": "A4C",
+    "departure_time": "2025-01-01 12:58:00",
+    "status": "Scheduled",
+    "codeshared_flights": "AC4747",
+    "airline_code": "UA",
+    "boarding_time": "BT 12:33\nST 12:33\nET 12:43"
   },
   {
     "flight": "DL 1400",
@@ -1923,17 +1934,6 @@
     "codeshared_flights": "AF2173, AZ2760, CI9095, KE7258, KL5937, LA8759, VS1897",
     "airline_code": "DL",
     "boarding_time": ""
-  },
-  {
-    "flight": "UA 4950",
-    "airport": "ORF NORFOLK",
-    "airline": "United Airlines",
-    "gate": "A4C",
-    "departure_time": "2025-01-01 16:24:00",
-    "status": "Delayed",
-    "codeshared_flights": "AC4747",
-    "airline_code": "UA",
-    "boarding_time": "BT 12:33\nST 12:33\nET 12:43"
   },
   {
     "flight": "DL 1695",
