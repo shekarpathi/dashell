@@ -951,7 +951,7 @@
     "airline": "Air India",
     "gate": "B45",
     "departure_time": "2025-01-01 09:45:00",
-    "status": "OutGate",
+    "status": "InAir",
     "codeshared_flights": "",
     "airline_code": "AI",
     "boarding_time": ""
@@ -961,11 +961,22 @@
     "airport": "ATL ATLANTA",
     "airline": "Delta Air Lines",
     "gate": "B78",
-    "departure_time": "2025-01-01 09:55:00",
-    "status": "Scheduled",
+    "departure_time": "2025-01-01 09:54:00",
+    "status": "InAir",
     "codeshared_flights": "AM3743, LA6534, VS4417, WS6847",
     "airline_code": "DL",
     "boarding_time": ""
+  },
+  {
+    "flight": "UA 1926",
+    "airport": "DEN DENVER",
+    "airline": "United Airlines",
+    "gate": "D30",
+    "departure_time": "2025-01-01 09:59:00",
+    "status": "InAir",
+    "codeshared_flights": "CM2859, ET1364",
+    "airline_code": "UA",
+    "boarding_time": "BT 09:15\nST 09:15\nET 09:50"
   },
   {
     "flight": "ET 501",
@@ -977,17 +988,6 @@
     "codeshared_flights": "KP1104, UA7201",
     "airline_code": "ET",
     "boarding_time": ""
-  },
-  {
-    "flight": "UA 1926",
-    "airport": "DEN DENVER",
-    "airline": "United Airlines",
-    "gate": "D30",
-    "departure_time": "2025-01-01 10:05:00",
-    "status": "Scheduled",
-    "codeshared_flights": "CM2859, ET1364",
-    "airline_code": "UA",
-    "boarding_time": "BT 09:15\nST 09:15\nET 09:50"
   },
   {
     "flight": "EK 232",
@@ -1043,17 +1043,6 @@
     "codeshared_flights": "AS4144, QR2561",
     "airline_code": "AA",
     "boarding_time": ""
-  },
-  {
-    "flight": "UA 5098",
-    "airport": "MGW MORGANTOWN",
-    "airline": "United Airlines",
-    "gate": "A4E",
-    "departure_time": "2025-01-01 11:52:00",
-    "status": "Delayed",
-    "codeshared_flights": "",
-    "airline_code": "UA",
-    "boarding_time": "BT 08:35\nST 11:27\nET 11:37"
   },
   {
     "flight": "DL 3877",
@@ -1318,6 +1307,17 @@
     "codeshared_flights": "AC4611, NH7122",
     "airline_code": "UA",
     "boarding_time": "BT 12:15\nST 12:15\nET 12:25"
+  },
+  {
+    "flight": "UA 5098",
+    "airport": "MGW MORGANTOWN",
+    "airline": "United Airlines",
+    "gate": "A4E",
+    "departure_time": "2025-01-01 12:42:00",
+    "status": "Delayed",
+    "codeshared_flights": "",
+    "airline_code": "UA",
+    "boarding_time": "BT 08:35\nST 12:17\nET 12:27"
   },
   {
     "flight": "UA 1581",
@@ -1688,7 +1688,7 @@
     "airline": "Volaris El Salvador",
     "gate": "A14",
     "departure_time": "2025-01-01 13:00:00",
-    "status": "Scheduled",
+    "status": "Proposed",
     "codeshared_flights": "",
     "airline_code": "N3",
     "boarding_time": ""
@@ -2357,7 +2357,7 @@
     "flight": "UA 6280",
     "airport": "RDU RALEIGH",
     "airline": "United Airlines",
-    "gate": "A2B",
+    "gate": "A2G",
     "departure_time": "2025-01-01 17:30:00",
     "status": "Scheduled",
     "codeshared_flights": "AC3392, AV2050, CM2654, LH9304, SN8983",
@@ -2566,7 +2566,7 @@
     "flight": "UA 6262",
     "airport": "PBI WEST PALM BEACH",
     "airline": "United Airlines",
-    "gate": "A2G",
+    "gate": "A2B",
     "departure_time": "2025-01-01 17:40:00",
     "status": "Scheduled",
     "codeshared_flights": "",
