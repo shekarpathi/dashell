@@ -82,7 +82,7 @@
     "airline": "Avianca",
     "gate": "B48",
     "departure_time": "2025-01-01 06:10:00",
-    "status": "Scheduled",
+    "status": "Proposed",
     "codeshared_flights": "",
     "airline_code": "AV",
     "boarding_time": ""
@@ -1691,7 +1691,7 @@
     "status": "Scheduled",
     "codeshared_flights": "",
     "airline_code": "UA",
-    "boarding_time": "BT 12:10\nST 12:17\nET 12:42"
+    "boarding_time": "BT 12:10\nST 12:35\nET 13:00"
   },
   {
     "flight": "UA 1940",
