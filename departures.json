@@ -5,7 +5,7 @@
     "airline": "Copa Airlines",
     "gate": "A15",
     "departure_time": "2025-01-01 01:04:00",
-    "status": "OutGate",
+    "status": "InAir",
     "codeshared_flights": "UA7065",
     "airline_code": "CM",
     "boarding_time": ""
@@ -16,20 +16,9 @@
     "airline": "Volaris El Salvador",
     "gate": "B37",
     "departure_time": "2025-01-01 01:24:00",
-    "status": "Proposed",
+    "status": "InAir",
     "codeshared_flights": "",
     "airline_code": "N3",
-    "boarding_time": ""
-  },
-  {
-    "flight": "AV 655",
-    "airport": "GUA GUATEMALA CITY",
-    "airline": "Avianca",
-    "gate": "B48",
-    "departure_time": "2025-01-01 01:30:00",
-    "status": "Scheduled",
-    "codeshared_flights": "",
-    "airline_code": "AV",
     "boarding_time": ""
   },
   {
@@ -38,7 +27,7 @@
     "airline": "Avianca",
     "gate": "B48",
     "departure_time": "2025-01-01 03:00:00",
-    "status": "Scheduled",
+    "status": "Proposed",
     "codeshared_flights": "",
     "airline_code": "AV",
     "boarding_time": ""
@@ -49,7 +38,7 @@
     "airline": "Avianca",
     "gate": "B48",
     "departure_time": "2025-01-01 04:30:00",
-    "status": "Scheduled",
+    "status": "Proposed",
     "codeshared_flights": "",
     "airline_code": "AV",
     "boarding_time": ""
@@ -3248,7 +3237,7 @@
     "flight": "UA 4482",
     "airport": "SAV SAVANNAH",
     "airline": "United Airlines",
-    "gate": "A4C",
+    "gate": "C22",
     "departure_time": "2025-01-01 22:05:00",
     "status": "Scheduled",
     "codeshared_flights": "LH9244",
