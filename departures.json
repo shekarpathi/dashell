@@ -1028,7 +1028,7 @@
     "airline": "Emirates",
     "gate": "A16",
     "departure_time": "2025-01-01 11:25:00",
-    "status": "OutGate",
+    "status": "InAir",
     "codeshared_flights": "",
     "airline_code": "EK",
     "boarding_time": ""
@@ -1273,7 +1273,7 @@
     "status": "Delayed",
     "codeshared_flights": "",
     "airline_code": "UA",
-    "boarding_time": "BT 08:35\nST 12:17\nET 12:27"
+    "boarding_time": "BT 08:35\nST 11:35\nET 11:45"
   },
   {
     "flight": "UA 1581",
@@ -1790,7 +1790,7 @@
     "status": "Delayed",
     "codeshared_flights": "AV2069, CM1297",
     "airline_code": "UA",
-    "boarding_time": "BT 08:15\nST 13:50\nET 14:00"
+    "boarding_time": "BT 08:15\nST 14:02\nET 14:12"
   },
   {
     "flight": "AV 247",
