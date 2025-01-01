@@ -33,6 +33,17 @@
     "boarding_time": ""
   },
   {
+    "flight": "UA 1372",
+    "airport": "IAH HOUSTON",
+    "airline": "United Airlines",
+    "gate": "D21",
+    "departure_time": "2025-01-01 06:04:00",
+    "status": "OutGate",
+    "codeshared_flights": "AV2130, NZ6644",
+    "airline_code": "UA",
+    "boarding_time": "BT 05:28\nST 05:28\nET 05:53"
+  },
+  {
     "flight": "DL 3996",
     "airport": "MSP MINNEAPOLIS",
     "airline": "Delta Air Lines",
@@ -41,28 +52,6 @@
     "status": "Scheduled",
     "codeshared_flights": "AM3753, KE3181, VS4433, WS7653",
     "airline_code": "DL",
-    "boarding_time": ""
-  },
-  {
-    "flight": "UA 1372",
-    "airport": "IAH HOUSTON",
-    "airline": "United Airlines",
-    "gate": "D21",
-    "departure_time": "2025-01-01 06:08:00",
-    "status": "Scheduled",
-    "codeshared_flights": "AV2130, NZ6644",
-    "airline_code": "UA",
-    "boarding_time": "BT 05:28\nST 05:28\nET 05:53"
-  },
-  {
-    "flight": "AV 149",
-    "airport": "BOG BOGOTA",
-    "airline": "Avianca",
-    "gate": "B48",
-    "departure_time": "2025-01-01 06:10:00",
-    "status": "Proposed",
-    "codeshared_flights": "",
-    "airline_code": "AV",
     "boarding_time": ""
   },
   {
@@ -162,17 +151,6 @@
     "status": "Scheduled",
     "codeshared_flights": "MU8778",
     "airline_code": "DL",
-    "boarding_time": ""
-  },
-  {
-    "flight": "AA 2617",
-    "airport": "DFW DALLAS, DFW",
-    "airline": "American Airlines",
-    "gate": "B71",
-    "departure_time": "2025-01-01 08:00:00",
-    "status": "Delayed",
-    "codeshared_flights": "AS4144, QR2561",
-    "airline_code": "AA",
     "boarding_time": ""
   },
   {
@@ -1034,6 +1012,17 @@
     "boarding_time": "BT 09:15\nST 09:15\nET 09:50"
   },
   {
+    "flight": "AA 2617",
+    "airport": "DFW DALLAS, DFW",
+    "airline": "American Airlines",
+    "gate": "B71",
+    "departure_time": "2025-01-01 10:30:00",
+    "status": "Delayed",
+    "codeshared_flights": "AS4144, QR2561",
+    "airline_code": "AA",
+    "boarding_time": ""
+  },
+  {
     "flight": "EK 232",
     "airport": "DXB DUBAI",
     "airline": "Emirates",
@@ -1103,7 +1092,7 @@
     "flight": "UA 4317",
     "airport": "ALB ALBANY",
     "airline": "United Airlines",
-    "gate": "A1D",
+    "gate": "C22",
     "departure_time": "2025-01-01 12:35:00",
     "status": "Scheduled",
     "codeshared_flights": "",
@@ -1642,7 +1631,7 @@
     "flight": "UA 4831",
     "airport": "ROA ROANOKE",
     "airline": "United Airlines",
-    "gate": "C22",
+    "gate": "A1D",
     "departure_time": "2025-01-01 12:55:00",
     "status": "Scheduled",
     "codeshared_flights": "AC4709, AV2098",
@@ -1895,7 +1884,7 @@
     "flight": "WN 3656",
     "airport": "PHX PHOENIX",
     "airline": "Southwest Airlines",
-    "gate": "B64",
+    "gate": "B66",
     "departure_time": "2025-01-01 15:45:00",
     "status": "Scheduled",
     "codeshared_flights": "",
@@ -3567,7 +3556,7 @@
     "flight": "UA 924",
     "airport": "LHR LONDON",
     "airline": "United Airlines",
-    "gate": "C3",
+    "gate": "C7",
     "departure_time": "2025-01-01 22:30:00",
     "status": "Scheduled",
     "codeshared_flights": "AC5350, CM2294, LH9267, LX3045, OS7808",
@@ -3589,7 +3578,7 @@
     "flight": "UA 4232",
     "airport": "ROA ROANOKE",
     "airline": "United Airlines",
-    "gate": "A4F",
+    "gate": "A3A",
     "departure_time": "2025-01-01 22:31:00",
     "status": "Scheduled",
     "codeshared_flights": "AC4711, LH9274",
