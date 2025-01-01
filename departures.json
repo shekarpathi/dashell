@@ -146,9 +146,9 @@
     "flight": "WN 513",
     "airport": "DEN DENVER",
     "airline": "Southwest Airlines",
-    "gate": "B64",
+    "gate": "B66",
     "departure_time": "2025-01-01 07:25:00",
-    "status": "Scheduled",
+    "status": "Proposed",
     "codeshared_flights": "",
     "airline_code": "WN",
     "boarding_time": ""
