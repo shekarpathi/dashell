@@ -27,7 +27,7 @@
     "airline": "United Airlines",
     "gate": "D21",
     "departure_time": "2025-01-01 06:04:00",
-    "status": "OutGate",
+    "status": "InAir",
     "codeshared_flights": "AV2130, NZ6644",
     "airline_code": "UA",
     "boarding_time": "BT 05:28\nST 05:28\nET 05:53"
@@ -55,15 +55,15 @@
     "boarding_time": ""
   },
   {
-    "flight": "UA 1469",
-    "airport": "LAX LOS ANGELES",
+    "flight": "UA 1095",
+    "airport": "SFO SAN FRANCISCO",
     "airline": "United Airlines",
-    "gate": "D11",
-    "departure_time": "2025-01-01 06:22:00",
-    "status": "Scheduled",
-    "codeshared_flights": "NZ9591, OZ6287, VA8542",
+    "gate": "D15",
+    "departure_time": "2025-01-01 06:25:00",
+    "status": "OutGate",
+    "codeshared_flights": "CA7240, NZ9184, OZ6316, VA8385",
     "airline_code": "UA",
-    "boarding_time": "BT 05:35\nST 06:10\nET 06:35"
+    "boarding_time": "BT 05:51\nST 05:51\nET 06:16"
   },
   {
     "flight": "UA 793",
@@ -77,15 +77,15 @@
     "boarding_time": "BT 05:50\nST 05:50\nET 06:15"
   },
   {
-    "flight": "UA 1095",
-    "airport": "SFO SAN FRANCISCO",
+    "flight": "UA 1469",
+    "airport": "LAX LOS ANGELES",
     "airline": "United Airlines",
-    "gate": "D15",
-    "departure_time": "2025-01-01 06:31:00",
-    "status": "Scheduled",
-    "codeshared_flights": "CA7240, NZ9184, OZ6316, VA8385",
+    "gate": "D11",
+    "departure_time": "2025-01-01 06:50:00",
+    "status": "Delayed",
+    "codeshared_flights": "NZ9591, OZ6287, VA8542",
     "airline_code": "UA",
-    "boarding_time": "BT 05:51\nST 05:51\nET 06:16"
+    "boarding_time": "BT 05:35\nST 06:10\nET 06:35"
   },
   {
     "flight": "UA 2860",
@@ -99,6 +99,17 @@
     "boarding_time": "BT 06:20\nST 06:20\nET 06:45"
   },
   {
+    "flight": "DL 432",
+    "airport": "SLC SALT LAKE CITY",
+    "airline": "Delta Air Lines",
+    "gate": "B76",
+    "departure_time": "2025-01-01 07:00:00",
+    "status": "Scheduled",
+    "codeshared_flights": "",
+    "airline_code": "DL",
+    "boarding_time": ""
+  },
+  {
     "flight": "AS 499",
     "airport": "SEA SEATTLE, SEA",
     "airline": "Alaska Airlines",
@@ -110,22 +121,11 @@
     "boarding_time": ""
   },
   {
-    "flight": "DL 432",
-    "airport": "SLC SALT LAKE CITY",
-    "airline": "Delta Air Lines",
-    "gate": "B76",
-    "departure_time": "2025-01-01 07:05:00",
-    "status": "Scheduled",
-    "codeshared_flights": "",
-    "airline_code": "DL",
-    "boarding_time": ""
-  },
-  {
     "flight": "DL 1354",
     "airport": "ATL ATLANTA",
     "airline": "Delta Air Lines",
     "gate": "B72",
-    "departure_time": "2025-01-01 07:19:00",
+    "departure_time": "2025-01-01 07:14:00",
     "status": "Scheduled",
     "codeshared_flights": "AM4093, KE6926, LA6288, VS4483",
     "airline_code": "DL",
@@ -888,7 +888,7 @@
     "status": "Scheduled",
     "codeshared_flights": "",
     "airline_code": "UA",
-    "boarding_time": "BT 08:35\nST 08:35\nET 08:45"
+    "boarding_time": "BT 08:35\nST 09:22\nET 09:32"
   },
   {
     "flight": "UA 1634",
