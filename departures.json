@@ -22,17 +22,6 @@
     "boarding_time": ""
   },
   {
-    "flight": "AV 591",
-    "airport": "SAL SAN SALVADOR",
-    "airline": "Avianca",
-    "gate": "B48",
-    "departure_time": "2025-01-01 03:00:00",
-    "status": "Proposed",
-    "codeshared_flights": "",
-    "airline_code": "AV",
-    "boarding_time": ""
-  },
-  {
     "flight": "AV 581",
     "airport": "SAL SAN SALVADOR",
     "airline": "Avianca",
@@ -1683,17 +1672,6 @@
     "boarding_time": "BT 12:30\nST 12:30\nET 12:40"
   },
   {
-    "flight": "UA 1786",
-    "airport": "PHX PHOENIX",
-    "airline": "United Airlines",
-    "gate": "D18",
-    "departure_time": "2025-01-01 12:57:00",
-    "status": "Scheduled",
-    "codeshared_flights": "",
-    "airline_code": "UA",
-    "boarding_time": "BT 12:10\nST 12:35\nET 13:00"
-  },
-  {
     "flight": "UA 1940",
     "airport": "ATL ATLANTA",
     "airline": "United Airlines",
@@ -1780,6 +1758,17 @@
     "codeshared_flights": "ET1362",
     "airline_code": "UA",
     "boarding_time": "BT 12:30\nST 12:30\nET 12:55"
+  },
+  {
+    "flight": "UA 1786",
+    "airport": "PHX PHOENIX",
+    "airline": "United Airlines",
+    "gate": "D18",
+    "departure_time": "2025-01-01 13:15:00",
+    "status": "Delayed",
+    "codeshared_flights": "",
+    "airline_code": "UA",
+    "boarding_time": "BT 12:10\nST 12:35\nET 13:00"
   },
   {
     "flight": "UA 2055",
