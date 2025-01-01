@@ -256,7 +256,7 @@
     "flight": "UA 345",
     "airport": "HNL HONOLULU",
     "airline": "United Airlines",
-    "gate": "D32",
+    "gate": "C6",
     "departure_time": "2025-01-01 08:15:00",
     "status": "Scheduled",
     "codeshared_flights": "CA7374, NZ9727",
