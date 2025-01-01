@@ -1620,7 +1620,7 @@
     "flight": "UA 4822",
     "airport": "TYS KNOXVILLE",
     "airline": "United Airlines",
-    "gate": "A2E",
+    "gate": null,
     "departure_time": "2025-01-01 12:55:00",
     "status": "Scheduled",
     "codeshared_flights": "AC4257, ET1378",
