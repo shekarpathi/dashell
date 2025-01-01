@@ -81,8 +81,8 @@
     "airport": "LAX LOS ANGELES",
     "airline": "United Airlines",
     "gate": "D11",
-    "departure_time": "2025-01-01 06:50:00",
-    "status": "Delayed",
+    "departure_time": "2025-01-01 06:49:00",
+    "status": "OutGate",
     "codeshared_flights": "NZ9591, OZ6287, VA8542",
     "airline_code": "UA",
     "boarding_time": "BT 05:35\nST 06:10\nET 06:35"
@@ -92,8 +92,8 @@
     "airport": "CUN CANCUN",
     "airline": "United Airlines",
     "gate": "D14",
-    "departure_time": "2025-01-01 07:00:00",
-    "status": "Scheduled",
+    "departure_time": "2025-01-01 06:50:00",
+    "status": "OutGate",
     "codeshared_flights": "",
     "airline_code": "UA",
     "boarding_time": "BT 06:20\nST 06:20\nET 06:45"
@@ -239,7 +239,7 @@
     "status": "Scheduled",
     "codeshared_flights": "NZ9590, VA8375",
     "airline_code": "UA",
-    "boarding_time": "BT 07:25\nST 07:25\nET 08:00"
+    "boarding_time": "BT 07:25\nST 07:45\nET 08:20"
   },
   {
     "flight": "UA 6278",
