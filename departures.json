@@ -60,7 +60,7 @@
     "airline": "United Airlines",
     "gate": "D15",
     "departure_time": "2025-01-01 06:25:00",
-    "status": "OutGate",
+    "status": "InAir",
     "codeshared_flights": "CA7240, NZ9184, OZ6316, VA8385",
     "airline_code": "UA",
     "boarding_time": "BT 05:51\nST 05:51\nET 06:16"
@@ -70,8 +70,8 @@
     "airport": "DEN DENVER",
     "airline": "United Airlines",
     "gate": "D12",
-    "departure_time": "2025-01-01 06:30:00",
-    "status": "Scheduled",
+    "departure_time": "2025-01-01 06:42:00",
+    "status": "OutGate",
     "codeshared_flights": "CM2863",
     "airline_code": "UA",
     "boarding_time": "BT 05:50\nST 06:10\nET 06:35"
@@ -147,7 +147,7 @@
     "airport": "SEA SEATTLE, SEA",
     "airline": "Delta Air Lines",
     "gate": "B74",
-    "departure_time": "2025-01-01 07:30:00",
+    "departure_time": "2025-01-01 07:25:00",
     "status": "Scheduled",
     "codeshared_flights": "MU8778",
     "airline_code": "DL",
@@ -605,12 +605,23 @@
     "boarding_time": "BT 07:47\nST 07:47\nET 08:22"
   },
   {
+    "flight": "UA 3561",
+    "airport": "IND INDIANAPOLIS",
+    "airline": "United Airlines",
+    "gate": "D23",
+    "departure_time": "2025-01-01 08:40:00",
+    "status": "Scheduled",
+    "codeshared_flights": "AV2069, CM1297",
+    "airline_code": "UA",
+    "boarding_time": "BT 08:15\nST 08:50\nET 09:00"
+  },
+  {
     "flight": "9X 244",
     "airport": "LNS LANCASTER",
     "airline": "Southern Airways Express",
     "gate": "H17",
     "departure_time": "2025-01-01 08:40:00",
-    "status": "Scheduled",
+    "status": "Proposed",
     "codeshared_flights": "",
     "airline_code": "9X",
     "boarding_time": ""
@@ -869,17 +880,6 @@
     "boarding_time": "BT 08:35\nST 08:35\nET 08:45"
   },
   {
-    "flight": "UA 5098",
-    "airport": "MGW MORGANTOWN",
-    "airline": "United Airlines",
-    "gate": "A4E",
-    "departure_time": "2025-01-01 09:00:00",
-    "status": "Scheduled",
-    "codeshared_flights": "",
-    "airline_code": "UA",
-    "boarding_time": "BT 08:35\nST 09:22\nET 09:32"
-  },
-  {
     "flight": "UA 1634",
     "airport": "MCO ORLANDO",
     "airline": "United Airlines",
@@ -946,17 +946,6 @@
     "boarding_time": "BT 08:20\nST 08:20\nET 08:45"
   },
   {
-    "flight": "UA 3561",
-    "airport": "IND INDIANAPOLIS",
-    "airline": "United Airlines",
-    "gate": "D23",
-    "departure_time": "2025-01-01 09:15:00",
-    "status": "Delayed",
-    "codeshared_flights": "AV2069, CM1297",
-    "airline_code": "UA",
-    "boarding_time": "BT 08:15\nST 08:15\nET 08:25"
-  },
-  {
     "flight": "AA 5203",
     "airport": "CLT CHARLOTTE",
     "airline": "American Airlines",
@@ -966,6 +955,17 @@
     "codeshared_flights": "",
     "airline_code": "AA",
     "boarding_time": ""
+  },
+  {
+    "flight": "UA 5098",
+    "airport": "MGW MORGANTOWN",
+    "airline": "United Airlines",
+    "gate": "A4E",
+    "departure_time": "2025-01-01 09:47:00",
+    "status": "Delayed",
+    "codeshared_flights": "",
+    "airline_code": "UA",
+    "boarding_time": "BT 08:35\nST 09:22\nET 09:32"
   },
   {
     "flight": "ET 501",
