@@ -3624,20 +3624,9 @@
     "airline": "United Airlines",
     "gate": "C22",
     "departure_time": "2024-12-31 23:19:00",
-    "status": "OutGate",
+    "status": "InAir",
     "codeshared_flights": "",
     "airline_code": "UA",
     "boarding_time": "BT 21:50\nST 22:51\nET 23:01"
-  },
-  {
-    "flight": "AV 663",
-    "airport": "SJO SAN JOSE",
-    "airline": "Avianca",
-    "gate": "B48",
-    "departure_time": "2024-12-31 23:55:00",
-    "status": "Scheduled",
-    "codeshared_flights": "",
-    "airline_code": "AV",
-    "boarding_time": ""
   }
 ]
