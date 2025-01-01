@@ -181,7 +181,7 @@
     "airline": "United Airlines",
     "gate": "A4A",
     "departure_time": "2025-01-01 08:08:00",
-    "status": "OutGate",
+    "status": "InAir",
     "codeshared_flights": "AC4723",
     "airline_code": "UA",
     "boarding_time": "BT 07:50\nST 07:50\nET 08:00"
@@ -192,7 +192,7 @@
     "airline": "United Airlines",
     "gate": "C6",
     "departure_time": "2025-01-01 08:10:00",
-    "status": "OutGate",
+    "status": "InAir",
     "codeshared_flights": "CA7374, NZ9727",
     "airline_code": "UA",
     "boarding_time": "BT 07:25\nST 07:25\nET 08:00"
@@ -236,7 +236,7 @@
     "airline": "United Airlines",
     "gate": "C23",
     "departure_time": "2025-01-01 08:12:00",
-    "status": "OutGate",
+    "status": "InAir",
     "codeshared_flights": "CM2118",
     "airline_code": "UA",
     "boarding_time": "BT 07:35\nST 07:35\nET 08:00"
@@ -269,7 +269,7 @@
     "airline": "United Airlines",
     "gate": "D12",
     "departure_time": "2025-01-01 08:16:00",
-    "status": "OutGate",
+    "status": "InAir",
     "codeshared_flights": "",
     "airline_code": "UA",
     "boarding_time": "BT 07:40\nST 07:40\nET 08:05"
@@ -374,17 +374,6 @@
     "boarding_time": "BT 07:55\nST 07:55\nET 08:05"
   },
   {
-    "flight": "UA 1668",
-    "airport": "SAT SAN ANTONIO",
-    "airline": "United Airlines",
-    "gate": "C11",
-    "departure_time": "2025-01-01 08:20:00",
-    "status": "Scheduled",
-    "codeshared_flights": "AC3796",
-    "airline_code": "UA",
-    "boarding_time": "BT 07:45\nST 07:45\nET 08:05"
-  },
-  {
     "flight": "UA 641",
     "airport": "BOS BOSTON",
     "airline": "United Airlines",
@@ -440,28 +429,6 @@
     "boarding_time": "BT 07:50\nST 07:50\nET 08:15"
   },
   {
-    "flight": "UA 6144",
-    "airport": "BUF BUFFALO",
-    "airline": "United Airlines",
-    "gate": "C18",
-    "departure_time": "2025-01-01 08:25:00",
-    "status": "Scheduled",
-    "codeshared_flights": "AV2042, CM1239",
-    "airline_code": "UA",
-    "boarding_time": "BT 08:00\nST 08:05\nET 08:15"
-  },
-  {
-    "flight": "UA 1116",
-    "airport": "SFO SAN FRANCISCO",
-    "airline": "United Airlines",
-    "gate": "C8",
-    "departure_time": "2025-01-01 08:25:00",
-    "status": "Scheduled",
-    "codeshared_flights": "NZ9177, VA8386",
-    "airline_code": "UA",
-    "boarding_time": "BT 07:35\nST 07:35\nET 08:10"
-  },
-  {
     "flight": "9X 333",
     "airport": "IPT WILLIAMSPORT",
     "airline": "Southern Airways Express",
@@ -488,30 +455,41 @@
     "airport": "CUN CANCUN",
     "airline": "United Airlines",
     "gate": "C9",
-    "departure_time": "2025-01-01 08:30:00",
-    "status": "Scheduled",
+    "departure_time": "2025-01-01 08:27:00",
+    "status": "OutGate",
     "codeshared_flights": "",
     "airline_code": "UA",
     "boarding_time": "BT 07:50\nST 07:50\nET 08:15"
   },
   {
-    "flight": "UA 2314",
-    "airport": "DFW DALLAS, DFW",
+    "flight": "UA 4319",
+    "airport": "SCE STATE COLLEGE",
     "airline": "United Airlines",
-    "gate": "D2",
-    "departure_time": "2025-01-01 08:30:00",
-    "status": "Scheduled",
+    "gate": "A2F",
+    "departure_time": "2025-01-01 08:27:00",
+    "status": "OutGate",
     "codeshared_flights": "",
     "airline_code": "UA",
-    "boarding_time": "BT 07:55\nST 07:55\nET 08:15"
+    "boarding_time": "BT 08:10\nST 08:10\nET 08:20"
+  },
+  {
+    "flight": "UA 6278",
+    "airport": "LGA NEW YORK, LGA",
+    "airline": "United Airlines",
+    "gate": "A6E",
+    "departure_time": "2025-01-01 08:28:00",
+    "status": "OutGate",
+    "codeshared_flights": "AV2236",
+    "airline_code": "UA",
+    "boarding_time": "BT 07:50\nST 08:10\nET 08:20"
   },
   {
     "flight": "UA 4590",
     "airport": "PHL PHILADELPHIA",
     "airline": "United Airlines",
     "gate": "C24",
-    "departure_time": "2025-01-01 08:30:00",
-    "status": "Scheduled",
+    "departure_time": "2025-01-01 08:28:00",
+    "status": "OutGate",
     "codeshared_flights": "CM2260",
     "airline_code": "UA",
     "boarding_time": "BT 08:05\nST 08:05\nET 08:15"
@@ -521,11 +499,77 @@
     "airport": "STL ST LOUIS",
     "airline": "United Airlines",
     "gate": "C20",
-    "departure_time": "2025-01-01 08:30:00",
-    "status": "Scheduled",
+    "departure_time": "2025-01-01 08:28:00",
+    "status": "OutGate",
     "codeshared_flights": "AV2344, CM2679",
     "airline_code": "UA",
     "boarding_time": "BT 08:05\nST 08:05\nET 08:15"
+  },
+  {
+    "flight": "UA 4368",
+    "airport": "ROA ROANOKE",
+    "airline": "United Airlines",
+    "gate": "A4F",
+    "departure_time": "2025-01-01 08:29:00",
+    "status": "OutGate",
+    "codeshared_flights": "AC3992",
+    "airline_code": "UA",
+    "boarding_time": "BT 08:15\nST 08:15\nET 08:25"
+  },
+  {
+    "flight": "UA 1116",
+    "airport": "SFO SAN FRANCISCO",
+    "airline": "United Airlines",
+    "gate": "C8",
+    "departure_time": "2025-01-01 08:29:00",
+    "status": "OutGate",
+    "codeshared_flights": "NZ9177, VA8386",
+    "airline_code": "UA",
+    "boarding_time": "BT 07:35\nST 07:35\nET 08:10"
+  },
+  {
+    "flight": "UA 6144",
+    "airport": "BUF BUFFALO",
+    "airline": "United Airlines",
+    "gate": "C18",
+    "departure_time": "2025-01-01 08:30:00",
+    "status": "Scheduled",
+    "codeshared_flights": "AV2042, CM1239",
+    "airline_code": "UA",
+    "boarding_time": "BT 08:00\nST 08:05\nET 08:15"
+  },
+  {
+    "flight": "UA 2314",
+    "airport": "DFW DALLAS, DFW",
+    "airline": "United Airlines",
+    "gate": "D2",
+    "departure_time": "2025-01-01 08:31:00",
+    "status": "OutGate",
+    "codeshared_flights": "",
+    "airline_code": "UA",
+    "boarding_time": "BT 07:55\nST 07:55\nET 08:15"
+  },
+  {
+    "flight": "UA 4370",
+    "airport": "RIC RICHMOND",
+    "airline": "United Airlines",
+    "gate": "A6B",
+    "departure_time": "2025-01-01 08:31:00",
+    "status": "OutGate",
+    "codeshared_flights": "CM2284",
+    "airline_code": "UA",
+    "boarding_time": "BT 08:10\nST 08:10\nET 08:20"
+  },
+  {
+    "flight": "UA 1964",
+    "airport": "SEA SEATTLE, SEA",
+    "airline": "United Airlines",
+    "gate": "C17",
+    "departure_time": "2025-01-01 08:31:00",
+    "status": "OutGate",
+    "codeshared_flights": "",
+    "airline_code": "UA",
+    "boarding_time": "BT 08:00\nST 08:00\nET 08:20"
   },
   {
     "flight": "UA 1710",
@@ -547,51 +591,7 @@
     "status": "Delayed",
     "codeshared_flights": "NZ9590, VA8375",
     "airline_code": "UA",
-    "boarding_time": "BT 07:25\nST 07:45\nET 08:20"
-  },
-  {
-    "flight": "UA 6278",
-    "airport": "LGA NEW YORK, LGA",
-    "airline": "United Airlines",
-    "gate": "A6E",
-    "departure_time": "2025-01-01 08:35:00",
-    "status": "Delayed",
-    "codeshared_flights": "AV2236",
-    "airline_code": "UA",
-    "boarding_time": "BT 07:50\nST 08:10\nET 08:20"
-  },
-  {
-    "flight": "UA 4370",
-    "airport": "RIC RICHMOND",
-    "airline": "United Airlines",
-    "gate": "A6B",
-    "departure_time": "2025-01-01 08:35:00",
-    "status": "Scheduled",
-    "codeshared_flights": "CM2284",
-    "airline_code": "UA",
-    "boarding_time": "BT 08:10\nST 08:10\nET 08:20"
-  },
-  {
-    "flight": "UA 1964",
-    "airport": "SEA SEATTLE, SEA",
-    "airline": "United Airlines",
-    "gate": "C17",
-    "departure_time": "2025-01-01 08:35:00",
-    "status": "Scheduled",
-    "codeshared_flights": "",
-    "airline_code": "UA",
-    "boarding_time": "BT 08:00\nST 08:00\nET 08:20"
-  },
-  {
-    "flight": "UA 4319",
-    "airport": "SCE STATE COLLEGE",
-    "airline": "United Airlines",
-    "gate": "A2F",
-    "departure_time": "2025-01-01 08:35:00",
-    "status": "Scheduled",
-    "codeshared_flights": "",
-    "airline_code": "UA",
-    "boarding_time": "BT 08:10\nST 08:10\nET 08:20"
+    "boarding_time": "BT 07:25\nST 07:50\nET 08:25"
   },
   {
     "flight": "UA 1524",
@@ -605,12 +605,23 @@
     "boarding_time": "BT 07:47\nST 07:47\nET 08:22"
   },
   {
+    "flight": "UA 1668",
+    "airport": "SAT SAN ANTONIO",
+    "airline": "United Airlines",
+    "gate": "C11",
+    "departure_time": "2025-01-01 08:38:00",
+    "status": "Delayed",
+    "codeshared_flights": "AC3796",
+    "airline_code": "UA",
+    "boarding_time": "BT 07:45\nST 08:15\nET 08:35"
+  },
+  {
     "flight": "9X 244",
     "airport": "LNS LANCASTER",
     "airline": "Southern Airways Express",
     "gate": "H17",
     "departure_time": "2025-01-01 08:40:00",
-    "status": "InAir",
+    "status": "Landed",
     "codeshared_flights": "",
     "airline_code": "9X",
     "boarding_time": ""
@@ -623,17 +634,6 @@
     "departure_time": "2025-01-01 08:40:00",
     "status": "Scheduled",
     "codeshared_flights": "AC4749, AV2081, CM1298",
-    "airline_code": "UA",
-    "boarding_time": "BT 08:15\nST 08:15\nET 08:25"
-  },
-  {
-    "flight": "UA 4368",
-    "airport": "ROA ROANOKE",
-    "airline": "United Airlines",
-    "gate": "A4F",
-    "departure_time": "2025-01-01 08:40:00",
-    "status": "Scheduled",
-    "codeshared_flights": "AC3992",
     "airline_code": "UA",
     "boarding_time": "BT 08:15\nST 08:15\nET 08:25"
   },
@@ -1001,17 +1001,6 @@
     "boarding_time": ""
   },
   {
-    "flight": "QR 710",
-    "airport": "DOH DOHA",
-    "airline": "Qatar Airways",
-    "gate": "A23",
-    "departure_time": "2025-01-01 10:35:00",
-    "status": "Scheduled",
-    "codeshared_flights": "AA8123, AS5824, B66569, MH9792, UL3016, WB1166, WY6255",
-    "airline_code": "QR",
-    "boarding_time": ""
-  },
-  {
     "flight": "AC 8617",
     "airport": "YYZ TORONTO, YYZ",
     "airline": "Air Canada",
@@ -1032,6 +1021,17 @@
     "codeshared_flights": "AV2069, CM1297",
     "airline_code": "UA",
     "boarding_time": "BT 08:15\nST 10:20\nET 10:30"
+  },
+  {
+    "flight": "QR 710",
+    "airport": "DOH DOHA",
+    "airline": "Qatar Airways",
+    "gate": "A23",
+    "departure_time": "2025-01-01 11:00:00",
+    "status": "Delayed",
+    "codeshared_flights": "AA8123, AS5824, B66569, MH9792, UL3016, WB1166, WY6255",
+    "airline_code": "QR",
+    "boarding_time": ""
   },
   {
     "flight": "NH 101",
