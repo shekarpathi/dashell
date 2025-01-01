@@ -17,7 +17,7 @@ token_url="https://www.united.com/api/auth/anonymous-token"
 # URL to fetch the JSON data
 URL="https://www.flydulles.com/arrivals-and-departures/json"
 # shellcheck disable=SC2155
-export totalLinesInArrDepJson=$(curl -s "$URL" | jq | wc -l)
+export totalLinesInArrDepJson=$(curl -s "$URL" | jq '.' | wc -l)
 echo "Total lines in Arrivals Departures json is :$totalLinesInArrDepJson)"
 curl -s "$URL" | jq [.departures[]] > departures_raw.json
 curl -s "$URL" | jq [.arrivals[]] > arrivals_raw.json
@@ -56,7 +56,7 @@ parse_boardingTimeString_From_Json() {
   # Step 2: Attempt to fetch flight status
   flight_response=$(get_boardingTime_json "$hash" "$1")
   current_time=$(date +"%H%M%S")
-  echo "$flight_response" | jq > JJ_FlightResponse_"$current_time".json
+  echo "$flight_response" | jq '.' > JJ_FlightResponse_"$current_time".json
   echo "$flight_response" | jq -r '
   .data.flightLegs[]
   | .OperationalFlightSegments[]
@@ -79,12 +79,12 @@ export hash=$(get_united_bearer_token)
 # Main logic
 retry_count=0
 # Maximum number of retries
-max_retries=7
+max_retries=8
 # Delay between retries in seconds
-delay=20
+delay=15
 
 while true; do
-  response=$(curl -s -w "%{http_code}" "$URL" | jq)
+  response=$(curl -s -w "%{http_code}" "$URL" | jq '.')
   http_code=$(tail -n1 <<< "$response")  # get the last line
 #  echo $http_code
   if [[ $http_code -lt 300 ]]; then
@@ -108,7 +108,7 @@ done
 DEPARTURES_JSON=$(echo "$content" | jq --arg today "$TODAY" --argjson now "$NOW" '
   [.departures[]
   | select((.publishedTime | startswith($today)) and .dep_airport_code == "IAD")
-  | .departure_time = (if .actualtime then .actualtime else .publishedTime end)
+  | .departure_time = ((if .actualtime then .actualtime else .publishedTime end) | split(" ")[1] | split(":")[0:2] | join(":"))
   | .gate = (if .mod_gate then .mod_gate else .gate end)
   | .codeshared_flights = (
       [.codeshare[]
@@ -119,7 +119,7 @@ DEPARTURES_JSON=$(echo "$content" | jq --arg today "$TODAY" --argjson now "$NOW"
   | .flight = (.IATA + " " + .flightnumber)
   | .airline_code = (.IATA)
   | .airport = (.airportcode + " " + .city)
-  | del(.IATA, .flightnumber, .airportcode, .city, .mod_gate, .id, .mwaaTime, .baggage, .publishedTime, .actualtime, 
+  | del(.IATA, .flightnumber, .airportcode, .city, .mod_gate, .id, .mwaaTime, .baggage, .publishedTime, .actualtime,
         .aircraftInfo, .arr_terminal, .arr_gate, .departureInfo, .mod_status, .codeshare, .dep_airport_code, .dep_terminal, .international)
   ]
   | sort_by(.departure_time)
@@ -142,7 +142,7 @@ else
   rm -f JJ*.json
   exit 0
 fi
-
+exit 0
 #cat $DEPARTURES_STAGE_FILE
 
 # Create an empty array for the updated JSON
@@ -163,7 +163,8 @@ updated_json=$(jq -c '.[]' "$DEPARTURES_STAGE_FILE" | while read -r item; do
   fi
 
   # Add the response_code field to the JSON object
-  updated_item=$(echo "$item" | jq --arg rc "$boarding_time" '. + {boarding_time: $rc}  | del(.board_URL)')
+#  updated_item=$(echo "$item" | jq --arg rc "$boarding_time" '. + {boarding_time: $rc}  | del(.board_URL)')
+  updated_item=$(echo "$item" | jq --arg rc "$boarding_time" '. + {boarding_time: $rc}')
 
   # Output the updated item
   echo "$updated_item"
