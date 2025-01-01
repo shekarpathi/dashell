@@ -1,0 +1,38 @@
+#!/bin/bash
+
+# Read input from a pipe or as a direct argument
+if [ -p /dev/stdin ]; then
+  # Input is provided via a pipe
+  read -r timestamp
+else
+  # Check if an argument is provided
+  if [ -z "$1" ]; then
+    echo "Usage: echo <word> | $0 or $0 <word>"
+    exit 1
+  fi
+  timestamp="$1"
+fi
+
+# Get current time in seconds since epoch
+now_seconds=$(date +%s)
+
+# Convert the given timestamp to seconds since epoch
+timestamp_seconds=$(date -d "$timestamp" +%s)
+
+# Calculate the difference in seconds
+diff_seconds=$((timestamp_seconds - now_seconds))
+
+# Determine the sign (positive for future, negative for past)
+if [ $diff_seconds -ge 0 ]; then
+    sign="+"
+else
+    sign="-"
+    diff_seconds=$((diff_seconds * -1)) # Convert to positive for formatting
+fi
+
+# Convert seconds to HH:MM format
+hours=$((diff_seconds / 3600))
+minutes=$(((diff_seconds % 3600) / 60))
+
+# Format with leading zeros and prepend the sign
+printf "%s%02d:%02d\n" "$sign" "$hours" "$minutes"
