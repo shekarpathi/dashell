@@ -990,17 +990,6 @@
     "boarding_time": ""
   },
   {
-    "flight": "EK 232",
-    "airport": "DXB DUBAI",
-    "airline": "Emirates",
-    "gate": "A16",
-    "departure_time": "2025-01-01 10:30:00",
-    "status": "Scheduled",
-    "codeshared_flights": "",
-    "airline_code": "EK",
-    "boarding_time": ""
-  },
-  {
     "flight": "AC 8617",
     "airport": "YYZ TORONTO, YYZ",
     "airline": "Air Canada",
@@ -1020,6 +1009,17 @@
     "status": "Delayed",
     "codeshared_flights": "AA8123, AS5824, B66569, MH9792, UL3016, WB1166, WY6255",
     "airline_code": "QR",
+    "boarding_time": ""
+  },
+  {
+    "flight": "EK 232",
+    "airport": "DXB DUBAI",
+    "airline": "Emirates",
+    "gate": "A16",
+    "departure_time": "2025-01-01 11:00:00",
+    "status": "Delayed",
+    "codeshared_flights": "",
+    "airline_code": "EK",
     "boarding_time": ""
   },
   {
@@ -1064,7 +1064,7 @@
     "status": "Delayed",
     "codeshared_flights": "AV2069, CM1297",
     "airline_code": "UA",
-    "boarding_time": "BT 08:15\nST 12:05\nET 12:15"
+    "boarding_time": "BT 08:15\nST 13:50\nET 14:00"
   },
   {
     "flight": "KE 94",
@@ -1669,7 +1669,7 @@
     "status": "Scheduled",
     "codeshared_flights": "AC4747",
     "airline_code": "UA",
-    "boarding_time": "BT 12:33\nST 12:33\nET 12:43"
+    "boarding_time": "BT 12:33\nST 15:59\nET 16:09"
   },
   {
     "flight": "DL 1400",
