@@ -3124,23 +3124,12 @@
     "boarding_time": ""
   },
   {
-    "flight": "QR 708",
-    "airport": "DOH DOHA",
-    "airline": "Qatar Airways",
-    "gate": "A32",
-    "departure_time": "2024-12-31 20:05:00",
-    "status": "Proposed",
-    "codeshared_flights": "AA8120, AS5822, B65555, MH9070, UL3167, WB1083, WY6046",
-    "airline_code": "QR",
-    "boarding_time": ""
-  },
-  {
     "flight": "UA 2303",
     "airport": "LAX LOS ANGELES",
     "airline": "United Airlines",
     "gate": "D21",
     "departure_time": "2024-12-31 20:06:00",
-    "status": "OutGate",
+    "status": "InAir",
     "codeshared_flights": "NZ9587, SN8943, VA8372",
     "airline_code": "UA",
     "boarding_time": "BT 18:10\nST 19:25\nET 20:00"
@@ -3151,20 +3140,20 @@
     "airline": "United Airlines",
     "gate": "A6A",
     "departure_time": "2024-12-31 20:20:00",
-    "status": "Delayed",
+    "status": "InAir",
     "codeshared_flights": "",
     "airline_code": "UA",
     "boarding_time": "BT 17:00\nST 19:55\nET 20:05"
   },
   {
-    "flight": "LX 73",
-    "airport": "ZRH ZURICH",
-    "airline": "SWISS",
-    "gate": "B49",
-    "departure_time": "2024-12-31 20:45:00",
-    "status": "Proposed",
-    "codeshared_flights": "AC6795, UA9741",
-    "airline_code": "LX",
+    "flight": "QR 708",
+    "airport": "DOH DOHA",
+    "airline": "Qatar Airways",
+    "gate": "A32",
+    "departure_time": "2024-12-31 20:41:00",
+    "status": "InAir",
+    "codeshared_flights": "AA8120, AS5822, B65555, MH9070, UL3167, WB1083, WY6046",
+    "airline_code": "QR",
     "boarding_time": ""
   },
   {
@@ -3172,21 +3161,65 @@
     "airport": "SFO SAN FRANCISCO",
     "airline": "United Airlines",
     "gate": "C11",
-    "departure_time": "2024-12-31 20:49:00",
-    "status": "Scheduled",
+    "departure_time": "2024-12-31 21:05:00",
+    "status": "InAir",
     "codeshared_flights": "NZ9179, VA8391",
     "airline_code": "UA",
-    "boarding_time": "BT 20:09\nST 20:09\nET 20:34"
+    "boarding_time": "BT 20:09\nST 20:30\nET 20:55"
+  },
+  {
+    "flight": "LX 73",
+    "airport": "ZRH ZURICH",
+    "airline": "SWISS",
+    "gate": "B49",
+    "departure_time": "2024-12-31 21:11:00",
+    "status": "InAir",
+    "codeshared_flights": "AC6795, UA9741",
+    "airline_code": "LX",
+    "boarding_time": ""
+  },
+  {
+    "flight": "EY 6",
+    "airport": "AUH ABU DHABI",
+    "airline": "Etihad Airways",
+    "gate": "A16",
+    "departure_time": "2024-12-31 21:14:00",
+    "status": "InAir",
+    "codeshared_flights": "GF5130, UL2630",
+    "airline_code": "EY",
+    "boarding_time": ""
   },
   {
     "flight": "EI 118",
     "airport": "DUB DUBLIN",
     "airline": "Aer Lingus",
     "gate": "B75",
-    "departure_time": "2024-12-31 21:15:00",
-    "status": "Proposed",
+    "departure_time": "2024-12-31 21:27:00",
+    "status": "OutGate",
     "codeshared_flights": "AA8328, BA6158",
     "airline_code": "EI",
+    "boarding_time": ""
+  },
+  {
+    "flight": "UA 2025",
+    "airport": "SJU SAN JUAN",
+    "airline": "United Airlines",
+    "gate": "C1",
+    "departure_time": "2024-12-31 21:29:00",
+    "status": "OutGate",
+    "codeshared_flights": "AC5468, SN9048",
+    "airline_code": "UA",
+    "boarding_time": "BT 16:55\nST 21:09\nET 21:34"
+  },
+  {
+    "flight": "9X 129",
+    "airport": "DUJ DUBOIS",
+    "airline": "Southern Airways Express",
+    "gate": "H17",
+    "departure_time": "2024-12-31 21:30:00",
+    "status": "Proposed",
+    "codeshared_flights": "",
+    "airline_code": "9X",
     "boarding_time": ""
   },
   {
@@ -3194,33 +3227,11 @@
     "airport": "LAS LAS VEGAS",
     "airline": "United Airlines",
     "gate": "D16",
-    "departure_time": "2024-12-31 21:15:00",
+    "departure_time": "2024-12-31 21:30:00",
     "status": "Delayed",
     "codeshared_flights": "OS7863",
     "airline_code": "UA",
-    "boarding_time": "BT 18:57\nST 20:35\nET 21:00"
-  },
-  {
-    "flight": "EY 6",
-    "airport": "AUH ABU DHABI",
-    "airline": "Etihad Airways",
-    "gate": "A16",
-    "departure_time": "2024-12-31 21:30:00",
-    "status": "Proposed",
-    "codeshared_flights": "GF5130, UL2630",
-    "airline_code": "EY",
-    "boarding_time": ""
-  },
-  {
-    "flight": "AF 53",
-    "airport": "CDG PARIS",
-    "airline": "Air France",
-    "gate": "A25",
-    "departure_time": "2024-12-31 21:30:00",
-    "status": "Scheduled",
-    "codeshared_flights": "DL8514, KL2372, VS6759",
-    "airline_code": "AF",
-    "boarding_time": ""
+    "boarding_time": "BT 18:57\nST 21:01\nET 21:26"
   },
   {
     "flight": "TK 8",
@@ -3234,15 +3245,15 @@
     "boarding_time": ""
   },
   {
-    "flight": "UA 2025",
-    "airport": "SJU SAN JUAN",
-    "airline": "United Airlines",
-    "gate": "C1",
-    "departure_time": "2024-12-31 21:49:00",
+    "flight": "AF 53",
+    "airport": "CDG PARIS",
+    "airline": "Air France",
+    "gate": "A25",
+    "departure_time": "2024-12-31 21:50:00",
     "status": "Delayed",
-    "codeshared_flights": "AC5468, SN9048",
-    "airline_code": "UA",
-    "boarding_time": "BT 16:55\nST 21:09\nET 21:34"
+    "codeshared_flights": "DL8514, KL2372, VS6759",
+    "airline_code": "AF",
+    "boarding_time": ""
   },
   {
     "flight": "BA 292",
@@ -3410,17 +3421,6 @@
     "boarding_time": "BT 21:50\nST 21:50\nET 22:00"
   },
   {
-    "flight": "9X 129",
-    "airport": "DUJ DUBOIS",
-    "airline": "Southern Airways Express",
-    "gate": "H17",
-    "departure_time": "2024-12-31 22:15:00",
-    "status": "Scheduled",
-    "codeshared_flights": "",
-    "airline_code": "9X",
-    "boarding_time": ""
-  },
-  {
     "flight": "UA 924",
     "airport": "LHR LONDON",
     "airline": "United Airlines",
@@ -3487,6 +3487,17 @@
     "boarding_time": "BT 21:55\nST 21:55\nET 22:05"
   },
   {
+    "flight": "9X 248",
+    "airport": "LNS LANCASTER",
+    "airline": "Southern Airways Express",
+    "gate": "H17",
+    "departure_time": "2024-12-31 22:20:00",
+    "status": "Proposed",
+    "codeshared_flights": "",
+    "airline_code": "9X",
+    "boarding_time": ""
+  },
+  {
     "flight": "UA 1584",
     "airport": "SFO SAN FRANCISCO",
     "airline": "United Airlines",
@@ -3551,17 +3562,6 @@
     "codeshared_flights": "NZ6643",
     "airline_code": "UA",
     "boarding_time": "BT 21:49\nST 21:49\nET 22:09"
-  },
-  {
-    "flight": "9X 248",
-    "airport": "LNS LANCASTER",
-    "airline": "Southern Airways Express",
-    "gate": "H17",
-    "departure_time": "2024-12-31 22:30:00",
-    "status": "Scheduled",
-    "codeshared_flights": "",
-    "airline_code": "9X",
-    "boarding_time": ""
   },
   {
     "flight": "UA 861",
