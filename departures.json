@@ -1034,6 +1034,17 @@
     "boarding_time": ""
   },
   {
+    "flight": "UA 5098",
+    "airport": "MGW MORGANTOWN",
+    "airline": "United Airlines",
+    "gate": "A4E",
+    "departure_time": "2025-01-01 12:00:00",
+    "status": "Delayed",
+    "codeshared_flights": "",
+    "airline_code": "UA",
+    "boarding_time": "BT 08:35\nST 12:05\nET 12:15"
+  },
+  {
     "flight": "KE 94",
     "airport": "ICN SEOUL",
     "airline": "Korean Air",
@@ -1263,17 +1274,6 @@
     "codeshared_flights": "AC4611, NH7122",
     "airline_code": "UA",
     "boarding_time": "BT 12:15\nST 12:15\nET 12:25"
-  },
-  {
-    "flight": "UA 5098",
-    "airport": "MGW MORGANTOWN",
-    "airline": "United Airlines",
-    "gate": "A4E",
-    "departure_time": "2025-01-01 12:42:00",
-    "status": "Delayed",
-    "codeshared_flights": "",
-    "airline_code": "UA",
-    "boarding_time": "BT 08:35\nST 11:35\nET 11:45"
   },
   {
     "flight": "UA 1581",
