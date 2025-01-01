@@ -3613,7 +3613,7 @@
     "airline": "United Airlines",
     "gate": "C25",
     "departure_time": "2024-12-31 22:48:00",
-    "status": "OutGate",
+    "status": "InAir",
     "codeshared_flights": "AC4751",
     "airline_code": "UA",
     "boarding_time": "BT 21:52\nST 22:15\nET 22:40"
@@ -3623,8 +3623,8 @@
     "airport": "DTW DETROIT, DTW",
     "airline": "United Airlines",
     "gate": "C22",
-    "departure_time": "2024-12-31 23:10:00",
-    "status": "Delayed",
+    "departure_time": "2024-12-31 23:19:00",
+    "status": "OutGate",
     "codeshared_flights": "",
     "airline_code": "UA",
     "boarding_time": "BT 21:50\nST 22:51\nET 23:01"
