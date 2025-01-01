@@ -3327,7 +3327,7 @@
     "airline": "United Airlines",
     "gate": "D29",
     "departure_time": "2024-12-31 22:10:00",
-    "status": "OutGate",
+    "status": "InAir",
     "codeshared_flights": "AC3544",
     "airline_code": "UA",
     "boarding_time": "BT 21:50\nST 21:50\nET 22:00"
@@ -3443,17 +3443,6 @@
     "boarding_time": "BT 21:15\nST 21:28\nET 22:03"
   },
   {
-    "flight": "9X 248",
-    "airport": "LNS LANCASTER",
-    "airline": "Southern Airways Express",
-    "gate": "H17",
-    "departure_time": "2024-12-31 22:20:00",
-    "status": "Proposed",
-    "codeshared_flights": "",
-    "airline_code": "9X",
-    "boarding_time": ""
-  },
-  {
     "flight": "UA 1413",
     "airport": "LAX LOS ANGELES",
     "airline": "United Airlines",
@@ -3514,7 +3503,7 @@
     "airline": "United Airlines",
     "gate": "D6",
     "departure_time": "2024-12-31 22:24:00",
-    "status": "OutGate",
+    "status": "InAir",
     "codeshared_flights": "CM2861",
     "airline_code": "UA",
     "boarding_time": "BT 21:37\nST 21:37\nET 22:02"
@@ -3525,7 +3514,7 @@
     "airline": "United Airlines",
     "gate": "C14",
     "departure_time": "2024-12-31 22:27:00",
-    "status": "OutGate",
+    "status": "InAir",
     "codeshared_flights": "CA7241, NZ9181, VA8388",
     "airline_code": "UA",
     "boarding_time": "BT 21:40\nST 21:40\nET 22:05"
@@ -3536,10 +3525,21 @@
     "airline": "United Airlines",
     "gate": "C4",
     "departure_time": "2024-12-31 22:29:00",
-    "status": "OutGate",
+    "status": "InAir",
     "codeshared_flights": "AV2134",
     "airline_code": "UA",
     "boarding_time": "BT 21:53\nST 21:53\nET 22:18"
+  },
+  {
+    "flight": "9X 248",
+    "airport": "LNS LANCASTER",
+    "airline": "Southern Airways Express",
+    "gate": "H17",
+    "departure_time": "2024-12-31 22:30:00",
+    "status": "NoTakeoffInfo",
+    "codeshared_flights": "",
+    "airline_code": "9X",
+    "boarding_time": ""
   },
   {
     "flight": "UA 6025",
@@ -3547,7 +3547,7 @@
     "airline": "United Airlines",
     "gate": "C18",
     "departure_time": "2024-12-31 22:30:00",
-    "status": "OutGate",
+    "status": "InAir",
     "codeshared_flights": "",
     "airline_code": "UA",
     "boarding_time": "BT 21:45\nST 22:00\nET 22:10"
@@ -3558,7 +3558,7 @@
     "airline": "United Airlines",
     "gate": "D11",
     "departure_time": "2024-12-31 22:32:00",
-    "status": "OutGate",
+    "status": "InAir",
     "codeshared_flights": "AC3394",
     "airline_code": "UA",
     "boarding_time": "BT 21:55\nST 21:55\nET 22:20"
@@ -3569,7 +3569,7 @@
     "airline": "United Airlines",
     "gate": "D30",
     "departure_time": "2024-12-31 22:34:00",
-    "status": "OutGate",
+    "status": "InAir",
     "codeshared_flights": "NH7254",
     "airline_code": "UA",
     "boarding_time": "BT 21:40\nST 21:40\nET 22:15"
@@ -3580,7 +3580,7 @@
     "airline": "United Airlines",
     "gate": "D26",
     "departure_time": "2024-12-31 22:35:00",
-    "status": "OutGate",
+    "status": "InAir",
     "codeshared_flights": "NZ6643",
     "airline_code": "UA",
     "boarding_time": "BT 21:49\nST 22:10\nET 22:30"
@@ -3591,7 +3591,7 @@
     "airline": "United Airlines",
     "gate": "D3",
     "departure_time": "2024-12-31 22:38:00",
-    "status": "OutGate",
+    "status": "InAir",
     "codeshared_flights": "AC3605",
     "airline_code": "UA",
     "boarding_time": "BT 21:58\nST 21:58\nET 22:23"
@@ -3602,7 +3602,7 @@
     "airline": "United Airlines",
     "gate": "A6B",
     "departure_time": "2024-12-31 22:45:00",
-    "status": "OutGate",
+    "status": "InAir",
     "codeshared_flights": "",
     "airline_code": "UA",
     "boarding_time": "BT 21:40\nST 22:20\nET 22:30"
@@ -3612,8 +3612,8 @@
     "airport": "ORF NORFOLK",
     "airline": "United Airlines",
     "gate": "C25",
-    "departure_time": "2024-12-31 22:55:00",
-    "status": "Delayed",
+    "departure_time": "2024-12-31 22:48:00",
+    "status": "OutGate",
     "codeshared_flights": "AC4751",
     "airline_code": "UA",
     "boarding_time": "BT 21:52\nST 22:15\nET 22:40"
@@ -3627,7 +3627,7 @@
     "status": "Delayed",
     "codeshared_flights": "",
     "airline_code": "UA",
-    "boarding_time": "BT 21:50\nST 22:45\nET 22:55"
+    "boarding_time": "BT 21:50\nST 22:51\nET 23:01"
   },
   {
     "flight": "AV 663",
