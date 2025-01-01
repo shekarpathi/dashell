@@ -946,6 +946,17 @@
     "boarding_time": "BT 07:45\nST 08:40\nET 09:00"
   },
   {
+    "flight": "AI 104",
+    "airport": "DEL DELHI",
+    "airline": "Air India",
+    "gate": "B45",
+    "departure_time": "2025-01-01 09:45:00",
+    "status": "OutGate",
+    "codeshared_flights": "",
+    "airline_code": "AI",
+    "boarding_time": ""
+  },
+  {
     "flight": "DL 1444",
     "airport": "ATL ATLANTA",
     "airline": "Delta Air Lines",
@@ -965,17 +976,6 @@
     "status": "Proposed",
     "codeshared_flights": "KP1104, UA7201",
     "airline_code": "ET",
-    "boarding_time": ""
-  },
-  {
-    "flight": "AI 104",
-    "airport": "DEL DELHI",
-    "airline": "Air India",
-    "gate": "B45",
-    "departure_time": "2025-01-01 10:00:00",
-    "status": "Scheduled",
-    "codeshared_flights": "",
-    "airline_code": "AI",
     "boarding_time": ""
   },
   {
