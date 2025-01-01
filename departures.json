@@ -1083,7 +1083,7 @@
     "airline": "United Airlines",
     "gate": "A4A",
     "departure_time": "2025-01-01 12:32:00",
-    "status": "OutGate",
+    "status": "InAir",
     "codeshared_flights": "AC4729",
     "airline_code": "UA",
     "boarding_time": "BT 12:15\nST 12:15\nET 12:25"
@@ -1237,7 +1237,7 @@
     "airline": "United Airlines",
     "gate": "D19",
     "departure_time": "2025-01-01 12:41:00",
-    "status": "OutGate",
+    "status": "InAir",
     "codeshared_flights": "AC3839, ET1350, NH7138, NZ2452",
     "airline_code": "UA",
     "boarding_time": "BT 12:10\nST 12:10\nET 12:30"
@@ -1336,7 +1336,7 @@
     "airline": "United Airlines",
     "gate": "A2E",
     "departure_time": "2025-01-01 12:45:00",
-    "status": "OutGate",
+    "status": "InAir",
     "codeshared_flights": "AV2075",
     "airline_code": "UA",
     "boarding_time": "BT 12:30\nST 12:30\nET 12:40"
@@ -1380,7 +1380,7 @@
     "airline": "United Airlines",
     "gate": "C18",
     "departure_time": "2025-01-01 12:49:00",
-    "status": "OutGate",
+    "status": "InAir",
     "codeshared_flights": "AC3936, NH7377",
     "airline_code": "UA",
     "boarding_time": "BT 12:15\nST 12:25\nET 12:35"
@@ -1402,7 +1402,7 @@
     "airline": "United Airlines",
     "gate": "A6B",
     "departure_time": "2025-01-01 12:49:00",
-    "status": "OutGate",
+    "status": "InAir",
     "codeshared_flights": "",
     "airline_code": "UA",
     "boarding_time": "BT 12:30\nST 12:30\nET 12:40"
@@ -1424,7 +1424,7 @@
     "airline": "United Airlines",
     "gate": "A1B",
     "departure_time": "2025-01-01 12:50:00",
-    "status": "OutGate",
+    "status": "InAir",
     "codeshared_flights": "AC3541, NH7110",
     "airline_code": "UA",
     "boarding_time": "BT 12:20\nST 12:20\nET 12:30"
@@ -1457,7 +1457,7 @@
     "airline": "United Airlines",
     "gate": "D20",
     "departure_time": "2025-01-01 12:52:00",
-    "status": "OutGate",
+    "status": "InAir",
     "codeshared_flights": "ET1370, NH7102",
     "airline_code": "UA",
     "boarding_time": "BT 12:23\nST 12:23\nET 12:43"
@@ -1468,7 +1468,7 @@
     "airline": "United Airlines",
     "gate": "A5C",
     "departure_time": "2025-01-01 12:52:00",
-    "status": "OutGate",
+    "status": "InAir",
     "codeshared_flights": "AC4257, ET1378",
     "airline_code": "UA",
     "boarding_time": "BT 12:30\nST 12:30\nET 12:40"
@@ -1479,7 +1479,7 @@
     "airline": "United Airlines",
     "gate": "A6A",
     "departure_time": "2025-01-01 12:53:00",
-    "status": "OutGate",
+    "status": "InAir",
     "codeshared_flights": "",
     "airline_code": "UA",
     "boarding_time": "BT 12:30\nST 12:30\nET 12:40"
@@ -1534,7 +1534,7 @@
     "airline": "United Airlines",
     "gate": "Z9",
     "departure_time": "2025-01-01 12:55:00",
-    "status": "OutGate",
+    "status": "InAir",
     "codeshared_flights": "",
     "airline_code": "UA",
     "boarding_time": "BT 12:30\nST 12:30\nET 12:40"
@@ -1589,7 +1589,7 @@
     "airline": "Delta Air Lines",
     "gate": "B74",
     "departure_time": "2025-01-01 13:04:00",
-    "status": "OutGate",
+    "status": "InAir",
     "codeshared_flights": "AF2299, AM3932, KE3683, KL5935, LA6504, VS4471, WS8563",
     "airline_code": "DL",
     "boarding_time": ""
@@ -1600,7 +1600,7 @@
     "airline": "United Airlines",
     "gate": "C22",
     "departure_time": "2025-01-01 13:04:00",
-    "status": "OutGate",
+    "status": "InAir",
     "codeshared_flights": "AV2084, NH7140",
     "airline_code": "UA",
     "boarding_time": "BT 12:40\nST 12:40\nET 12:50"
@@ -1622,21 +1622,10 @@
     "airline": "United Airlines",
     "gate": "D15",
     "departure_time": "2025-01-01 13:09:00",
-    "status": "OutGate",
+    "status": "InAir",
     "codeshared_flights": "",
     "airline_code": "UA",
     "boarding_time": "BT 12:20\nST 12:35\nET 13:00"
-  },
-  {
-    "flight": "DL 3877",
-    "airport": "DTW DETROIT, DTW",
-    "airline": "Delta Air Lines",
-    "gate": "B72",
-    "departure_time": "2025-01-01 13:10:00",
-    "status": "Delayed",
-    "codeshared_flights": "AF2246, KE3479, KL6705, VS4419",
-    "airline_code": "DL",
-    "boarding_time": ""
   },
   {
     "flight": "UA 2029",
@@ -1687,33 +1676,44 @@
     "airport": "MCI KANSAS CITY",
     "airline": "United Airlines",
     "gate": "Z5",
-    "departure_time": "2025-01-01 13:20:00",
-    "status": "Scheduled",
+    "departure_time": "2025-01-01 13:19:00",
+    "status": "OutGate",
     "codeshared_flights": "AV2072",
     "airline_code": "UA",
     "boarding_time": "BT 12:40\nST 12:55\nET 13:05"
-  },
-  {
-    "flight": "UA 803",
-    "airport": "HND TOKYO, HND",
-    "airline": "United Airlines",
-    "gate": "D3",
-    "departure_time": "2025-01-01 13:20:00",
-    "status": "Delayed",
-    "codeshared_flights": "NH7029",
-    "airline_code": "UA",
-    "boarding_time": "BT 11:45\nST 12:30\nET 13:05"
   },
   {
     "flight": "UA 3490",
     "airport": "YYZ TORONTO, YYZ",
     "airline": "United Airlines",
     "gate": "Z7",
-    "departure_time": "2025-01-01 13:20:00",
-    "status": "Delayed",
+    "departure_time": "2025-01-01 13:21:00",
+    "status": "OutGate",
     "codeshared_flights": "AC3932, CM2802, NH7020",
     "airline_code": "UA",
     "boarding_time": "BT 12:13\nST 12:55\nET 13:05"
+  },
+  {
+    "flight": "DL 3877",
+    "airport": "DTW DETROIT, DTW",
+    "airline": "Delta Air Lines",
+    "gate": "B72",
+    "departure_time": "2025-01-01 13:23:00",
+    "status": "Landed",
+    "codeshared_flights": "AF2246, KE3479, KL6705, VS4419",
+    "airline_code": "DL",
+    "boarding_time": ""
+  },
+  {
+    "flight": "UA 803",
+    "airport": "HND TOKYO, HND",
+    "airline": "United Airlines",
+    "gate": "D3",
+    "departure_time": "2025-01-01 13:23:00",
+    "status": "OutGate",
+    "codeshared_flights": "NH7029",
+    "airline_code": "UA",
+    "boarding_time": "BT 11:45\nST 12:30\nET 13:05"
   },
   {
     "flight": "UA 4950",
@@ -1886,7 +1886,7 @@
     "airline": "Southwest Airlines",
     "gate": "B66",
     "departure_time": "2025-01-01 15:45:00",
-    "status": "Scheduled",
+    "status": "Proposed",
     "codeshared_flights": "",
     "airline_code": "WN",
     "boarding_time": ""
@@ -1940,8 +1940,8 @@
     "airport": "ATL ATLANTA",
     "airline": "Delta Air Lines",
     "gate": "B74",
-    "departure_time": "2025-01-01 16:41:00",
-    "status": "Scheduled",
+    "departure_time": "2025-01-01 16:59:00",
+    "status": "Delayed",
     "codeshared_flights": "AF2303, KE3581, KL5695, LA6505, VS4473",
     "airline_code": "DL",
     "boarding_time": ""
@@ -2692,7 +2692,7 @@
     "status": "Scheduled",
     "codeshared_flights": "AV2242, CM2273, LH7554, SN8990",
     "airline_code": "UA",
-    "boarding_time": "BT 17:25\nST 17:25\nET 17:35"
+    "boarding_time": "BT 17:25\nST 17:50\nET 18:00"
   },
   {
     "flight": "UA 1757",
@@ -2755,7 +2755,7 @@
     "airline": "Saudi Arabian Airlines",
     "gate": "A31",
     "departure_time": "2025-01-01 17:55:00",
-    "status": "Scheduled",
+    "status": "Proposed",
     "codeshared_flights": "DL7334, KU6138",
     "airline_code": "SV",
     "boarding_time": ""
@@ -3259,7 +3259,7 @@
     "flight": "UA 6025",
     "airport": "SYR SYRACUSE",
     "airline": "United Airlines",
-    "gate": "D23",
+    "gate": "D24",
     "departure_time": "2025-01-01 22:10:00",
     "status": "Scheduled",
     "codeshared_flights": "LH8976",
@@ -3303,7 +3303,7 @@
     "flight": "UA 3646",
     "airport": "CMH COLUMBUS",
     "airline": "United Airlines",
-    "gate": "C28",
+    "gate": "C22",
     "departure_time": "2025-01-01 22:15:00",
     "status": "Scheduled",
     "codeshared_flights": "AC3544, ET1382, LH8646",
