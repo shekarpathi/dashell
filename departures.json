@@ -38,7 +38,7 @@
     "airline": "Delta Air Lines",
     "gate": "B75",
     "departure_time": "2025-01-01 06:04:00",
-    "status": "OutGate",
+    "status": "InAir",
     "codeshared_flights": "AM3753, KE3181, VS4433, WS7653",
     "airline_code": "DL",
     "boarding_time": ""
@@ -49,7 +49,7 @@
     "airline": "Delta Air Lines",
     "gate": "B70",
     "departure_time": "2025-01-01 06:11:00",
-    "status": "OutGate",
+    "status": "InAir",
     "codeshared_flights": "AM4098, KE3431, MU8721, VS4415, WS7117",
     "airline_code": "DL",
     "boarding_time": ""
@@ -74,7 +74,7 @@
     "status": "Scheduled",
     "codeshared_flights": "CM2863",
     "airline_code": "UA",
-    "boarding_time": "BT 05:50\nST 05:50\nET 06:15"
+    "boarding_time": "BT 05:50\nST 06:10\nET 06:35"
   },
   {
     "flight": "UA 1469",
@@ -467,7 +467,7 @@
     "airline": "Southern Airways Express",
     "gate": "H17",
     "departure_time": "2025-01-01 08:25:00",
-    "status": "Scheduled",
+    "status": "Proposed",
     "codeshared_flights": "",
     "airline_code": "9X",
     "boarding_time": ""
@@ -603,17 +603,6 @@
     "codeshared_flights": "AV2298, NZ6640",
     "airline_code": "UA",
     "boarding_time": "BT 07:47\nST 07:47\nET 08:22"
-  },
-  {
-    "flight": "UA 3561",
-    "airport": "IND INDIANAPOLIS",
-    "airline": "United Airlines",
-    "gate": "D23",
-    "departure_time": "2025-01-01 08:40:00",
-    "status": "Scheduled",
-    "codeshared_flights": "AV2069, CM1297",
-    "airline_code": "UA",
-    "boarding_time": "BT 08:15\nST 08:15\nET 08:25"
   },
   {
     "flight": "9X 244",
@@ -957,6 +946,17 @@
     "boarding_time": "BT 08:20\nST 08:20\nET 08:45"
   },
   {
+    "flight": "UA 3561",
+    "airport": "IND INDIANAPOLIS",
+    "airline": "United Airlines",
+    "gate": "D23",
+    "departure_time": "2025-01-01 09:15:00",
+    "status": "Delayed",
+    "codeshared_flights": "AV2069, CM1297",
+    "airline_code": "UA",
+    "boarding_time": "BT 08:15\nST 08:15\nET 08:25"
+  },
+  {
     "flight": "AA 5203",
     "airport": "CLT CHARLOTTE",
     "airline": "American Airlines",
@@ -1012,17 +1012,6 @@
     "boarding_time": "BT 09:15\nST 09:15\nET 09:50"
   },
   {
-    "flight": "AA 2617",
-    "airport": "DFW DALLAS, DFW",
-    "airline": "American Airlines",
-    "gate": "B71",
-    "departure_time": "2025-01-01 10:30:00",
-    "status": "Delayed",
-    "codeshared_flights": "AS4144, QR2561",
-    "airline_code": "AA",
-    "boarding_time": ""
-  },
-  {
     "flight": "EK 232",
     "airport": "DXB DUBAI",
     "airline": "Emirates",
@@ -1064,6 +1053,17 @@
     "status": "Scheduled",
     "codeshared_flights": "SQ5921, TG6085, UA7941",
     "airline_code": "NH",
+    "boarding_time": ""
+  },
+  {
+    "flight": "AA 2617",
+    "airport": "DFW DALLAS, DFW",
+    "airline": "American Airlines",
+    "gate": "B71",
+    "departure_time": "2025-01-01 11:30:00",
+    "status": "Delayed",
+    "codeshared_flights": "AS4144, QR2561",
+    "airline_code": "AA",
     "boarding_time": ""
   },
   {
