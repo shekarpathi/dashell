@@ -995,7 +995,7 @@
     "airline": "Air Canada",
     "gate": "Z10",
     "departure_time": "2025-01-01 10:33:00",
-    "status": "OutGate",
+    "status": "InAir",
     "codeshared_flights": "UA8063",
     "airline_code": "AC",
     "boarding_time": ""
