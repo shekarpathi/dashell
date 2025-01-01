@@ -1056,17 +1056,6 @@
     "boarding_time": ""
   },
   {
-    "flight": "UA 4317",
-    "airport": "ALB ALBANY",
-    "airline": "United Airlines",
-    "gate": "A4C",
-    "departure_time": "2025-01-01 12:35:00",
-    "status": "Scheduled",
-    "codeshared_flights": "",
-    "airline_code": "UA",
-    "boarding_time": "BT 12:10\nST 12:10\nET 12:20"
-  },
-  {
     "flight": "UA 6023",
     "airport": "CLT CHARLOTTE",
     "airline": "United Airlines",
@@ -1075,7 +1064,7 @@
     "status": "Scheduled",
     "codeshared_flights": "AC3560, NH7152",
     "airline_code": "UA",
-    "boarding_time": "BT 12:10\nST 12:10\nET 12:20"
+    "boarding_time": "BT 12:10\nST 12:12\nET 12:22"
   },
   {
     "flight": "UA 4360",
@@ -1505,6 +1494,17 @@
     "codeshared_flights": "AC3391, NH7144",
     "airline_code": "UA",
     "boarding_time": "BT 12:25\nST 12:25\nET 12:35"
+  },
+  {
+    "flight": "UA 4317",
+    "airport": "ALB ALBANY",
+    "airline": "United Airlines",
+    "gate": "A4C",
+    "departure_time": "2025-01-01 12:55:00",
+    "status": "Delayed",
+    "codeshared_flights": "",
+    "airline_code": "UA",
+    "boarding_time": "BT 12:10\nST 12:30\nET 12:40"
   },
   {
     "flight": "UA 4335",
