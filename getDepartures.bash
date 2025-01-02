@@ -204,7 +204,7 @@ UPDATED_JSON=$(echo "$TEMP" | jq -c '.[]' | while read -r row; do
     echo "$row" | jq --arg timeDelta "$time_delta" '.timeDelta = $timeDelta'
 done | jq -s '.')
 echo $UPDATED_JSON
-echo $UPDATED_JSON | jq '.' > del_me.json
+echo $UPDATED_JSON | jq '.' > departures_final.json
 
 exit 0
 #cat $DEPARTURES_STAGE_FILE
