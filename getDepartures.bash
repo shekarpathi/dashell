@@ -170,15 +170,12 @@ else
   rm -f JJ*.json
   exit 0
 fi
+
 TEMP=$(cat "$DEPARTURES_STAGE_FILE" | jq '.')
 #echo $TEMP | jq '.'
-
-
 # Process JSON and update the timeDelta field
 UPDATED_JSON=$(echo "$TEMP" | jq -c '.[]' | while read -r row; do
     departure_time=$(echo "$row" | jq -r '.departure_time')
-    echo $departure_time >> del_me.foo
-
     now_seconds=$(date +%s)
     # Determine the OS
     os_type=$(uname)
@@ -187,9 +184,10 @@ UPDATED_JSON=$(echo "$TEMP" | jq -c '.[]' | while read -r row; do
     elif [[ "$os_type" == "Darwin" ]]; then
       timestamp_seconds=$(date -j -f "%Y-%m-%d %H:%M:%S" "$departure_time" +%s)
     elif [[ "$os_type" == "CYGWIN"* || "$os_type" == "MINGW"* ]]; then
-      echo "This is a Windows system (via Cygwin or MinGW)."
+      timestamp_seconds=0
     else
-      echo "Unknown operating system: $os_type"
+      timestamp_seconds=0
+#      echo "Unknown operating system: $os_type"
     fi
     diff_seconds=$((timestamp_seconds - now_seconds))
     if [ $diff_seconds -ge 0 ]; then
