@@ -71,6 +71,33 @@ parse_boardingTimeString_From_Json() {
 #    cat PP"$current_time".json
 }
 
+add_time_left_for_departure() {
+  # $1 contains YYYY-MM-DD HH:MM:SS
+  # Get current time in seconds since epoch
+  now_seconds=$(date +%s)
+
+  # Convert the given timestamp to seconds since epoch
+  timestamp_seconds=$(date -d "$1" +%s)
+
+  # Calculate the difference in seconds
+  diff_seconds=$((timestamp_seconds - now_seconds))
+
+  # Determine the sign (positive for future, negative for past)
+  if [ $diff_seconds -ge 0 ]; then
+      sign="+"
+  else
+      sign="-"
+      diff_seconds=$((diff_seconds * -1)) # Convert to positive for formatting
+  fi
+
+  # Convert seconds to HH:MM format
+  hours=$((diff_seconds / 3600))
+  minutes=$(((diff_seconds % 3600) / 60))
+
+  # Format with leading zeros and prepend the sign
+  printf "%s%02d:%02d\n" "$sign" "$hours" "$minutes"
+}
+
 # shellcheck disable=SC2155
 export hash=$(get_united_bearer_token)
 #echo "$hash"
@@ -108,7 +135,8 @@ done
 DEPARTURES_JSON=$(echo "$content" | jq --arg today "$TODAY" --argjson now "$NOW" '
   [.departures[]
   | select((.publishedTime | startswith($today)) and .dep_airport_code == "IAD")
-  | .departure_time = ((if .actualtime then .actualtime else .publishedTime end) | split(" ")[1] | split(":")[0:2] | join(":"))
+  | .departure_time = ((if .actualtime then .actualtime else .publishedTime end))
+  | .departure_time_hh_mm = ((if .actualtime then .actualtime else .publishedTime end) | split(" ")[1] | split(":")[0:2] | join(":"))
   | .gate = (if .mod_gate then .mod_gate else .gate end)
   | .codeshared_flights = (
       [.codeshare[]
@@ -128,7 +156,7 @@ DEPARTURES_JSON=$(echo "$content" | jq --arg today "$TODAY" --argjson now "$NOW"
 echo "$DEPARTURES_JSON" > departures_raw_filtered.json
 ls -ltra departures_raw_filtered.json
 
-echo "$DEPARTURES_JSON" | jq '[.[] | {flight: .flight, airport: .airport, airline: .airline, gate: .gate, departure_time: .departure_time, status: .status, codeshared_flights: .codeshared_flights, board_URL: .boardURL, airline_code: .airline_code}]' > $DEPARTURES_STAGE_FILE
+echo "$DEPARTURES_JSON" | jq '[.[] | {flight: .flight, airport: .airport, airline: .airline, gate: .gate, departure_time: .departure_time, departure_time_hh_mm: .departure_time_hh_mm, status: .status, codeshared_flights: .codeshared_flights, board_URL: .boardURL, airline_code: .airline_code}]' > $DEPARTURES_STAGE_FILE
 
 # Check if the operation was successful and if the file has content
 if [ -s "$DEPARTURES_STAGE_FILE" ]; then
@@ -142,6 +170,44 @@ else
   rm -f JJ*.json
   exit 0
 fi
+TEMP=$(cat "$DEPARTURES_STAGE_FILE" | jq '.')
+#echo $TEMP | jq '.'
+
+
+# Process JSON and update the timeDelta field
+UPDATED_JSON=$(echo "$TEMP" | jq -c '.[]' | while read -r row; do
+    departure_time=$(echo "$row" | jq -r '.departure_time')
+    echo $departure_time >> del_me.foo
+
+    now_seconds=$(date +%s)
+    # Determine the OS
+    os_type=$(uname)
+    if [[ "$os_type" == "Linux" ]]; then
+      timestamp_seconds=$(date -d "$departure_time" +%s)
+    elif [[ "$os_type" == "Darwin" ]]; then
+      timestamp_seconds=$(date -j -f "%Y-%m-%d %H:%M:%S" "$departure_time" +%s)
+    elif [[ "$os_type" == "CYGWIN"* || "$os_type" == "MINGW"* ]]; then
+      echo "This is a Windows system (via Cygwin or MinGW)."
+    else
+      echo "Unknown operating system: $os_type"
+    fi
+    diff_seconds=$((timestamp_seconds - now_seconds))
+    if [ $diff_seconds -ge 0 ]; then
+        sign="+"
+    else
+        sign="-"
+        diff_seconds=$((diff_seconds * -1)) # Convert to positive for formatting
+    fi
+    hours=$((diff_seconds / 3600))
+    minutes=$(((diff_seconds % 3600) / 60))
+    #printf "%s%02d:%02d\n" "$sign" "$hours" "$minutes"
+    time_delta=$(printf "%s%02d:%02d\n" "$sign" "$hours" "$minutes")
+
+    echo "$row" | jq --arg timeDelta "$time_delta" '.timeDelta = $timeDelta'
+done | jq -s '.')
+echo $UPDATED_JSON
+echo $UPDATED_JSON | jq '.' > del_me.json
+
 exit 0
 #cat $DEPARTURES_STAGE_FILE
 
