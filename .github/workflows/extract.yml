@@ -27,7 +27,7 @@ jobs:
     - name: checkout dashell repository
       uses: actions/checkout@v4 # checkout the repository content to github runner.
       with:
-        repository: shekarpathi/dashell
+        repository: ${{ github.repository }}
         persist-credentials: true # otherwise, the token used is the GITHUB_TOKEN, instead of your personal access token.
         fetch-depth: 0 # otherwise, there would be errors pushing refs to the destination repository.
         clean: true
@@ -38,21 +38,6 @@ jobs:
         git pull --rebase origin main
         git status
 
-    - name: git rm departures.json
-      run: |
-        ls -ltra departures.json
-        git rm departures.json
-        git commit -m "removed departures.json, so that no history is maintained"
-        git push
-        git status
-        ls -ltra departures.json
-
-    - name: run getDepartures.bash
-      run: |
-        chmod +x getDepartures.bash
-        ls -ltra
-        ./getDepartures.bash
-
     - name: setup python 3.8
       uses: actions/setup-python@v5
       with:
@@ -60,9 +45,43 @@ jobs:
 
     - name: install python pip packages
       run: |
+        sudo apt-get update
+        sudo apt-get install -y python3-pip
+        pip3 install git-filter-repo
+        
         python -m pip install --upgrade pip
         pip install requests
         pip install pytz
+        pip3 install requests
+        pip3 install pytz
+
+    - name: Remove file from history
+      run: |
+        # Replace with your file path
+        FILE_PATH="departures.json"
+        
+        # Use git-filter-repo to remove the file from all history
+        git filter-repo --path "$FILE_PATH" --invert-paths
+
+    - name: Force push rewritten history
+      run: |
+        # Force push to the main branch to update the remote repository
+        git remote set-url origin https://github.com/${{ github.repository }}.git
+        git push origin --force
+
+    - name: run getDepartures.bash
+      run: |
+        chmod +x getDepartures.bash
+        ls -ltra
+        ./getDepartures.bash
+
+    - name: Add file back with no history
+      run: |
+        FILE_PATH="departures.json"
+        # Re-add the file to the current state (optional)
+        git add "$FILE_PATH"
+        git commit -m "Re-add file with no history"
+        git push origin main
 
     - name: Run script to get data for IAD arrivals
       run: |
