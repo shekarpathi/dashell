@@ -67,6 +67,7 @@ jobs:
       run: |
         # Force push to the main branch to update the remote repository
         # git remote set-url origin https://github.com/shekarpathi/dashell.git
+        git push --set-upstream origin main
         git push origin --force
 
     - name: run getDepartures.bash
