@@ -43,7 +43,11 @@ jobs:
         git commit -m "Remove departures.json from previous history"
 
     - name: Commit departures.json with no history
+      env:
+        GH_TOKEN: ${{ secrets.GH_TOKEN }}
       run: |
+        git config --global user.name "Shekar"
+        git config --global user.email "shekar@yahoo.com"
         git add departures.json
         git commit -m "Add new departures.json (no history)"
         git push origin main --force
