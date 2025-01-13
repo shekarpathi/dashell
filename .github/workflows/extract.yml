@@ -27,7 +27,7 @@ jobs:
     - name: checkout dashell repository
       uses: actions/checkout@v4 # checkout the repository content to github runner.
       with:
-        repository: ${{ github.repository }}
+        repository: shekarpathi/dashell
         persist-credentials: true # otherwise, the token used is the GITHUB_TOKEN, instead of your personal access token.
         fetch-depth: 0 # otherwise, there would be errors pushing refs to the destination repository.
         clean: true
