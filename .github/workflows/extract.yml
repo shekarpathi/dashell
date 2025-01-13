@@ -53,6 +53,5 @@ jobs:
         git config --global user.name "Shekar"
         git config --global user.email "shekar@yahoo.com"
         git add departures.json
-        cat departures.json
         git commit -m "Add new departures.json (no history)"
         git push origin main --force
