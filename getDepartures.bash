@@ -3,7 +3,7 @@
 #  git pull --rebase origin main
 clear
 clear
-echo "==========================="
+echo "=========================="
 echo "$1 Run Started $NOW"
 date
 echo "=========================="
