@@ -38,6 +38,15 @@ jobs:
         git pull --rebase origin main
         git status
 
+    - name: git rm departures.json
+      run: |
+        ls -ltra departures.json
+        git rm departures.json
+        git commit -m "removed departures.json, so that no history is maintained"
+        git push
+        git status
+        ls -ltra departures.json
+
     - name: run getDepartures.bash
       run: |
         chmod +x getDepartures.bash
@@ -66,9 +75,16 @@ jobs:
         git config --global user.name "Shekar"
         git config --global user.email "shekar@yahoo.com"
 
-    - name: Add, commit and push changes
-      uses: EndBug/add-and-commit@v9 # You can change this to use a specific version.
-      with:
-        add: "departures.json"
-        message: "Added departures.json files"
-        push: true
+#    - name: Add, commit and push changes
+#      uses: EndBug/add-and-commit@v9 # You can change this to use a specific version.
+#      with:
+#        add: "departures.json"
+#        message: "Added departures.json files"
+#        push: true
+
+    - name: git commit and push departures.json
+      run: |
+        ls -ltra
+        git add departures.json
+        git commit -m "Changes"
+        git push
