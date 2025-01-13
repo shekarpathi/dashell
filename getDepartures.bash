@@ -144,7 +144,7 @@ DEPARTURES_JSON=$(echo "$content" | jq --arg today "$TODAY" --argjson now "$NOW"
       ] | join(", ")
     )
   | .boardURL = ("https://www.united.com/api/flight/status/" + .flightnumber + "/" + $today +  "?carrierCode=" + .IATA)
-  | .flight = (.IATA + " " + .flightnumber)
+  | .flight = (.IATA + .flightnumber)
   | .airline_code = (.IATA)
   | .airport = (.airportcode + " " + .city)
   | del(.IATA, .flightnumber, .airportcode, .city, .mod_gate, .id, .mwaaTime, .baggage, .publishedTime, .actualtime,
