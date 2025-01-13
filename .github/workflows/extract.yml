@@ -1,22 +1,24 @@
-# This is a basic workflow to help you get started with Actions
-name: Cron job running every 5 minutes OR on push
-# Controls when the workflow will run
+name: Update Departures File
+
 on:
   schedule:
     - cron: "*/5 * * * *"
   push:
     paths:
       - getDepartures.bash
+      - .github/workflows/extract.yml
+    branches:
+      - main
+  workflow_dispatch: # Allows manual trigger
 
-# A workflow run is made up of one or more jobs that can run sequentially or in parallel
 jobs:
-  # This workflow contains a single job called "cron"
-  cron:
-    # The type of runner that the job will run on
+  update_departures:
     runs-on: ubuntu-latest
 
-    # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
+    - name: Checkout the repository
+      uses: actions/checkout@v3
+
     - name: Set timezone
       uses: szenius/set-timezone@v1.2
       with:
@@ -24,87 +26,25 @@ jobs:
         timezoneMacos: "America/New_York"
         timezoneWindows: "America/New_York"
 
-    - name: checkout dashell repository
-      uses: actions/checkout@v4 # checkout the repository content to github runner.
-      with:
-        repository: shekarpathi/dashell
-        persist-credentials: true # otherwise, the token used is the GITHUB_TOKEN, instead of your personal access token.
-        fetch-depth: 0 # otherwise, there would be errors pushing refs to the destination repository.
-        clean: true
-
-    - name: git rebase origin
-      run: |
-        ls -ltra
-        git pull --rebase origin main
-        git status
-
-    - name: setup python 3.8
-      uses: actions/setup-python@v5
-      with:
-        python-version: 3.8 #install the python needed
-
-    - name: install python pip packages
+    - name: Set up the environment (install dependencies)
       run: |
         sudo apt-get update
-        sudo apt-get install -y python3-pip
-        pip3 install git-filter-repo
-        
-        python -m pip install --upgrade pip
-        pip install requests
-        pip install pytz
-        pip3 install requests
-        pip3 install pytz
+        sudo apt-get install -y bash
 
-    - name: Remove file from history
-      run: |
-        # Replace with your file path
-        FILE_PATH="departures.json"
-        
-        # Use git-filter-repo to remove the file from all history
-        git filter-repo --path "$FILE_PATH" --invert-paths
-
-    - name: Force push rewritten history
-      run: |
-        # Force push to the main branch to update the remote repository
-        # git remote set-url origin https://github.com/shekarpathi/dashell.git
-        git push --set-upstream origin main
-        git push origin --force
-
-    - name: run getDepartures.bash
+    - name: Run the getDepartures.bash script
       run: |
         chmod +x getDepartures.bash
-        ls -ltra
         ./getDepartures.bash
 
-    - name: Add file back with no history
+    - name: Remove departures.json from history
       run: |
-        FILE_PATH="departures.json"
-        # Re-add the file to the current state (optional)
-        git add "$FILE_PATH"
-        git commit -m "Re-add file with no history"
-        git push origin main
+        # Remove the file from history to ensure no previous versions exist
+        git rm --cached departures.json
+        git commit -m "Remove departures.json from previous history"
 
-    - name: Run script to get data for IAD arrivals
+    - name: Commit departures.json with no history
       run: |
-        # python getDullesArrivals.py
-
-    - name: Save output files to github repository
-      env:
-        GH_TOKEN: ${{ secrets.GH_TOKEN }}
-      run: |
-        git config --global user.name "Shekar"
-        git config --global user.email "shekar@yahoo.com"
-
-#    - name: Add, commit and push changes
-#      uses: EndBug/add-and-commit@v9 # You can change this to use a specific version.
-#      with:
-#        add: "departures.json"
-#        message: "Added departures.json files"
-#        push: true
-
-    - name: git commit and push departures.json
-      run: |
-        ls -ltra
         git add departures.json
-        git commit -m "Changes"
-        git push
+        git commit -m "Add new departures.json (no history)"
+        git push origin main --force
+
