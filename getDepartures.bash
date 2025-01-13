@@ -205,23 +205,9 @@ done | jq -s '.')
 #echo $UPDATED_JSON
 echo $UPDATED_JSON | jq '.' > $DEPARTURES_STAGE_FILE
 
-
-
-ls -ltra "$DEPARTURES_STAGE_FILE" "$DEPARTURES_FILE"
-echo "renaming $DEPARTURES_STAGE_FILE to $DEPARTURES_FILE"
-mv "$DEPARTURES_STAGE_FILE" "$DEPARTURES_FILE"
-ls -ltra "$DEPARTURES_STAGE_FILE" "$DEPARTURES_FILE"
-date
-echo "=========================="
-echo "$1 Run Ended"
-date
-echo "=========================="
-
-
-
-
-exit 0
-#cat $DEPARTURES_STAGE_FILE
+cat $DEPARTURES_STAGE_FILE
+ls -ltra $DEPARTURES_STAGE_FILE
+#exit 0
 
 # Create an empty array for the updated JSON
 updated_json="[]"
