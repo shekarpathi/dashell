@@ -205,7 +205,7 @@ done | jq -s '.')
 #echo $UPDATED_JSON
 echo $UPDATED_JSON | jq '.' > $DEPARTURES_STAGE_FILE
 
-cat $DEPARTURES_STAGE_FILE
+#cat $DEPARTURES_STAGE_FILE
 ls -ltra $DEPARTURES_STAGE_FILE
 #exit 0
 
