@@ -39,9 +39,6 @@ def getCSRFTokenForLayerseven():
 def getnewDuckAddress():
     # URL to send the request to
     url = "https://quack.duckduckgo.com/api/email/addresses"
-    headers = {
-        "Authorization": "Bearer xtnkrtadqkrdaajcunq6pdos8qzrs6j5at8enrdcz0nwbqiwy7ixefnyhv2bct"
-    }
 
     # Send the POST request
     response = requests.post(url, headers=headers)
