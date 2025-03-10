@@ -240,6 +240,7 @@ ls -ltra "$DEPARTURES_STAGE_FILE" "$DEPARTURES_FILE"
 echo "renaming $DEPARTURES_STAGE_FILE to $DEPARTURES_FILE"
 mv "$DEPARTURES_STAGE_FILE" "$DEPARTURES_FILE"
 ls -ltra "$DEPARTURES_STAGE_FILE" "$DEPARTURES_FILE"
+rm /home/ec2-user/dashell/JJ*.json
 date
 echo "=========================="
 echo "$1 Run Ended"
