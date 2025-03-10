@@ -12,7 +12,7 @@ user_agent="Mozilla/5.0 Gecko/20100101 Firefox/133.0"
 accept_language="en-US,en;q=0.5"
 accept_encoding="gzip, deflate, br"
 token_url="https://www.united.com/api/auth/anonymous-token"
-rm JJ*.json
+rm /home/ec2-user/dashell/JJ*.json
 # URL to fetch the JSON data
 URL="https://www.flydulles.com/arrivals-and-departures/json"
 # shellcheck disable=SC2155
