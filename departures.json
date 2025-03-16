@@ -1,0 +1,44 @@
+[
+  {
+    "flight": "UA942",
+    "airport": "LIS LISBON",
+    "airline": "United Airlines",
+    "gate": "C6",
+    "departure_time": "2025-03-16 00:15:00",
+    "departure_time_hh_mm": "00:15",
+    "status": "Delayed",
+    "codeshared_flights": "AC3837, LH8864",
+    "board_URL": "https://www.united.com/api/flight/status/942/2025-03-15?carrierCode=UA",
+    "airline_code": "UA",
+    "timeDelta": "+00:14",
+    "boarding_time": "BT 22:05\nST 23:25\nET 00:00"
+  },
+  {
+    "flight": "UA587",
+    "airport": "ATL ATLANTA",
+    "airline": "United Airlines",
+    "gate": "D16",
+    "departure_time": "2025-03-16 01:00:00",
+    "departure_time_hh_mm": "01:00",
+    "status": "Delayed",
+    "codeshared_flights": "",
+    "board_URL": "https://www.united.com/api/flight/status/587/2025-03-15?carrierCode=UA",
+    "airline_code": "UA",
+    "timeDelta": "+00:59",
+    "boarding_time": "BT 21:20\nST 00:20\nET 00:45"
+  },
+  {
+    "flight": "UA4321",
+    "airport": "ALB ALBANY",
+    "airline": "United Airlines",
+    "gate": "A4F",
+    "departure_time": "2025-03-16 11:30:00",
+    "departure_time_hh_mm": "11:30",
+    "status": "Delayed",
+    "codeshared_flights": "",
+    "board_URL": "https://www.united.com/api/flight/status/4321/2025-03-15?carrierCode=UA",
+    "airline_code": "UA",
+    "timeDelta": "+11:29",
+    "boarding_time": "BT 21:50\nST 11:05\nET 11:15"
+  }
+]
